@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-23T18:11:38.310Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="UdR-LGiqdhta8QsLWrLe" version="12.1.4" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2019-10-23T18:15:19.752Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="lN_tKrK6VaHotFMlFwhX" version="12.1.4" type="github" pages="8">
   <diagram id="gZgTVTsLBbn3A5g9sxZM" name="05 - int">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -21,17 +21,58 @@
         <mxCell id="zzfLPRFRf71Ads3z4kWx-3" value="What are different ways that we could bake a cake?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=30;fontStyle=1" vertex="1" parent="zzfLPRFRf71Ads3z4kWx-1">
           <mxGeometry x="650" y="80" width="480" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="zzfLPRFRf71Ads3z4kWx-4" value="Set up a factory with a flour-making machine, a sugar-making machine, a mixing machine, and an automated oven" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="zzfLPRFRf71Ads3z4kWx-1">
+        <mxCell id="zzfLPRFRf71Ads3z4kWx-4" value="Set up a factory with a mixing machine, an automated oven, and a frosting-applying machine" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="zzfLPRFRf71Ads3z4kWx-1">
           <mxGeometry x="463.5" y="330" width="413" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="zzfLPRFRf71Ads3z4kWx-5" value="Have a different friend be responsible for each ingredient and the oven.&amp;nbsp; Then tell each friend how to interact with each other to bake the cake" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="zzfLPRFRf71Ads3z4kWx-1">
           <mxGeometry x="900" y="150" width="413" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="zzfLPRFRf71Ads3z4kWx-6" value="Have a different friend be responsible for each ingredient and the oven.&amp;nbsp; Then tell each friend how to interact with each other to bake the cake" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="zzfLPRFRf71Ads3z4kWx-1">
-          <mxGeometry x="900" y="240" width="413" height="70" as="geometry"/>
+        <mxCell id="zzfLPRFRf71Ads3z4kWx-6" value="&lt;b&gt;When&lt;/b&gt;&amp;nbsp;an order for a cake comes in, ring a bell.&amp;nbsp; &lt;b&gt;When &lt;/b&gt;a bell rings, mix flour, sugar, and water.&amp;nbsp; &lt;b&gt;When &lt;/b&gt;ingredients have been mixed, put them in an oven..." style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="zzfLPRFRf71Ads3z4kWx-1">
+          <mxGeometry x="900" y="240" width="413" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="zzfLPRFRf71Ads3z4kWx-7" value="Stand in a room with a friend with different steps written on different pieces of paper, then hand the friend the appropriate step" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="zzfLPRFRf71Ads3z4kWx-1">
           <mxGeometry x="463.5" y="240" width="413" height="70" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="07 - para" id="mQft6U1QekDBNzKVaxRP">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="dwjTlH_OKtxm8JA3DU-t-0"/>
+        <mxCell id="dwjTlH_OKtxm8JA3DU-t-1" parent="dwjTlH_OKtxm8JA3DU-t-0"/>
+        <mxCell id="dwjTlH_OKtxm8JA3DU-t-2" value="Stand in a room with a friend and tell them exactly what to do step by step" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="dwjTlH_OKtxm8JA3DU-t-1">
+          <mxGeometry x="463.5" y="150" width="413" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="dwjTlH_OKtxm8JA3DU-t-3" value="What are different ways that we could bake a cake?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=30;fontStyle=1" vertex="1" parent="dwjTlH_OKtxm8JA3DU-t-1">
+          <mxGeometry x="650" y="80" width="480" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="dwjTlH_OKtxm8JA3DU-t-4" value="Set up a factory with a mixing machine, an automated oven, and a frosting-applying machine" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="dwjTlH_OKtxm8JA3DU-t-1">
+          <mxGeometry x="463.5" y="330" width="413" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="dwjTlH_OKtxm8JA3DU-t-5" value="Have a different friend be responsible for each ingredient and the oven.&amp;nbsp; Then tell each friend how to interact with each other to bake the cake" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="dwjTlH_OKtxm8JA3DU-t-1">
+          <mxGeometry x="900" y="150" width="413" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="dwjTlH_OKtxm8JA3DU-t-6" value="&lt;b&gt;When&lt;/b&gt;&amp;nbsp;an order for a cake comes in, ring a bell.&amp;nbsp;&amp;nbsp;&lt;b&gt;When&amp;nbsp;&lt;/b&gt;a bell rings, mix flour, sugar, and water.&amp;nbsp;&amp;nbsp;&lt;b&gt;When&amp;nbsp;&lt;/b&gt;ingredients have been mixed, put them in an oven..." style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="dwjTlH_OKtxm8JA3DU-t-1">
+          <mxGeometry x="900" y="240" width="413" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="dwjTlH_OKtxm8JA3DU-t-7" value="Stand in a room with a friend with different steps written on different pieces of paper, then hand the friend the appropriate step" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="dwjTlH_OKtxm8JA3DU-t-1">
+          <mxGeometry x="463.5" y="240" width="413" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="dwjTlH_OKtxm8JA3DU-t-8" value="Imperative" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="dwjTlH_OKtxm8JA3DU-t-1">
+          <mxGeometry x="756.5" y="170" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dwjTlH_OKtxm8JA3DU-t-9" value="Procedural" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="dwjTlH_OKtxm8JA3DU-t-1">
+          <mxGeometry x="756.5" y="260" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dwjTlH_OKtxm8JA3DU-t-10" value="Functional" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="dwjTlH_OKtxm8JA3DU-t-1">
+          <mxGeometry x="756.5" y="360" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dwjTlH_OKtxm8JA3DU-t-11" value="Object Oriented" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="dwjTlH_OKtxm8JA3DU-t-1">
+          <mxGeometry x="1190" y="170" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="2oLwMMEtxHStxDXipHy9-0" value="Event Driven" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=21;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="dwjTlH_OKtxm8JA3DU-t-1">
+          <mxGeometry x="1193" y="275" width="120" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
