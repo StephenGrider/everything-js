@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-23T18:49:30.588Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="0GwupVvG5WUeAY1RVVsQ" version="12.1.4" type="github" pages="8">
+<mxfile host="www.draw.io" modified="2019-10-23T19:36:42.087Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="-ToVejWFZ5zAWolGC9mA" version="12.1.4" type="github" pages="9">
   <diagram id="gZgTVTsLBbn3A5g9sxZM" name="05 - int">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -244,6 +244,20 @@
         </mxCell>
         <mxCell id="R9vyfGmufvX7vR0r3V2a-11" value="Add Semantic UI to our project" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="R9vyfGmufvX7vR0r3V2a-1">
           <mxGeometry x="840" y="240" width="300" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PYZS3bK9f5UZTqhESQBp" name="09 - api">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="Tv6kihlaXUbIPhdRQDbM-0"/>
+        <mxCell id="Tv6kihlaXUbIPhdRQDbM-1" parent="Tv6kihlaXUbIPhdRQDbM-0"/>
+        <mxCell id="Tv6kihlaXUbIPhdRQDbM-2" value="console.developers.google.com" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=22;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Tv6kihlaXUbIPhdRQDbM-1">
+          <mxGeometry x="480" y="260" width="480" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Tv6kihlaXUbIPhdRQDbM-3" value="Youtube API Signup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=16;fontStyle=1" vertex="1" parent="Tv6kihlaXUbIPhdRQDbM-1">
+          <mxGeometry x="580" y="230" width="280" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
