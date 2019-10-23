@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-10-23T16:21:21.950Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="6r5-mt5bhUNPWoKmyCrJ" version="12.1.4" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-10-23T16:24:01.535Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="ebVxGnAn4shSn25VGv7a" version="12.1.4" type="github" pages="2">
   <diagram id="AnrUW6SGONvHT8BA1wMp" name="02 - paradigms">
-    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="xO3W81HzUe3Gj-chG3Vl-0"/>
         <mxCell id="xO3W81HzUe3Gj-chG3Vl-1" parent="xO3W81HzUe3Gj-chG3Vl-0"/>
@@ -15,23 +15,23 @@
         <mxCell id="xO3W81HzUe3Gj-chG3Vl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="xO3W81HzUe3Gj-chG3Vl-1" source="xO3W81HzUe3Gj-chG3Vl-3" target="xO3W81HzUe3Gj-chG3Vl-8">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="xO3W81HzUe3Gj-chG3Vl-3" value="Functional Reactive" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontStyle=1" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-3" value="Declarative" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontStyle=1" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
           <mxGeometry x="360" y="267" width="170" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="xO3W81HzUe3Gj-chG3Vl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="xO3W81HzUe3Gj-chG3Vl-1" source="xO3W81HzUe3Gj-chG3Vl-4" target="xO3W81HzUe3Gj-chG3Vl-10">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="xO3W81HzUe3Gj-chG3Vl-4" value="Object Oriented" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontStyle=1" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
-          <mxGeometry x="360" y="363" width="170" height="70" as="geometry"/>
+          <mxGeometry x="1220" y="135" width="170" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="xO3W81HzUe3Gj-chG3Vl-6" value="We tell our program exactly what to do and how to achieve it step by step" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
           <mxGeometry x="580" y="175" width="360" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="xO3W81HzUe3Gj-chG3Vl-8" value="We assemble a &#39;pipeline&#39; of steps for our program to run whenever something occurs" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-8" value="We tell the program what result we ultimately want" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
           <mxGeometry x="580" y="272" width="360" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="xO3W81HzUe3Gj-chG3Vl-10" value="We define different &#39;objects&#39; to represent different &#39;things&#39; in our program. We make the program work by getting objects to talk to each other" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
-          <mxGeometry x="580" y="368" width="360" height="60" as="geometry"/>
+          <mxGeometry x="1440" y="140" width="360" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
