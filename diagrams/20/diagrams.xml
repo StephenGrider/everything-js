@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-23T18:01:38.396Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="QDUW2xpUhLu76mHXGHCf" version="12.1.4" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2019-10-23T18:10:55.519Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="tRdnToZvJrHr1NTLG8XG" version="12.1.4" type="github" pages="7">
   <diagram id="gZgTVTsLBbn3A5g9sxZM" name="05 - int">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -6,6 +6,32 @@
         <mxCell id="jDM4HeCy6_mTpskrUZby-1" parent="jDM4HeCy6_mTpskrUZby-0"/>
         <mxCell id="jDM4HeCy6_mTpskrUZby-2" value="Programming Paradigm" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=30;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="jDM4HeCy6_mTpskrUZby-1">
           <mxGeometry x="490" y="270" width="360" height="120" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_PPVI77jKcZlu62BvHzV" name="06 - what">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="zzfLPRFRf71Ads3z4kWx-0"/>
+        <mxCell id="zzfLPRFRf71Ads3z4kWx-1" parent="zzfLPRFRf71Ads3z4kWx-0"/>
+        <mxCell id="zzfLPRFRf71Ads3z4kWx-2" value="Stand in a room with a friend and tell them exactly what to do step by step" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="zzfLPRFRf71Ads3z4kWx-1">
+          <mxGeometry x="463.5" y="150" width="413" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="zzfLPRFRf71Ads3z4kWx-3" value="What are different ways that we could bake a cake?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=30;fontStyle=1" vertex="1" parent="zzfLPRFRf71Ads3z4kWx-1">
+          <mxGeometry x="650" y="80" width="480" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="zzfLPRFRf71Ads3z4kWx-4" value="Set up a factory with a flour-making machine, a sugar-making machine, a mixing machine, and an automated oven" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="zzfLPRFRf71Ads3z4kWx-1">
+          <mxGeometry x="463.5" y="330" width="413" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="zzfLPRFRf71Ads3z4kWx-5" value="Have a different friend be responsible for each ingredient and the oven.&amp;nbsp; Then tell each friend how to interact with each other to bake the cake" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="zzfLPRFRf71Ads3z4kWx-1">
+          <mxGeometry x="900" y="150" width="413" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="zzfLPRFRf71Ads3z4kWx-6" value="Have a different friend be responsible for each ingredient and the oven.&amp;nbsp; Then tell each friend how to interact with each other to bake the cake" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="zzfLPRFRf71Ads3z4kWx-1">
+          <mxGeometry x="900" y="240" width="413" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="zzfLPRFRf71Ads3z4kWx-7" value="Stand in a room with a friend with different steps written on different pieces of paper, then hand the friend the appropriate step" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="zzfLPRFRf71Ads3z4kWx-1">
+          <mxGeometry x="463.5" y="240" width="413" height="70" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -69,6 +95,17 @@
         </mxCell>
         <mxCell id="xO3W81HzUe3Gj-chG3Vl-10" value="We define different &#39;objects&#39; to represent different &#39;things&#39; in our program. We make the program work by getting objects to talk to each other" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
           <mxGeometry x="580" y="368" width="360" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="03 - bleed" id="60Q0i6VkFE2AeJZtRqPw">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="RxuXun0rw1FM6PBZEtKA-0"/>
+        <mxCell id="RxuXun0rw1FM6PBZEtKA-1" parent="RxuXun0rw1FM6PBZEtKA-0"/>
+        <mxCell id="RxuXun0rw1FM6PBZEtKA-3" value="With JS, and especially when building UI&#39;s, some design patterns &#39;bleed&#39; together" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontStyle=1" vertex="1" parent="RxuXun0rw1FM6PBZEtKA-1">
+          <mxGeometry x="450" y="220" width="390" height="130" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
