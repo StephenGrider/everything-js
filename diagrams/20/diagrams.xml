@@ -1,9 +1,94 @@
-<mxfile host="www.draw.io" modified="2019-10-23T15:54:01.094Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Zbklx2QGnYiZaHoOm3Fs" version="12.1.4" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-23T16:21:21.950Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="6r5-mt5bhUNPWoKmyCrJ" version="12.1.4" type="github" pages="2">
+  <diagram id="AnrUW6SGONvHT8BA1wMp" name="02 - paradigms">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-0"/>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-1" parent="xO3W81HzUe3Gj-chG3Vl-0"/>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="xO3W81HzUe3Gj-chG3Vl-1" source="xO3W81HzUe3Gj-chG3Vl-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="205" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-2" value="Imperative" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontStyle=1" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
+          <mxGeometry x="360" y="170" width="170" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="xO3W81HzUe3Gj-chG3Vl-1" source="xO3W81HzUe3Gj-chG3Vl-3" target="xO3W81HzUe3Gj-chG3Vl-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-3" value="Functional Reactive" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontStyle=1" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
+          <mxGeometry x="360" y="267" width="170" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="xO3W81HzUe3Gj-chG3Vl-1" source="xO3W81HzUe3Gj-chG3Vl-4" target="xO3W81HzUe3Gj-chG3Vl-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-4" value="Object Oriented" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontStyle=1" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
+          <mxGeometry x="360" y="363" width="170" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-6" value="We tell our program exactly what to do and how to achieve it step by step" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
+          <mxGeometry x="580" y="175" width="360" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-8" value="We assemble a &#39;pipeline&#39; of steps for our program to run whenever something occurs" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
+          <mxGeometry x="580" y="272" width="360" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-10" value="We define different &#39;objects&#39; to represent different &#39;things&#39; in our program. We make the program work by getting objects to talk to each other" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
+          <mxGeometry x="580" y="368" width="360" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="kcGT6knHsVHY_1VahFP1" name="01 - int">
-    <mxGraphModel dx="1262" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1106" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
+        <mxCell id="yPlWVy89xc1_-BoWHWpC-1" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;fillColor=#ffffff;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="130" width="670" height="490" as="geometry"/>
+        </mxCell>
+        <mxCell id="yPlWVy89xc1_-BoWHWpC-2" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="yPlWVy89xc1_-BoWHWpC-1">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="yPlWVy89xc1_-BoWHWpC-3" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="yPlWVy89xc1_-BoWHWpC-1">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="yPlWVy89xc1_-BoWHWpC-4" value="&amp;nbsp; cars" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="yPlWVy89xc1_-BoWHWpC-1">
+          <mxGeometry x="60" y="130" width="550" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="yPlWVy89xc1_-BoWHWpC-5" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="yPlWVy89xc1_-BoWHWpC-1">
+          <mxGeometry x="60" y="200" width="340" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="yPlWVy89xc1_-BoWHWpC-6" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.video_play;" vertex="1" parent="yPlWVy89xc1_-BoWHWpC-1">
+          <mxGeometry x="205" y="280" width="50" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="yPlWVy89xc1_-BoWHWpC-7" value="My Favorite Car" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="yPlWVy89xc1_-BoWHWpC-1">
+          <mxGeometry x="60" y="410" width="290" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="yPlWVy89xc1_-BoWHWpC-8" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="yPlWVy89xc1_-BoWHWpC-1">
+          <mxGeometry x="420" y="200" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="yPlWVy89xc1_-BoWHWpC-9" value="Car Video #1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=0" vertex="1" parent="yPlWVy89xc1_-BoWHWpC-1">
+          <mxGeometry x="520" y="200" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="yPlWVy89xc1_-BoWHWpC-10" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="yPlWVy89xc1_-BoWHWpC-1">
+          <mxGeometry x="420" y="270" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="yPlWVy89xc1_-BoWHWpC-11" value="Car Video #2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=0" vertex="1" parent="yPlWVy89xc1_-BoWHWpC-1">
+          <mxGeometry x="520" y="270" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="yPlWVy89xc1_-BoWHWpC-12" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="yPlWVy89xc1_-BoWHWpC-1">
+          <mxGeometry x="420" y="340" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="yPlWVy89xc1_-BoWHWpC-13" value="Car Video #3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=0" vertex="1" parent="yPlWVy89xc1_-BoWHWpC-1">
+          <mxGeometry x="520" y="340" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="yPlWVy89xc1_-BoWHWpC-14" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.video_play;" vertex="1" parent="yPlWVy89xc1_-BoWHWpC-1">
+          <mxGeometry x="445" y="215" width="40" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="yPlWVy89xc1_-BoWHWpC-16" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.video_play;" vertex="1" parent="yPlWVy89xc1_-BoWHWpC-1">
+          <mxGeometry x="445" y="285" width="40" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="yPlWVy89xc1_-BoWHWpC-17" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.video_play;" vertex="1" parent="yPlWVy89xc1_-BoWHWpC-1">
+          <mxGeometry x="445" y="355" width="40" height="30" as="geometry"/>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
