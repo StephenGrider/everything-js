@@ -1,4 +1,30 @@
-<mxfile host="www.draw.io" modified="2019-10-23T17:56:30.817Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="x8wFGH9i8dw3uwdwwAG6" version="12.1.4" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-10-23T17:59:45.843Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="09VA1e-rVirVDdY1uTCn" version="12.1.4" type="github" pages="4">
+  <diagram id="JyaE3bxOq_uCP24XHAln" name="01 - para">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="e_zf_pZ2WSm5zqzQncZH-0"/>
+        <mxCell id="e_zf_pZ2WSm5zqzQncZH-1" parent="e_zf_pZ2WSm5zqzQncZH-0"/>
+        <mxCell id="e_zf_pZ2WSm5zqzQncZH-2" value="Programming Paradigm" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=24;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="e_zf_pZ2WSm5zqzQncZH-1">
+          <mxGeometry x="280" y="220" width="240" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_zf_pZ2WSm5zqzQncZH-4" value="A way of structuring code to build a program" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="e_zf_pZ2WSm5zqzQncZH-1">
+          <mxGeometry x="560" y="130" width="520" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_zf_pZ2WSm5zqzQncZH-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="e_zf_pZ2WSm5zqzQncZH-1">
+          <mxGeometry x="530" y="130" width="20" height="270" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_zf_pZ2WSm5zqzQncZH-6" value="Some languages have a &#39;preferred&#39; paradigm" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="e_zf_pZ2WSm5zqzQncZH-1">
+          <mxGeometry x="560" y="200" width="520" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_zf_pZ2WSm5zqzQncZH-7" value="JS is very flexible - we can use many different paradigms" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="e_zf_pZ2WSm5zqzQncZH-1">
+          <mxGeometry x="560" y="270" width="520" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_zf_pZ2WSm5zqzQncZH-8" value="Frequently, the paradigm we use will be decided by which frameworks or libraries we decide to use" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="e_zf_pZ2WSm5zqzQncZH-1">
+          <mxGeometry x="560" y="340" width="520" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="AnrUW6SGONvHT8BA1wMp" name="02 - paradigms">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
