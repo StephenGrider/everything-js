@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-23T18:10:55.519Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="tRdnToZvJrHr1NTLG8XG" version="12.1.4" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2019-10-23T18:11:38.310Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="UdR-LGiqdhta8QsLWrLe" version="12.1.4" type="github" pages="7">
   <diagram id="gZgTVTsLBbn3A5g9sxZM" name="05 - int">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -106,6 +106,9 @@
         <mxCell id="RxuXun0rw1FM6PBZEtKA-1" parent="RxuXun0rw1FM6PBZEtKA-0"/>
         <mxCell id="RxuXun0rw1FM6PBZEtKA-3" value="With JS, and especially when building UI&#39;s, some design patterns &#39;bleed&#39; together" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontStyle=1" vertex="1" parent="RxuXun0rw1FM6PBZEtKA-1">
           <mxGeometry x="450" y="220" width="390" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="RxuXun0rw1FM6PBZEtKA-11" value="&lt;i style=&quot;font-size: 14px;&quot;&gt;Our first example will focus on imperative design, but elements of event-based programming will be present&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;" vertex="1" parent="RxuXun0rw1FM6PBZEtKA-1">
+          <mxGeometry x="500" y="360" width="290" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
