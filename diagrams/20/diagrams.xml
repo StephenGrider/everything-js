@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T22:56:01.256Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="b1TrEl0ISsS2OfC_2iHn" version="12.1.4" type="github" pages="26">
+<mxfile host="www.draw.io" modified="2019-10-24T22:59:31.578Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="TAicmH0SSKLj5ALEDvnU" version="12.1.4" type="github" pages="26">
   <diagram id="_PPVI77jKcZlu62BvHzV" name="06 - what">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -411,10 +411,10 @@
         <mxCell id="QBmlWQouY8uHS09bWBT8-0"/>
         <mxCell id="QBmlWQouY8uHS09bWBT8-1" parent="QBmlWQouY8uHS09bWBT8-0"/>
         <mxCell id="QBmlWQouY8uHS09bWBT8-2" value="Programming Paradigms" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="QBmlWQouY8uHS09bWBT8-1">
-          <mxGeometry x="450" y="395" width="150" height="60" as="geometry"/>
+          <mxGeometry x="450" y="320" width="150" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="QBmlWQouY8uHS09bWBT8-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="QBmlWQouY8uHS09bWBT8-1">
-          <mxGeometry x="600" y="280" width="60" height="290" as="geometry"/>
+          <mxGeometry x="600" y="280" width="60" height="140" as="geometry"/>
         </mxCell>
         <mxCell id="QBmlWQouY8uHS09bWBT8-4" value="Refers to the&amp;nbsp;&lt;span style=&quot;font-size: 14px&quot;&gt;style&lt;/span&gt;&lt;i style=&quot;font-size: 14px&quot;&gt; &lt;/i&gt;of code being written" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="QBmlWQouY8uHS09bWBT8-1">
           <mxGeometry x="670" y="280" width="400" height="40" as="geometry"/>
@@ -423,16 +423,7 @@
           <mxGeometry x="670" y="330" width="400" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="QBmlWQouY8uHS09bWBT8-6" value="Nobody really agrees with what this term means" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="QBmlWQouY8uHS09bWBT8-1">
-          <mxGeometry x="670" y="480" width="400" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="QBmlWQouY8uHS09bWBT8-7" value="Nobody really agrees with what features any given paradigm contains" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="QBmlWQouY8uHS09bWBT8-1">
-          <mxGeometry x="670" y="530" width="400" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="-soZhQ0IXUAF1mJkOiMN-0" value="One language can follow multiple different paradigms" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="QBmlWQouY8uHS09bWBT8-1">
           <mxGeometry x="670" y="380" width="400" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="Um7Z_2ibAqx4CLCYrBPi-0" value="A single program can follow multiple different paradigms" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="QBmlWQouY8uHS09bWBT8-1">
-          <mxGeometry x="670" y="430" width="400" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
