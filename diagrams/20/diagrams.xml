@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T20:11:20.690Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="GUvfTksMFxEyq2ysTk9w" version="12.1.4" type="github" pages="15">
+<mxfile host="www.draw.io" modified="2019-10-24T20:15:37.366Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="gM6cguPUjSF1rdeCNoAa" version="12.1.4" type="github" pages="16">
   <diagram id="_PPVI77jKcZlu62BvHzV" name="06 - what">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -438,6 +438,32 @@
         <mxCell id="jDM4HeCy6_mTpskrUZby-1" parent="jDM4HeCy6_mTpskrUZby-0"/>
         <mxCell id="jDM4HeCy6_mTpskrUZby-2" value="Programming Paradigms" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=30;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="jDM4HeCy6_mTpskrUZby-1">
           <mxGeometry x="490" y="270" width="390" height="120" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="06 - loaded" id="VMkxLQJcQ3Bf4eB82cKR">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="QBmlWQouY8uHS09bWBT8-0"/>
+        <mxCell id="QBmlWQouY8uHS09bWBT8-1" parent="QBmlWQouY8uHS09bWBT8-0"/>
+        <mxCell id="QBmlWQouY8uHS09bWBT8-2" value="Programming Paradigms" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="QBmlWQouY8uHS09bWBT8-1">
+          <mxGeometry x="450" y="345" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="QBmlWQouY8uHS09bWBT8-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="QBmlWQouY8uHS09bWBT8-1">
+          <mxGeometry x="600" y="280" width="60" height="190" as="geometry"/>
+        </mxCell>
+        <mxCell id="QBmlWQouY8uHS09bWBT8-4" value="Refers to the&amp;nbsp;&lt;span style=&quot;font-size: 14px&quot;&gt;style&lt;/span&gt;&lt;i style=&quot;font-size: 14px&quot;&gt; &lt;/i&gt;of code being written" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="QBmlWQouY8uHS09bWBT8-1">
+          <mxGeometry x="670" y="280" width="400" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="QBmlWQouY8uHS09bWBT8-5" value="....or maybe the feature set of a programming language" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="QBmlWQouY8uHS09bWBT8-1">
+          <mxGeometry x="670" y="330" width="400" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="QBmlWQouY8uHS09bWBT8-6" value="Nobody really agrees with what this term means" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="QBmlWQouY8uHS09bWBT8-1">
+          <mxGeometry x="670" y="380" width="400" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="QBmlWQouY8uHS09bWBT8-7" value="Nobody really agrees with what this term means" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="QBmlWQouY8uHS09bWBT8-1">
+          <mxGeometry x="670" y="430" width="400" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
