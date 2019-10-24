@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T21:32:59.950Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="tLg2LM6PQwTatk0KAqEt" version="12.1.4" type="github" pages="20">
+<mxfile host="www.draw.io" modified="2019-10-24T21:34:56.369Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="S_iHXOhhBc3V2ax5um8b" version="12.1.4" type="github" pages="20">
   <diagram id="_PPVI77jKcZlu62BvHzV" name="06 - what">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -553,19 +553,37 @@
         <mxCell id="q9bQ9E_rJcGII_RAvS8k-0"/>
         <mxCell id="q9bQ9E_rJcGII_RAvS8k-1" parent="q9bQ9E_rJcGII_RAvS8k-0"/>
         <mxCell id="q9bQ9E_rJcGII_RAvS8k-2" value="Imperative Sentences" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
-          <mxGeometry x="670" y="190" width="270" height="40" as="geometry"/>
+          <mxGeometry x="640" y="190" width="270" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="q9bQ9E_rJcGII_RAvS8k-3" value="Declarative Sentences" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
-          <mxGeometry x="350" y="190" width="270" height="40" as="geometry"/>
+          <mxGeometry x="310" y="190" width="270" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="q9bQ9E_rJcGII_RAvS8k-15" value="Declarative sentences naturally convey the final state of a system" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;fontStyle=0" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
-          <mxGeometry x="485" y="140" width="320" height="20" as="geometry"/>
+          <mxGeometry x="455" y="150" width="320" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="q9bQ9E_rJcGII_RAvS8k-19" value="Go plant a large tree" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
-          <mxGeometry x="670" y="250" width="270" height="30" as="geometry"/>
+        <mxCell id="q9bQ9E_rJcGII_RAvS8k-19" value="Hey, you!" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
+          <mxGeometry x="640" y="250" width="270" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="q9bQ9E_rJcGII_RAvS8k-20" value="There is a large tree" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
-          <mxGeometry x="350" y="250" width="270" height="30" as="geometry"/>
+          <mxGeometry x="310" y="250" width="270" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="3b64s50I9BJcufi0l5eC-0" value="Go find a shovel" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
+          <mxGeometry x="640" y="280" width="270" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="3b64s50I9BJcufi0l5eC-1" value="Find a seed" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
+          <mxGeometry x="640" y="310" width="270" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="3b64s50I9BJcufi0l5eC-2" value="Dig a hole" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
+          <mxGeometry x="640" y="340" width="270" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="3b64s50I9BJcufi0l5eC-3" value="Put the seed in" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
+          <mxGeometry x="640" y="370" width="270" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="3b64s50I9BJcufi0l5eC-4" value="Put dirt back in the hole" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
+          <mxGeometry x="640" y="400" width="270" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="3b64s50I9BJcufi0l5eC-5" value="Wait three years" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
+          <mxGeometry x="640" y="430" width="270" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
