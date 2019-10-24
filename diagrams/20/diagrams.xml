@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T20:25:45.945Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="rNwwJ0EH0EKQyO1iykmd" version="12.1.4" type="github" pages="15">
+<mxfile host="www.draw.io" modified="2019-10-24T21:00:32.664Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="va43L5OagwiJfOL2H-JD" version="12.1.4" type="github" pages="16">
   <diagram id="_PPVI77jKcZlu62BvHzV" name="06 - what">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -88,43 +88,6 @@
         </mxCell>
         <mxCell id="e_zf_pZ2WSm5zqzQncZH-8" value="Frequently, the paradigm we use will be decided by which frameworks or libraries we decide to use" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="e_zf_pZ2WSm5zqzQncZH-1">
           <mxGeometry x="560" y="340" width="520" height="60" as="geometry"/>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="AnrUW6SGONvHT8BA1wMp" name="02 - paradigms">
-    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="xO3W81HzUe3Gj-chG3Vl-0"/>
-        <mxCell id="xO3W81HzUe3Gj-chG3Vl-1" parent="xO3W81HzUe3Gj-chG3Vl-0"/>
-        <mxCell id="xO3W81HzUe3Gj-chG3Vl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="xO3W81HzUe3Gj-chG3Vl-1" source="xO3W81HzUe3Gj-chG3Vl-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="580" y="205" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xO3W81HzUe3Gj-chG3Vl-2" value="Imperative" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontStyle=1" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
-          <mxGeometry x="360" y="170" width="170" height="70" as="geometry"/>
-        </mxCell>
-        <mxCell id="xO3W81HzUe3Gj-chG3Vl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="xO3W81HzUe3Gj-chG3Vl-1" source="xO3W81HzUe3Gj-chG3Vl-3" target="xO3W81HzUe3Gj-chG3Vl-8">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="xO3W81HzUe3Gj-chG3Vl-3" value="Functional Reactive" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontStyle=1" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
-          <mxGeometry x="360" y="267" width="170" height="70" as="geometry"/>
-        </mxCell>
-        <mxCell id="xO3W81HzUe3Gj-chG3Vl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="xO3W81HzUe3Gj-chG3Vl-1" source="xO3W81HzUe3Gj-chG3Vl-4" target="xO3W81HzUe3Gj-chG3Vl-10">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="xO3W81HzUe3Gj-chG3Vl-4" value="Object Oriented" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontStyle=1" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
-          <mxGeometry x="360" y="363" width="170" height="70" as="geometry"/>
-        </mxCell>
-        <mxCell id="xO3W81HzUe3Gj-chG3Vl-6" value="We tell our program exactly what to do and how to achieve it step by step" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
-          <mxGeometry x="580" y="175" width="360" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="xO3W81HzUe3Gj-chG3Vl-8" value="We assemble a &#39;pipeline&#39; of steps for our program to run whenever something occurs" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
-          <mxGeometry x="580" y="272" width="360" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="xO3W81HzUe3Gj-chG3Vl-10" value="We define different &#39;objects&#39; to represent different &#39;things&#39; in our program. We make the program work by getting objects to talk to each other" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
-          <mxGeometry x="580" y="368" width="360" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -510,6 +473,69 @@
         </mxCell>
         <mxCell id="NpvLFv7a9TtnkcqDSGc--2" value="Code describes what we want our program to do without specifying nitty-gritty step-by-step details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
           <mxGeometry x="637.5" y="220" width="235" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="97_0qdmwDph2GVZD_JjM-0" value="What people online say" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;fontStyle=3" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
+          <mxGeometry x="470" y="90" width="235" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="16 - easy" id="K1WHVprmWK24c8m7ZhJe">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="e1UEMauHNM6Cx0gDo6tD-0"/>
+        <mxCell id="e1UEMauHNM6Cx0gDo6tD-1" parent="e1UEMauHNM6Cx0gDo6tD-0"/>
+        <mxCell id="e1UEMauHNM6Cx0gDo6tD-2" value="Imperative Programming" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="e1UEMauHNM6Cx0gDo6tD-1">
+          <mxGeometry x="320" y="135" width="230" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1UEMauHNM6Cx0gDo6tD-3" value="Declarative Programming" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="e1UEMauHNM6Cx0gDo6tD-1">
+          <mxGeometry x="640" y="135" width="230" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1UEMauHNM6Cx0gDo6tD-4" value="My program can interpret an imperative sentence" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;" vertex="1" parent="e1UEMauHNM6Cx0gDo6tD-1">
+          <mxGeometry x="317.5" y="220" width="235" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1UEMauHNM6Cx0gDo6tD-5" value="My program can interpret a declarative sentence" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;" vertex="1" parent="e1UEMauHNM6Cx0gDo6tD-1">
+          <mxGeometry x="628.5" y="220" width="253" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1UEMauHNM6Cx0gDo6tD-6" value="Probably an easier way to digest this that still fits with 95% of people&#39;s descriptions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;fontStyle=3" vertex="1" parent="e1UEMauHNM6Cx0gDo6tD-1">
+          <mxGeometry x="460" y="80" width="260" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AnrUW6SGONvHT8BA1wMp" name="02 - paradigms">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-0"/>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-1" parent="xO3W81HzUe3Gj-chG3Vl-0"/>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="xO3W81HzUe3Gj-chG3Vl-1" source="xO3W81HzUe3Gj-chG3Vl-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="205" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-2" value="Imperative" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontStyle=1" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
+          <mxGeometry x="360" y="170" width="170" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="xO3W81HzUe3Gj-chG3Vl-1" source="xO3W81HzUe3Gj-chG3Vl-3" target="xO3W81HzUe3Gj-chG3Vl-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-3" value="Functional Reactive" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;fontStyle=1" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
+          <mxGeometry x="360" y="267" width="170" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="xO3W81HzUe3Gj-chG3Vl-1" source="xO3W81HzUe3Gj-chG3Vl-4" target="xO3W81HzUe3Gj-chG3Vl-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-4" value="Object Oriented" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontStyle=1" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
+          <mxGeometry x="360" y="363" width="170" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-6" value="We tell our program exactly what to do and how to achieve it step by step" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
+          <mxGeometry x="580" y="175" width="360" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-8" value="We assemble a &#39;pipeline&#39; of steps for our program to run whenever something occurs" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
+          <mxGeometry x="580" y="272" width="360" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xO3W81HzUe3Gj-chG3Vl-10" value="We define different &#39;objects&#39; to represent different &#39;things&#39; in our program. We make the program work by getting objects to talk to each other" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="xO3W81HzUe3Gj-chG3Vl-1">
+          <mxGeometry x="580" y="368" width="360" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
