@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T21:18:31.148Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="1jxFwOjLGL_gaeQQiIk2" version="12.1.4" type="github" pages="18">
+<mxfile host="www.draw.io" modified="2019-10-24T21:21:39.890Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="i6ex-0hCJvyDlUMTjYyc" version="12.1.4" type="github" pages="18">
   <diagram id="_PPVI77jKcZlu62BvHzV" name="06 - what">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -491,10 +491,10 @@
         <mxCell id="e1UEMauHNM6Cx0gDo6tD-3" value="Declarative Programming" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="e1UEMauHNM6Cx0gDo6tD-1">
           <mxGeometry x="640" y="135" width="230" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="e1UEMauHNM6Cx0gDo6tD-4" value="If my program was a person, it could interpret an &lt;b&gt;imperative&lt;/b&gt; sentence" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;" vertex="1" parent="e1UEMauHNM6Cx0gDo6tD-1">
+        <mxCell id="e1UEMauHNM6Cx0gDo6tD-4" value="If my program was a person, we could make them do something with an &lt;b&gt;imperative&lt;/b&gt; sentence" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;" vertex="1" parent="e1UEMauHNM6Cx0gDo6tD-1">
           <mxGeometry x="317.5" y="220" width="235" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="e1UEMauHNM6Cx0gDo6tD-5" value="If my program was a person, it could interpret a &lt;b&gt;declarative&lt;/b&gt; sentence" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;" vertex="1" parent="e1UEMauHNM6Cx0gDo6tD-1">
+        <mxCell id="e1UEMauHNM6Cx0gDo6tD-5" value="If my program was a person, we could make them do something with an&amp;nbsp;&lt;b&gt;declarative&lt;/b&gt;&amp;nbsp;sentence" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;" vertex="1" parent="e1UEMauHNM6Cx0gDo6tD-1">
           <mxGeometry x="628.5" y="220" width="253" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="e1UEMauHNM6Cx0gDo6tD-6" value="Probably an easier way to digest this that still fits with 95% of people&#39;s descriptions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;fontStyle=3" vertex="1" parent="e1UEMauHNM6Cx0gDo6tD-1">
