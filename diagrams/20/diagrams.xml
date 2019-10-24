@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T21:21:39.890Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="i6ex-0hCJvyDlUMTjYyc" version="12.1.4" type="github" pages="18">
+<mxfile host="www.draw.io" modified="2019-10-24T21:22:26.786Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="5s566frsERJhuaypiF5c" version="12.1.4" type="github" pages="18">
   <diagram id="_PPVI77jKcZlu62BvHzV" name="06 - what">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -558,8 +558,8 @@
         <mxCell id="KeYhPRK4NDnYA-bdjiBL-3" value="Declarative Code" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="KeYhPRK4NDnYA-bdjiBL-1">
           <mxGeometry x="720" y="90" width="160" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="JlJXxvbkurgjF85iVFZa-0" value="function makeRedDiv(text) {&lt;br&gt;&amp;nbsp; const div = document.createElement(&#39;div&#39;);&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; div.classList.add(&#39;red&#39;);&lt;br&gt;&amp;nbsp; div.innerHTML = text;&lt;br&gt;&lt;br&gt;&amp;nbsp; return div;&amp;nbsp;&amp;nbsp;&lt;br&gt;}&lt;br&gt;&lt;br&gt;makeRedDiv(&#39;Hi there&#39;);" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;" vertex="1" parent="KeYhPRK4NDnYA-bdjiBL-1">
-          <mxGeometry x="370" y="230" width="280" height="50" as="geometry"/>
+        <mxCell id="JlJXxvbkurgjF85iVFZa-0" value="&amp;nbsp; const div = document.createElement(&#39;div&#39;);&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; div.classList.add(&#39;red&#39;);&lt;br&gt;&amp;nbsp; div.innerHTML = text;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;" vertex="1" parent="KeYhPRK4NDnYA-bdjiBL-1">
+          <mxGeometry x="360" y="200" width="280" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="JlJXxvbkurgjF85iVFZa-1" value="&amp;lt;div class=&quot;red&quot;&amp;gt;Hi there&amp;lt;/div&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;" vertex="1" parent="KeYhPRK4NDnYA-bdjiBL-1">
           <mxGeometry x="710" y="180" width="220" height="50" as="geometry"/>
