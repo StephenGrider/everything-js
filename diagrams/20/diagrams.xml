@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T20:17:22.483Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Dr4lfwGcVPj-8r337PyM" version="12.1.4" type="github" pages="16">
+<mxfile host="www.draw.io" modified="2019-10-24T20:17:50.866Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="qKT-hv9G9xTSlwt0BdPr" version="12.1.4" type="github" pages="16">
   <diagram id="_PPVI77jKcZlu62BvHzV" name="06 - what">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -481,6 +481,9 @@
         </mxCell>
         <mxCell id="ij2anqgZ5CIHA20_hZ2Z-4" value="vs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;" vertex="1" parent="ij2anqgZ5CIHA20_hZ2Z-1">
           <mxGeometry x="650" y="215" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="mCqVBBPbsm_enZfyBE1X-0" value="&lt;i&gt;This is what you&#39;ll see most commonly in the Javascript world&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;" vertex="1" parent="ij2anqgZ5CIHA20_hZ2Z-1">
+          <mxGeometry x="505" y="330" width="330" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
