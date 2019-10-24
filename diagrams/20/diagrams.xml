@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T21:01:21.120Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="6gSRMZwwnC2UeASe7kqT" version="12.1.4" type="github" pages="16">
+<mxfile host="www.draw.io" modified="2019-10-24T21:16:02.174Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="lU6v3TtX_BrwwHRYiY-5" version="12.1.4" type="github" pages="17">
   <diagram id="_PPVI77jKcZlu62BvHzV" name="06 - what">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -499,6 +499,50 @@
         </mxCell>
         <mxCell id="e1UEMauHNM6Cx0gDo6tD-6" value="Probably an easier way to digest this that still fits with 95% of people&#39;s descriptions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;fontStyle=3" vertex="1" parent="e1UEMauHNM6Cx0gDo6tD-1">
           <mxGeometry x="460" y="80" width="260" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="17 - imp" id="FILPsTMgRzSyRE_R-7wp">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="AjGfuy-Ku7PPrU6HMkgS-0"/>
+        <mxCell id="AjGfuy-Ku7PPrU6HMkgS-1" parent="AjGfuy-Ku7PPrU6HMkgS-0"/>
+        <mxCell id="AjGfuy-Ku7PPrU6HMkgS-2" value="Imperative Sentences" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="AjGfuy-Ku7PPrU6HMkgS-1">
+          <mxGeometry x="390" y="90" width="160" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="AjGfuy-Ku7PPrU6HMkgS-3" value="Declarative Sentences" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="AjGfuy-Ku7PPrU6HMkgS-1">
+          <mxGeometry x="390" y="255" width="160" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="AjGfuy-Ku7PPrU6HMkgS-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="AjGfuy-Ku7PPrU6HMkgS-1">
+          <mxGeometry x="560" y="70" width="20" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="AjGfuy-Ku7PPrU6HMkgS-8" value="Has a command, request, or order" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;fontStyle=2" vertex="1" parent="AjGfuy-Ku7PPrU6HMkgS-1">
+          <mxGeometry x="400" y="170" width="140" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="AjGfuy-Ku7PPrU6HMkgS-9" value="Make me breakfast" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="AjGfuy-Ku7PPrU6HMkgS-1">
+          <mxGeometry x="590" y="70" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AjGfuy-Ku7PPrU6HMkgS-10" value="Change the brakes on that car" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="AjGfuy-Ku7PPrU6HMkgS-1">
+          <mxGeometry x="590" y="115" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AjGfuy-Ku7PPrU6HMkgS-11" value="Go plant a tree, please." style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="AjGfuy-Ku7PPrU6HMkgS-1">
+          <mxGeometry x="590" y="160" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AjGfuy-Ku7PPrU6HMkgS-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="AjGfuy-Ku7PPrU6HMkgS-1">
+          <mxGeometry x="560" y="230" width="20" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="AjGfuy-Ku7PPrU6HMkgS-13" value="Ice is cold" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="AjGfuy-Ku7PPrU6HMkgS-1">
+          <mxGeometry x="590" y="230" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AjGfuy-Ku7PPrU6HMkgS-14" value="There are five newly planted trees outside" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="AjGfuy-Ku7PPrU6HMkgS-1">
+          <mxGeometry x="590" y="275" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AjGfuy-Ku7PPrU6HMkgS-15" value="The brakes on this car are brand new" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="AjGfuy-Ku7PPrU6HMkgS-1">
+          <mxGeometry x="590" y="320" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AjGfuy-Ku7PPrU6HMkgS-16" value="States a fact or opinion" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;fontStyle=2" vertex="1" parent="AjGfuy-Ku7PPrU6HMkgS-1">
+          <mxGeometry x="400" y="335" width="140" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
