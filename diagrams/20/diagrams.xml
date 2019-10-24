@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T19:40:57.566Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="rsOXTKq-q6QMWTGawxGI" version="12.1.4" type="github" pages="12">
+<mxfile host="www.draw.io" modified="2019-10-24T19:42:15.165Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="EPhWJu9qZwl--Nl0aeYP" version="12.1.4" type="github" pages="12">
   <diagram id="gZgTVTsLBbn3A5g9sxZM" name="05 - int">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -422,16 +422,22 @@
         <mxCell id="8GwGzTBmdOFdJyKfLNBQ-0"/>
         <mxCell id="8GwGzTBmdOFdJyKfLNBQ-1" parent="8GwGzTBmdOFdJyKfLNBQ-0"/>
         <mxCell id="bsa_eYgVg3BFRHSP2cAu-0" value="Imperative&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=25;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="8GwGzTBmdOFdJyKfLNBQ-1">
-          <mxGeometry x="360" y="190" width="200" height="60" as="geometry"/>
+          <mxGeometry x="360" y="202.5" width="200" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="bsa_eYgVg3BFRHSP2cAu-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="8GwGzTBmdOFdJyKfLNBQ-1">
-          <mxGeometry x="570" y="125" width="40" height="190" as="geometry"/>
+          <mxGeometry x="570" y="125" width="40" height="215" as="geometry"/>
         </mxCell>
         <mxCell id="bsa_eYgVg3BFRHSP2cAu-3" value="Focused on defining what should happen step by step" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=center;" vertex="1" parent="8GwGzTBmdOFdJyKfLNBQ-1">
           <mxGeometry x="620" y="125" width="380" height="45" as="geometry"/>
         </mxCell>
-        <mxCell id="067pqGECUTkDbLj6eJQm-0" value="Focused on defining what should happen step by step" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=center;" vertex="1" parent="8GwGzTBmdOFdJyKfLNBQ-1">
-          <mxGeometry x="620" y="180" width="380" height="45" as="geometry"/>
+        <mxCell id="067pqGECUTkDbLj6eJQm-0" value="Has heavy use of local variables.&amp;nbsp; &#39;Application state&#39; is spread out and not well structured" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=center;" vertex="1" parent="8GwGzTBmdOFdJyKfLNBQ-1">
+          <mxGeometry x="620" y="182" width="380" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="067pqGECUTkDbLj6eJQm-1" value="Relatively brittle - making changes without breaking something requires deep knowledge of &lt;i&gt;everything&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=center;" vertex="1" parent="8GwGzTBmdOFdJyKfLNBQ-1">
+          <mxGeometry x="620" y="238" width="380" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="067pqGECUTkDbLj6eJQm-2" value="Has heavy use of local variables.&amp;nbsp; &#39;Application state&#39; is spread out and not well structured" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=center;" vertex="1" parent="8GwGzTBmdOFdJyKfLNBQ-1">
+          <mxGeometry x="620" y="295" width="380" height="45" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
