@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T21:45:42.932Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="MPUZMAtODMU7sGKRFxHT" version="12.1.4" type="github" pages="22">
+<mxfile host="www.draw.io" modified="2019-10-24T21:47:13.296Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="U2DUTIFBkAhC72ySVMLu" version="12.1.4" type="github" pages="23">
   <diagram id="_PPVI77jKcZlu62BvHzV" name="06 - what">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -644,6 +644,26 @@
         </mxCell>
         <mxCell id="ea3RrSjWjCqHQJyjQWvk-3" value="Dry the car" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="kxz2EWfG4Di5BGthN8bp-1">
           <mxGeometry x="740" y="380" width="240" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="20 - ach" id="h_PppS_toof4CM6suE4t">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="iTs65MHWJoW3so_G2ZPB-0"/>
+        <mxCell id="iTs65MHWJoW3so_G2ZPB-1" parent="iTs65MHWJoW3so_G2ZPB-0"/>
+        <mxCell id="iTs65MHWJoW3so_G2ZPB-2" value="Imperative Sentences" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="iTs65MHWJoW3so_G2ZPB-1">
+          <mxGeometry x="630" y="190" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="iTs65MHWJoW3so_G2ZPB-4" value="Declarative Sentences" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="iTs65MHWJoW3so_G2ZPB-1">
+          <mxGeometry x="310" y="190" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="iTs65MHWJoW3so_G2ZPB-14" value="Requires a lot of words to communicate&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;fontStyle=0" vertex="1" parent="iTs65MHWJoW3so_G2ZPB-1">
+          <mxGeometry x="630" y="250" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="iTs65MHWJoW3so_G2ZPB-15" value="Declares a lot of meaning with very few words" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;fontStyle=0" vertex="1" parent="iTs65MHWJoW3so_G2ZPB-1">
+          <mxGeometry x="310" y="250" width="270" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
