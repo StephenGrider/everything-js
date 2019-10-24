@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T21:59:54.069Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="6iYlffmx9-TmSdFCvq1t" version="12.1.4" type="github" pages="22">
+<mxfile host="www.draw.io" modified="2019-10-24T22:05:35.814Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="srmpkZ0GLsBxCu1PtPWF" version="12.1.4" type="github" pages="22">
   <diagram id="_PPVI77jKcZlu62BvHzV" name="06 - what">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -665,11 +665,23 @@
         <mxCell id="iTs65MHWJoW3so_G2ZPB-4" value="Declarative Sentences" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="iTs65MHWJoW3so_G2ZPB-1">
           <mxGeometry x="310" y="190" width="270" height="50" as="geometry"/>
         </mxCell>
+        <mxCell id="xWpLNJm6KMu2g0hGT-nb-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;fontSize=16;" edge="1" parent="iTs65MHWJoW3so_G2ZPB-1" source="iTs65MHWJoW3so_G2ZPB-14" target="_Syrzy13csXCbn_AfZTp-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="iTs65MHWJoW3so_G2ZPB-14" value="Many words to communicate state" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;fontStyle=0" vertex="1" parent="iTs65MHWJoW3so_G2ZPB-1">
-          <mxGeometry x="630" y="280" width="270" height="50" as="geometry"/>
+          <mxGeometry x="630" y="278" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="xWpLNJm6KMu2g0hGT-nb-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;fontSize=16;" edge="1" parent="iTs65MHWJoW3so_G2ZPB-1" source="iTs65MHWJoW3so_G2ZPB-15" target="xWpLNJm6KMu2g0hGT-nb-0">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="iTs65MHWJoW3so_G2ZPB-15" value="Few words to communicate state" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;fontStyle=0" vertex="1" parent="iTs65MHWJoW3so_G2ZPB-1">
-          <mxGeometry x="310" y="280" width="270" height="50" as="geometry"/>
+          <mxGeometry x="310" y="278" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="_Syrzy13csXCbn_AfZTp-1" value="Implied that the issuer has to give instructions on how to achieve that state" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;fontStyle=0" vertex="1" parent="iTs65MHWJoW3so_G2ZPB-1">
+          <mxGeometry x="630" y="360" width="270" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xWpLNJm6KMu2g0hGT-nb-0" value="Implied that the receiver can figure out how to achieve that state" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;fontStyle=0" vertex="1" parent="iTs65MHWJoW3so_G2ZPB-1">
+          <mxGeometry x="310" y="360" width="270" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
