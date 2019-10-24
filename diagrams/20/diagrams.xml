@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T21:38:07.122Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="qax1xQAjvI--jqVlpnzs" version="12.1.4" type="github" pages="21">
+<mxfile host="www.draw.io" modified="2019-10-24T21:45:42.932Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="MPUZMAtODMU7sGKRFxHT" version="12.1.4" type="github" pages="22">
   <diagram id="_PPVI77jKcZlu62BvHzV" name="06 - what">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -553,69 +553,111 @@
         <mxCell id="q9bQ9E_rJcGII_RAvS8k-0"/>
         <mxCell id="q9bQ9E_rJcGII_RAvS8k-1" parent="q9bQ9E_rJcGII_RAvS8k-0"/>
         <mxCell id="q9bQ9E_rJcGII_RAvS8k-2" value="Imperative Sentences" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
-          <mxGeometry x="640" y="190" width="270" height="40" as="geometry"/>
+          <mxGeometry x="310" y="310" width="150" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="2pWofo9Pi8D-gVugLkUJ-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;fontSize=25;" edge="1" parent="q9bQ9E_rJcGII_RAvS8k-1" source="q9bQ9E_rJcGII_RAvS8k-3" target="q9bQ9E_rJcGII_RAvS8k-20">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="q9bQ9E_rJcGII_RAvS8k-3" value="Declarative Sentences" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
-          <mxGeometry x="310" y="190" width="270" height="40" as="geometry"/>
+          <mxGeometry x="310" y="190" width="150" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="q9bQ9E_rJcGII_RAvS8k-15" value="Declarative sentences naturally convey the final state of a system" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;fontStyle=0" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
           <mxGeometry x="455" y="150" width="320" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="q9bQ9E_rJcGII_RAvS8k-19" value="Hey, you!" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
-          <mxGeometry x="640" y="250" width="270" height="20" as="geometry"/>
+          <mxGeometry x="740" y="247.5" width="160" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="q9bQ9E_rJcGII_RAvS8k-20" value="There is a large tree" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
-          <mxGeometry x="310" y="250" width="270" height="30" as="geometry"/>
+          <mxGeometry x="505" y="210" width="195" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="3b64s50I9BJcufi0l5eC-0" value="Go find a shovel" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
-          <mxGeometry x="640" y="280" width="270" height="20" as="geometry"/>
+          <mxGeometry x="740" y="276.5" width="160" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="3b64s50I9BJcufi0l5eC-1" value="Find a seed" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
-          <mxGeometry x="640" y="310" width="270" height="20" as="geometry"/>
+          <mxGeometry x="740" y="305.5" width="160" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="3b64s50I9BJcufi0l5eC-2" value="Dig a hole" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
-          <mxGeometry x="640" y="340" width="270" height="20" as="geometry"/>
+          <mxGeometry x="740" y="335.5" width="160" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="3b64s50I9BJcufi0l5eC-3" value="Put the seed in" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
-          <mxGeometry x="640" y="370" width="270" height="20" as="geometry"/>
+          <mxGeometry x="740" y="364.5" width="160" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="3b64s50I9BJcufi0l5eC-4" value="Put dirt back in the hole" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
-          <mxGeometry x="640" y="400" width="270" height="20" as="geometry"/>
+          <mxGeometry x="740" y="393.5" width="160" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="3b64s50I9BJcufi0l5eC-5" value="Wait three years" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
-          <mxGeometry x="640" y="430" width="270" height="20" as="geometry"/>
+          <mxGeometry x="740" y="422.5" width="160" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="2pWofo9Pi8D-gVugLkUJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;fontSize=25;" edge="1" parent="q9bQ9E_rJcGII_RAvS8k-1" target="2pWofo9Pi8D-gVugLkUJ-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="345" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2pWofo9Pi8D-gVugLkUJ-2" value="You!&amp;nbsp; Ensure there is a large tree outside" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
+          <mxGeometry x="505" y="325" width="195" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="2pWofo9Pi8D-gVugLkUJ-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=25;align=center;" vertex="1" parent="q9bQ9E_rJcGII_RAvS8k-1">
+          <mxGeometry x="710" y="247.5" width="20" height="195" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="19 - dec" id="Dpedj1F3yMV4irQFci2X">
+  <diagram name="19 - dec" id="nG74tDLLvO2WRh3pTZ1z">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
-        <mxCell id="lTcorIfdPHQJxX2pTTP2-0"/>
-        <mxCell id="lTcorIfdPHQJxX2pTTP2-1" parent="lTcorIfdPHQJxX2pTTP2-0"/>
-        <mxCell id="lTcorIfdPHQJxX2pTTP2-2" value="Imperative Sentences" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="lTcorIfdPHQJxX2pTTP2-1">
-          <mxGeometry x="640" y="190" width="270" height="40" as="geometry"/>
+        <mxCell id="kxz2EWfG4Di5BGthN8bp-0"/>
+        <mxCell id="kxz2EWfG4Di5BGthN8bp-1" parent="kxz2EWfG4Di5BGthN8bp-0"/>
+        <mxCell id="kxz2EWfG4Di5BGthN8bp-2" value="Imperative Sentences" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="kxz2EWfG4Di5BGthN8bp-1">
+          <mxGeometry x="310" y="310" width="150" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="lTcorIfdPHQJxX2pTTP2-3" value="Declarative Sentences" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="lTcorIfdPHQJxX2pTTP2-1">
-          <mxGeometry x="310" y="190" width="270" height="40" as="geometry"/>
+        <mxCell id="kxz2EWfG4Di5BGthN8bp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;fontSize=25;" edge="1" parent="kxz2EWfG4Di5BGthN8bp-1" source="kxz2EWfG4Di5BGthN8bp-4" target="kxz2EWfG4Di5BGthN8bp-7">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="lTcorIfdPHQJxX2pTTP2-4" value="Declarative sentences naturally convey the final state of a system" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;fontStyle=0" vertex="1" parent="lTcorIfdPHQJxX2pTTP2-1">
-          <mxGeometry x="455" y="150" width="320" height="20" as="geometry"/>
+        <mxCell id="kxz2EWfG4Di5BGthN8bp-4" value="Declarative Sentences" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="kxz2EWfG4Di5BGthN8bp-1">
+          <mxGeometry x="310" y="190" width="150" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="lTcorIfdPHQJxX2pTTP2-5" value="Is there a car here? Go get one" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="lTcorIfdPHQJxX2pTTP2-1">
-          <mxGeometry x="640" y="250" width="270" height="20" as="geometry"/>
+        <mxCell id="kxz2EWfG4Di5BGthN8bp-5" value="Declarative sentences naturally convey the final state of a system" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;fontStyle=0" vertex="1" parent="kxz2EWfG4Di5BGthN8bp-1">
+          <mxGeometry x="520" y="150" width="320" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="lTcorIfdPHQJxX2pTTP2-6" value="This car is shiny" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="lTcorIfdPHQJxX2pTTP2-1">
-          <mxGeometry x="310" y="250" width="270" height="30" as="geometry"/>
+        <mxCell id="kxz2EWfG4Di5BGthN8bp-7" value="This car is shiny" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="kxz2EWfG4Di5BGthN8bp-1">
+          <mxGeometry x="505" y="210" width="195" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="lTcorIfdPHQJxX2pTTP2-7" value="Get some soap, water, and a sponge" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="lTcorIfdPHQJxX2pTTP2-1">
-          <mxGeometry x="640" y="280" width="270" height="20" as="geometry"/>
+        <mxCell id="kxz2EWfG4Di5BGthN8bp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;fontSize=25;" edge="1" parent="kxz2EWfG4Di5BGthN8bp-1" target="kxz2EWfG4Di5BGthN8bp-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="345" as="sourcePoint"/>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="lTcorIfdPHQJxX2pTTP2-8" value="Use those things to wash the car" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="lTcorIfdPHQJxX2pTTP2-1">
-          <mxGeometry x="640" y="310" width="270" height="20" as="geometry"/>
+        <mxCell id="kxz2EWfG4Di5BGthN8bp-15" value="You! Make sure this car is shiny" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="kxz2EWfG4Di5BGthN8bp-1">
+          <mxGeometry x="505" y="325" width="195" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="lTcorIfdPHQJxX2pTTP2-9" value="Dry the car" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="lTcorIfdPHQJxX2pTTP2-1">
-          <mxGeometry x="640" y="340" width="270" height="20" as="geometry"/>
+        <mxCell id="kxz2EWfG4Di5BGthN8bp-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=25;align=center;" vertex="1" parent="kxz2EWfG4Di5BGthN8bp-1">
+          <mxGeometry x="710" y="290" width="20" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="ea3RrSjWjCqHQJyjQWvk-0" value="Is there a car here? Go get one" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="kxz2EWfG4Di5BGthN8bp-1">
+          <mxGeometry x="740" y="290" width="240" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ea3RrSjWjCqHQJyjQWvk-1" value="Get some soap, water, and a sponge" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="kxz2EWfG4Di5BGthN8bp-1">
+          <mxGeometry x="740" y="320" width="240" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ea3RrSjWjCqHQJyjQWvk-2" value="Use those things to wash the car" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="kxz2EWfG4Di5BGthN8bp-1">
+          <mxGeometry x="740" y="350" width="240" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ea3RrSjWjCqHQJyjQWvk-3" value="Dry the car" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="kxz2EWfG4Di5BGthN8bp-1">
+          <mxGeometry x="740" y="380" width="240" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LshnwfRPyHdo13Kf5cd3" name="22 - two">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="5DYRx3YUrqp7qt7M_1EC-0"/>
+        <mxCell id="5DYRx3YUrqp7qt7M_1EC-1" parent="5DYRx3YUrqp7qt7M_1EC-0"/>
+        <mxCell id="j0U0wmmRsPbvfqwUjDd--0" value="Using existing declarative code saves us a lot of time" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=25;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="5DYRx3YUrqp7qt7M_1EC-1">
+          <mxGeometry x="380" y="220" width="430" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="j0U0wmmRsPbvfqwUjDd--2" value="Using existing declarative code saves us a lot of time" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=25;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="5DYRx3YUrqp7qt7M_1EC-1">
+          <mxGeometry x="380" y="330" width="430" height="100" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
