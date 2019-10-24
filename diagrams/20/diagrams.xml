@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T20:15:37.366Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="gM6cguPUjSF1rdeCNoAa" version="12.1.4" type="github" pages="16">
+<mxfile host="www.draw.io" modified="2019-10-24T20:17:22.483Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Dr4lfwGcVPj-8r337PyM" version="12.1.4" type="github" pages="16">
   <diagram id="_PPVI77jKcZlu62BvHzV" name="06 - what">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -462,7 +462,7 @@
         <mxCell id="QBmlWQouY8uHS09bWBT8-6" value="Nobody really agrees with what this term means" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="QBmlWQouY8uHS09bWBT8-1">
           <mxGeometry x="670" y="380" width="400" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="QBmlWQouY8uHS09bWBT8-7" value="Nobody really agrees with what this term means" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="QBmlWQouY8uHS09bWBT8-1">
+        <mxCell id="QBmlWQouY8uHS09bWBT8-7" value="Nobody really agrees with what features any given paradigm contains" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="QBmlWQouY8uHS09bWBT8-1">
           <mxGeometry x="670" y="430" width="400" height="40" as="geometry"/>
         </mxCell>
       </root>
