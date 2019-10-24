@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T22:53:44.872Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="L5318Eov6C9wOZjUkyJm" version="12.1.4" type="github" pages="26">
+<mxfile host="www.draw.io" modified="2019-10-24T22:56:01.256Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="b1TrEl0ISsS2OfC_2iHn" version="12.1.4" type="github" pages="26">
   <diagram id="_PPVI77jKcZlu62BvHzV" name="06 - what">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -890,14 +890,23 @@
       <root>
         <mxCell id="yy2fr1hgxl5AApXbFQvT-0"/>
         <mxCell id="yy2fr1hgxl5AApXbFQvT-1" parent="yy2fr1hgxl5AApXbFQvT-0"/>
-        <mxCell id="yy2fr1hgxl5AApXbFQvT-2" value="Developers like declarative systems because we can &lt;i&gt;generally&lt;/i&gt;&amp;nbsp;write less code - we only describe the final state and the program figures out how to accomplish that" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;align=center;" vertex="1" parent="yy2fr1hgxl5AApXbFQvT-1">
-          <mxGeometry x="450" y="200" width="600" height="50" as="geometry"/>
+        <mxCell id="yy2fr1hgxl5AApXbFQvT-2" value="Developers like declarative systems because we can &lt;i&gt;generally&lt;/i&gt;&amp;nbsp;write less code" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;align=center;" vertex="1" parent="yy2fr1hgxl5AApXbFQvT-1">
+          <mxGeometry x="460" y="314" width="600" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="yy2fr1hgxl5AApXbFQvT-3" value="Takeaways" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=20;fontStyle=1" vertex="1" parent="yy2fr1hgxl5AApXbFQvT-1">
-          <mxGeometry x="687.5" y="170" width="125" height="20" as="geometry"/>
+          <mxGeometry x="697.5" y="180" width="125" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="yy2fr1hgxl5AApXbFQvT-4" value="&lt;i&gt;Creating &lt;/i&gt;a system to&amp;nbsp;&lt;i&gt;interpret&lt;/i&gt; declarative code &lt;i&gt;probably &lt;/i&gt;takes&amp;nbsp;more time than just writing an imperative system" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;align=center;" vertex="1" parent="yy2fr1hgxl5AApXbFQvT-1">
-          <mxGeometry x="450" y="260" width="600" height="50" as="geometry"/>
+        <mxCell id="yy2fr1hgxl5AApXbFQvT-4" value="&lt;i&gt;Creating &lt;/i&gt;a system to&amp;nbsp;&lt;i&gt;interpret&lt;/i&gt; declarative code &lt;i&gt;probably &lt;/i&gt;takes&amp;nbsp;more time than just writing an imperative program" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;align=center;" vertex="1" parent="yy2fr1hgxl5AApXbFQvT-1">
+          <mxGeometry x="460" y="420" width="600" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="znAzMa58jZ4QbWoCa5Gh-0" value="There&#39;s a difference between &lt;i&gt;using&lt;/i&gt;&amp;nbsp;a declarative system (us writing HTML) vs &lt;i&gt;creating&lt;/i&gt;&amp;nbsp;a declarative system (people writing Chrome)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;align=center;" vertex="1" parent="yy2fr1hgxl5AApXbFQvT-1">
+          <mxGeometry x="460" y="367" width="600" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="znAzMa58jZ4QbWoCa5Gh-1" value="Imperative code describes exactly what our program should do step by step" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;align=center;" vertex="1" parent="yy2fr1hgxl5AApXbFQvT-1">
+          <mxGeometry x="460" y="208" width="600" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="znAzMa58jZ4QbWoCa5Gh-2" value="Declarative code relies upon a program to interpret what we want" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;align=center;" vertex="1" parent="yy2fr1hgxl5AApXbFQvT-1">
+          <mxGeometry x="460" y="261" width="600" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
