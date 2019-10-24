@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-23T19:36:42.087Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="-ToVejWFZ5zAWolGC9mA" version="12.1.4" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2019-10-24T16:57:52.546Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="SiCBFMYGJuvResAwk7zC" version="12.1.4" type="github" pages="10">
   <diagram id="gZgTVTsLBbn3A5g9sxZM" name="05 - int">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -258,6 +258,59 @@
         </mxCell>
         <mxCell id="Tv6kihlaXUbIPhdRQDbM-3" value="Youtube API Signup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=16;fontStyle=1" vertex="1" parent="Tv6kihlaXUbIPhdRQDbM-1">
           <mxGeometry x="580" y="230" width="280" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NdUV6Ix1NbHlNC-N84f6" name="11 - time">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="sdKvoF060FE8Xhd-vFL3-0"/>
+        <mxCell id="sdKvoF060FE8Xhd-vFL3-1" parent="sdKvoF060FE8Xhd-vFL3-0"/>
+        <mxCell id="sdKvoF060FE8Xhd-vFL3-2" value="User enters search term, presses enter" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="sdKvoF060FE8Xhd-vFL3-1">
+          <mxGeometry x="420" y="140" width="390" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="sdKvoF060FE8Xhd-vFL3-3" value="We get search term from input" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="sdKvoF060FE8Xhd-vFL3-1">
+          <mxGeometry x="420" y="200" width="390" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="sdKvoF060FE8Xhd-vFL3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="sdKvoF060FE8Xhd-vFL3-1" source="sdKvoF060FE8Xhd-vFL3-4" target="sdKvoF060FE8Xhd-vFL3-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="sdKvoF060FE8Xhd-vFL3-4" value="We make request to the youtube API" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="sdKvoF060FE8Xhd-vFL3-1">
+          <mxGeometry x="420" y="260" width="390" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="sdKvoF060FE8Xhd-vFL3-5" value="&lt;i&gt;Time passes...&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=17;" vertex="1" parent="sdKvoF060FE8Xhd-vFL3-1">
+          <mxGeometry x="512.5" y="330" width="205" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="sdKvoF060FE8Xhd-vFL3-6" value="" style="endArrow=classic;html=1;fontSize=17;" edge="1" parent="sdKvoF060FE8Xhd-vFL3-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="140" as="sourcePoint"/>
+            <mxPoint x="410" y="540" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sdKvoF060FE8Xhd-vFL3-7" value="We get a response from the API" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="sdKvoF060FE8Xhd-vFL3-1">
+          <mxGeometry x="420" y="370" width="390" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="sdKvoF060FE8Xhd-vFL3-8" value="Iterate over the list of &#39;items&#39;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="sdKvoF060FE8Xhd-vFL3-1">
+          <mxGeometry x="420" y="430" width="390" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="sdKvoF060FE8Xhd-vFL3-9" value="Build some HTML, append it to an element in the DOM" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="sdKvoF060FE8Xhd-vFL3-1">
+          <mxGeometry x="420" y="490" width="390" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="sdKvoF060FE8Xhd-vFL3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="sdKvoF060FE8Xhd-vFL3-1" source="sdKvoF060FE8Xhd-vFL3-10" target="sdKvoF060FE8Xhd-vFL3-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="sdKvoF060FE8Xhd-vFL3-10" value="Youtube API" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="sdKvoF060FE8Xhd-vFL3-1">
+          <mxGeometry x="940" y="270" width="120" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="sdKvoF060FE8Xhd-vFL3-14" value="&lt;i&gt;query&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=17;" vertex="1" parent="sdKvoF060FE8Xhd-vFL3-1">
+          <mxGeometry x="855" y="260" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="sdKvoF060FE8Xhd-vFL3-16" value="&lt;i&gt;response&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=17;" vertex="1" parent="sdKvoF060FE8Xhd-vFL3-1">
+          <mxGeometry x="860" y="400" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="sdKvoF060FE8Xhd-vFL3-17" value="Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=17;fontStyle=2" vertex="1" parent="sdKvoF060FE8Xhd-vFL3-1">
+          <mxGeometry x="360" y="140" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
