@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T20:20:38.317Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="6ty-t0bRT0BzuXVGolOn" version="12.1.4" type="github" pages="15">
+<mxfile host="www.draw.io" modified="2019-10-24T20:25:45.945Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="rNwwJ0EH0EKQyO1iykmd" version="12.1.4" type="github" pages="15">
   <diagram id="_PPVI77jKcZlu62BvHzV" name="06 - what">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -495,39 +495,21 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RXgPYEOlGTxXpsiR9w1W" name="15 - comp">
-    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="sVlC6MKCkV5cd-SvTn3o-0"/>
         <mxCell id="sVlC6MKCkV5cd-SvTn3o-1" parent="sVlC6MKCkV5cd-SvTn3o-0"/>
         <mxCell id="WAPrVKca4kk4a-oXhMRX-0" value="Imperative Programming" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
-          <mxGeometry x="320" y="125" width="190" height="70" as="geometry"/>
+          <mxGeometry x="320" y="135" width="230" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="WAPrVKca4kk4a-oXhMRX-1" value="Declarative Programming" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
-          <mxGeometry x="320" y="315" width="190" height="70" as="geometry"/>
+          <mxGeometry x="640" y="135" width="230" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="WAPrVKca4kk4a-oXhMRX-3" value="Imperative" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;fontStyle=0" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
-          <mxGeometry x="570" y="90" width="230" height="40" as="geometry"/>
+        <mxCell id="NpvLFv7a9TtnkcqDSGc--0" value="Code describes how we want our program to execute some computation step by step" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
+          <mxGeometry x="317.5" y="220" width="235" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="WAPrVKca4kk4a-oXhMRX-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
-          <mxGeometry x="520" y="90" width="40" height="140" as="geometry"/>
-        </mxCell>
-        <mxCell id="WAPrVKca4kk4a-oXhMRX-6" value="Procedural" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;fontStyle=0" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
-          <mxGeometry x="570" y="140" width="230" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="WAPrVKca4kk4a-oXhMRX-7" value="Object Oriented" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;fontStyle=0" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
-          <mxGeometry x="570" y="190" width="230" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="WAPrVKca4kk4a-oXhMRX-8" value="Imperative" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;fontStyle=0" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
-          <mxGeometry x="570" y="280" width="230" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="WAPrVKca4kk4a-oXhMRX-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
-          <mxGeometry x="520" y="280" width="40" height="140" as="geometry"/>
-        </mxCell>
-        <mxCell id="WAPrVKca4kk4a-oXhMRX-10" value="Procedural" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;fontStyle=0" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
-          <mxGeometry x="570" y="330" width="230" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="WAPrVKca4kk4a-oXhMRX-11" value="Object Oriented" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;fontStyle=0" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
-          <mxGeometry x="570" y="380" width="230" height="40" as="geometry"/>
+        <mxCell id="NpvLFv7a9TtnkcqDSGc--2" value="Code describes what we want our program to do without specifying nitty-gritty step-by-step details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
+          <mxGeometry x="637.5" y="220" width="235" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
