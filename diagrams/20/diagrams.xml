@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T19:42:15.165Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="EPhWJu9qZwl--Nl0aeYP" version="12.1.4" type="github" pages="12">
+<mxfile host="www.draw.io" modified="2019-10-24T19:50:39.296Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="mKnECSK974RfepAtH-g8" version="12.1.4" type="github" pages="13">
   <diagram id="gZgTVTsLBbn3A5g9sxZM" name="05 - int">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -430,14 +430,31 @@
         <mxCell id="bsa_eYgVg3BFRHSP2cAu-3" value="Focused on defining what should happen step by step" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=center;" vertex="1" parent="8GwGzTBmdOFdJyKfLNBQ-1">
           <mxGeometry x="620" y="125" width="380" height="45" as="geometry"/>
         </mxCell>
-        <mxCell id="067pqGECUTkDbLj6eJQm-0" value="Has heavy use of local variables.&amp;nbsp; &#39;Application state&#39; is spread out and not well structured" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=center;" vertex="1" parent="8GwGzTBmdOFdJyKfLNBQ-1">
+        <mxCell id="067pqGECUTkDbLj6eJQm-0" value="Heavy use of local variables.&amp;nbsp; &#39;Application state&#39; is spread out and not well structured" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=center;" vertex="1" parent="8GwGzTBmdOFdJyKfLNBQ-1">
           <mxGeometry x="620" y="182" width="380" height="45" as="geometry"/>
         </mxCell>
         <mxCell id="067pqGECUTkDbLj6eJQm-1" value="Relatively brittle - making changes without breaking something requires deep knowledge of &lt;i&gt;everything&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=center;" vertex="1" parent="8GwGzTBmdOFdJyKfLNBQ-1">
           <mxGeometry x="620" y="238" width="380" height="45" as="geometry"/>
         </mxCell>
-        <mxCell id="067pqGECUTkDbLj6eJQm-2" value="Has heavy use of local variables.&amp;nbsp; &#39;Application state&#39; is spread out and not well structured" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=center;" vertex="1" parent="8GwGzTBmdOFdJyKfLNBQ-1">
+        <mxCell id="067pqGECUTkDbLj6eJQm-2" value="Complexity of codebase increases exponentially with feature set" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=center;" vertex="1" parent="8GwGzTBmdOFdJyKfLNBQ-1">
           <mxGeometry x="620" y="295" width="380" height="45" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="f9IN_kC7L4_uait9flNb" name="14 - two">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="ij2anqgZ5CIHA20_hZ2Z-0"/>
+        <mxCell id="ij2anqgZ5CIHA20_hZ2Z-1" parent="ij2anqgZ5CIHA20_hZ2Z-0"/>
+        <mxCell id="ij2anqgZ5CIHA20_hZ2Z-2" value="Imperative Programming" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="ij2anqgZ5CIHA20_hZ2Z-1">
+          <mxGeometry x="440" y="190" width="190" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="ij2anqgZ5CIHA20_hZ2Z-3" value="Declarative Programming" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="ij2anqgZ5CIHA20_hZ2Z-1">
+          <mxGeometry x="710" y="190" width="190" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="ij2anqgZ5CIHA20_hZ2Z-4" value="vs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;" vertex="1" parent="ij2anqgZ5CIHA20_hZ2Z-1">
+          <mxGeometry x="650" y="215" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
