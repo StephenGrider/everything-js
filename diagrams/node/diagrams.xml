@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-25T22:40:28.504Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="UzuWg8t4ynPyLPklyhpr" version="12.1.7" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2019-10-25T22:40:58.550Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="9jjGv0D4X3t7C6Vf5Xwz" version="12.1.7" type="github" pages="10">
   <diagram id="BZo3jJ8OiFxdfowzvpVl" name="01 - node">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -324,7 +324,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Ozfy1Zt9GJEMesLmteeM" name="Page-10">
+  <diagram id="Ozfy1Zt9GJEMesLmteeM" name="11 - debug">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="HM9apUJ9ndKWoJCM-wX--0"/>
@@ -338,7 +338,7 @@
         <mxCell id="HM9apUJ9ndKWoJCM-wX--4" value="node &lt;b&gt;--inspect&lt;/b&gt; index.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="HM9apUJ9ndKWoJCM-wX--1">
           <mxGeometry x="310" y="260" width="210" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="HM9apUJ9ndKWoJCM-wX--5" value="Start up a debugger instance and pause execution whenever a &#39;debugger&#39; statement is hit" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="HM9apUJ9ndKWoJCM-wX--1">
+        <mxCell id="HM9apUJ9ndKWoJCM-wX--5" value="Start up a debugger instance and pause execution whenever a &#39;debugger&#39; statement is hit.&amp;nbsp; Access the debugger at &lt;b&gt;&#39;chrome://inspect&lt;/b&gt;&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="HM9apUJ9ndKWoJCM-wX--1">
           <mxGeometry x="560" y="250" width="360" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="HM9apUJ9ndKWoJCM-wX--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;fontSize=21;" edge="1" parent="HM9apUJ9ndKWoJCM-wX--1" source="HM9apUJ9ndKWoJCM-wX--8" target="HM9apUJ9ndKWoJCM-wX--9">
@@ -347,7 +347,7 @@
         <mxCell id="HM9apUJ9ndKWoJCM-wX--8" value="node &lt;b&gt;--inspect-brk&lt;/b&gt; index.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="HM9apUJ9ndKWoJCM-wX--1">
           <mxGeometry x="310" y="350" width="210" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="HM9apUJ9ndKWoJCM-wX--9" value="Start up a debugger instance and &lt;i&gt;wait to execute&lt;/i&gt;&amp;nbsp;until a debugger is connected" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="HM9apUJ9ndKWoJCM-wX--1">
+        <mxCell id="HM9apUJ9ndKWoJCM-wX--9" value="Start up a debugger instance and &lt;i&gt;wait to execute&lt;/i&gt;&amp;nbsp;until a debugger is connected. Access the debugger at&amp;nbsp;&lt;b&gt;&#39;chrome://inspect&lt;/b&gt;&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="HM9apUJ9ndKWoJCM-wX--1">
           <mxGeometry x="560" y="340" width="360" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="HM9apUJ9ndKWoJCM-wX--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;fontSize=21;" edge="1" parent="HM9apUJ9ndKWoJCM-wX--1" source="HM9apUJ9ndKWoJCM-wX--11" target="HM9apUJ9ndKWoJCM-wX--12">
