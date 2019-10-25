@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-25T16:49:21.398Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="71GOGLDAzYqeP7KXBKnI" version="12.1.7" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-25T16:49:56.141Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="3OiSbncase_IjlFfGImn" version="12.1.7" type="github" pages="1">
   <diagram id="umT6pZ2PL8wLsBcWA96S" name="01 - imp">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="K5kX5fONdf2G2KMQ_2yN-7" value="This is probably the style you&#39;ll write most code in as a beginner - &lt;i&gt;and that is ok&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="390.5" width="400" height="32" as="geometry"/>
         </mxCell>
-        <mxCell id="K5kX5fONdf2G2KMQ_2yN-9" value="Primary means of code reuse was functions" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="K5kX5fONdf2G2KMQ_2yN-9" value="All of our code touched everything - any time we run any function, something in the DOM changed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="350" width="400" height="32" as="geometry"/>
         </mxCell>
       </root>
