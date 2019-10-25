@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-25T21:37:24.235Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="0WrMW1MOqlZH4XhuyrwX" version="12.1.7" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2019-10-25T21:37:43.253Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="XRc-LioXqBwiHiXjse03" version="12.1.7" type="github" pages="7">
   <diagram id="BZo3jJ8OiFxdfowzvpVl" name="01 - node">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -221,7 +221,7 @@
           <mxGeometry x="320" y="220" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="Gsdg7Kv7J-YbG1XwU-V0-8" value="const message = require(&#39;./myscript.js&#39;);" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="MaMowR7SQBcOVf35JEdC-1">
-          <mxGeometry x="520" y="210" width="310" height="20" as="geometry"/>
+          <mxGeometry x="520" y="210" width="290" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
