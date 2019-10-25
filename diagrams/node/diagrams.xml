@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-25T18:10:29.386Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="6aThWtcWHL0sJyrErbGS" version="12.1.7" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-10-25T18:11:48.575Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="dn10meVpYeK6gpuTSSbF" version="12.1.7" type="github" pages="3">
   <diagram id="BZo3jJ8OiFxdfowzvpVl" name="01 - node">
     <mxGraphModel dx="436" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -65,6 +65,23 @@
             <mxPoint x="590" y="340" as="sourcePoint"/>
             <mxPoint x="670" y="340" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5Cw6d2ADkFntJaqt2SJN" name="03 - setup">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="RmFeAuXoHkeTJ7BZaA4h-0"/>
+        <mxCell id="RmFeAuXoHkeTJ7BZaA4h-1" parent="RmFeAuXoHkeTJ7BZaA4h-0"/>
+        <mxCell id="RmFeAuXoHkeTJ7BZaA4h-2" value="nodejs.org/en/download" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="RmFeAuXoHkeTJ7BZaA4h-1">
+          <mxGeometry x="510" y="200" width="390" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="RmFeAuXoHkeTJ7BZaA4h-3" value="Node Installation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="RmFeAuXoHkeTJ7BZaA4h-1">
+          <mxGeometry x="617.5" y="170" width="175" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RmFeAuXoHkeTJ7BZaA4h-4" value="&lt;i style=&quot;font-weight: normal&quot;&gt;Only download + install if you don&#39;t have node installed already!&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="RmFeAuXoHkeTJ7BZaA4h-1">
+          <mxGeometry x="563.5" y="280" width="283" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
