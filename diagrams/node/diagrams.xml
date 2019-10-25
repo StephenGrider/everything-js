@@ -1,1 +1,47 @@
-<mxfile host="www.draw.io" modified="2019-10-25T18:04:26.802Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" version="12.1.7" etag="nPa502LiAAYsUKEfJcVz" type="github"><diagram id="BZo3jJ8OiFxdfowzvpVl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-10-25T18:06:13.539Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="IZJwC3zg62M6qy98Vo2-" version="12.1.7" type="github" pages="3">
+  <diagram id="BZo3jJ8OiFxdfowzvpVl" name="01 - node">
+    <mxGraphModel dx="436" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="qWHeMbuY-R0ZurWntmYu-1" value="Javascript with Node JS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=19;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="360" y="220" width="300" height="80" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MS7UilzLrgwgQo-4qZ79" name="03 - diff">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="WfA5Fck_hwz8GneiGcuk-0"/>
+        <mxCell id="WfA5Fck_hwz8GneiGcuk-1" parent="WfA5Fck_hwz8GneiGcuk-0"/>
+        <mxCell id="WfA5Fck_hwz8GneiGcuk-2" value="JS with Node" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WfA5Fck_hwz8GneiGcuk-1">
+          <mxGeometry x="300" y="220" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="WfA5Fck_hwz8GneiGcuk-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=19;" vertex="1" parent="WfA5Fck_hwz8GneiGcuk-1">
+          <mxGeometry x="460" y="125" width="40" height="250" as="geometry"/>
+        </mxCell>
+        <mxCell id="WfA5Fck_hwz8GneiGcuk-4" value="It is still Javascript" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WfA5Fck_hwz8GneiGcuk-1">
+          <mxGeometry x="510" y="125" width="310" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="WfA5Fck_hwz8GneiGcuk-5" value="It is still Javascript" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WfA5Fck_hwz8GneiGcuk-1">
+          <mxGeometry x="510" y="170" width="310" height="35" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="L_OUaD-GlwqJSGkxfEB6" name="02 - differences">
+    <mxGraphModel dx="837" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="j6cdXP0jXww12D5B8ov9-0"/>
+        <mxCell id="j6cdXP0jXww12D5B8ov9-1" parent="j6cdXP0jXww12D5B8ov9-0"/>
+        <mxCell id="j6cdXP0jXww12D5B8ov9-2" value="JS in the Browser" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="j6cdXP0jXww12D5B8ov9-1">
+          <mxGeometry x="320" y="120" width="240" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="j6cdXP0jXww12D5B8ov9-3" value="JS with Node" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="j6cdXP0jXww12D5B8ov9-1">
+          <mxGeometry x="670" y="120" width="240" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
