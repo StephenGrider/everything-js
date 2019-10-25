@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-25T22:40:58.550Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="9jjGv0D4X3t7C6Vf5Xwz" version="12.1.7" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2019-10-25T22:44:31.558Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="5FjhASUzIPmTDSsIbRbL" version="12.1.7" type="github" pages="11">
   <diagram id="BZo3jJ8OiFxdfowzvpVl" name="01 - node">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -358,6 +358,53 @@
         </mxCell>
         <mxCell id="HM9apUJ9ndKWoJCM-wX--12" value="Start up a debugger &lt;b&gt;CLI&lt;/b&gt; and pause execution whenever a &#39;debugger&#39; statement is hit" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="HM9apUJ9ndKWoJCM-wX--1">
           <mxGeometry x="560" y="170" width="360" height="70" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HGFwjuJuxlZfvFM4i6nt" name="12 - debug">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="tJ4pR6R6QhvzH7SRnh_Y-0"/>
+        <mxCell id="tJ4pR6R6QhvzH7SRnh_Y-1" parent="tJ4pR6R6QhvzH7SRnh_Y-0"/>
+        <mxCell id="tJ4pR6R6QhvzH7SRnh_Y-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;fontSize=21;" edge="1" parent="tJ4pR6R6QhvzH7SRnh_Y-1" source="tJ4pR6R6QhvzH7SRnh_Y-2" target="tJ4pR6R6QhvzH7SRnh_Y-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="tJ4pR6R6QhvzH7SRnh_Y-2" value="c" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tJ4pR6R6QhvzH7SRnh_Y-1">
+          <mxGeometry x="330" y="200" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="tJ4pR6R6QhvzH7SRnh_Y-3" value="CLI Debugger Commands" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1" vertex="1" parent="tJ4pR6R6QhvzH7SRnh_Y-1">
+          <mxGeometry x="430" y="170" width="270" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="tJ4pR6R6QhvzH7SRnh_Y-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;fontSize=21;" edge="1" parent="tJ4pR6R6QhvzH7SRnh_Y-1" source="tJ4pR6R6QhvzH7SRnh_Y-4" target="tJ4pR6R6QhvzH7SRnh_Y-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="tJ4pR6R6QhvzH7SRnh_Y-4" value="n" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tJ4pR6R6QhvzH7SRnh_Y-1">
+          <mxGeometry x="330" y="270" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="tJ4pR6R6QhvzH7SRnh_Y-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;fontSize=21;" edge="1" parent="tJ4pR6R6QhvzH7SRnh_Y-1" source="tJ4pR6R6QhvzH7SRnh_Y-5" target="tJ4pR6R6QhvzH7SRnh_Y-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="tJ4pR6R6QhvzH7SRnh_Y-5" value="s" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tJ4pR6R6QhvzH7SRnh_Y-1">
+          <mxGeometry x="330" y="340" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="tJ4pR6R6QhvzH7SRnh_Y-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;fontSize=21;" edge="1" parent="tJ4pR6R6QhvzH7SRnh_Y-1" source="tJ4pR6R6QhvzH7SRnh_Y-6" target="tJ4pR6R6QhvzH7SRnh_Y-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="tJ4pR6R6QhvzH7SRnh_Y-6" value="o" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tJ4pR6R6QhvzH7SRnh_Y-1">
+          <mxGeometry x="330" y="410" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="tJ4pR6R6QhvzH7SRnh_Y-7" value="Continue execution until program ends or next debugger statement" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="tJ4pR6R6QhvzH7SRnh_Y-1">
+          <mxGeometry x="485" y="200" width="335" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="tJ4pR6R6QhvzH7SRnh_Y-8" value="Run the next line of code" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="tJ4pR6R6QhvzH7SRnh_Y-1">
+          <mxGeometry x="485" y="270" width="335" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="tJ4pR6R6QhvzH7SRnh_Y-9" value="Step in to a function" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="tJ4pR6R6QhvzH7SRnh_Y-1">
+          <mxGeometry x="485" y="340" width="335" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="tJ4pR6R6QhvzH7SRnh_Y-10" value="Step out of the current function" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="tJ4pR6R6QhvzH7SRnh_Y-1">
+          <mxGeometry x="485" y="410" width="335" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
