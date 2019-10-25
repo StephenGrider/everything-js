@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-25T16:49:56.141Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="3OiSbncase_IjlFfGImn" version="12.1.7" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-25T16:50:34.839Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="YdsU0AhD30OI6SLaeVUU" version="12.1.7" type="github" pages="1">
   <diagram id="umT6pZ2PL8wLsBcWA96S" name="01 - imp">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -8,22 +8,25 @@
           <mxGeometry x="600" y="227.5" width="400" height="32" as="geometry"/>
         </mxCell>
         <mxCell id="K5kX5fONdf2G2KMQ_2yN-2" value="Imperative" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="430" y="302.5" width="120" height="45" as="geometry"/>
+          <mxGeometry x="430" y="322" width="120" height="45" as="geometry"/>
         </mxCell>
         <mxCell id="K5kX5fONdf2G2KMQ_2yN-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="227.5" width="30" height="195" as="geometry"/>
+          <mxGeometry x="560" y="228" width="30" height="233" as="geometry"/>
         </mxCell>
         <mxCell id="K5kX5fONdf2G2KMQ_2yN-5" value="Relatively easy to understand what&#39;s going on" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="268" width="400" height="32" as="geometry"/>
+          <mxGeometry x="600" y="310" width="400" height="32" as="geometry"/>
         </mxCell>
         <mxCell id="K5kX5fONdf2G2KMQ_2yN-6" value="Primary means of code reuse was functions" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="309" width="400" height="32" as="geometry"/>
+          <mxGeometry x="600" y="350" width="400" height="32" as="geometry"/>
         </mxCell>
         <mxCell id="K5kX5fONdf2G2KMQ_2yN-7" value="This is probably the style you&#39;ll write most code in as a beginner - &lt;i&gt;and that is ok&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="390.5" width="400" height="32" as="geometry"/>
+          <mxGeometry x="600" y="430" width="400" height="32" as="geometry"/>
         </mxCell>
         <mxCell id="K5kX5fONdf2G2KMQ_2yN-9" value="All of our code touched everything - any time we run any function, something in the DOM changed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="350" width="400" height="32" as="geometry"/>
+          <mxGeometry x="600" y="391" width="400" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="K5kX5fONdf2G2KMQ_2yN-10" value="Heavy reliance on browser-native features" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="270" width="400" height="32" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
