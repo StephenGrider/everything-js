@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-25T17:43:53.447Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="vu2kKEWYCDgke62oP7vx" version="12.1.7" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-10-25T17:45:22.326Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="0V7wPLNgcVTSwVGKId_q" version="12.1.7" type="github" pages="5">
   <diagram id="umT6pZ2PL8wLsBcWA96S" name="01 - imp">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="03 - steps" id="64pB2mKOo4AItCFg1C4c">
-    <mxGraphModel dx="1107" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="971" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="gn5MBZG3WUIY8fKLDnhQ-0"/>
         <mxCell id="gn5MBZG3WUIY8fKLDnhQ-1" parent="gn5MBZG3WUIY8fKLDnhQ-0"/>
@@ -117,7 +117,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="04 - obs" id="BJwoYGCSncDl4F1408NF">
-    <mxGraphModel dx="1107" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="971" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="fS23FeimbwrY_sdS7u8r-0"/>
         <mxCell id="fS23FeimbwrY_sdS7u8r-1" parent="fS23FeimbwrY_sdS7u8r-0"/>
@@ -199,6 +199,14 @@
         <mxCell id="fS23FeimbwrY_sdS7u8r-32" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;Side Effects&lt;br style=&quot;font-size: 18px;&quot;&gt;(Takes the manipulated data and adjusts the outside world with it)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="fS23FeimbwrY_sdS7u8r-1">
           <mxGeometry x="185" y="430" width="150" height="168" as="geometry"/>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-_nfwM-vZ1jo09fvH70z" name="05 - rxjs">
+    <mxGraphModel dx="1384" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="uYlM9141PXFTj_s0Kdce-0"/>
+        <mxCell id="uYlM9141PXFTj_s0Kdce-1" parent="uYlM9141PXFTj_s0Kdce-0"/>
       </root>
     </mxGraphModel>
   </diagram>
