@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-25T18:06:13.539Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="IZJwC3zg62M6qy98Vo2-" version="12.1.7" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-10-25T18:10:29.386Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="6aThWtcWHL0sJyrErbGS" version="12.1.7" type="github" pages="2">
   <diagram id="BZo3jJ8OiFxdfowzvpVl" name="01 - node">
     <mxGraphModel dx="436" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -10,36 +10,61 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="MS7UilzLrgwgQo-4qZ79" name="03 - diff">
-    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="WfA5Fck_hwz8GneiGcuk-0"/>
-        <mxCell id="WfA5Fck_hwz8GneiGcuk-1" parent="WfA5Fck_hwz8GneiGcuk-0"/>
-        <mxCell id="WfA5Fck_hwz8GneiGcuk-2" value="JS with Node" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WfA5Fck_hwz8GneiGcuk-1">
-          <mxGeometry x="300" y="220" width="150" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="WfA5Fck_hwz8GneiGcuk-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=19;" vertex="1" parent="WfA5Fck_hwz8GneiGcuk-1">
-          <mxGeometry x="460" y="125" width="40" height="250" as="geometry"/>
-        </mxCell>
-        <mxCell id="WfA5Fck_hwz8GneiGcuk-4" value="It is still Javascript" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WfA5Fck_hwz8GneiGcuk-1">
-          <mxGeometry x="510" y="125" width="310" height="35" as="geometry"/>
-        </mxCell>
-        <mxCell id="WfA5Fck_hwz8GneiGcuk-5" value="It is still Javascript" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WfA5Fck_hwz8GneiGcuk-1">
-          <mxGeometry x="510" y="170" width="310" height="35" as="geometry"/>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="L_OUaD-GlwqJSGkxfEB6" name="02 - differences">
-    <mxGraphModel dx="837" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="j6cdXP0jXww12D5B8ov9-0"/>
         <mxCell id="j6cdXP0jXww12D5B8ov9-1" parent="j6cdXP0jXww12D5B8ov9-0"/>
-        <mxCell id="j6cdXP0jXww12D5B8ov9-2" value="JS in the Browser" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="j6cdXP0jXww12D5B8ov9-1">
-          <mxGeometry x="320" y="120" width="240" height="60" as="geometry"/>
+        <mxCell id="j6cdXP0jXww12D5B8ov9-2" value="JS in the Browser" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="j6cdXP0jXww12D5B8ov9-1">
+          <mxGeometry x="320" y="120" width="270" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="j6cdXP0jXww12D5B8ov9-3" value="JS with Node" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="j6cdXP0jXww12D5B8ov9-1">
-          <mxGeometry x="670" y="120" width="240" height="60" as="geometry"/>
+        <mxCell id="j6cdXP0jXww12D5B8ov9-3" value="JS with Node" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="j6cdXP0jXww12D5B8ov9-1">
+          <mxGeometry x="670" y="120" width="270" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ffG97dEHs0V4TK3atIp3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;startArrow=classic;startFill=1;" edge="1" parent="j6cdXP0jXww12D5B8ov9-1" source="ffG97dEHs0V4TK3atIp3-0" target="ffG97dEHs0V4TK3atIp3-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="ffG97dEHs0V4TK3atIp3-0" value="Executed by adding script tags to an HTML document" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="j6cdXP0jXww12D5B8ov9-1">
+          <mxGeometry x="320" y="170" width="270" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ffG97dEHs0V4TK3atIp3-1" value="Executed by running the Node CLI from your terminal" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="j6cdXP0jXww12D5B8ov9-1">
+          <mxGeometry x="670" y="170" width="270" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ffG97dEHs0V4TK3atIp3-2" value="We get access to the DOM and related objects (window)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="j6cdXP0jXww12D5B8ov9-1">
+          <mxGeometry x="320" y="220" width="270" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ffG97dEHs0V4TK3atIp3-3" value="No DOM exists!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="j6cdXP0jXww12D5B8ov9-1">
+          <mxGeometry x="670" y="220" width="270" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ffG97dEHs0V4TK3atIp3-4" value="Code can references variables in other files freely" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="j6cdXP0jXww12D5B8ov9-1">
+          <mxGeometry x="320" y="270" width="270" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ffG97dEHs0V4TK3atIp3-5" value="Each file is its own separate world" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="j6cdXP0jXww12D5B8ov9-1">
+          <mxGeometry x="670" y="270" width="270" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ffG97dEHs0V4TK3atIp3-6" value="Include libraries by adding script tags &lt;i&gt;(more complicated solutions exist)&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="j6cdXP0jXww12D5B8ov9-1">
+          <mxGeometry x="320" y="320" width="270" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ffG97dEHs0V4TK3atIp3-7" value="Include libraries by using NPM (node package manager)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="j6cdXP0jXww12D5B8ov9-1">
+          <mxGeometry x="670" y="320" width="270" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ffG97dEHs0V4TK3atIp3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;startArrow=classic;startFill=1;" edge="1" parent="j6cdXP0jXww12D5B8ov9-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="240" as="sourcePoint"/>
+            <mxPoint x="670" y="240" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ffG97dEHs0V4TK3atIp3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;startArrow=classic;startFill=1;" edge="1" parent="j6cdXP0jXww12D5B8ov9-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="290" as="sourcePoint"/>
+            <mxPoint x="670" y="290" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ffG97dEHs0V4TK3atIp3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;startArrow=classic;startFill=1;" edge="1" parent="j6cdXP0jXww12D5B8ov9-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="340" as="sourcePoint"/>
+            <mxPoint x="670" y="340" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
