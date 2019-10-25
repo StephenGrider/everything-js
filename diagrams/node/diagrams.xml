@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-25T18:12:27.466Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="r-b3AAM4W6DFhVj_PKtX" version="12.1.7" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-10-25T21:15:35.809Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="OzqLvllzE19cyUhZdI__" version="12.1.7" type="github" pages="4">
   <diagram id="BZo3jJ8OiFxdfowzvpVl" name="01 - node">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -82,6 +82,32 @@
         </mxCell>
         <mxCell id="RmFeAuXoHkeTJ7BZaA4h-4" value="&lt;i style=&quot;font-weight: normal&quot;&gt;Only download + install if you don&#39;t have node installed already!&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="RmFeAuXoHkeTJ7BZaA4h-1">
           <mxGeometry x="563.5" y="280" width="283" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lt8PmOobNQ51H6ZNpqpv" name="04 - running">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="SD_js3tARyxNA39t897q-0"/>
+        <mxCell id="SD_js3tARyxNA39t897q-1" parent="SD_js3tARyxNA39t897q-0"/>
+        <mxCell id="SD_js3tARyxNA39t897q-2" value="node index.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="SD_js3tARyxNA39t897q-1">
+          <mxGeometry x="412.5" y="170" width="190" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="SD_js3tARyxNA39t897q-4" value="Running JS Code with Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="SD_js3tARyxNA39t897q-1">
+          <mxGeometry x="490" y="140" width="290" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="SD_js3tARyxNA39t897q-5" value="node" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="SD_js3tARyxNA39t897q-1">
+          <mxGeometry x="670" y="170" width="190" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="SD_js3tARyxNA39t897q-6" value="Executes a file in the &lt;i style=&quot;font-size: 16px;&quot;&gt;same directory&lt;/i&gt;&amp;nbsp;called &#39;index.js&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="SD_js3tARyxNA39t897q-1">
+          <mxGeometry x="390" y="240" width="235" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="SD_js3tARyxNA39t897q-7" value="Enters the Node REPL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="SD_js3tARyxNA39t897q-1">
+          <mxGeometry x="652.5" y="239" width="235" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="SD_js3tARyxNA39t897q-8" value="To stop node at any time, press Control C" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="SD_js3tARyxNA39t897q-1">
+          <mxGeometry x="470" y="330" width="340" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
