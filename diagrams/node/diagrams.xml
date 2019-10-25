@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-25T21:49:29.943Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="2PuAfTwF6oWXuR_6IsWk" version="12.1.7" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2019-10-25T21:52:57.389Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="TGj9CGMRcf4g3QwQeNKA" version="12.1.7" type="github" pages="8">
   <diagram id="BZo3jJ8OiFxdfowzvpVl" name="01 - node">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -235,6 +235,44 @@
         </mxCell>
         <mxCell id="HaDKf3G-IaxvhAe4xCGK-8" value="function(exports, require, module, __filename, __dirname) {&lt;br&gt;&amp;nbsp; &amp;nbsp; const message = require(&#39;./myscript.js&#39;);&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; console.log(message);&lt;br&gt;};" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ZHOLJ3styx71Wk3nN6JP-1">
           <mxGeometry x="870" y="210" width="440" height="150" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="K76yMwoRNQp9ij_OpIg2" name="09 - args">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="H_jKjNz1G8yfXCsM8Tv6-0"/>
+        <mxCell id="H_jKjNz1G8yfXCsM8Tv6-1" parent="H_jKjNz1G8yfXCsM8Tv6-0"/>
+        <mxCell id="H_jKjNz1G8yfXCsM8Tv6-2" value="exports" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="H_jKjNz1G8yfXCsM8Tv6-1">
+          <mxGeometry x="520" y="220" width="220" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="H_jKjNz1G8yfXCsM8Tv6-3" value="require" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="H_jKjNz1G8yfXCsM8Tv6-1">
+          <mxGeometry x="520" y="280" width="220" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="H_jKjNz1G8yfXCsM8Tv6-4" value="module" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="H_jKjNz1G8yfXCsM8Tv6-1">
+          <mxGeometry x="520" y="340" width="220" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="H_jKjNz1G8yfXCsM8Tv6-5" value="__filename" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="H_jKjNz1G8yfXCsM8Tv6-1">
+          <mxGeometry x="520" y="400" width="220" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="H_jKjNz1G8yfXCsM8Tv6-6" value="__dirname" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="H_jKjNz1G8yfXCsM8Tv6-1">
+          <mxGeometry x="520" y="460" width="220" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="H_jKjNz1G8yfXCsM8Tv6-7" value="Equivalent to &#39;module.exports&#39;.&amp;nbsp; We can technically export code using this, but it is easier to use &#39;module.exports&#39; because of a little corner case" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="H_jKjNz1G8yfXCsM8Tv6-1">
+          <mxGeometry x="740" y="220" width="340" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="H_jKjNz1G8yfXCsM8Tv6-8" value="Function to get access to the exports from another file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="H_jKjNz1G8yfXCsM8Tv6-1">
+          <mxGeometry x="740" y="280" width="340" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="H_jKjNz1G8yfXCsM8Tv6-9" value="Object that defines some properties + information about the current file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="H_jKjNz1G8yfXCsM8Tv6-1">
+          <mxGeometry x="740" y="340" width="340" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="H_jKjNz1G8yfXCsM8Tv6-10" value="Full path + file name of this file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="H_jKjNz1G8yfXCsM8Tv6-1">
+          <mxGeometry x="740" y="400" width="340" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="H_jKjNz1G8yfXCsM8Tv6-11" value="Full path of this file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="H_jKjNz1G8yfXCsM8Tv6-1">
+          <mxGeometry x="740" y="460" width="340" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
