@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-24T23:04:13.150Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="kwA0iJo0V-oMmpiM-PeD" version="12.1.4" type="github" pages="26">
+<mxfile host="www.draw.io" modified="2019-10-25T18:01:23.051Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="s-D8MVKpBsRYgCeNGVl8" version="12.1.4" type="github" pages="26">
   <diagram id="_PPVI77jKcZlu62BvHzV" name="06 - what">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -442,7 +442,7 @@
         <mxCell id="ij2anqgZ5CIHA20_hZ2Z-4" value="vs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;" vertex="1" parent="ij2anqgZ5CIHA20_hZ2Z-1">
           <mxGeometry x="650" y="215" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="_tbKwvO_NfzpJM54R-OI-0" value="Refer to the style of code we write" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;" vertex="1" parent="ij2anqgZ5CIHA20_hZ2Z-1">
+        <mxCell id="_tbKwvO_NfzpJM54R-OI-0" value="Refers to the style of code we write" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;" vertex="1" parent="ij2anqgZ5CIHA20_hZ2Z-1">
           <mxGeometry x="505" y="310" width="330" height="20" as="geometry"/>
         </mxCell>
       </root>
@@ -459,10 +459,10 @@
         <mxCell id="WAPrVKca4kk4a-oXhMRX-1" value="Declarative Programming" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=23;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
           <mxGeometry x="640" y="135" width="230" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="NpvLFv7a9TtnkcqDSGc--0" value="Code describes how we want our program to execute some computation step by step" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
+        <mxCell id="NpvLFv7a9TtnkcqDSGc--0" value="Code describes &lt;b&gt;how&lt;/b&gt; we want our program to execute some computation step by step" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
           <mxGeometry x="317.5" y="220" width="235" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="NpvLFv7a9TtnkcqDSGc--2" value="Code describes what we want our program to do without specifying nitty-gritty step-by-step details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
+        <mxCell id="NpvLFv7a9TtnkcqDSGc--2" value="Code describes &lt;b&gt;what&lt;/b&gt; we want our program to do &lt;b&gt;without&lt;/b&gt; specifying nitty-gritty step-by-step details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
           <mxGeometry x="637.5" y="220" width="235" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="97_0qdmwDph2GVZD_JjM-0" value="What people online say" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=14;fontStyle=3" vertex="1" parent="sVlC6MKCkV5cd-SvTn3o-1">
@@ -787,7 +787,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="18 - dec" id="dBam4WsLNouustvgE5Yv">
-    <mxGraphModel dx="574" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="KeYhPRK4NDnYA-bdjiBL-0"/>
         <mxCell id="KeYhPRK4NDnYA-bdjiBL-1" parent="KeYhPRK4NDnYA-bdjiBL-0"/>
@@ -819,7 +819,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="19 - dec" id="BMbOKeGm51Ejl_u28MJG">
-    <mxGraphModel dx="574" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="jEW76uCb1GH_rk8ZieIh-0"/>
         <mxCell id="jEW76uCb1GH_rk8ZieIh-1" parent="jEW76uCb1GH_rk8ZieIh-0"/>
