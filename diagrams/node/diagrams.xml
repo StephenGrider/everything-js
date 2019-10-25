@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-25T21:54:43.228Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="CJgm5e5QIMB3GxqnLUbc" version="12.1.7" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2019-10-25T22:33:46.614Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="zdzBcY-TVzeMlc0GwqrM" version="12.1.7" type="github" pages="9">
   <diagram id="BZo3jJ8OiFxdfowzvpVl" name="01 - node">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -259,7 +259,7 @@
         <mxCell id="H_jKjNz1G8yfXCsM8Tv6-6" value="__dirname" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="H_jKjNz1G8yfXCsM8Tv6-1">
           <mxGeometry x="520" y="460" width="220" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="H_jKjNz1G8yfXCsM8Tv6-7" value="Equivalent to &#39;module.exports&#39;.&amp;nbsp; We can technically export code using this, but it is easier to use &#39;module.exports&#39; because of a little corner case" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="H_jKjNz1G8yfXCsM8Tv6-1">
+        <mxCell id="H_jKjNz1G8yfXCsM8Tv6-7" value="Equivalent to &#39;&lt;b&gt;module.exports&lt;/b&gt;&#39;.&amp;nbsp; We can technically export code using this, but it is easier to use &#39;module.exports&#39; because of a little corner case" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="H_jKjNz1G8yfXCsM8Tv6-1">
           <mxGeometry x="740" y="220" width="340" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="H_jKjNz1G8yfXCsM8Tv6-8" value="Function to get access to the exports from another file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="H_jKjNz1G8yfXCsM8Tv6-1">
@@ -292,25 +292,34 @@
           <mxGeometry x="520" y="430" width="180" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="9_dum0wnol-bfy7Ib92u-3" value="myscript.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="6NE_3ou64wWMsIxE3BVd-1">
-          <mxGeometry x="870" y="490" width="310" height="40" as="geometry"/>
+          <mxGeometry x="940" y="490" width="310" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="9_dum0wnol-bfy7Ib92u-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="6NE_3ou64wWMsIxE3BVd-1">
-          <mxGeometry x="870" y="390" width="310" height="100" as="geometry"/>
+          <mxGeometry x="940" y="390" width="310" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="9_dum0wnol-bfy7Ib92u-5" value="module.exports = &#39;hi&#39;;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="6NE_3ou64wWMsIxE3BVd-1">
-          <mxGeometry x="880" y="410" width="180" height="20" as="geometry"/>
+        <mxCell id="9_dum0wnol-bfy7Ib92u-5" value="let counter = 1;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="6NE_3ou64wWMsIxE3BVd-1">
+          <mxGeometry x="950" y="410" width="180" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="9_dum0wnol-bfy7Ib92u-6" value="const message = require(&#39;./myscript.js&#39;);" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="6NE_3ou64wWMsIxE3BVd-1">
           <mxGeometry x="520" y="400" width="290" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="9_dum0wnol-bfy7Ib92u-7" value="Require Cache" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="6NE_3ou64wWMsIxE3BVd-1">
-          <mxGeometry x="690" y="160" width="300" height="40" as="geometry"/>
+          <mxGeometry x="690" y="170" width="300" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="9_dum0wnol-bfy7Ib92u-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="6NE_3ou64wWMsIxE3BVd-1">
-          <mxGeometry x="690" y="200" width="110" height="40" as="geometry"/>
+        <mxCell id="9_dum0wnol-bfy7Ib92u-8" value="myscript.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="6NE_3ou64wWMsIxE3BVd-1">
+          <mxGeometry x="690" y="210" width="110" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="9_dum0wnol-bfy7Ib92u-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="6NE_3ou64wWMsIxE3BVd-1">
-          <mxGeometry x="800" y="200" width="190" height="40" as="geometry"/>
+        <mxCell id="61rV9Go73gZB9yyEOjg9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;fontSize=16;" edge="1" parent="6NE_3ou64wWMsIxE3BVd-1" source="9_dum0wnol-bfy7Ib92u-9" target="9_dum0wnol-bfy7Ib92u-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="9_dum0wnol-bfy7Ib92u-9" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; incrementCounter() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; counter = counter + 1;&lt;/div&gt;&lt;div&gt;&amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; getCounter() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return counter;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="6NE_3ou64wWMsIxE3BVd-1">
+          <mxGeometry x="800" y="210" width="330" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="61rV9Go73gZB9yyEOjg9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;fontSize=16;" edge="1" parent="6NE_3ou64wWMsIxE3BVd-1" source="61rV9Go73gZB9yyEOjg9-2" target="9_dum0wnol-bfy7Ib92u-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="61rV9Go73gZB9yyEOjg9-2" value="require(&#39;./myscript.js&#39;);" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="6NE_3ou64wWMsIxE3BVd-1">
+          <mxGeometry x="520" y="460" width="190" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
