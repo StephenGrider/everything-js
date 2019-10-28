@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T17:25:02.282Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="He_WP1lnrst3nLJFKoUx" version="12.1.8" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-10-28T17:28:20.113Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="LLgS85j9WYDITifDmvwA" version="12.1.8" type="github" pages="8">
   <diagram id="ExMYufxRlOv3XzPJKyRB" name="01 - stdlib">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -120,6 +120,20 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="BqS4kpV1_rGpudktlDbI" name="08 - js">
+    <mxGraphModel dx="620" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="6zqxqsgut947ErRiNGNn-0"/>
+        <mxCell id="6zqxqsgut947ErRiNGNn-1" parent="6zqxqsgut947ErRiNGNn-0"/>
+        <mxCell id="6zqxqsgut947ErRiNGNn-2" value="Javascript is &#39;kind of&#39; single threaded." style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="6zqxqsgut947ErRiNGNn-1">
+          <mxGeometry x="440" y="230" width="360" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="6zqxqsgut947ErRiNGNn-3" value="Javascript can only do one thing at at time." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=2" vertex="1" parent="6zqxqsgut947ErRiNGNn-1">
+          <mxGeometry x="505" y="310" width="230" height="70" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="2ZABYS8d71630PXT6QzE" name="06 - sync">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -141,6 +155,32 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LCiQ8Rusj0oHPH7rklKg-6" value="Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="LCiQ8Rusj0oHPH7rklKg-1">
+          <mxGeometry x="470" y="170" width="40" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="07 - other" id="gF_2-SOHicobooeY5JK8">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="fcWOmzGmnF2WqhWz45r9-0"/>
+        <mxCell id="fcWOmzGmnF2WqhWz45r9-1" parent="fcWOmzGmnF2WqhWz45r9-0"/>
+        <mxCell id="fcWOmzGmnF2WqhWz45r9-2" value="pbkdf2()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fcWOmzGmnF2WqhWz45r9-1">
+          <mxGeometry x="530" y="230" width="280" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="fcWOmzGmnF2WqhWz45r9-3" value="Program start" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="fcWOmzGmnF2WqhWz45r9-1">
+          <mxGeometry x="530" y="170" width="280" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="fcWOmzGmnF2WqhWz45r9-4" value="Program end" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="fcWOmzGmnF2WqhWz45r9-1">
+          <mxGeometry x="530" y="530" width="280" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="fcWOmzGmnF2WqhWz45r9-5" value="" style="endArrow=classic;html=1;fontSize=24;" edge="1" parent="fcWOmzGmnF2WqhWz45r9-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="170" as="sourcePoint"/>
+            <mxPoint x="520" y="570" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcWOmzGmnF2WqhWz45r9-6" value="Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="fcWOmzGmnF2WqhWz45r9-1">
           <mxGeometry x="470" y="170" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
