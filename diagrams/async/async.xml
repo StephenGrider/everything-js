@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T17:49:58.301Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Z2Ff2-iGg4y4naeak9r2" version="12.1.8" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-10-28T17:58:20.128Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="TL8Qi5dYd89MO8IJIMM3" version="12.1.8" type="github" pages="3">
   <diagram id="CLeHsYajTl4V1-Uul0yM" name="01 - async">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FA_jWO8udgGrGWdx9CUL" name="02 - app">
-    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="825" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="KDIizXbW4mpta6suiZIZ-0"/>
         <mxCell id="KDIizXbW4mpta6suiZIZ-1" parent="KDIizXbW4mpta6suiZIZ-0"/>
@@ -50,6 +50,50 @@
         </mxCell>
         <mxCell id="KDIizXbW4mpta6suiZIZ-9" value="Clicking this will fetch some information from a server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;" vertex="1" parent="KDIizXbW4mpta6suiZIZ-1">
           <mxGeometry x="300" y="200" width="180" height="90" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="v4j3ObAY9l-75hqZz8dL" name="03 - req">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="eki9TTxxVp-z_3sscRnm-0"/>
+        <mxCell id="eki9TTxxVp-z_3sscRnm-1" parent="eki9TTxxVp-z_3sscRnm-0"/>
+        <mxCell id="0ygxOB0_0Acx6fQF6Ea_-0" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;fillColor=#ffffff;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="eki9TTxxVp-z_3sscRnm-1">
+          <mxGeometry x="540" y="130" width="310" height="340" as="geometry"/>
+        </mxCell>
+        <mxCell id="0ygxOB0_0Acx6fQF6Ea_-1" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="0ygxOB0_0Acx6fQF6Ea_-0">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="0ygxOB0_0Acx6fQF6Ea_-2" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="0ygxOB0_0Acx6fQF6Ea_-0">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="0ygxOB0_0Acx6fQF6Ea_-3" value="Fetch something" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0ygxOB0_0Acx6fQF6Ea_-0">
+          <mxGeometry x="20" y="120" width="110" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="0ygxOB0_0Acx6fQF6Ea_-4" value="Log something" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0ygxOB0_0Acx6fQF6Ea_-0">
+          <mxGeometry x="20" y="160" width="110" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="0ygxOB0_0Acx6fQF6Ea_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="eki9TTxxVp-z_3sscRnm-1" source="0ygxOB0_0Acx6fQF6Ea_-9" target="0ygxOB0_0Acx6fQF6Ea_-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="0ygxOB0_0Acx6fQF6Ea_-9" value="HTTP Request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="eki9TTxxVp-z_3sscRnm-1">
+          <mxGeometry x="850" y="259" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="0ygxOB0_0Acx6fQF6Ea_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="eki9TTxxVp-z_3sscRnm-1" source="0ygxOB0_0Acx6fQF6Ea_-10" target="0ygxOB0_0Acx6fQF6Ea_-12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="0ygxOB0_0Acx6fQF6Ea_-10" value="Serve Webserver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="eki9TTxxVp-z_3sscRnm-1">
+          <mxGeometry x="1140" y="239" width="160" height="201" as="geometry"/>
+        </mxCell>
+        <mxCell id="0ygxOB0_0Acx6fQF6Ea_-12" value="Response" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="eki9TTxxVp-z_3sscRnm-1">
+          <mxGeometry x="850" y="360" width="150" height="59" as="geometry"/>
+        </mxCell>
+        <mxCell id="0ygxOB0_0Acx6fQF6Ea_-14" value="Do you have a file called &#39;message.txt&#39;?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="eki9TTxxVp-z_3sscRnm-1">
+          <mxGeometry x="1022" y="239" width="90" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="0ygxOB0_0Acx6fQF6Ea_-15" value="Yep, here you go!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="eki9TTxxVp-z_3sscRnm-1">
+          <mxGeometry x="1032.5" y="344.5" width="75" height="45" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
