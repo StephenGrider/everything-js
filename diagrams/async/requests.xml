@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T22:37:19.469Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="d8niM41IXkztBctJgWjH" version="12.1.8" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2019-10-28T22:40:38.537Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="9m8WNiPreTCa8TgBbrrs" version="12.1.8" type="github" pages="10">
   <diagram id="KaYFpSI1X8zCqTQmW7q-" name="01 - reqs">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -264,21 +264,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="zn8n7cdcixINkL47-Z42" name="10 - single">
-    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="zjL6B53BwXSoYublYSgx-0"/>
-        <mxCell id="zjL6B53BwXSoYublYSgx-1" parent="zjL6B53BwXSoYublYSgx-0"/>
-        <mxCell id="zjL6B53BwXSoYublYSgx-2" value="Javascript is &quot;kind of&quot; single threaded" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="zjL6B53BwXSoYublYSgx-1">
-          <mxGeometry x="460" y="220" width="320" height="90" as="geometry"/>
-        </mxCell>
-        <mxCell id="zjL6B53BwXSoYublYSgx-3" value="&lt;i style=&quot;font-size: 18px;&quot;&gt;We can only do one thing at a time&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=18;" vertex="1" parent="zjL6B53BwXSoYublYSgx-1">
-          <mxGeometry x="495" y="330" width="250" height="20" as="geometry"/>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="nBfw-AwNe25usr2LJ0w9" name="09 - xml">
+  <diagram id="nBfw-AwNe25usr2LJ0w9" name="11 - sync">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="o9tMagRaXVMy1w-78pFJ-0"/>
@@ -294,6 +280,70 @@
         </mxCell>
         <mxCell id="o9tMagRaXVMy1w-78pFJ-5" value="&lt;i&gt;Code that takes a long time to run doesn&#39;t take up focus - we can &#39;skip it&#39; and come back to the result later&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="o9tMagRaXVMy1w-78pFJ-1">
           <mxGeometry x="846" y="270" width="258" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zn8n7cdcixINkL47-Z42" name="10 - single">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="zjL6B53BwXSoYublYSgx-0"/>
+        <mxCell id="zjL6B53BwXSoYublYSgx-1" parent="zjL6B53BwXSoYublYSgx-0"/>
+        <mxCell id="zjL6B53BwXSoYublYSgx-2" value="Javascript is &quot;kind of&quot; single threaded" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="zjL6B53BwXSoYublYSgx-1">
+          <mxGeometry x="460" y="220" width="320" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="zjL6B53BwXSoYublYSgx-3" value="&lt;i style=&quot;font-size: 18px;&quot;&gt;We can only do one thing at a time&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=18;" vertex="1" parent="zjL6B53BwXSoYublYSgx-1">
+          <mxGeometry x="495" y="330" width="250" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="12 - timeline" id="VveAxyE8W4LVxwvDQZ8g">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="pdPmfzu-bMRN3pFCvH9I-0"/>
+        <mxCell id="pdPmfzu-bMRN3pFCvH9I-1" parent="pdPmfzu-bMRN3pFCvH9I-0"/>
+        <mxCell id="pdPmfzu-bMRN3pFCvH9I-2" value="Click button" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;" vertex="1" parent="pdPmfzu-bMRN3pFCvH9I-1">
+          <mxGeometry x="560" y="80" width="360" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="pdPmfzu-bMRN3pFCvH9I-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="pdPmfzu-bMRN3pFCvH9I-1" target="pdPmfzu-bMRN3pFCvH9I-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="170" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BP9I4WXwCNC4eB7Dm97T-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="pdPmfzu-bMRN3pFCvH9I-1" source="pdPmfzu-bMRN3pFCvH9I-4" target="pdPmfzu-bMRN3pFCvH9I-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="825" y="170"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdPmfzu-bMRN3pFCvH9I-4" value="Start the request" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;" vertex="1" parent="pdPmfzu-bMRN3pFCvH9I-1">
+          <mxGeometry x="560" y="130" width="360" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="pdPmfzu-bMRN3pFCvH9I-5" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="pdPmfzu-bMRN3pFCvH9I-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="80.16666666666667" as="sourcePoint"/>
+            <mxPoint x="550" y="390" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BP9I4WXwCNC4eB7Dm97T-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.119;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" edge="1" parent="pdPmfzu-bMRN3pFCvH9I-1" source="pdPmfzu-bMRN3pFCvH9I-8" target="BP9I4WXwCNC4eB7Dm97T-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pdPmfzu-bMRN3pFCvH9I-8" value="2 Seconds..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=16;" vertex="1" parent="pdPmfzu-bMRN3pFCvH9I-1">
+          <mxGeometry x="550" y="230" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="pdPmfzu-bMRN3pFCvH9I-9" value="Provide a function to run &lt;i&gt;after the request is completed&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;" vertex="1" parent="pdPmfzu-bMRN3pFCvH9I-1">
+          <mxGeometry x="670" y="200" width="310" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="pdPmfzu-bMRN3pFCvH9I-10" value="Browser says &quot;ok, I&#39;ll wait for a response for you, feel free to do something else&quot;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;" vertex="1" parent="pdPmfzu-bMRN3pFCvH9I-1">
+          <mxGeometry x="670" y="250" width="310" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="BP9I4WXwCNC4eB7Dm97T-1" value="Request complete" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;" vertex="1" parent="pdPmfzu-bMRN3pFCvH9I-1">
+          <mxGeometry x="560" y="300" width="420" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="BP9I4WXwCNC4eB7Dm97T-2" value="Browser runs our callback function" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;" vertex="1" parent="pdPmfzu-bMRN3pFCvH9I-1">
+          <mxGeometry x="560" y="350" width="420" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
