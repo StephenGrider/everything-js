@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T20:28:05.772Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="YuE7Qf3qJK6ly62qumwq" version="12.1.8" type="github" pages="20">
+<mxfile host="www.draw.io" modified="2019-10-28T20:58:11.776Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="WbDz0AhgG2gmo8eWCd5g" version="12.1.8" type="github" pages="20">
   <diagram id="HAV6GF2ZM6FqYsCxLTNw" name="09 - networking">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -433,7 +433,7 @@
         <mxCell id="QrbHCXM6mLBVs_HSckAi-2" value="Server Templating" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
           <mxGeometry x="330" y="210" width="180" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="QrbHCXM6mLBVs_HSckAi-3" value="Single Page Application" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-3" value="Single Page Application (SPA)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
           <mxGeometry x="540" y="210" width="180" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="QrbHCXM6mLBVs_HSckAi-4" value="Hybrid" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
@@ -463,7 +463,7 @@
         <mxCell id="QrbHCXM6mLBVs_HSckAi-9" value="Browser does a full page refresh, gets new HTML doc" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
           <mxGeometry x="330" y="388" width="180" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="QrbHCXM6mLBVs_HSckAi-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="QrbHCXM6mLBVs_HSckAi-1" source="QrbHCXM6mLBVs_HSckAi-10" target="QrbHCXM6mLBVs_HSckAi-9">
+        <mxCell id="_vU14yeTYLXqvj9d3xzH-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="QrbHCXM6mLBVs_HSckAi-1" source="QrbHCXM6mLBVs_HSckAi-10" target="QrbHCXM6mLBVs_HSckAi-6">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="QrbHCXM6mLBVs_HSckAi-10" value="User interacts with page again" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
