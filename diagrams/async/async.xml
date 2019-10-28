@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T17:58:20.128Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="TL8Qi5dYd89MO8IJIMM3" version="12.1.8" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-10-28T18:18:18.178Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="mvec-wSR4eNpxgo76zkr" version="12.1.8" type="github" pages="4">
   <diagram id="CLeHsYajTl4V1-Uul0yM" name="01 - async">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FA_jWO8udgGrGWdx9CUL" name="02 - app">
-    <mxGraphModel dx="825" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="KDIizXbW4mpta6suiZIZ-0"/>
         <mxCell id="KDIizXbW4mpta6suiZIZ-1" parent="KDIizXbW4mpta6suiZIZ-0"/>
@@ -94,6 +94,38 @@
         </mxCell>
         <mxCell id="0ygxOB0_0Acx6fQF6Ea_-15" value="Yep, here you go!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="eki9TTxxVp-z_3sscRnm-1">
           <mxGeometry x="1032.5" y="344.5" width="75" height="45" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uutMSf3g2TbMRC6436v5" name="04 - reqs">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="pUXELxeeiy8Y6jb4Bhms-0"/>
+        <mxCell id="pUXELxeeiy8Y6jb4Bhms-1" parent="pUXELxeeiy8Y6jb4Bhms-0"/>
+        <mxCell id="pUXELxeeiy8Y6jb4Bhms-2" value="HTTP Request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="pUXELxeeiy8Y6jb4Bhms-1">
+          <mxGeometry x="440" y="190" width="160" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="pUXELxeeiy8Y6jb4Bhms-4" value="AJAX Request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="pUXELxeeiy8Y6jb4Bhms-1">
+          <mxGeometry x="440" y="340" width="160" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="pUXELxeeiy8Y6jb4Bhms-5" value="Your browser makes a request over the internet (or local network) for a resource" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="pUXELxeeiy8Y6jb4Bhms-1">
+          <mxGeometry x="640" y="160" width="380" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="pUXELxeeiy8Y6jb4Bhms-6" value="Issued whenever you type in a URL to your address bar, or HTML doc refers to a &#39;script&#39;, &#39;img&#39;, etc" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="pUXELxeeiy8Y6jb4Bhms-1">
+          <mxGeometry x="640" y="230" width="380" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="pUXELxeeiy8Y6jb4Bhms-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="pUXELxeeiy8Y6jb4Bhms-1">
+          <mxGeometry x="600" y="160" width="30" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="pUXELxeeiy8Y6jb4Bhms-8" value="Technically still an HTTP request!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="pUXELxeeiy8Y6jb4Bhms-1">
+          <mxGeometry x="640" y="310" width="380" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="pUXELxeeiy8Y6jb4Bhms-9" value="Refers to requests made from JS code we write" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="pUXELxeeiy8Y6jb4Bhms-1">
+          <mxGeometry x="640" y="380" width="380" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="pUXELxeeiy8Y6jb4Bhms-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="pUXELxeeiy8Y6jb4Bhms-1">
+          <mxGeometry x="600" y="310" width="30" height="130" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
