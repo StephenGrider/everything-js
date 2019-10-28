@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T21:22:52.730Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="iVRtNBaJU4m6SjPQKyHo" version="12.1.8" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-10-28T22:05:46.588Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="eirY4X8SUQ6c8MmafgJU" version="12.1.8" type="github" pages="4">
   <diagram id="KaYFpSI1X8zCqTQmW7q-" name="01 - reqs">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -82,6 +82,25 @@
         </mxCell>
         <mxCell id="cWa-oBFyfKQCZ55NIw1N-7" value="&lt;i&gt;Request URL&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;" vertex="1" parent="cWa-oBFyfKQCZ55NIw1N-1">
           <mxGeometry x="550" y="360" width="160" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Jhc8Y3STdfOM55WS_B6w" name="05 - json">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="-rQzxXjdtdoZYHCnVgdt-0"/>
+        <mxCell id="-rQzxXjdtdoZYHCnVgdt-1" parent="-rQzxXjdtdoZYHCnVgdt-0"/>
+        <mxCell id="-rQzxXjdtdoZYHCnVgdt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="-rQzxXjdtdoZYHCnVgdt-1" source="-rQzxXjdtdoZYHCnVgdt-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="220" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-rQzxXjdtdoZYHCnVgdt-2" value="JSON" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-rQzxXjdtdoZYHCnVgdt-1">
+          <mxGeometry x="370" y="190" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="-rQzxXjdtdoZYHCnVgdt-4" value="Javascript Object Notation.&amp;nbsp; Text version of some JS data" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;" vertex="1" parent="-rQzxXjdtdoZYHCnVgdt-1">
+          <mxGeometry x="540" y="190" width="340" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
