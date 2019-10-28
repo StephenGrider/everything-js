@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T17:28:20.113Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="LLgS85j9WYDITifDmvwA" version="12.1.8" type="github" pages="8">
+<mxfile host="www.draw.io" modified="2019-10-28T17:58:26.431Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="yjImxyfiv-xLNQrLh_cF" version="12.1.8" type="github" pages="8">
   <diagram id="ExMYufxRlOv3XzPJKyRB" name="01 - stdlib">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -72,7 +72,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zjYr5uZgDa7DRYg99UXP" name="04 - sync">
-    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="620" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="k6aXfrf0wmeBf8gyH6OY-0"/>
         <mxCell id="k6aXfrf0wmeBf8gyH6OY-1" parent="k6aXfrf0wmeBf8gyH6OY-0"/>
@@ -92,7 +92,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="t6TqR4UWaRSb2Q52mrC1" name="05 - pbk">
-    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="620" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="lDzOD4prxZdQo2LMt4lc-0"/>
         <mxCell id="lDzOD4prxZdQo2LMt4lc-1" parent="lDzOD4prxZdQo2LMt4lc-0"/>
@@ -128,14 +128,14 @@
         <mxCell id="6zqxqsgut947ErRiNGNn-2" value="Javascript is &#39;kind of&#39; single threaded." style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="6zqxqsgut947ErRiNGNn-1">
           <mxGeometry x="440" y="230" width="360" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="6zqxqsgut947ErRiNGNn-3" value="Javascript can only do one thing at at time." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=2" vertex="1" parent="6zqxqsgut947ErRiNGNn-1">
-          <mxGeometry x="505" y="310" width="230" height="70" as="geometry"/>
+        <mxCell id="6zqxqsgut947ErRiNGNn-3" value="Javascript can only do one thing at at time, but has tricks to get around it." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=2" vertex="1" parent="6zqxqsgut947ErRiNGNn-1">
+          <mxGeometry x="492.5" y="330" width="255" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="2ZABYS8d71630PXT6QzE" name="06 - sync">
-    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="620" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="LCiQ8Rusj0oHPH7rklKg-0"/>
         <mxCell id="LCiQ8Rusj0oHPH7rklKg-1" parent="LCiQ8Rusj0oHPH7rklKg-0"/>
