@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T17:47:31.418Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="FhC82CKW5uE8cWSCGlJO" version="12.1.8" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-28T17:49:48.021Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="VG0SggVIqQ-Z4Zr0EDL4" version="12.1.8" type="github" pages="2">
   <diagram id="CLeHsYajTl4V1-Uul0yM" name="01 - async">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -15,6 +15,41 @@
         </mxCell>
         <mxCell id="5Ivg_-_rH3NdrSfeIsxc-5" value="How do we improve performance/responsiveness in Javascript apps?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="505" y="360" width="210" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FA_jWO8udgGrGWdx9CUL" name="02 - app">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="KDIizXbW4mpta6suiZIZ-0"/>
+        <mxCell id="KDIizXbW4mpta6suiZIZ-1" parent="KDIizXbW4mpta6suiZIZ-0"/>
+        <mxCell id="KDIizXbW4mpta6suiZIZ-2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;fillColor=#ffffff;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="KDIizXbW4mpta6suiZIZ-1">
+          <mxGeometry x="540" y="130" width="430" height="340" as="geometry"/>
+        </mxCell>
+        <mxCell id="KDIizXbW4mpta6suiZIZ-3" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="KDIizXbW4mpta6suiZIZ-2">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="KDIizXbW4mpta6suiZIZ-4" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="KDIizXbW4mpta6suiZIZ-2">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="KDIizXbW4mpta6suiZIZ-5" value="Fetch something" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KDIizXbW4mpta6suiZIZ-2">
+          <mxGeometry x="20" y="120" width="110" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="KDIizXbW4mpta6suiZIZ-6" value="Log something" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KDIizXbW4mpta6suiZIZ-2">
+          <mxGeometry x="20" y="160" width="110" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="KDIizXbW4mpta6suiZIZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="KDIizXbW4mpta6suiZIZ-1" source="KDIizXbW4mpta6suiZIZ-7" target="KDIizXbW4mpta6suiZIZ-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="KDIizXbW4mpta6suiZIZ-7" value="Clicking this will console log some string" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;" vertex="1" parent="KDIizXbW4mpta6suiZIZ-1">
+          <mxGeometry x="300" y="320" width="180" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="KDIizXbW4mpta6suiZIZ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="KDIizXbW4mpta6suiZIZ-1" source="KDIizXbW4mpta6suiZIZ-9" target="KDIizXbW4mpta6suiZIZ-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="KDIizXbW4mpta6suiZIZ-9" value="Clicking this will fetch some information from a server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;" vertex="1" parent="KDIizXbW4mpta6suiZIZ-1">
+          <mxGeometry x="300" y="200" width="180" height="90" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
