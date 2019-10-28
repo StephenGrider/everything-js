@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T22:40:38.537Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="9m8WNiPreTCa8TgBbrrs" version="12.1.8" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2019-10-28T22:42:45.261Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="BQlJjRmEpoOKhaja_vyB" version="12.1.8" type="github" pages="10">
   <diagram id="KaYFpSI1X8zCqTQmW7q-" name="01 - reqs">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -289,11 +289,23 @@
       <root>
         <mxCell id="zjL6B53BwXSoYublYSgx-0"/>
         <mxCell id="zjL6B53BwXSoYublYSgx-1" parent="zjL6B53BwXSoYublYSgx-0"/>
-        <mxCell id="zjL6B53BwXSoYublYSgx-2" value="Javascript is &quot;kind of&quot; single threaded" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="zjL6B53BwXSoYublYSgx-1">
-          <mxGeometry x="460" y="220" width="320" height="90" as="geometry"/>
+        <mxCell id="zjL6B53BwXSoYublYSgx-2" value="How to make our code async" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="zjL6B53BwXSoYublYSgx-1">
+          <mxGeometry x="330" y="240" width="200" height="90" as="geometry"/>
         </mxCell>
-        <mxCell id="zjL6B53BwXSoYublYSgx-3" value="&lt;i style=&quot;font-size: 18px;&quot;&gt;We can only do one thing at a time&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=18;" vertex="1" parent="zjL6B53BwXSoYublYSgx-1">
-          <mxGeometry x="495" y="330" width="250" height="20" as="geometry"/>
+        <mxCell id="MWLBeLS7gmUHAt_ldMEF-0" value="Provide a callback function" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;fontStyle=0" vertex="1" parent="zjL6B53BwXSoYublYSgx-1">
+          <mxGeometry x="580" y="193" width="320" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="MWLBeLS7gmUHAt_ldMEF-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;fontSize=17;align=center;" vertex="1" parent="zjL6B53BwXSoYublYSgx-1">
+          <mxGeometry x="540" y="192.5" width="30" height="185" as="geometry"/>
+        </mxCell>
+        <mxCell id="MWLBeLS7gmUHAt_ldMEF-2" value="Wrap the request with a promise" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;fontStyle=0" vertex="1" parent="zjL6B53BwXSoYublYSgx-1">
+          <mxGeometry x="580" y="260" width="320" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="MWLBeLS7gmUHAt_ldMEF-3" value="Use async/await syntax to handle the request" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=17;align=center;fontStyle=0" vertex="1" parent="zjL6B53BwXSoYublYSgx-1">
+          <mxGeometry x="580" y="330" width="320" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="MWLBeLS7gmUHAt_ldMEF-4" value="&lt;i&gt;Surprise!&amp;nbsp; Behind the scenes these are all the same thing!&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=17;" vertex="1" parent="zjL6B53BwXSoYublYSgx-1">
+          <mxGeometry x="630" y="410" width="220" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
