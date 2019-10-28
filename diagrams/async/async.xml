@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T20:21:19.209Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="WDLTqsYIkA9nxwXrRo_B" version="12.1.8" type="github" pages="16">
+<mxfile host="www.draw.io" modified="2019-10-28T20:25:51.772Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="SzGBf3C6YmWKbg5kS09x" version="12.1.8" type="github" pages="20">
   <diagram id="HAV6GF2ZM6FqYsCxLTNw" name="09 - networking">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -501,6 +501,215 @@
         </mxCell>
         <mxCell id="QrbHCXM6mLBVs_HSckAi-28" value="Similar to SPA, but each feature of an app triggers as full page refresh" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
           <mxGeometry x="750" y="260" width="180" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="17 - airbnb" id="UlBTOm8r3uEg6Cj1TGqV">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="jA6qpO0TCJ3aORoxpRdO-0"/>
+        <mxCell id="jA6qpO0TCJ3aORoxpRdO-1" parent="jA6qpO0TCJ3aORoxpRdO-0"/>
+        <mxCell id="jA6qpO0TCJ3aORoxpRdO-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="jA6qpO0TCJ3aORoxpRdO-1" source="jA6qpO0TCJ3aORoxpRdO-26" target="jA6qpO0TCJ3aORoxpRdO-29">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jA6qpO0TCJ3aORoxpRdO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="jA6qpO0TCJ3aORoxpRdO-1" source="jA6qpO0TCJ3aORoxpRdO-26" target="jA6qpO0TCJ3aORoxpRdO-30">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jA6qpO0TCJ3aORoxpRdO-26" value="Housing" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="jA6qpO0TCJ3aORoxpRdO-1">
+          <mxGeometry x="420" y="210" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jA6qpO0TCJ3aORoxpRdO-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="jA6qpO0TCJ3aORoxpRdO-1" source="jA6qpO0TCJ3aORoxpRdO-27" target="jA6qpO0TCJ3aORoxpRdO-31">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jA6qpO0TCJ3aORoxpRdO-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="jA6qpO0TCJ3aORoxpRdO-1" source="jA6qpO0TCJ3aORoxpRdO-27" target="jA6qpO0TCJ3aORoxpRdO-32">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jA6qpO0TCJ3aORoxpRdO-27" value="Experiences" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="jA6qpO0TCJ3aORoxpRdO-1">
+          <mxGeometry x="720" y="210" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jA6qpO0TCJ3aORoxpRdO-29" value="Housing Listings" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="jA6qpO0TCJ3aORoxpRdO-1">
+          <mxGeometry x="340" y="310" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jA6qpO0TCJ3aORoxpRdO-30" value="Housing Bookings" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="jA6qpO0TCJ3aORoxpRdO-1">
+          <mxGeometry x="493" y="310" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jA6qpO0TCJ3aORoxpRdO-31" value="Experiences Listings" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="jA6qpO0TCJ3aORoxpRdO-1">
+          <mxGeometry x="647" y="310" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jA6qpO0TCJ3aORoxpRdO-32" value="Experiences Bookings" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="jA6qpO0TCJ3aORoxpRdO-1">
+          <mxGeometry x="800" y="310" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="18 -templating" id="wC1b2aorx1KIyEDFZO9k">
+    <mxGraphModel dx="630" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-0"/>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-1" parent="YU9ZzQKV4bB_cTtwa5SQ-0"/>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="YU9ZzQKV4bB_cTtwa5SQ-1" source="YU9ZzQKV4bB_cTtwa5SQ-4" target="YU9ZzQKV4bB_cTtwa5SQ-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="YU9ZzQKV4bB_cTtwa5SQ-1" source="YU9ZzQKV4bB_cTtwa5SQ-4" target="YU9ZzQKV4bB_cTtwa5SQ-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-4" value="Housing" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="YU9ZzQKV4bB_cTtwa5SQ-1">
+          <mxGeometry x="420" y="210" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="YU9ZzQKV4bB_cTtwa5SQ-1" source="YU9ZzQKV4bB_cTtwa5SQ-7" target="YU9ZzQKV4bB_cTtwa5SQ-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="YU9ZzQKV4bB_cTtwa5SQ-1" source="YU9ZzQKV4bB_cTtwa5SQ-7" target="YU9ZzQKV4bB_cTtwa5SQ-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-7" value="Experiences" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="YU9ZzQKV4bB_cTtwa5SQ-1">
+          <mxGeometry x="720" y="210" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="YU9ZzQKV4bB_cTtwa5SQ-1" source="YU9ZzQKV4bB_cTtwa5SQ-8" target="YU9ZzQKV4bB_cTtwa5SQ-12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-8" value="Housing Listings" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="YU9ZzQKV4bB_cTtwa5SQ-1">
+          <mxGeometry x="340" y="310" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="YU9ZzQKV4bB_cTtwa5SQ-1" source="YU9ZzQKV4bB_cTtwa5SQ-9" target="YU9ZzQKV4bB_cTtwa5SQ-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-9" value="Housing Bookings" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="YU9ZzQKV4bB_cTtwa5SQ-1">
+          <mxGeometry x="493" y="310" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="YU9ZzQKV4bB_cTtwa5SQ-1" source="YU9ZzQKV4bB_cTtwa5SQ-10" target="YU9ZzQKV4bB_cTtwa5SQ-14">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-10" value="Experiences Listings" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="YU9ZzQKV4bB_cTtwa5SQ-1">
+          <mxGeometry x="647" y="310" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="YU9ZzQKV4bB_cTtwa5SQ-1" source="YU9ZzQKV4bB_cTtwa5SQ-11" target="YU9ZzQKV4bB_cTtwa5SQ-15">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-11" value="Experiences Bookings" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="YU9ZzQKV4bB_cTtwa5SQ-1">
+          <mxGeometry x="800" y="310" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-12" value="Unique HTML Doc produced by server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="YU9ZzQKV4bB_cTtwa5SQ-1">
+          <mxGeometry x="340" y="410" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-13" value="&lt;span style=&quot;font-size: 13px&quot;&gt;Unique HTML Doc produced by server&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="YU9ZzQKV4bB_cTtwa5SQ-1">
+          <mxGeometry x="493" y="410" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-14" value="&lt;span style=&quot;font-size: 13px&quot;&gt;Unique HTML Doc produced by server&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="YU9ZzQKV4bB_cTtwa5SQ-1">
+          <mxGeometry x="647" y="410" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="YU9ZzQKV4bB_cTtwa5SQ-15" value="&lt;span style=&quot;font-size: 13px&quot;&gt;Unique HTML Doc produced by server&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="YU9ZzQKV4bB_cTtwa5SQ-1">
+          <mxGeometry x="800" y="410" width="120" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="19 - spa" id="uG2_KofwMQ7h-2ROlSOJ">
+    <mxGraphModel dx="630" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="xOp9BJzvSzmVuIuLzH0F-0"/>
+        <mxCell id="xOp9BJzvSzmVuIuLzH0F-1" parent="xOp9BJzvSzmVuIuLzH0F-0"/>
+        <mxCell id="xOp9BJzvSzmVuIuLzH0F-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="xOp9BJzvSzmVuIuLzH0F-1" source="xOp9BJzvSzmVuIuLzH0F-4" target="xOp9BJzvSzmVuIuLzH0F-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xOp9BJzvSzmVuIuLzH0F-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="xOp9BJzvSzmVuIuLzH0F-1" source="xOp9BJzvSzmVuIuLzH0F-4" target="xOp9BJzvSzmVuIuLzH0F-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xOp9BJzvSzmVuIuLzH0F-4" value="Housing" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xOp9BJzvSzmVuIuLzH0F-1">
+          <mxGeometry x="420" y="210" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xOp9BJzvSzmVuIuLzH0F-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="xOp9BJzvSzmVuIuLzH0F-1" source="xOp9BJzvSzmVuIuLzH0F-7" target="xOp9BJzvSzmVuIuLzH0F-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xOp9BJzvSzmVuIuLzH0F-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="xOp9BJzvSzmVuIuLzH0F-1" source="xOp9BJzvSzmVuIuLzH0F-7" target="xOp9BJzvSzmVuIuLzH0F-15">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xOp9BJzvSzmVuIuLzH0F-7" value="Experiences" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xOp9BJzvSzmVuIuLzH0F-1">
+          <mxGeometry x="720" y="210" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xOp9BJzvSzmVuIuLzH0F-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="xOp9BJzvSzmVuIuLzH0F-1" source="xOp9BJzvSzmVuIuLzH0F-9" target="xOp9BJzvSzmVuIuLzH0F-16">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xOp9BJzvSzmVuIuLzH0F-9" value="Housing Listings" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="xOp9BJzvSzmVuIuLzH0F-1">
+          <mxGeometry x="340" y="310" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xOp9BJzvSzmVuIuLzH0F-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="xOp9BJzvSzmVuIuLzH0F-1" source="xOp9BJzvSzmVuIuLzH0F-11" target="xOp9BJzvSzmVuIuLzH0F-16">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xOp9BJzvSzmVuIuLzH0F-11" value="Housing Bookings" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="xOp9BJzvSzmVuIuLzH0F-1">
+          <mxGeometry x="493" y="310" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xOp9BJzvSzmVuIuLzH0F-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="xOp9BJzvSzmVuIuLzH0F-1" source="xOp9BJzvSzmVuIuLzH0F-13" target="xOp9BJzvSzmVuIuLzH0F-16">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xOp9BJzvSzmVuIuLzH0F-13" value="Experiences Listings" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="xOp9BJzvSzmVuIuLzH0F-1">
+          <mxGeometry x="647" y="310" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xOp9BJzvSzmVuIuLzH0F-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="xOp9BJzvSzmVuIuLzH0F-1" source="xOp9BJzvSzmVuIuLzH0F-15" target="xOp9BJzvSzmVuIuLzH0F-16">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xOp9BJzvSzmVuIuLzH0F-15" value="Experiences Bookings" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="xOp9BJzvSzmVuIuLzH0F-1">
+          <mxGeometry x="800" y="310" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xOp9BJzvSzmVuIuLzH0F-16" value="Single HTML doc, JS controls the content on screen" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="xOp9BJzvSzmVuIuLzH0F-1">
+          <mxGeometry x="340" y="410" width="580" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="20 - hybrid" id="igymH2dHbTLURdhjJ4UU">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="qC_00p4xjHi7JmQ5LoB4-0"/>
+        <mxCell id="qC_00p4xjHi7JmQ5LoB4-1" parent="qC_00p4xjHi7JmQ5LoB4-0"/>
+        <mxCell id="qC_00p4xjHi7JmQ5LoB4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="qC_00p4xjHi7JmQ5LoB4-1" source="qC_00p4xjHi7JmQ5LoB4-4" target="qC_00p4xjHi7JmQ5LoB4-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="qC_00p4xjHi7JmQ5LoB4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="qC_00p4xjHi7JmQ5LoB4-1" source="qC_00p4xjHi7JmQ5LoB4-4" target="qC_00p4xjHi7JmQ5LoB4-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="qC_00p4xjHi7JmQ5LoB4-4" value="Housing" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qC_00p4xjHi7JmQ5LoB4-1">
+          <mxGeometry x="420" y="210" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="qC_00p4xjHi7JmQ5LoB4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="qC_00p4xjHi7JmQ5LoB4-1" source="qC_00p4xjHi7JmQ5LoB4-7" target="qC_00p4xjHi7JmQ5LoB4-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="qC_00p4xjHi7JmQ5LoB4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="qC_00p4xjHi7JmQ5LoB4-1" source="qC_00p4xjHi7JmQ5LoB4-7" target="qC_00p4xjHi7JmQ5LoB4-15">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="qC_00p4xjHi7JmQ5LoB4-7" value="Experiences" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qC_00p4xjHi7JmQ5LoB4-1">
+          <mxGeometry x="720" y="210" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="qC_00p4xjHi7JmQ5LoB4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="qC_00p4xjHi7JmQ5LoB4-1" source="qC_00p4xjHi7JmQ5LoB4-9" target="qC_00p4xjHi7JmQ5LoB4-16">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="qC_00p4xjHi7JmQ5LoB4-9" value="Housing Listings" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="qC_00p4xjHi7JmQ5LoB4-1">
+          <mxGeometry x="340" y="310" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="qC_00p4xjHi7JmQ5LoB4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="qC_00p4xjHi7JmQ5LoB4-1" source="qC_00p4xjHi7JmQ5LoB4-11" target="qC_00p4xjHi7JmQ5LoB4-16">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="qC_00p4xjHi7JmQ5LoB4-11" value="Housing Bookings" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="qC_00p4xjHi7JmQ5LoB4-1">
+          <mxGeometry x="493" y="310" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="qC_00p4xjHi7JmQ5LoB4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="qC_00p4xjHi7JmQ5LoB4-1" source="qC_00p4xjHi7JmQ5LoB4-13" target="qC_00p4xjHi7JmQ5LoB4-19">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="qC_00p4xjHi7JmQ5LoB4-13" value="Experiences Listings" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="qC_00p4xjHi7JmQ5LoB4-1">
+          <mxGeometry x="647" y="310" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="qC_00p4xjHi7JmQ5LoB4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="qC_00p4xjHi7JmQ5LoB4-1" source="qC_00p4xjHi7JmQ5LoB4-15" target="qC_00p4xjHi7JmQ5LoB4-19">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="qC_00p4xjHi7JmQ5LoB4-15" value="Experiences Bookings" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="qC_00p4xjHi7JmQ5LoB4-1">
+          <mxGeometry x="800" y="310" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="qC_00p4xjHi7JmQ5LoB4-16" value="Single HTML doc, JS controls content on screen" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="qC_00p4xjHi7JmQ5LoB4-1">
+          <mxGeometry x="340" y="410" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="qC_00p4xjHi7JmQ5LoB4-19" value="Single HTML doc, JS controls content on screen" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="qC_00p4xjHi7JmQ5LoB4-1">
+          <mxGeometry x="647" y="410" width="270" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
