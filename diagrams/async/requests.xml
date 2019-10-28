@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T22:05:46.588Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="eirY4X8SUQ6c8MmafgJU" version="12.1.8" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-10-28T22:06:43.343Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="FKiNX94Yz3L4zdxJH6y5" version="12.1.8" type="github" pages="5">
   <diagram id="KaYFpSI1X8zCqTQmW7q-" name="01 - reqs">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -101,6 +101,44 @@
         </mxCell>
         <mxCell id="-rQzxXjdtdoZYHCnVgdt-4" value="Javascript Object Notation.&amp;nbsp; Text version of some JS data" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;" vertex="1" parent="-rQzxXjdtdoZYHCnVgdt-1">
           <mxGeometry x="540" y="190" width="340" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZhaXMFC06QkW4Vy8LKN0" name="06 - json">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="TbmdA-KsU8QOOmveByTQ-0"/>
+        <mxCell id="TbmdA-KsU8QOOmveByTQ-1" parent="TbmdA-KsU8QOOmveByTQ-0"/>
+        <mxCell id="TbmdA-KsU8QOOmveByTQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="TbmdA-KsU8QOOmveByTQ-1" source="TbmdA-KsU8QOOmveByTQ-2" target="TbmdA-KsU8QOOmveByTQ-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="TbmdA-KsU8QOOmveByTQ-2" value="Real JS Data" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;" vertex="1" parent="TbmdA-KsU8QOOmveByTQ-1">
+          <mxGeometry x="360" y="200" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="TbmdA-KsU8QOOmveByTQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="TbmdA-KsU8QOOmveByTQ-1" source="TbmdA-KsU8QOOmveByTQ-3" target="TbmdA-KsU8QOOmveByTQ-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="TbmdA-KsU8QOOmveByTQ-3" value="JSON.stringify()" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TbmdA-KsU8QOOmveByTQ-1">
+          <mxGeometry x="600" y="200" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="TbmdA-KsU8QOOmveByTQ-5" value="JSON string" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;" vertex="1" parent="TbmdA-KsU8QOOmveByTQ-1">
+          <mxGeometry x="830" y="200" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="TbmdA-KsU8QOOmveByTQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="TbmdA-KsU8QOOmveByTQ-1" source="TbmdA-KsU8QOOmveByTQ-8" target="TbmdA-KsU8QOOmveByTQ-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="TbmdA-KsU8QOOmveByTQ-8" value="JSON string" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;" vertex="1" parent="TbmdA-KsU8QOOmveByTQ-1">
+          <mxGeometry x="360" y="280" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="TbmdA-KsU8QOOmveByTQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="TbmdA-KsU8QOOmveByTQ-1" source="TbmdA-KsU8QOOmveByTQ-10" target="TbmdA-KsU8QOOmveByTQ-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="TbmdA-KsU8QOOmveByTQ-10" value="JSON.parse()" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TbmdA-KsU8QOOmveByTQ-1">
+          <mxGeometry x="600" y="280" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="TbmdA-KsU8QOOmveByTQ-11" value="Real JS Data" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;" vertex="1" parent="TbmdA-KsU8QOOmveByTQ-1">
+          <mxGeometry x="830" y="280" width="200" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
