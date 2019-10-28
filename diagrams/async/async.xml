@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T18:26:05.221Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="2ik_h0C0DXkKqjH4_R68" version="12.1.8" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2019-10-28T18:26:14.306Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="NvMVgmxEUSIQKzCt0asW" version="12.1.8" type="github" pages="5">
   <diagram id="CLeHsYajTl4V1-Uul0yM" name="01 - async">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -131,7 +131,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZsCtdrdMMgxwpc9AdxtB" name="05 - throttle">
-    <mxGraphModel dx="613" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="B5tCRZZ6fWPQacFx8GXR-0"/>
         <mxCell id="B5tCRZZ6fWPQacFx8GXR-1" parent="B5tCRZZ6fWPQacFx8GXR-0"/>
@@ -141,7 +141,7 @@
         <mxCell id="B5tCRZZ6fWPQacFx8GXR-3" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="B5tCRZZ6fWPQacFx8GXR-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="80" as="sourcePoint"/>
-            <mxPoint x="490" y="370" as="targetPoint"/>
+            <mxPoint x="490" y="350" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="B5tCRZZ6fWPQacFx8GXR-4" value="Request issued!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="B5tCRZZ6fWPQacFx8GXR-1">
