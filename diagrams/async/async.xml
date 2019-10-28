@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T20:15:47.276Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="JqqsvqfV-3O2LDlxLUiY" version="12.1.8" type="github" pages="15">
+<mxfile host="www.draw.io" modified="2019-10-28T20:21:19.209Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="WDLTqsYIkA9nxwXrRo_B" version="12.1.8" type="github" pages="16">
   <diagram id="HAV6GF2ZM6FqYsCxLTNw" name="09 - networking">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -321,7 +321,7 @@
         <mxCell id="lbQUYIPkTTUkcBQ9quHy-22" value="Data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="lbQUYIPkTTUkcBQ9quHy-1">
           <mxGeometry x="810" y="482" width="80" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="lbQUYIPkTTUkcBQ9quHy-26" value="Still HTTP Requests, but also referred to as &#39;AJAX&#39; requests" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="lbQUYIPkTTUkcBQ9quHy-1">
+        <mxCell id="lbQUYIPkTTUkcBQ9quHy-26" value="Still HTTP Requests, but also referred to as &#39;AJAX&#39; or &#39;XMLHR&#39; requests" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="lbQUYIPkTTUkcBQ9quHy-1">
           <mxGeometry x="1170" y="443" width="180" height="77" as="geometry"/>
         </mxCell>
         <mxCell id="UmjIl0yIpDtTd6vRCLtg-0" value="HTTP Requests" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="lbQUYIPkTTUkcBQ9quHy-1">
@@ -421,6 +421,86 @@
         </mxCell>
         <mxCell id="RLB-kvs-6M5MoSAvNsEh-3" value="This is what adds interactivity without having to do a full page refresh" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="Hp3CqwWAbD-cHG8YRe4T-1">
           <mxGeometry x="1390" y="458" width="170" height="47" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yz0sOH6cnzUGOfjpoiIu" name="16 - models">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-0"/>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-1" parent="QrbHCXM6mLBVs_HSckAi-0"/>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-2" value="Server Templating" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
+          <mxGeometry x="330" y="210" width="180" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-3" value="Single Page Application" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
+          <mxGeometry x="540" y="210" width="180" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-4" value="Hybrid" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
+          <mxGeometry x="750" y="210" width="180" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="QrbHCXM6mLBVs_HSckAi-1" source="QrbHCXM6mLBVs_HSckAi-5" target="QrbHCXM6mLBVs_HSckAi-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-5" value="User enters URL, hits enter" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
+          <mxGeometry x="330" y="260" width="180" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="QrbHCXM6mLBVs_HSckAi-1" source="QrbHCXM6mLBVs_HSckAi-6" target="QrbHCXM6mLBVs_HSckAi-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-6" value="Server sends HTML doc" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
+          <mxGeometry x="330" y="303" width="180" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="QrbHCXM6mLBVs_HSckAi-1" source="QrbHCXM6mLBVs_HSckAi-8" target="QrbHCXM6mLBVs_HSckAi-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-8" value="User enters info into a form, or clicks a link" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
+          <mxGeometry x="330" y="345" width="180" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="QrbHCXM6mLBVs_HSckAi-1" source="QrbHCXM6mLBVs_HSckAi-9" target="QrbHCXM6mLBVs_HSckAi-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-9" value="Browser does a full page refresh, gets new HTML doc" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
+          <mxGeometry x="330" y="388" width="180" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="QrbHCXM6mLBVs_HSckAi-1" source="QrbHCXM6mLBVs_HSckAi-10" target="QrbHCXM6mLBVs_HSckAi-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-10" value="User interacts with page again" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
+          <mxGeometry x="330" y="430" width="180" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="QrbHCXM6mLBVs_HSckAi-1" source="QrbHCXM6mLBVs_HSckAi-18" target="QrbHCXM6mLBVs_HSckAi-20">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-18" value="User enters URL, hits enter" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
+          <mxGeometry x="540" y="260" width="180" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="QrbHCXM6mLBVs_HSckAi-1" source="QrbHCXM6mLBVs_HSckAi-20" target="QrbHCXM6mLBVs_HSckAi-22">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-20" value="Server sends HTML doc + JS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
+          <mxGeometry x="540" y="303" width="180" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="QrbHCXM6mLBVs_HSckAi-1" source="QrbHCXM6mLBVs_HSckAi-22" target="QrbHCXM6mLBVs_HSckAi-24">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-22" value="User enters info into a form, or clicks a link" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
+          <mxGeometry x="540" y="345" width="180" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="QrbHCXM6mLBVs_HSckAi-1" source="QrbHCXM6mLBVs_HSckAi-24" target="QrbHCXM6mLBVs_HSckAi-26">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-24" value="Javascript code makes a request to server.&amp;nbsp; Server responds with data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
+          <mxGeometry x="540" y="388" width="180" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="QrbHCXM6mLBVs_HSckAi-1" source="QrbHCXM6mLBVs_HSckAi-26" target="QrbHCXM6mLBVs_HSckAi-24">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-26" value="JS code produces new HTML and puts it on the screen" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
+          <mxGeometry x="540" y="430" width="180" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="QrbHCXM6mLBVs_HSckAi-28" value="Similar to SPA, but each feature of an app triggers as full page refresh" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="QrbHCXM6mLBVs_HSckAi-1">
+          <mxGeometry x="750" y="260" width="180" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
