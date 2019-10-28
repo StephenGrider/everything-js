@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T18:29:08.901Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="vlz5X0FYKk7mRIWbzmYm" version="12.1.8" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-10-28T18:31:11.681Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="sDYWFVHTT2SWxEIQCXvB" version="12.1.8" type="github" pages="8">
   <diagram id="CLeHsYajTl4V1-Uul0yM" name="01 - async">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -165,6 +165,55 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram name="06 - ideal" id="JmFCRR-10nKAAIZW9SH4">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="kBghPzyFvLWZkjpgRCUd-0"/>
+        <mxCell id="kBghPzyFvLWZkjpgRCUd-1" parent="kBghPzyFvLWZkjpgRCUd-0"/>
+        <mxCell id="kBghPzyFvLWZkjpgRCUd-2" value="Click on &#39;Press for Request&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="kBghPzyFvLWZkjpgRCUd-1">
+          <mxGeometry x="500" y="80" width="420" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="kBghPzyFvLWZkjpgRCUd-3" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="kBghPzyFvLWZkjpgRCUd-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="80" as="sourcePoint"/>
+            <mxPoint x="490" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kBghPzyFvLWZkjpgRCUd-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="kBghPzyFvLWZkjpgRCUd-1" source="kBghPzyFvLWZkjpgRCUd-4" target="kBghPzyFvLWZkjpgRCUd-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="568" y="150"/>
+              <mxPoint x="568" y="170"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kBghPzyFvLWZkjpgRCUd-4" value="Request issued!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="kBghPzyFvLWZkjpgRCUd-1">
+          <mxGeometry x="500" y="120" width="420" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="kBghPzyFvLWZkjpgRCUd-5" value="Request complete" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="kBghPzyFvLWZkjpgRCUd-1">
+          <mxGeometry x="500" y="270" width="420" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="kBghPzyFvLWZkjpgRCUd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.161;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" edge="1" parent="kBghPzyFvLWZkjpgRCUd-1" source="kBghPzyFvLWZkjpgRCUd-6" target="kBghPzyFvLWZkjpgRCUd-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="kBghPzyFvLWZkjpgRCUd-6" value="&lt;i&gt;2 seconds...&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="kBghPzyFvLWZkjpgRCUd-1">
+          <mxGeometry x="510" y="180" width="115" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="kBghPzyFvLWZkjpgRCUd-7" value="Log result of request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="kBghPzyFvLWZkjpgRCUd-1">
+          <mxGeometry x="500" y="310" width="420" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="kBghPzyFvLWZkjpgRCUd-9" value="Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="kBghPzyFvLWZkjpgRCUd-1">
+          <mxGeometry x="440" y="80" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="kBghPzyFvLWZkjpgRCUd-10" value="Click on &#39;log something&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="kBghPzyFvLWZkjpgRCUd-1">
+          <mxGeometry x="660" y="160" width="260" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="kBghPzyFvLWZkjpgRCUd-13" value="Run event handler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="kBghPzyFvLWZkjpgRCUd-1">
+          <mxGeometry x="660" y="200" width="260" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="3YO8zzjNgR3aedD2iWGH" name="06 - sync">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -182,6 +231,14 @@
         <mxCell id="ewuOrJjQsWdQ1G-wSIZY-5" value="&lt;i&gt;Code that takes a long time to run doesn&#39;t take up focus - we can &#39;skip it&#39; and come back to the result later&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ewuOrJjQsWdQ1G-wSIZY-1">
           <mxGeometry x="846" y="270" width="258" height="50" as="geometry"/>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Sh_y3d2LzSGWNU08GFJL" name="07 - blocking">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="TVNo8k-UlLH5GTwso2l2-0"/>
+        <mxCell id="TVNo8k-UlLH5GTwso2l2-1" parent="TVNo8k-UlLH5GTwso2l2-0"/>
       </root>
     </mxGraphModel>
   </diagram>
