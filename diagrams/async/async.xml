@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T18:18:18.178Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="mvec-wSR4eNpxgo76zkr" version="12.1.8" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-10-28T18:26:05.221Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="2ik_h0C0DXkKqjH4_R68" version="12.1.8" type="github" pages="5">
   <diagram id="CLeHsYajTl4V1-Uul0yM" name="01 - async">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -118,7 +118,7 @@
         <mxCell id="pUXELxeeiy8Y6jb4Bhms-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="pUXELxeeiy8Y6jb4Bhms-1">
           <mxGeometry x="600" y="160" width="30" height="130" as="geometry"/>
         </mxCell>
-        <mxCell id="pUXELxeeiy8Y6jb4Bhms-8" value="Technically still an HTTP request!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="pUXELxeeiy8Y6jb4Bhms-1">
+        <mxCell id="pUXELxeeiy8Y6jb4Bhms-8" value="Technically still an HTTP request!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=2" vertex="1" parent="pUXELxeeiy8Y6jb4Bhms-1">
           <mxGeometry x="640" y="310" width="380" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="pUXELxeeiy8Y6jb4Bhms-9" value="Refers to requests made from JS code we write" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="pUXELxeeiy8Y6jb4Bhms-1">
@@ -126,6 +126,41 @@
         </mxCell>
         <mxCell id="pUXELxeeiy8Y6jb4Bhms-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="pUXELxeeiy8Y6jb4Bhms-1">
           <mxGeometry x="600" y="310" width="30" height="130" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZsCtdrdMMgxwpc9AdxtB" name="05 - throttle">
+    <mxGraphModel dx="613" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="B5tCRZZ6fWPQacFx8GXR-0"/>
+        <mxCell id="B5tCRZZ6fWPQacFx8GXR-1" parent="B5tCRZZ6fWPQacFx8GXR-0"/>
+        <mxCell id="B5tCRZZ6fWPQacFx8GXR-2" value="Click on &#39;Press for Request&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="B5tCRZZ6fWPQacFx8GXR-1">
+          <mxGeometry x="500" y="80" width="420" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="B5tCRZZ6fWPQacFx8GXR-3" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="B5tCRZZ6fWPQacFx8GXR-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="80" as="sourcePoint"/>
+            <mxPoint x="490" y="370" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5tCRZZ6fWPQacFx8GXR-4" value="Request issued!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="B5tCRZZ6fWPQacFx8GXR-1">
+          <mxGeometry x="500" y="120" width="420" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="B5tCRZZ6fWPQacFx8GXR-5" value="Request complete" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="B5tCRZZ6fWPQacFx8GXR-1">
+          <mxGeometry x="500" y="240" width="420" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="B5tCRZZ6fWPQacFx8GXR-6" value="&lt;i&gt;Wait 2 seconds...&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="B5tCRZZ6fWPQacFx8GXR-1">
+          <mxGeometry x="625" y="185" width="170" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="B5tCRZZ6fWPQacFx8GXR-7" value="Log result of request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="B5tCRZZ6fWPQacFx8GXR-1">
+          <mxGeometry x="500" y="280" width="420" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="B5tCRZZ6fWPQacFx8GXR-8" value="See result of clicking on &#39;Log something&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="B5tCRZZ6fWPQacFx8GXR-1">
+          <mxGeometry x="500" y="320" width="420" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="B5tCRZZ6fWPQacFx8GXR-9" value="Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="B5tCRZZ6fWPQacFx8GXR-1">
+          <mxGeometry x="440" y="80" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
