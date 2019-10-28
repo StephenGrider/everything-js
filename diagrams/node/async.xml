@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T16:28:57.850Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="FynUUjsWHqBqWsMzTLXg" version="12.1.8" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-10-28T17:11:36.708Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="jfnBlRNOGN55hw4F5T6Y" version="12.1.8" type="github" pages="4">
   <diagram id="ExMYufxRlOv3XzPJKyRB" name="01 - stdlib">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -67,6 +67,26 @@
         </mxCell>
         <mxCell id="ektrhkUb97p1Zv4F1P2b-3" value="Node Standard Library" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="ektrhkUb97p1Zv4F1P2b-1">
           <mxGeometry x="535" y="210" width="280" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zjYr5uZgDa7DRYg99UXP" name="04 - sync">
+    <mxGraphModel dx="625" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="k6aXfrf0wmeBf8gyH6OY-0"/>
+        <mxCell id="k6aXfrf0wmeBf8gyH6OY-1" parent="k6aXfrf0wmeBf8gyH6OY-0"/>
+        <mxCell id="k6aXfrf0wmeBf8gyH6OY-2" value="Async" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="k6aXfrf0wmeBf8gyH6OY-1">
+          <mxGeometry x="650" y="270" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="k6aXfrf0wmeBf8gyH6OY-3" value="Sync" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="k6aXfrf0wmeBf8gyH6OY-1">
+          <mxGeometry x="450" y="270" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="k6aXfrf0wmeBf8gyH6OY-4" value="vs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="k6aXfrf0wmeBf8gyH6OY-1">
+          <mxGeometry x="590" y="290" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="k6aXfrf0wmeBf8gyH6OY-5" value="How do we improve performance/responsiveness in Javascript apps?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=2" vertex="1" parent="k6aXfrf0wmeBf8gyH6OY-1">
+          <mxGeometry x="510" y="360" width="210" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
