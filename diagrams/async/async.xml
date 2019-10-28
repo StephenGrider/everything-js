@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T18:26:14.306Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="NvMVgmxEUSIQKzCt0asW" version="12.1.8" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2019-10-28T18:29:08.901Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="vlz5X0FYKk7mRIWbzmYm" version="12.1.8" type="github" pages="6">
   <diagram id="CLeHsYajTl4V1-Uul0yM" name="01 - async">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -161,6 +161,26 @@
         </mxCell>
         <mxCell id="B5tCRZZ6fWPQacFx8GXR-9" value="Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="B5tCRZZ6fWPQacFx8GXR-1">
           <mxGeometry x="440" y="80" width="40" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3YO8zzjNgR3aedD2iWGH" name="06 - sync">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="ewuOrJjQsWdQ1G-wSIZY-0"/>
+        <mxCell id="ewuOrJjQsWdQ1G-wSIZY-1" parent="ewuOrJjQsWdQ1G-wSIZY-0"/>
+        <mxCell id="ewuOrJjQsWdQ1G-wSIZY-2" value="Synchronous (sync) Code" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="ewuOrJjQsWdQ1G-wSIZY-1">
+          <mxGeometry x="490" y="200" width="310" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ewuOrJjQsWdQ1G-wSIZY-3" value="&lt;i&gt;We wait for every single line of code to execute one by one in order&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ewuOrJjQsWdQ1G-wSIZY-1">
+          <mxGeometry x="533" y="270" width="225" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="ewuOrJjQsWdQ1G-wSIZY-4" value="Asynchronous (async) Code" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="ewuOrJjQsWdQ1G-wSIZY-1">
+          <mxGeometry x="820" y="200" width="310" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ewuOrJjQsWdQ1G-wSIZY-5" value="&lt;i&gt;Code that takes a long time to run doesn&#39;t take up focus - we can &#39;skip it&#39; and come back to the result later&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ewuOrJjQsWdQ1G-wSIZY-1">
+          <mxGeometry x="846" y="270" width="258" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
