@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T21:21:39.983Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="obrWvAkoAMCtSxpaR3dg" version="12.1.8" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-10-28T21:22:52.730Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="iVRtNBaJU4m6SjPQKyHo" version="12.1.8" type="github" pages="3">
   <diagram id="KaYFpSI1X8zCqTQmW7q-" name="01 - reqs">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -56,6 +56,32 @@
         </mxCell>
         <mxCell id="zGigSHtPooc1NYOtaSNJ-3" value="&quot;Fake&quot; data API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;fontStyle=2" vertex="1" parent="zGigSHtPooc1NYOtaSNJ-1">
           <mxGeometry x="512.5" y="320" width="205" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QErNoa9ReeSrykQkHgks" name="04 - parts">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="cWa-oBFyfKQCZ55NIw1N-0"/>
+        <mxCell id="cWa-oBFyfKQCZ55NIw1N-1" parent="cWa-oBFyfKQCZ55NIw1N-0"/>
+        <mxCell id="cWa-oBFyfKQCZ55NIw1N-2" value="GET" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;" vertex="1" parent="cWa-oBFyfKQCZ55NIw1N-1">
+          <mxGeometry x="290" y="260" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="cWa-oBFyfKQCZ55NIw1N-3" value="https://jsonplaceholder.typicode.com/posts" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;" vertex="1" parent="cWa-oBFyfKQCZ55NIw1N-1">
+          <mxGeometry x="410" y="260" width="440" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="cWa-oBFyfKQCZ55NIw1N-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;fontSize=20;align=center;rotation=90;" vertex="1" parent="cWa-oBFyfKQCZ55NIw1N-1">
+          <mxGeometry x="340" y="180" width="20" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="cWa-oBFyfKQCZ55NIw1N-5" value="&lt;i&gt;Request Method&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;" vertex="1" parent="cWa-oBFyfKQCZ55NIw1N-1">
+          <mxGeometry x="270" y="200" width="160" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="cWa-oBFyfKQCZ55NIw1N-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;fontSize=20;align=center;rotation=-90;" vertex="1" parent="cWa-oBFyfKQCZ55NIw1N-1">
+          <mxGeometry x="620" y="120" width="20" height="440" as="geometry"/>
+        </mxCell>
+        <mxCell id="cWa-oBFyfKQCZ55NIw1N-7" value="&lt;i&gt;Request URL&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;" vertex="1" parent="cWa-oBFyfKQCZ55NIw1N-1">
+          <mxGeometry x="550" y="360" width="160" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
