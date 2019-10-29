@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-29T21:09:33.278Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Lj-v8Wcselr6ZXbj6BLm" version="12.1.8" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-10-29T21:39:17.007Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="qsdOi_o_fxsh-GW05P6q" version="12.1.8" type="github" pages="7">
   <diagram id="ExMYufxRlOv3XzPJKyRB" name="01 - stdlib">
     <mxGraphModel dx="1384" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -211,6 +211,26 @@
         </mxCell>
         <mxCell id="zgr1siIv0VJ60Lg91j63-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="GqM_dvvkOPkBwGFGjEdK-1">
           <mxGeometry x="680" y="260" width="110" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lNddWAjuvNnLxQ0CD6gZ" name="07 - file">
+    <mxGraphModel dx="601" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="ePiPNXSKyFoW67CL11Cl-0"/>
+        <mxCell id="ePiPNXSKyFoW67CL11Cl-1" parent="ePiPNXSKyFoW67CL11Cl-0"/>
+        <mxCell id="ePiPNXSKyFoW67CL11Cl-2" value="dd if=/dev/urandom of=file.txt bs=1048576 count=1000" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="ePiPNXSKyFoW67CL11Cl-1">
+          <mxGeometry x="440" y="210" width="540" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ePiPNXSKyFoW67CL11Cl-3" value="Mac OS/Linux" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" vertex="1" parent="ePiPNXSKyFoW67CL11Cl-1">
+          <mxGeometry x="645" y="180" width="130" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ePiPNXSKyFoW67CL11Cl-4" value="dd if=/dev/urandom of=file.txt bs=1048576 count=1000" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="ePiPNXSKyFoW67CL11Cl-1">
+          <mxGeometry x="440" y="350" width="540" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ePiPNXSKyFoW67CL11Cl-5" value="Windows" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" vertex="1" parent="ePiPNXSKyFoW67CL11Cl-1">
+          <mxGeometry x="645" y="320" width="130" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
