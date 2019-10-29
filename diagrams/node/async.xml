@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-29T21:02:10.665Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="qlXXFVh-hq2ed95FHK_X" version="12.1.8" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-10-29T21:03:54.609Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="OrjAE0Rx2uYDwWkCTAV9" version="12.1.8" type="github" pages="6">
   <diagram id="ExMYufxRlOv3XzPJKyRB" name="01 - stdlib">
     <mxGraphModel dx="1384" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -101,7 +101,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="05 - streams" id="YNVD6eC5h9GAYBm6njjk">
-    <mxGraphModel dx="572" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="KhYFWY1mxIThFmL76dPQ-0"/>
         <mxCell id="KhYFWY1mxIThFmL76dPQ-1" parent="KhYFWY1mxIThFmL76dPQ-0"/>
@@ -144,7 +144,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Copy of 05 - streams" id="ly-GAPfqrwzNWxkTTSeX">
+  <diagram name="06 - streams" id="ly-GAPfqrwzNWxkTTSeX">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="GqM_dvvkOPkBwGFGjEdK-0"/>
