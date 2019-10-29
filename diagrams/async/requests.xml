@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-29T19:36:44.818Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="ltG0EoEaGC9k0h96Zzi-" version="12.1.8" type="github" pages="20">
+<mxfile host="www.draw.io" modified="2019-10-29T19:48:16.461Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="TR7AW4xl_G6HujPfEm5-" version="12.1.8" type="github" pages="21">
   <diagram id="KaYFpSI1X8zCqTQmW7q-" name="01 - reqs">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -814,6 +814,65 @@
         </mxCell>
         <mxCell id="_iPa9qQG28iE6o7uBjh--3" value="This is the recommended way to handle async code" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="siUT2xjlN5rdVXFgSbzZ-1">
           <mxGeometry x="540" y="300" width="510" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sysDUkg_2u3oAyIm0ihP" name="21 - async/await">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="OOdu75QBoTYCM4hkpTD0-0"/>
+        <mxCell id="OOdu75QBoTYCM4hkpTD0-1" parent="OOdu75QBoTYCM4hkpTD0-0"/>
+        <mxCell id="OOdu75QBoTYCM4hkpTD0-2" value="axios.get(&#39;/posts&#39;)" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="OOdu75QBoTYCM4hkpTD0-1">
+          <mxGeometry x="260" y="180" width="230" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="OOdu75QBoTYCM4hkpTD0-3" value="&amp;nbsp; .then(&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;=&amp;gt; {" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=left;" vertex="1" parent="OOdu75QBoTYCM4hkpTD0-1">
+          <mxGeometry x="260" y="220" width="230" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="OOdu75QBoTYCM4hkpTD0-4" value="response" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="OOdu75QBoTYCM4hkpTD0-1">
+          <mxGeometry x="310" y="230" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="OOdu75QBoTYCM4hkpTD0-5" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; posts = response.data;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; renderPosts();" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OOdu75QBoTYCM4hkpTD0-1">
+          <mxGeometry x="260" y="260" width="230" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="OOdu75QBoTYCM4hkpTD0-6" value="})" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=left;" vertex="1" parent="OOdu75QBoTYCM4hkpTD0-1">
+          <mxGeometry x="260" y="310" width="230" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="OOdu75QBoTYCM4hkpTD0-8" value="&amp;nbsp; .catch(&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;=&amp;gt; {" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=left;" vertex="1" parent="OOdu75QBoTYCM4hkpTD0-1">
+          <mxGeometry x="260" y="350" width="230" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="OOdu75QBoTYCM4hkpTD0-9" value="err" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="OOdu75QBoTYCM4hkpTD0-1">
+          <mxGeometry x="320" y="360" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="OOdu75QBoTYCM4hkpTD0-10" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; console.log(err);" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="OOdu75QBoTYCM4hkpTD0-1">
+          <mxGeometry x="260" y="390" width="230" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="OOdu75QBoTYCM4hkpTD0-11" value="})" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=left;" vertex="1" parent="OOdu75QBoTYCM4hkpTD0-1">
+          <mxGeometry x="260" y="440" width="230" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="OOdu75QBoTYCM4hkpTD0-12" value="&amp;nbsp; &amp;nbsp; const&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = await axios.get(&#39;/posts&#39;)" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="OOdu75QBoTYCM4hkpTD0-1">
+          <mxGeometry x="610" y="220" width="310" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="OOdu75QBoTYCM4hkpTD0-13" value="try {" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=left;" vertex="1" parent="OOdu75QBoTYCM4hkpTD0-1">
+          <mxGeometry x="610" y="180" width="290" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="OOdu75QBoTYCM4hkpTD0-14" value="response" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="OOdu75QBoTYCM4hkpTD0-1">
+          <mxGeometry x="669" y="230" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="OOdu75QBoTYCM4hkpTD0-15" value="&amp;nbsp; &amp;nbsp; posts = response.data;&lt;br&gt;&amp;nbsp; &amp;nbsp; renderPosts();" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OOdu75QBoTYCM4hkpTD0-1">
+          <mxGeometry x="610" y="260" width="290" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="OOdu75QBoTYCM4hkpTD0-16" value="} catch (&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ) {" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=left;" vertex="1" parent="OOdu75QBoTYCM4hkpTD0-1">
+          <mxGeometry x="610" y="310" width="290" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="OOdu75QBoTYCM4hkpTD0-17" value="err" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="OOdu75QBoTYCM4hkpTD0-1">
+          <mxGeometry x="670" y="320" width="50" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="OOdu75QBoTYCM4hkpTD0-18" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; console.log(err);" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="OOdu75QBoTYCM4hkpTD0-1">
+          <mxGeometry x="610" y="350" width="290" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="OOdu75QBoTYCM4hkpTD0-19" value="}" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=left;" vertex="1" parent="OOdu75QBoTYCM4hkpTD0-1">
+          <mxGeometry x="610" y="400" width="290" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
