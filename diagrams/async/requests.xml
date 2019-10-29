@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-29T18:04:39.621Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="YlsNhGvFeofakQTYlJs1" version="12.1.8" type="github" pages="19">
+<mxfile host="www.draw.io" modified="2019-10-29T19:36:44.818Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="ltG0EoEaGC9k0h96Zzi-" version="12.1.8" type="github" pages="20">
   <diagram id="KaYFpSI1X8zCqTQmW7q-" name="01 - reqs">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -780,8 +780,40 @@
         <mxCell id="xidHc_O9tpUC0lQXTs-c-16" value="Done!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="xidHc_O9tpUC0lQXTs-c-1">
           <mxGeometry x="650" y="460" width="100" height="30" as="geometry"/>
         </mxCell>
+        <mxCell id="6JYGey65T-yGXVcvm9Tk-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="xidHc_O9tpUC0lQXTs-c-1" source="xidHc_O9tpUC0lQXTs-c-17" target="6JYGey65T-yGXVcvm9Tk-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="xidHc_O9tpUC0lQXTs-c-17" value="&lt;b&gt;Fetch&lt;/b&gt; resolves promise here!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="xidHc_O9tpUC0lQXTs-c-1">
           <mxGeometry x="520" y="350" width="200" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="6JYGey65T-yGXVcvm9Tk-4" value="&lt;b&gt;FETCH RESOLVE HERE!!&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="xidHc_O9tpUC0lQXTs-c-1">
+          <mxGeometry x="520" y="490" width="200" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="6JYGey65T-yGXVcvm9Tk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="xidHc_O9tpUC0lQXTs-c-1" source="6JYGey65T-yGXVcvm9Tk-5" target="xidHc_O9tpUC0lQXTs-c-17">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="6JYGey65T-yGXVcvm9Tk-5" value="&lt;b&gt;Initial request&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="xidHc_O9tpUC0lQXTs-c-1">
+          <mxGeometry x="520" y="200" width="200" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PNcMTle3DTQwaCi6Wn1v" name="20 - async">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="siUT2xjlN5rdVXFgSbzZ-0"/>
+        <mxCell id="siUT2xjlN5rdVXFgSbzZ-1" parent="siUT2xjlN5rdVXFgSbzZ-0"/>
+        <mxCell id="_iPa9qQG28iE6o7uBjh--0" value="Async / Await" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=22;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="siUT2xjlN5rdVXFgSbzZ-1">
+          <mxGeometry x="540" y="150" width="510" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="_iPa9qQG28iE6o7uBjh--1" value="If a function uses a promise, we can make the code &lt;b&gt;&lt;i&gt;look&lt;/i&gt;&lt;/b&gt; synch instead of async" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="siUT2xjlN5rdVXFgSbzZ-1">
+          <mxGeometry x="540" y="200" width="510" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="_iPa9qQG28iE6o7uBjh--2" value="Functionality is not changing!&amp;nbsp; Everything is the same!" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="siUT2xjlN5rdVXFgSbzZ-1">
+          <mxGeometry x="540" y="250" width="510" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="_iPa9qQG28iE6o7uBjh--3" value="This is the recommended way to handle async code" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="siUT2xjlN5rdVXFgSbzZ-1">
+          <mxGeometry x="540" y="300" width="510" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
