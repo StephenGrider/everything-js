@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-29T21:39:17.007Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="qsdOi_o_fxsh-GW05P6q" version="12.1.8" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2019-10-29T21:45:24.083Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="UPyRo2RRMdNG0naksqhx" version="12.1.8" type="github" pages="8">
   <diagram id="ExMYufxRlOv3XzPJKyRB" name="01 - stdlib">
     <mxGraphModel dx="1384" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -216,7 +216,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lNddWAjuvNnLxQ0CD6gZ" name="07 - file">
-    <mxGraphModel dx="601" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="ePiPNXSKyFoW67CL11Cl-0"/>
         <mxCell id="ePiPNXSKyFoW67CL11Cl-1" parent="ePiPNXSKyFoW67CL11Cl-0"/>
@@ -231,6 +231,32 @@
         </mxCell>
         <mxCell id="ePiPNXSKyFoW67CL11Cl-5" value="Windows" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" vertex="1" parent="ePiPNXSKyFoW67CL11Cl-1">
           <mxGeometry x="645" y="320" width="130" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QwX24RTkgYP1KnqpFFd6" name="08 - fiel">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="ISORkrz_XyPkEMjnKwtd-0"/>
+        <mxCell id="ISORkrz_XyPkEMjnKwtd-1" parent="ISORkrz_XyPkEMjnKwtd-0"/>
+        <mxCell id="ISORkrz_XyPkEMjnKwtd-2" value="Create a file if it doesn&#39;t exist" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="ISORkrz_XyPkEMjnKwtd-1">
+          <mxGeometry x="400" y="160" width="390" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ISORkrz_XyPkEMjnKwtd-3" value="Get size of file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="ISORkrz_XyPkEMjnKwtd-1">
+          <mxGeometry x="400" y="210" width="390" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ISORkrz_XyPkEMjnKwtd-4" value="If size is less than 100mb, append more data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="ISORkrz_XyPkEMjnKwtd-1">
+          <mxGeometry x="400" y="260" width="390" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ISORkrz_XyPkEMjnKwtd-5" value="" style="endArrow=classic;html=1;fontSize=19;" edge="1" parent="ISORkrz_XyPkEMjnKwtd-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="160" as="sourcePoint"/>
+            <mxPoint x="390" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ISORkrz_XyPkEMjnKwtd-7" value="Creating a Big File" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" vertex="1" parent="ISORkrz_XyPkEMjnKwtd-1">
+          <mxGeometry x="497.5" y="130" width="195" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
