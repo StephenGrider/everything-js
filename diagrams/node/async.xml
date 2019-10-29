@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-29T19:59:35.135Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="kUQ2jE5kAwOVFW1lbzAY" version="12.1.8" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-10-29T20:59:30.098Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="8c6QIvV9Y5eXC513UrZ7" version="12.1.8" type="github" pages="4">
   <diagram id="ExMYufxRlOv3XzPJKyRB" name="01 - stdlib">
     <mxGraphModel dx="1384" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -71,11 +71,32 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="NTnIH1zjzqPukB6xeSg4" name="04 - fs">
-    <mxGraphModel dx="1384" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+  <diagram id="NTnIH1zjzqPukB6xeSg4" name="04 - streams">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="lIcENv6xYF7cX-rDWvq5-0"/>
         <mxCell id="lIcENv6xYF7cX-rDWvq5-1" parent="lIcENv6xYF7cX-rDWvq5-0"/>
+        <mxCell id="lIcENv6xYF7cX-rDWvq5-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lIcENv6xYF7cX-rDWvq5-1">
+          <mxGeometry x="430" y="150" width="410" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="lIcENv6xYF7cX-rDWvq5-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="lIcENv6xYF7cX-rDWvq5-1">
+          <mxGeometry x="450" y="190" width="180" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="lIcENv6xYF7cX-rDWvq5-4" value="Hard Drive" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="lIcENv6xYF7cX-rDWvq5-1">
+          <mxGeometry x="575" y="160" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="lIcENv6xYF7cX-rDWvq5-5" value="300gb File" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="lIcENv6xYF7cX-rDWvq5-1">
+          <mxGeometry x="480" y="220" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="lIcENv6xYF7cX-rDWvq5-8" value="My Docs Folder" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="lIcENv6xYF7cX-rDWvq5-1">
+          <mxGeometry x="470" y="194" width="140" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="lIcENv6xYF7cX-rDWvq5-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="lIcENv6xYF7cX-rDWvq5-1">
+          <mxGeometry x="640" y="190" width="180" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="lIcENv6xYF7cX-rDWvq5-11" value="Movies Folder" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="lIcENv6xYF7cX-rDWvq5-1">
+          <mxGeometry x="660" y="194" width="140" height="20" as="geometry"/>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
