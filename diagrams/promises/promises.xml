@@ -1,1 +1,36 @@
-<mxfile host="www.draw.io" modified="2019-10-30T16:15:19.731Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" version="12.1.9" etag="PglrVrqeYMhP9zl3fsKy" type="github"><diagram id="pz42vxL87dCNSvBpTkUP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-10-30T16:17:56.224Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="sxl6GI2VzDosGXy7Ni2c" version="12.1.9" type="github" pages="2">
+  <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - promise">
+    <mxGraphModel dx="586" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="Gn6B2W8AofRp1KjCjWMC-1" value="Promises" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="450" y="250" width="230" height="100" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mXL34aEL_XbdEWldmQDi" name="02 - promises">
+    <mxGraphModel dx="586" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="pm0h2whpnbnRNsZfaRUF-0"/>
+        <mxCell id="pm0h2whpnbnRNsZfaRUF-1" parent="pm0h2whpnbnRNsZfaRUF-0"/>
+        <mxCell id="pm0h2whpnbnRNsZfaRUF-3" value="Learning Promises Is Frustrating" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=2" vertex="1" parent="pm0h2whpnbnRNsZfaRUF-1">
+          <mxGeometry x="404.5" y="200" width="382" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pm0h2whpnbnRNsZfaRUF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="pm0h2whpnbnRNsZfaRUF-1" source="pm0h2whpnbnRNsZfaRUF-4" target="pm0h2whpnbnRNsZfaRUF-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pm0h2whpnbnRNsZfaRUF-4" value="You need to know &lt;b&gt;promises&lt;/b&gt; to understand &lt;b&gt;async code&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="pm0h2whpnbnRNsZfaRUF-1">
+          <mxGeometry x="401" y="250" width="389" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="pm0h2whpnbnRNsZfaRUF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="pm0h2whpnbnRNsZfaRUF-1" source="pm0h2whpnbnRNsZfaRUF-5" target="pm0h2whpnbnRNsZfaRUF-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pm0h2whpnbnRNsZfaRUF-5" value="You need to understand&amp;nbsp;&lt;b&gt;async code&lt;/b&gt; to understand &lt;b&gt;promises&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="pm0h2whpnbnRNsZfaRUF-1">
+          <mxGeometry x="401" y="370" width="389" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
