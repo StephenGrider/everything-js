@@ -1,10 +1,10 @@
-<mxfile host="www.draw.io" modified="2019-10-30T16:23:25.275Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="MSt22tuyIqE1R0ym4g_g" version="12.1.9" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-10-30T16:23:38.955Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="MUWG33VcMynAlY6oZhCY" version="12.1.9" type="github" pages="2">
   <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - promise">
-    <mxGraphModel dx="586" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="Gn6B2W8AofRp1KjCjWMC-1" value="Promises" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="Gn6B2W8AofRp1KjCjWMC-1" value="Promises" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=35;" vertex="1" parent="1">
           <mxGeometry x="450" y="250" width="230" height="100" as="geometry"/>
         </mxCell>
       </root>
