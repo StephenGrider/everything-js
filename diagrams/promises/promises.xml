@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-30T16:23:38.955Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="MUWG33VcMynAlY6oZhCY" version="12.1.9" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-10-30T16:51:25.850Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="yKSwuapAP6Kgv-m_5k-9" version="12.1.9" type="github" pages="4">
   <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - promise">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -32,6 +32,70 @@
         </mxCell>
         <mxCell id="pm0h2whpnbnRNsZfaRUF-13" value="You &lt;i&gt;will &lt;/i&gt;say&lt;i&gt; &lt;/i&gt;&#39;this is boring and whats the point&#39; in the next few videos :)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="pm0h2whpnbnRNsZfaRUF-1">
           <mxGeometry x="401" y="450" width="439" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="d-qs-xYjCiKqyC9KiJVh" name="04 - promises">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="ImcvutNTB-FxG8GvGFUR-0"/>
+        <mxCell id="ImcvutNTB-FxG8GvGFUR-1" parent="ImcvutNTB-FxG8GvGFUR-0"/>
+        <mxCell id="ImcvutNTB-FxG8GvGFUR-2" value="A promise is an object that keeps track of one or more callback functions" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="390" y="220" width="480" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ImcvutNTB-FxG8GvGFUR-3" value="Some of these callback functions are ran only when some &lt;i&gt;thing&lt;/i&gt;&amp;nbsp;happens &lt;b&gt;successfully&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="390" y="270" width="480" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ImcvutNTB-FxG8GvGFUR-4" value="Some of these callback functions are ran only when some &lt;i&gt;thing&lt;/i&gt;&amp;nbsp;&lt;b&gt;fails&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="390" y="320" width="480" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ImcvutNTB-FxG8GvGFUR-5" value="Some of these callback functions are ran only when some &lt;i&gt;thing&lt;/i&gt;&amp;nbsp;&lt;b&gt;fails&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="390" y="370" width="480" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ImcvutNTB-FxG8GvGFUR-6" value="More on Promises" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="510" y="190" width="240" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gw4rcU3C0nwp4yDMkCnX" name="03 - promises">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="79HGeSbDpaYIvkaldVRL-0"/>
+        <mxCell id="79HGeSbDpaYIvkaldVRL-1" parent="79HGeSbDpaYIvkaldVRL-0"/>
+        <mxCell id="79HGeSbDpaYIvkaldVRL-4" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;fillColor=#ffffff;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;fontSize=14;" vertex="1" parent="79HGeSbDpaYIvkaldVRL-1">
+          <mxGeometry x="270" y="130" width="380" height="320" as="geometry"/>
+        </mxCell>
+        <mxCell id="79HGeSbDpaYIvkaldVRL-5" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="79HGeSbDpaYIvkaldVRL-4">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="79HGeSbDpaYIvkaldVRL-6" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="79HGeSbDpaYIvkaldVRL-4">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="79HGeSbDpaYIvkaldVRL-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="79HGeSbDpaYIvkaldVRL-4">
+          <mxGeometry x="110" y="153" width="160" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="79HGeSbDpaYIvkaldVRL-8" value="Email" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="79HGeSbDpaYIvkaldVRL-4">
+          <mxGeometry x="108" y="130" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="79HGeSbDpaYIvkaldVRL-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="79HGeSbDpaYIvkaldVRL-4">
+          <mxGeometry x="110" y="199" width="160" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="79HGeSbDpaYIvkaldVRL-10" value="Password" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="79HGeSbDpaYIvkaldVRL-4">
+          <mxGeometry x="108" y="176" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="79HGeSbDpaYIvkaldVRL-11" value="Submit" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;shadow=1;arcSize=5;" vertex="1" parent="79HGeSbDpaYIvkaldVRL-4">
+          <mxGeometry x="140" y="233" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="79HGeSbDpaYIvkaldVRL-12" value="We add an event listener to the form" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="79HGeSbDpaYIvkaldVRL-1">
+          <mxGeometry x="680" y="250" width="340" height="37" as="geometry"/>
+        </mxCell>
+        <mxCell id="79HGeSbDpaYIvkaldVRL-13" value="HTML page loads up" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="79HGeSbDpaYIvkaldVRL-1">
+          <mxGeometry x="680" y="200" width="341" height="37" as="geometry"/>
+        </mxCell>
+        <mxCell id="79HGeSbDpaYIvkaldVRL-14" value="When user submits the form, we run a &lt;i&gt;callback&lt;/i&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="79HGeSbDpaYIvkaldVRL-1">
+          <mxGeometry x="680" y="300" width="341" height="37" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
