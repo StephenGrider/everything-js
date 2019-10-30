@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-30T16:55:25.883Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="imhAGt4nopf_fjxf_p3r" version="12.1.9" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-10-30T17:03:24.632Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="koquS6Cq7Zk84ilorJeB" version="12.1.9" type="github" pages="4">
   <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - promise">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -44,14 +44,84 @@
         <mxCell id="ImcvutNTB-FxG8GvGFUR-2" value="A promise is an object that keeps track of one or more callback functions" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
           <mxGeometry x="390" y="220" width="480" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="ImcvutNTB-FxG8GvGFUR-3" value="Some of these callback functions are ran only when &lt;i&gt;something&lt;/i&gt;&amp;nbsp;happens &lt;b&gt;successfully&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
-          <mxGeometry x="390" y="270" width="480" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="ImcvutNTB-FxG8GvGFUR-4" value="Some of these callback functions are ran only when &lt;i&gt;something&lt;/i&gt;&amp;nbsp;&lt;b&gt;fails&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
-          <mxGeometry x="390" y="320" width="480" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="ImcvutNTB-FxG8GvGFUR-6" value="More on Promises" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+        <mxCell id="ImcvutNTB-FxG8GvGFUR-6" value="Rules of Promises" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
           <mxGeometry x="510" y="190" width="240" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-0" value="Four methods" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="390" y="410" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-2" value="One variable" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="390" y="280" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="ImcvutNTB-FxG8GvGFUR-1" source="qTnpGoxgQznvexy5_pxu-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="345" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-3" value="status" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="400" y="330" width="150" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-5" value="&#39;pending&#39;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="590" y="330" width="90" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-6" value="&#39;resolved&#39;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="700" y="330" width="90" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-7" value="&#39;rejected&#39;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="810" y="330" width="90" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-8" value="We&#39;re still waiting on something to happen" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=10;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="592.5" y="370" width="85" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-9" value="Something good happened" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=10;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="702.5" y="370" width="85" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-10" value="Something bad happened" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=10;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="812.5" y="370" width="85" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="ImcvutNTB-FxG8GvGFUR-1" source="qTnpGoxgQznvexy5_pxu-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="475" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-11" value="then(callback)" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="400" y="460" width="150" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-14" value="Save this callback function.&amp;nbsp; Call it &lt;i&gt;one time&lt;/i&gt;&amp;nbsp;when something &lt;b&gt;good&lt;/b&gt; happens" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=10;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="595" y="465" width="185" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="ImcvutNTB-FxG8GvGFUR-1" source="qTnpGoxgQznvexy5_pxu-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="515" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-16" value="catch(callback)" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="400" y="500" width="150" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-17" value="Save this callback function.&amp;nbsp; Call it &lt;i&gt;one time&lt;/i&gt;&amp;nbsp;when something &lt;b&gt;bad&lt;/b&gt; happens" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=10;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="595" y="505" width="185" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="ImcvutNTB-FxG8GvGFUR-1" source="qTnpGoxgQznvexy5_pxu-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="555" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-19" value="resolve(value)" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="400" y="540" width="150" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-20" value="Something &lt;b&gt;good&lt;/b&gt; happened!&amp;nbsp; Call all the callbacks that have been saved with &#39;then&#39;.&amp;nbsp; Call them with this &#39;value&#39;. Also, update &#39;status&#39; to &#39;resolved&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=10;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="595" y="545" width="295" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="ImcvutNTB-FxG8GvGFUR-1" source="qTnpGoxgQznvexy5_pxu-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="600" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-22" value="reject(value)" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="400" y="585" width="150" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="qTnpGoxgQznvexy5_pxu-23" value="Something &lt;b&gt;bad&lt;/b&gt; happened!&amp;nbsp; Call all the callbacks that have been saved with &#39;then&#39;.&amp;nbsp; Call them with this &#39;value&#39;.&amp;nbsp; Also, update &#39;status&#39; to &#39;rejected&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=10;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+          <mxGeometry x="595" y="590" width="295" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
