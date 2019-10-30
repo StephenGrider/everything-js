@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-30T16:17:56.224Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="sxl6GI2VzDosGXy7Ni2c" version="12.1.9" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-10-30T16:21:25.942Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Q0OIysd21lL5cjEUPb5j" version="12.1.9" type="github" pages="2">
   <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - promise">
     <mxGraphModel dx="586" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -11,24 +11,21 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mXL34aEL_XbdEWldmQDi" name="02 - promises">
-    <mxGraphModel dx="586" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="pm0h2whpnbnRNsZfaRUF-0"/>
         <mxCell id="pm0h2whpnbnRNsZfaRUF-1" parent="pm0h2whpnbnRNsZfaRUF-0"/>
-        <mxCell id="pm0h2whpnbnRNsZfaRUF-3" value="Learning Promises Is Frustrating" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=2" vertex="1" parent="pm0h2whpnbnRNsZfaRUF-1">
-          <mxGeometry x="404.5" y="200" width="382" height="30" as="geometry"/>
+        <mxCell id="pm0h2whpnbnRNsZfaRUF-3" value="&lt;span style=&quot;font-style: normal&quot;&gt;Few Notes...&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=2" vertex="1" parent="pm0h2whpnbnRNsZfaRUF-1">
+          <mxGeometry x="429.5" y="217" width="382" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="pm0h2whpnbnRNsZfaRUF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="pm0h2whpnbnRNsZfaRUF-1" source="pm0h2whpnbnRNsZfaRUF-4" target="pm0h2whpnbnRNsZfaRUF-5">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="pm0h2whpnbnRNsZfaRUF-4" value="Promises are used to &lt;b&gt;help&lt;/b&gt; us make network requests to fetch info from JS code" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="pm0h2whpnbnRNsZfaRUF-1">
+          <mxGeometry x="401" y="250" width="439" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="pm0h2whpnbnRNsZfaRUF-4" value="You need to know &lt;b&gt;promises&lt;/b&gt; to understand &lt;b&gt;async code&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="pm0h2whpnbnRNsZfaRUF-1">
-          <mxGeometry x="401" y="250" width="389" height="40" as="geometry"/>
+        <mxCell id="pm0h2whpnbnRNsZfaRUF-10" value="Promises &lt;i&gt;can be confusing&lt;/i&gt;, but they really just come down to understanding a handful of rules" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="pm0h2whpnbnRNsZfaRUF-1">
+          <mxGeometry x="401" y="300" width="439" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="pm0h2whpnbnRNsZfaRUF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="pm0h2whpnbnRNsZfaRUF-1" source="pm0h2whpnbnRNsZfaRUF-5" target="pm0h2whpnbnRNsZfaRUF-4">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="pm0h2whpnbnRNsZfaRUF-5" value="You need to understand&amp;nbsp;&lt;b&gt;async code&lt;/b&gt; to understand &lt;b&gt;promises&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="pm0h2whpnbnRNsZfaRUF-1">
-          <mxGeometry x="401" y="370" width="389" height="40" as="geometry"/>
+        <mxCell id="pm0h2whpnbnRNsZfaRUF-11" value="We are going to look at promises in isolation - without network requests" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="pm0h2whpnbnRNsZfaRUF-1">
+          <mxGeometry x="401" y="350" width="439" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
