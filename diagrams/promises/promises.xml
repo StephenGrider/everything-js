@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-30T17:04:41.852Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="xXnPWmWXr09sbzQ7D7-d" version="12.1.9" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-10-30T17:11:24.930Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="0nqa-7DwITSMKOZyngjn" version="12.1.9" type="github" pages="4">
   <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - promise">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -60,6 +60,12 @@
         </mxCell>
         <mxCell id="qTnpGoxgQznvexy5_pxu-3" value="status" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
           <mxGeometry x="400" y="330" width="150" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="zg30UdNEtFXHT5D37zSu-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.444;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" edge="1" parent="ImcvutNTB-FxG8GvGFUR-1" source="qTnpGoxgQznvexy5_pxu-5" target="qTnpGoxgQznvexy5_pxu-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="zg30UdNEtFXHT5D37zSu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="ImcvutNTB-FxG8GvGFUR-1" source="qTnpGoxgQznvexy5_pxu-5" target="qTnpGoxgQznvexy5_pxu-7">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="qTnpGoxgQznvexy5_pxu-5" value="&#39;pending&#39;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
           <mxGeometry x="590" y="330" width="90" height="30" as="geometry"/>
