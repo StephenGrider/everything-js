@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-30T17:36:28.618Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="NGk3-cGRJojZ5nE27zpD" version="12.1.9" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-10-30T17:39:08.263Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="g_9NgnRKed1NTci_EPCS" version="12.1.9" type="github" pages="5">
   <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - promise">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -137,6 +137,26 @@
         </mxCell>
         <mxCell id="qTnpGoxgQznvexy5_pxu-27" value="If &#39;catch&#39; is called &lt;i&gt;after&lt;/i&gt;&amp;nbsp;a promise has been &#39;rejected&#39;, call the callback immediately" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
           <mxGeometry x="390" y="750" width="480" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="05 - advanced" id="KEtX48QcHu4ZjNCGw-2W">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="eLV0LxLllfvi_fcws1Ac-0"/>
+        <mxCell id="eLV0LxLllfvi_fcws1Ac-1" parent="eLV0LxLllfvi_fcws1Ac-0"/>
+        <mxCell id="eLV0LxLllfvi_fcws1Ac-3" value="Rules of Promises" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;" vertex="1" parent="eLV0LxLllfvi_fcws1Ac-1">
+          <mxGeometry x="510" y="190" width="240" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="eLV0LxLllfvi_fcws1Ac-28" value="A promise can only go from &#39;pending&#39; to &#39;resolved&#39; or &#39;rejected&#39; &lt;i&gt;one time&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="eLV0LxLllfvi_fcws1Ac-1">
+          <mxGeometry x="390" y="220" width="480" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="eLV0LxLllfvi_fcws1Ac-29" value="If &#39;then&#39; is called &lt;i&gt;after&lt;/i&gt;&amp;nbsp;a promise has been &#39;resolved&#39;, call the callback immediately" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="eLV0LxLllfvi_fcws1Ac-1">
+          <mxGeometry x="390" y="270" width="480" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="eLV0LxLllfvi_fcws1Ac-30" value="If &#39;catch&#39; is called &lt;i&gt;after&lt;/i&gt;&amp;nbsp;a promise has been &#39;rejected&#39;, call the callback immediately" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="eLV0LxLllfvi_fcws1Ac-1">
+          <mxGeometry x="390" y="320" width="480" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
