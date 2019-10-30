@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-30T17:42:31.615Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="AiXbDkJhpPl99mAK6AUi" version="12.1.9" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-10-30T17:43:38.912Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="g-yxhbWw1xZYnOio0o8a" version="12.1.9" type="github" pages="6">
   <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - promise">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -142,7 +142,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="05 - advanced" id="KEtX48QcHu4ZjNCGw-2W">
-    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="624" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="eLV0LxLllfvi_fcws1Ac-0"/>
         <mxCell id="eLV0LxLllfvi_fcws1Ac-1" parent="eLV0LxLllfvi_fcws1Ac-0"/>
@@ -150,19 +150,22 @@
           <mxGeometry x="460" y="190" width="370" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="eLV0LxLllfvi_fcws1Ac-28" value="Instead of resolving with one value and having that be passed to &lt;i&gt;every &lt;/i&gt;.then, each .then should be called with the &lt;i&gt;previous&lt;/i&gt;&amp;nbsp;.then&#39;s return value" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="eLV0LxLllfvi_fcws1Ac-1">
-          <mxGeometry x="390" y="220" width="510" height="40" as="geometry"/>
+          <mxGeometry x="390" y="273" width="510" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="eLV0LxLllfvi_fcws1Ac-29" value="Instead of rejecting with one value and having that be passed to&amp;nbsp;&lt;i&gt;every&amp;nbsp;&lt;/i&gt;.catch, each .catch should be called with the&amp;nbsp;&lt;i&gt;previous&lt;/i&gt;&amp;nbsp;.catch&#39;s return value" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="eLV0LxLllfvi_fcws1Ac-1">
-          <mxGeometry x="390" y="270" width="510" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="eLV0LxLllfvi_fcws1Ac-30" value="If &#39;catch&#39; is called &lt;i&gt;after&lt;/i&gt;&amp;nbsp;a promise has been &#39;rejected&#39;, call the callback immediately" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="eLV0LxLllfvi_fcws1Ac-1">
           <mxGeometry x="390" y="320" width="510" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="oJt5yWw14Gx9rI1jEHr4-0" value="Calling &#39;.then&#39; or &#39;.catch&#39; should &lt;i&gt;return the promise&lt;/i&gt;.&amp;nbsp; This will allow us to chain additional .then and .catch statements on" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="eLV0LxLllfvi_fcws1Ac-1">
+          <mxGeometry x="390" y="225" width="510" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="oJt5yWw14Gx9rI1jEHr4-1" value="Instead of rejecting with one value and having that be passed to&amp;nbsp;&lt;i&gt;every&amp;nbsp;&lt;/i&gt;.catch, each .catch should be called with the&amp;nbsp;&lt;i&gt;previous&lt;/i&gt;&amp;nbsp;.catch&#39;s return value" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="eLV0LxLllfvi_fcws1Ac-1">
+          <mxGeometry x="390" y="370" width="510" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="06 - chain" id="pM8ZaqiIBL5hdDlHTF6T">
-    <mxGraphModel dx="624" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="kbiS1MnE8JIeKsIdSOsR-0"/>
         <mxCell id="kbiS1MnE8JIeKsIdSOsR-1" parent="kbiS1MnE8JIeKsIdSOsR-0"/>
@@ -183,6 +186,9 @@
         </mxCell>
         <mxCell id="kbiS1MnE8JIeKsIdSOsR-13" value="promise" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;" vertex="1" parent="kbiS1MnE8JIeKsIdSOsR-1">
           <mxGeometry x="370" y="320" width="100" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="2iIYf4Ia2PSkA9mZ6hl9-0" value="0" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="kbiS1MnE8JIeKsIdSOsR-1">
+          <mxGeometry x="580" y="437.5" width="50" height="35" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
