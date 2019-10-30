@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-30T17:25:49.261Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="kR457IwSFzpyJzxuhyPu" version="12.1.9" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-10-30T17:36:28.618Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="NGk3-cGRJojZ5nE27zpD" version="12.1.9" type="github" pages="4">
   <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - promise">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -142,7 +142,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gw4rcU3C0nwp4yDMkCnX" name="03 - promises">
-    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="823" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="79HGeSbDpaYIvkaldVRL-0"/>
         <mxCell id="79HGeSbDpaYIvkaldVRL-1" parent="79HGeSbDpaYIvkaldVRL-0"/>
