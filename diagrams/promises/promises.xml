@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-30T16:51:25.850Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="yKSwuapAP6Kgv-m_5k-9" version="12.1.9" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-10-30T16:55:25.883Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="imhAGt4nopf_fjxf_p3r" version="12.1.9" type="github" pages="4">
   <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - promise">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -44,14 +44,11 @@
         <mxCell id="ImcvutNTB-FxG8GvGFUR-2" value="A promise is an object that keeps track of one or more callback functions" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
           <mxGeometry x="390" y="220" width="480" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="ImcvutNTB-FxG8GvGFUR-3" value="Some of these callback functions are ran only when some &lt;i&gt;thing&lt;/i&gt;&amp;nbsp;happens &lt;b&gt;successfully&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+        <mxCell id="ImcvutNTB-FxG8GvGFUR-3" value="Some of these callback functions are ran only when &lt;i&gt;something&lt;/i&gt;&amp;nbsp;happens &lt;b&gt;successfully&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
           <mxGeometry x="390" y="270" width="480" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="ImcvutNTB-FxG8GvGFUR-4" value="Some of these callback functions are ran only when some &lt;i&gt;thing&lt;/i&gt;&amp;nbsp;&lt;b&gt;fails&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+        <mxCell id="ImcvutNTB-FxG8GvGFUR-4" value="Some of these callback functions are ran only when &lt;i&gt;something&lt;/i&gt;&amp;nbsp;&lt;b&gt;fails&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
           <mxGeometry x="390" y="320" width="480" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="ImcvutNTB-FxG8GvGFUR-5" value="Some of these callback functions are ran only when some &lt;i&gt;thing&lt;/i&gt;&amp;nbsp;&lt;b&gt;fails&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
-          <mxGeometry x="390" y="370" width="480" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="ImcvutNTB-FxG8GvGFUR-6" value="More on Promises" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
           <mxGeometry x="510" y="190" width="240" height="20" as="geometry"/>
