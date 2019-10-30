@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-30T16:21:25.942Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Q0OIysd21lL5cjEUPb5j" version="12.1.9" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-10-30T16:23:25.275Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="MSt22tuyIqE1R0ym4g_g" version="12.1.9" type="github" pages="2">
   <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - promise">
     <mxGraphModel dx="586" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -16,16 +16,22 @@
         <mxCell id="pm0h2whpnbnRNsZfaRUF-0"/>
         <mxCell id="pm0h2whpnbnRNsZfaRUF-1" parent="pm0h2whpnbnRNsZfaRUF-0"/>
         <mxCell id="pm0h2whpnbnRNsZfaRUF-3" value="&lt;span style=&quot;font-style: normal&quot;&gt;Few Notes...&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=2" vertex="1" parent="pm0h2whpnbnRNsZfaRUF-1">
-          <mxGeometry x="429.5" y="217" width="382" height="30" as="geometry"/>
+          <mxGeometry x="490.5" y="220" width="260" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="pm0h2whpnbnRNsZfaRUF-4" value="Promises are used to &lt;b&gt;help&lt;/b&gt; us make network requests to fetch info from JS code" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="pm0h2whpnbnRNsZfaRUF-1">
-          <mxGeometry x="401" y="250" width="439" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="pm0h2whpnbnRNsZfaRUF-10" value="Promises &lt;i&gt;can be confusing&lt;/i&gt;, but they really just come down to understanding a handful of rules" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="pm0h2whpnbnRNsZfaRUF-1">
           <mxGeometry x="401" y="300" width="439" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="pm0h2whpnbnRNsZfaRUF-11" value="We are going to look at promises in isolation - without network requests" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="pm0h2whpnbnRNsZfaRUF-1">
+        <mxCell id="pm0h2whpnbnRNsZfaRUF-10" value="Promises &lt;i&gt;can be confusing&lt;/i&gt;, but they really just come down to understanding a handful of rules" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="pm0h2whpnbnRNsZfaRUF-1">
           <mxGeometry x="401" y="350" width="439" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="pm0h2whpnbnRNsZfaRUF-11" value="We are going to look at promises in isolation - without network requests" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="pm0h2whpnbnRNsZfaRUF-1">
+          <mxGeometry x="401" y="400" width="439" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="pm0h2whpnbnRNsZfaRUF-12" value="Similar in nature to callback functions.&amp;nbsp; We use them to run some code when something happens in the future" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="pm0h2whpnbnRNsZfaRUF-1">
+          <mxGeometry x="400" y="250" width="439" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="pm0h2whpnbnRNsZfaRUF-13" value="You &lt;i&gt;will &lt;/i&gt;say&lt;i&gt; &lt;/i&gt;&#39;this is boring and whats the point&#39; in the next few videos :)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="pm0h2whpnbnRNsZfaRUF-1">
+          <mxGeometry x="401" y="450" width="439" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
