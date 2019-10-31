@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-31T19:53:11.505Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="wmpwWkXIZ2jX6uN_z3cy" version="12.1.9" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2019-10-31T19:55:10.878Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="lxiYaOIsnxD291EnmT3B" version="12.1.9" type="github" pages="10">
   <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - sync">
     <mxGraphModel dx="607" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -32,6 +32,32 @@
         </mxCell>
         <mxCell id="J47w1CNuM3IBq20lxnoA-2" value="&lt;i&gt;Some parts&lt;/i&gt;&amp;nbsp;of our program are executed line by line in order, and &lt;i&gt;other parts&lt;/i&gt;&amp;nbsp;&lt;b&gt;wait &lt;/b&gt;to be ran until some event occurs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=16;" vertex="1" parent="RSdWmexFeXvQ2TVacr_l-1">
           <mxGeometry x="640" y="230" width="260" height="80" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="10 - flow" id="FnFdeUvHYJndLqAwFRGO">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="JJLj5pyD_TeKgUwQ76ME-0"/>
+        <mxCell id="JJLj5pyD_TeKgUwQ76ME-1" parent="JJLj5pyD_TeKgUwQ76ME-0"/>
+        <mxCell id="JJLj5pyD_TeKgUwQ76ME-2" value="Sync Code" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=28;" vertex="1" parent="JJLj5pyD_TeKgUwQ76ME-1">
+          <mxGeometry x="340" y="170" width="220" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="JJLj5pyD_TeKgUwQ76ME-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="JJLj5pyD_TeKgUwQ76ME-1" source="JJLj5pyD_TeKgUwQ76ME-6" target="JJLj5pyD_TeKgUwQ76ME-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="JJLj5pyD_TeKgUwQ76ME-6" value="Iterate from 0 to 10000" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="JJLj5pyD_TeKgUwQ76ME-1">
+          <mxGeometry x="340" y="240" width="220" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="JJLj5pyD_TeKgUwQ76ME-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="JJLj5pyD_TeKgUwQ76ME-1" source="JJLj5pyD_TeKgUwQ76ME-7" target="JJLj5pyD_TeKgUwQ76ME-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="JJLj5pyD_TeKgUwQ76ME-7" value="If the current number is even, print &#39;even&#39;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="JJLj5pyD_TeKgUwQ76ME-1">
+          <mxGeometry x="340" y="300" width="220" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="JJLj5pyD_TeKgUwQ76ME-8" value="If the current number is odd, print &#39;odd" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="JJLj5pyD_TeKgUwQ76ME-1">
+          <mxGeometry x="340" y="360" width="220" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
