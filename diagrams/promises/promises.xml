@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-31T19:55:10.878Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="lxiYaOIsnxD291EnmT3B" version="12.1.9" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2019-10-31T19:55:19.053Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="tiCiKxnDQ8NwzeQ8PmNb" version="12.1.9" type="github" pages="10">
   <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - sync">
     <mxGraphModel dx="607" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -28,10 +28,10 @@
           <mxGeometry x="640" y="180" width="260" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="J47w1CNuM3IBq20lxnoA-1" value="Our program is executed line by line in order, with no gaps or pauses between each step" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=16;" vertex="1" parent="RSdWmexFeXvQ2TVacr_l-1">
-          <mxGeometry x="320" y="230" width="260" height="60" as="geometry"/>
+          <mxGeometry x="320" y="233" width="260" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="J47w1CNuM3IBq20lxnoA-2" value="&lt;i&gt;Some parts&lt;/i&gt;&amp;nbsp;of our program are executed line by line in order, and &lt;i&gt;other parts&lt;/i&gt;&amp;nbsp;&lt;b&gt;wait &lt;/b&gt;to be ran until some event occurs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=16;" vertex="1" parent="RSdWmexFeXvQ2TVacr_l-1">
-          <mxGeometry x="640" y="230" width="260" height="80" as="geometry"/>
+          <mxGeometry x="640" y="232" width="260" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
