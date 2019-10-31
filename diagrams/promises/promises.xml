@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-31T21:20:12.762Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="cfaBTIQcrYWtNZH6lX3k" version="12.1.9" type="github" pages="15">
+<mxfile host="www.draw.io" modified="2019-10-31T22:11:54.094Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="p6lxbEGjdNk_iq1LHvDP" version="12.1.9" type="github" pages="15">
   <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - sync">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -262,7 +262,7 @@
         <mxCell id="ImcvutNTB-FxG8GvGFUR-6" value="Rules of Promises" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=20;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
           <mxGeometry x="510" y="190" width="240" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="qTnpGoxgQznvexy5_pxu-0" value="Four methods" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
+        <mxCell id="qTnpGoxgQznvexy5_pxu-0" value="Four Functions" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
           <mxGeometry x="390" y="410" width="160" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="qTnpGoxgQznvexy5_pxu-2" value="One variable" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ImcvutNTB-FxG8GvGFUR-1">
