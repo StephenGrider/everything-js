@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-10-31T19:48:03.525Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="QgDeBoLWS7rQ4cVsbXx7" version="12.1.9" type="github" pages="8">
-  <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - promise">
-    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+<mxfile host="www.draw.io" modified="2019-10-31T19:53:11.505Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="wmpwWkXIZ2jX6uN_z3cy" version="12.1.9" type="github" pages="9">
+  <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - sync">
+    <mxGraphModel dx="607" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -16,11 +16,43 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="A8ow2-1rhrdDZy5oRECG" name="09 - async">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="RSdWmexFeXvQ2TVacr_l-0"/>
+        <mxCell id="RSdWmexFeXvQ2TVacr_l-1" parent="RSdWmexFeXvQ2TVacr_l-0"/>
+        <mxCell id="v4Q1tctyTdv9BQrf6rfo-0" value="Sync Code" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=28;" vertex="1" parent="RSdWmexFeXvQ2TVacr_l-1">
+          <mxGeometry x="320" y="180" width="260" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="J47w1CNuM3IBq20lxnoA-0" value="Async Code" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=28;" vertex="1" parent="RSdWmexFeXvQ2TVacr_l-1">
+          <mxGeometry x="640" y="180" width="260" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="J47w1CNuM3IBq20lxnoA-1" value="Our program is executed line by line in order, with no gaps or pauses between each step" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=16;" vertex="1" parent="RSdWmexFeXvQ2TVacr_l-1">
+          <mxGeometry x="320" y="230" width="260" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="J47w1CNuM3IBq20lxnoA-2" value="&lt;i&gt;Some parts&lt;/i&gt;&amp;nbsp;of our program are executed line by line in order, and &lt;i&gt;other parts&lt;/i&gt;&amp;nbsp;&lt;b&gt;wait &lt;/b&gt;to be ran until some event occurs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=16;" vertex="1" parent="RSdWmexFeXvQ2TVacr_l-1">
+          <mxGeometry x="640" y="230" width="260" height="80" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="HRSZVKUb260O5MCaBpP7" name="08 - click">
-    <mxGraphModel dx="1384" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="773" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="7dG9hhvK49XPBnsNu08J-0"/>
         <mxCell id="7dG9hhvK49XPBnsNu08J-1" parent="7dG9hhvK49XPBnsNu08J-0"/>
+        <mxCell id="I_DhcpDCbjopjIETcoPM-0" value="Create a button" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=left;" vertex="1" parent="7dG9hhvK49XPBnsNu08J-1">
+          <mxGeometry x="470" y="140" width="360" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="I_DhcpDCbjopjIETcoPM-1" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="7dG9hhvK49XPBnsNu08J-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="140" as="sourcePoint"/>
+            <mxPoint x="460" y="390" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_DhcpDCbjopjIETcoPM-2" value="Create a button" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=left;" vertex="1" parent="7dG9hhvK49XPBnsNu08J-1">
+          <mxGeometry x="470" y="190" width="360" height="40" as="geometry"/>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
