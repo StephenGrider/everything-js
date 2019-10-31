@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-31T19:25:32.012Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="P3LwWDGPDLmky0zCuFVm" version="12.1.9" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-10-31T19:26:23.163Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="lJCx4Ge96zLxrm9zh72P" version="12.1.9" type="github" pages="7">
   <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - promise">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -44,6 +44,41 @@
         </mxCell>
         <mxCell id="M3Vi4P_beoa-6aK0mtiu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="M3Vi4P_beoa-6aK0mtiu-1" source="M3Vi4P_beoa-6aK0mtiu-5" target="M3Vi4P_beoa-6aK0mtiu-8">
           <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="07 - callback" id="ZwNHk2o1_PUg9EquBOmJ">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="gCnT71J383UDal_kUQ8i-0"/>
+        <mxCell id="gCnT71J383UDal_kUQ8i-1" parent="gCnT71J383UDal_kUQ8i-0"/>
+        <mxCell id="gCnT71J383UDal_kUQ8i-2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;fillColor=#ffffff;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;rounded=1;fontSize=18;" vertex="1" parent="gCnT71J383UDal_kUQ8i-1">
+          <mxGeometry x="490" y="230" width="410" height="210" as="geometry"/>
+        </mxCell>
+        <mxCell id="gCnT71J383UDal_kUQ8i-3" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="gCnT71J383UDal_kUQ8i-2">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="gCnT71J383UDal_kUQ8i-4" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="gCnT71J383UDal_kUQ8i-2">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="gCnT71J383UDal_kUQ8i-5" value="Click Me" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="gCnT71J383UDal_kUQ8i-2">
+          <mxGeometry x="20" y="120" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="gCnT71J383UDal_kUQ8i-6" value="document.querySelector(&#39;button&#39;).addEventListener(&#39;click&#39;," style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;" vertex="1" parent="gCnT71J383UDal_kUQ8i-1">
+          <mxGeometry x="330" y="510" width="420" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="gCnT71J383UDal_kUQ8i-7" value="callback" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="gCnT71J383UDal_kUQ8i-1">
+          <mxGeometry x="750" y="510" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="gCnT71J383UDal_kUQ8i-8" value=")" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;" vertex="1" parent="gCnT71J383UDal_kUQ8i-1">
+          <mxGeometry x="870" y="510" width="40" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="gCnT71J383UDal_kUQ8i-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="gCnT71J383UDal_kUQ8i-1" source="gCnT71J383UDal_kUQ8i-5" target="gCnT71J383UDal_kUQ8i-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="gCnT71J383UDal_kUQ8i-10" value="Goal of callbacks in general: tell JS what to do when something happens in the future" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="gCnT71J383UDal_kUQ8i-1">
+          <mxGeometry x="210" y="335" width="260" height="85" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
