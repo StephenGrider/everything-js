@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-10-31T19:55:19.053Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="tiCiKxnDQ8NwzeQ8PmNb" version="12.1.9" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2019-10-31T20:00:13.465Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Eeq14tzZg35DNfobQ8Sa" version="12.1.9" type="github" pages="11">
   <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - sync">
-    <mxGraphModel dx="607" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -32,6 +32,41 @@
         </mxCell>
         <mxCell id="J47w1CNuM3IBq20lxnoA-2" value="&lt;i&gt;Some parts&lt;/i&gt;&amp;nbsp;of our program are executed line by line in order, and &lt;i&gt;other parts&lt;/i&gt;&amp;nbsp;&lt;b&gt;wait &lt;/b&gt;to be ran until some event occurs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=16;" vertex="1" parent="RSdWmexFeXvQ2TVacr_l-1">
           <mxGeometry x="640" y="232" width="260" height="80" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="10 - examples" id="rE6kFV6XL5fZid3dTAv9">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="CJ06xbXoBtk1HqW658uX-0"/>
+        <mxCell id="CJ06xbXoBtk1HqW658uX-1" parent="CJ06xbXoBtk1HqW658uX-0"/>
+        <mxCell id="CJ06xbXoBtk1HqW658uX-2" value="Sync Code" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=28;" vertex="1" parent="CJ06xbXoBtk1HqW658uX-1">
+          <mxGeometry x="320" y="180" width="260" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="CJ06xbXoBtk1HqW658uX-3" value="Async Code" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=28;" vertex="1" parent="CJ06xbXoBtk1HqW658uX-1">
+          <mxGeometry x="640" y="180" width="260" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="CJ06xbXoBtk1HqW658uX-7" value="Iterating from 0 to 10,000" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=12;align=center;" vertex="1" parent="CJ06xbXoBtk1HqW658uX-1">
+          <mxGeometry x="330" y="240" width="240" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="CJ06xbXoBtk1HqW658uX-8" value="Finding all prime numbers below 999" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=12;align=center;" vertex="1" parent="CJ06xbXoBtk1HqW658uX-1">
+          <mxGeometry x="330" y="340" width="240" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="CJ06xbXoBtk1HqW658uX-9" value="Determining whether two words are anagrams of eachother" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=12;align=center;" vertex="1" parent="CJ06xbXoBtk1HqW658uX-1">
+          <mxGeometry x="330" y="290" width="240" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="CJ06xbXoBtk1HqW658uX-10" value="Determining whether two words are anagrams of eachother" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=12;align=center;" vertex="1" parent="CJ06xbXoBtk1HqW658uX-1">
+          <mxGeometry x="330" y="390" width="240" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="CJ06xbXoBtk1HqW658uX-11" value="Setting up an event handler on a button, then waiting for a user to click it" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=12;align=center;" vertex="1" parent="CJ06xbXoBtk1HqW658uX-1">
+          <mxGeometry x="650" y="240" width="240" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="CJ06xbXoBtk1HqW658uX-12" value="Loading a list of blog posts from a remote server, then printing the number of posts" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=12;align=center;" vertex="1" parent="CJ06xbXoBtk1HqW658uX-1">
+          <mxGeometry x="650" y="290" width="240" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="CJ06xbXoBtk1HqW658uX-13" value="Fetching an image from an online source, then showing it in the DOM" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=12;align=center;" vertex="1" parent="CJ06xbXoBtk1HqW658uX-1">
+          <mxGeometry x="650" y="340" width="240" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
