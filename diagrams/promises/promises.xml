@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-31T20:08:45.970Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="ACJ9T7bR98tER6INEZE1" version="12.1.9" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2019-10-31T20:32:24.422Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="bwyGe3M6HbXUyNkbuz9Q" version="12.1.9" type="github" pages="10">
   <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - sync">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -104,33 +104,42 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8AiX74v6vkcqvsCeEZlk" name="06 - event">
-    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="M3Vi4P_beoa-6aK0mtiu-0"/>
         <mxCell id="M3Vi4P_beoa-6aK0mtiu-1" parent="M3Vi4P_beoa-6aK0mtiu-0"/>
-        <mxCell id="M3Vi4P_beoa-6aK0mtiu-2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;fillColor=#ffffff;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;rounded=1;fontSize=18;" vertex="1" parent="M3Vi4P_beoa-6aK0mtiu-1">
-          <mxGeometry x="490" y="230" width="410" height="210" as="geometry"/>
+        <mxCell id="9upvkUucjteSV35AcHTh-0" value="Select the form" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=13;align=center;" vertex="1" parent="M3Vi4P_beoa-6aK0mtiu-1">
+          <mxGeometry x="390" y="260" width="280" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="M3Vi4P_beoa-6aK0mtiu-3" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="M3Vi4P_beoa-6aK0mtiu-2">
-          <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+        <mxCell id="9upvkUucjteSV35AcHTh-1" value="Select the input" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=13;align=center;" vertex="1" parent="M3Vi4P_beoa-6aK0mtiu-1">
+          <mxGeometry x="390" y="300" width="280" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="M3Vi4P_beoa-6aK0mtiu-4" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="M3Vi4P_beoa-6aK0mtiu-2">
-          <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+        <mxCell id="9upvkUucjteSV35AcHTh-2" value="Define &#39;onSubmit&#39;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=13;align=center;" vertex="1" parent="M3Vi4P_beoa-6aK0mtiu-1">
+          <mxGeometry x="390" y="340" width="280" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="M3Vi4P_beoa-6aK0mtiu-5" value="Click Me" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="M3Vi4P_beoa-6aK0mtiu-2">
-          <mxGeometry x="20" y="120" width="120" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="M3Vi4P_beoa-6aK0mtiu-6" value="document.querySelector(&#39;button&#39;).addEventListener(&#39;click&#39;," style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;" vertex="1" parent="M3Vi4P_beoa-6aK0mtiu-1">
-          <mxGeometry x="330" y="510" width="420" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="M3Vi4P_beoa-6aK0mtiu-8" value="callback" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="M3Vi4P_beoa-6aK0mtiu-1">
-          <mxGeometry x="750" y="510" width="120" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="M3Vi4P_beoa-6aK0mtiu-9" value=")" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=16;align=center;" vertex="1" parent="M3Vi4P_beoa-6aK0mtiu-1">
-          <mxGeometry x="870" y="510" width="40" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="M3Vi4P_beoa-6aK0mtiu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="M3Vi4P_beoa-6aK0mtiu-1" source="M3Vi4P_beoa-6aK0mtiu-5" target="M3Vi4P_beoa-6aK0mtiu-8">
+        <mxCell id="9upvkUucjteSV35AcHTh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="M3Vi4P_beoa-6aK0mtiu-1" source="9upvkUucjteSV35AcHTh-3" target="9upvkUucjteSV35AcHTh-4">
           <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="9upvkUucjteSV35AcHTh-3" value="Tell the browser to call &#39;onSubmit&#39; when the form is submitted" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=13;align=center;" vertex="1" parent="M3Vi4P_beoa-6aK0mtiu-1">
+          <mxGeometry x="390" y="380" width="280" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="9upvkUucjteSV35AcHTh-4" value="User clicks form, &#39;onSubmit&#39; is executed" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=13;align=center;" vertex="1" parent="M3Vi4P_beoa-6aK0mtiu-1">
+          <mxGeometry x="390" y="470" width="280" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="9upvkUucjteSV35AcHTh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="M3Vi4P_beoa-6aK0mtiu-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="260" as="sourcePoint"/>
+            <mxPoint x="380" y="500" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9upvkUucjteSV35AcHTh-7" value="Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=13;" vertex="1" parent="M3Vi4P_beoa-6aK0mtiu-1">
+          <mxGeometry x="330" y="260" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="9upvkUucjteSV35AcHTh-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;fontSize=13;align=center;rotation=180;" vertex="1" parent="M3Vi4P_beoa-6aK0mtiu-1">
+          <mxGeometry x="680" y="410" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="9upvkUucjteSV35AcHTh-9" value="We are free to run other code at this point!" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=13;" vertex="1" parent="M3Vi4P_beoa-6aK0mtiu-1">
+          <mxGeometry x="710" y="430" width="140" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
