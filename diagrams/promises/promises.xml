@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-31T20:51:41.560Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="5WMkSvL3KgmCtB4HyDvT" version="12.1.9" type="github" pages="12">
+<mxfile host="www.draw.io" modified="2019-10-31T21:01:53.681Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="2KITTqRCbBdHeLJVk9bn" version="12.1.9" type="github" pages="13">
   <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - sync">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -404,6 +404,17 @@
         </mxCell>
         <mxCell id="2iIYf4Ia2PSkA9mZ6hl9-0" value="0" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="kbiS1MnE8JIeKsIdSOsR-1">
           <mxGeometry x="580" y="437.5" width="50" height="35" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="T_AGagD-U-x5K9xXN5Y9" name="13 - promsies">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="49olnEt0aq9uAmrziGp6-0"/>
+        <mxCell id="49olnEt0aq9uAmrziGp6-1" parent="49olnEt0aq9uAmrziGp6-0"/>
+        <mxCell id="49olnEt0aq9uAmrziGp6-2" value="Promises" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=27;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="49olnEt0aq9uAmrziGp6-1">
+          <mxGeometry x="460" y="240" width="260" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
