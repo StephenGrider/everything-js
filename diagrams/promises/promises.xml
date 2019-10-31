@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-31T21:01:53.681Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="2KITTqRCbBdHeLJVk9bn" version="12.1.9" type="github" pages="13">
+<mxfile host="www.draw.io" modified="2019-10-31T21:05:13.382Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="7dqWveHqwcyN7N0CyeTW" version="12.1.9" type="github" pages="14">
   <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - sync">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -415,6 +415,44 @@
         <mxCell id="49olnEt0aq9uAmrziGp6-1" parent="49olnEt0aq9uAmrziGp6-0"/>
         <mxCell id="49olnEt0aq9uAmrziGp6-2" value="Promises" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=27;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="49olnEt0aq9uAmrziGp6-1">
           <mxGeometry x="460" y="240" width="260" height="80" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="14 - what" id="9E2PFnkx7Mn00MrnPtXC">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="FRxhEOcJsaxhkhdp8QHA-0"/>
+        <mxCell id="FRxhEOcJsaxhkhdp8QHA-1" parent="FRxhEOcJsaxhkhdp8QHA-0"/>
+        <mxCell id="FRxhEOcJsaxhkhdp8QHA-2" value="Promises" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=27;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="FRxhEOcJsaxhkhdp8QHA-1">
+          <mxGeometry x="890" y="200" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="FRxhEOcJsaxhkhdp8QHA-3" value="Callbacks" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=27;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="FRxhEOcJsaxhkhdp8QHA-1">
+          <mxGeometry x="560" y="200" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="FRxhEOcJsaxhkhdp8QHA-4" value="Function that is passed to an event listener" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="FRxhEOcJsaxhkhdp8QHA-1">
+          <mxGeometry x="560" y="260" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="FRxhEOcJsaxhkhdp8QHA-5" value="When event occurs, callback is invoked" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="FRxhEOcJsaxhkhdp8QHA-1">
+          <mxGeometry x="560" y="320" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="FRxhEOcJsaxhkhdp8QHA-6" value="Callback running is a sign that &lt;i&gt;something happened&lt;/i&gt;." style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="FRxhEOcJsaxhkhdp8QHA-1">
+          <mxGeometry x="560" y="380" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="FRxhEOcJsaxhkhdp8QHA-7" value="Callback running doesn&#39;t necessarily mean that something good or bad happened" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="FRxhEOcJsaxhkhdp8QHA-1">
+          <mxGeometry x="560" y="440" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="FRxhEOcJsaxhkhdp8QHA-8" value="Object that is used to organize callbacks" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="FRxhEOcJsaxhkhdp8QHA-1">
+          <mxGeometry x="890" y="260" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="FRxhEOcJsaxhkhdp8QHA-9" value="We can register a &#39;success&#39; callback and a &#39;fail&#39; callback" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="FRxhEOcJsaxhkhdp8QHA-1">
+          <mxGeometry x="890" y="320" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="FRxhEOcJsaxhkhdp8QHA-10" value="Promise runs the &#39;success&#39; callback when something good happens" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="FRxhEOcJsaxhkhdp8QHA-1">
+          <mxGeometry x="890" y="380" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="FRxhEOcJsaxhkhdp8QHA-11" value="Promise runs the &#39;fail&#39; callback when something bad happens" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;align=center;" vertex="1" parent="FRxhEOcJsaxhkhdp8QHA-1">
+          <mxGeometry x="890" y="440" width="270" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
