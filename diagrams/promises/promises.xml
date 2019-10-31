@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-31T20:34:04.654Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="rGtemrmqrId6rHRcZ1pl" version="12.1.9" type="github" pages="11">
+<mxfile host="www.draw.io" modified="2019-10-31T20:34:48.470Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="AEOPu2KRA9_JJJWC5GRo" version="12.1.9" type="github" pages="11">
   <diagram id="pz42vxL87dCNSvBpTkUP" name="01 - sync">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -127,7 +127,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zbi1n86CUuIglvEy5JAR-9" value="Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=13;" vertex="1" parent="zbi1n86CUuIglvEy5JAR-1">
-          <mxGeometry x="330" y="260" width="40" height="20" as="geometry"/>
+          <mxGeometry x="340" y="260" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="zbi1n86CUuIglvEy5JAR-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;fontSize=13;align=center;rotation=180;" vertex="1" parent="zbi1n86CUuIglvEy5JAR-1">
           <mxGeometry x="680" y="330" width="30" height="70" as="geometry"/>
@@ -137,6 +137,9 @@
         </mxCell>
         <mxCell id="zbi1n86CUuIglvEy5JAR-14" value="Update h1 element" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=13;align=center;" vertex="1" parent="zbi1n86CUuIglvEy5JAR-1">
           <mxGeometry x="390" y="440" width="280" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="N2lK9rvEnW6yRJNdNBFn-0" value="Sync Code" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=24;" vertex="1" parent="zbi1n86CUuIglvEy5JAR-1">
+          <mxGeometry x="790" y="220" width="150" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -178,6 +181,9 @@
         </mxCell>
         <mxCell id="9upvkUucjteSV35AcHTh-9" value="We are free to run other code at this point!" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=13;" vertex="1" parent="M3Vi4P_beoa-6aK0mtiu-1">
           <mxGeometry x="710" y="430" width="140" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nJyYThOM61m0Z2pYDxD-0" value="Async Code" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=22;" vertex="1" parent="M3Vi4P_beoa-6aK0mtiu-1">
+          <mxGeometry x="790" y="235" width="125" height="70" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
