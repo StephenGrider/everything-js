@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-01T19:07:04.965Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="zKmF3WuKXEQwK5Ggb6cD" version="12.1.9" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2019-11-01T19:29:01.267Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="v-x5DxlzrY9sfbZPNuub" version="12.1.9" type="github" pages="7">
   <diagram id="dSBiJTSVEKQypuy8A-S5" name="01 - async">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -6,6 +6,20 @@
         <mxCell id="1" parent="0"/>
         <mxCell id="i9v64IQcFK__OtqyI58u-1" value="Data Fetching in Javascript" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=27;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="310" y="230" width="290" height="120" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="05 - requests" id="mxaCiHMacvufcwHyO--j">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="TkTkh0BJ5zDcofTP-Vs--0"/>
+        <mxCell id="TkTkh0BJ5zDcofTP-Vs--1" parent="TkTkh0BJ5zDcofTP-Vs--0"/>
+        <mxCell id="TkTkh0BJ5zDcofTP-Vs--5" value="jsonplaceholder.typicode.com" style="rounded=0;whiteSpace=wrap;html=1;fontSize=27;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TkTkh0BJ5zDcofTP-Vs--1">
+          <mxGeometry x="270" y="290" width="500" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="TkTkh0BJ5zDcofTP-Vs--12" value="Source of blog posts that we want to retrieve" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=2" vertex="1" parent="TkTkh0BJ5zDcofTP-Vs--1">
+          <mxGeometry x="400" y="390" width="240" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -54,16 +68,31 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="05 - requests" id="mxaCiHMacvufcwHyO--j">
-    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+  <diagram id="2N71Q0BcyZQ0-EqjJnNU" name="05 - wait">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
-        <mxCell id="TkTkh0BJ5zDcofTP-Vs--0"/>
-        <mxCell id="TkTkh0BJ5zDcofTP-Vs--1" parent="TkTkh0BJ5zDcofTP-Vs--0"/>
-        <mxCell id="TkTkh0BJ5zDcofTP-Vs--5" value="jsonplaceholder.typicode.com" style="rounded=0;whiteSpace=wrap;html=1;fontSize=27;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TkTkh0BJ5zDcofTP-Vs--1">
-          <mxGeometry x="270" y="290" width="500" height="100" as="geometry"/>
+        <mxCell id="uiYxQlMUBHc40QJnXLBN-0"/>
+        <mxCell id="uiYxQlMUBHc40QJnXLBN-1" parent="uiYxQlMUBHc40QJnXLBN-0"/>
+        <mxCell id="uiYxQlMUBHc40QJnXLBN-2" value="Define fetchData" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;" vertex="1" parent="uiYxQlMUBHc40QJnXLBN-1">
+          <mxGeometry x="560" y="100" width="360" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="TkTkh0BJ5zDcofTP-Vs--12" value="Source of blog posts that we want to retrieve" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=2" vertex="1" parent="TkTkh0BJ5zDcofTP-Vs--1">
-          <mxGeometry x="400" y="390" width="240" height="60" as="geometry"/>
+        <mxCell id="uiYxQlMUBHc40QJnXLBN-3" value="Call fetchData" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;" vertex="1" parent="uiYxQlMUBHc40QJnXLBN-1">
+          <mxGeometry x="560" y="150" width="360" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uiYxQlMUBHc40QJnXLBN-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="uiYxQlMUBHc40QJnXLBN-1" source="uiYxQlMUBHc40QJnXLBN-6" target="uiYxQlMUBHc40QJnXLBN-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="uiYxQlMUBHc40QJnXLBN-6" value="Request issued" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;" vertex="1" parent="uiYxQlMUBHc40QJnXLBN-1">
+          <mxGeometry x="560" y="200" width="360" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uiYxQlMUBHc40QJnXLBN-7" value="Got a response!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;" vertex="1" parent="uiYxQlMUBHc40QJnXLBN-1">
+          <mxGeometry x="560" y="330" width="360" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uiYxQlMUBHc40QJnXLBN-9" value="&lt;i&gt;Wait...&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="uiYxQlMUBHc40QJnXLBN-1">
+          <mxGeometry x="750" y="275" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="uiYxQlMUBHc40QJnXLBN-10" value="Continue running fetchData" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;" vertex="1" parent="uiYxQlMUBHc40QJnXLBN-1">
+          <mxGeometry x="560" y="380" width="360" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -136,31 +165,57 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="2N71Q0BcyZQ0-EqjJnNU" name="05 - wait">
-    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+  <diagram id="62SF5bD7WqsGWRLFH2yQ" name="07 - sync">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
-        <mxCell id="uiYxQlMUBHc40QJnXLBN-0"/>
-        <mxCell id="uiYxQlMUBHc40QJnXLBN-1" parent="uiYxQlMUBHc40QJnXLBN-0"/>
-        <mxCell id="uiYxQlMUBHc40QJnXLBN-2" value="Define fetchData" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;" vertex="1" parent="uiYxQlMUBHc40QJnXLBN-1">
-          <mxGeometry x="560" y="100" width="360" height="40" as="geometry"/>
+        <mxCell id="qdPgqxP8LMh_VTJNF8g1-0"/>
+        <mxCell id="qdPgqxP8LMh_VTJNF8g1-1" parent="qdPgqxP8LMh_VTJNF8g1-0"/>
+        <mxCell id="qdPgqxP8LMh_VTJNF8g1-2" value="Sync Code" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=28;" vertex="1" parent="qdPgqxP8LMh_VTJNF8g1-1">
+          <mxGeometry x="320" y="180" width="260" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="uiYxQlMUBHc40QJnXLBN-3" value="Call fetchData" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;" vertex="1" parent="uiYxQlMUBHc40QJnXLBN-1">
-          <mxGeometry x="560" y="150" width="360" height="40" as="geometry"/>
+        <mxCell id="qdPgqxP8LMh_VTJNF8g1-3" value="Async Code" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=28;" vertex="1" parent="qdPgqxP8LMh_VTJNF8g1-1">
+          <mxGeometry x="640" y="180" width="260" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="uiYxQlMUBHc40QJnXLBN-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=22;" edge="1" parent="uiYxQlMUBHc40QJnXLBN-1" source="uiYxQlMUBHc40QJnXLBN-6" target="uiYxQlMUBHc40QJnXLBN-7">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="qdPgqxP8LMh_VTJNF8g1-4" value="Our program is executed line by line in order, with no gaps or pauses between each step" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=16;" vertex="1" parent="qdPgqxP8LMh_VTJNF8g1-1">
+          <mxGeometry x="320" y="233" width="260" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="uiYxQlMUBHc40QJnXLBN-6" value="Request issued" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;" vertex="1" parent="uiYxQlMUBHc40QJnXLBN-1">
-          <mxGeometry x="560" y="200" width="360" height="40" as="geometry"/>
+        <mxCell id="qdPgqxP8LMh_VTJNF8g1-5" value="Our program &lt;i&gt;waits&lt;/i&gt;&amp;nbsp;to execute some code until an event occurs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=16;" vertex="1" parent="qdPgqxP8LMh_VTJNF8g1-1">
+          <mxGeometry x="640" y="232" width="260" height="48" as="geometry"/>
         </mxCell>
-        <mxCell id="uiYxQlMUBHc40QJnXLBN-7" value="Got a response!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;" vertex="1" parent="uiYxQlMUBHc40QJnXLBN-1">
-          <mxGeometry x="560" y="330" width="360" height="40" as="geometry"/>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="U9hkHF3U3m9tHYeA5DLI" name="08 - async">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="8YXDAR-Ijhd_RVx3nS0d-0"/>
+        <mxCell id="8YXDAR-Ijhd_RVx3nS0d-1" parent="8YXDAR-Ijhd_RVx3nS0d-0"/>
+        <mxCell id="8YXDAR-Ijhd_RVx3nS0d-2" value="How do we know if code is async?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=18;fontStyle=1" vertex="1" parent="8YXDAR-Ijhd_RVx3nS0d-1">
+          <mxGeometry x="510" y="210" width="180" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="uiYxQlMUBHc40QJnXLBN-9" value="&lt;i&gt;Wait...&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="uiYxQlMUBHc40QJnXLBN-1">
-          <mxGeometry x="750" y="275" width="70" height="20" as="geometry"/>
+        <mxCell id="8YXDAR-Ijhd_RVx3nS0d-3" value="Run some code to do a task" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=center;" vertex="1" parent="8YXDAR-Ijhd_RVx3nS0d-1">
+          <mxGeometry x="460" y="250" width="270" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="uiYxQlMUBHc40QJnXLBN-10" value="Continue running fetchData" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;" vertex="1" parent="uiYxQlMUBHc40QJnXLBN-1">
-          <mxGeometry x="560" y="380" width="360" height="40" as="geometry"/>
+        <mxCell id="8YXDAR-Ijhd_RVx3nS0d-4" value="Task complete!" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=15;align=center;" vertex="1" parent="8YXDAR-Ijhd_RVx3nS0d-1">
+          <mxGeometry x="460" y="380" width="270" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="8YXDAR-Ijhd_RVx3nS0d-5" value="" style="endArrow=classic;html=1;fontSize=15;" edge="1" parent="8YXDAR-Ijhd_RVx3nS0d-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="250" as="sourcePoint"/>
+            <mxPoint x="450" y="410" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8YXDAR-Ijhd_RVx3nS0d-6" value="Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=15;" vertex="1" parent="8YXDAR-Ijhd_RVx3nS0d-1">
+          <mxGeometry x="400" y="250" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="8YXDAR-Ijhd_RVx3nS0d-7" value="Wait..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=15;" vertex="1" parent="8YXDAR-Ijhd_RVx3nS0d-1">
+          <mxGeometry x="575" y="320" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="8YXDAR-Ijhd_RVx3nS0d-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;fontSize=15;align=center;rotation=180;" vertex="1" parent="8YXDAR-Ijhd_RVx3nS0d-1">
+          <mxGeometry x="740" y="280" width="20" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="8YXDAR-Ijhd_RVx3nS0d-9" value="Can we run other code during this time?&amp;nbsp; If so, it is async!" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontSize=15;" vertex="1" parent="8YXDAR-Ijhd_RVx3nS0d-1">
+          <mxGeometry x="760" y="320" width="190" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
