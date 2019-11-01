@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-01T16:01:45.309Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Gt69FqXxYNTOJNtp3ITV" version="12.1.9" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-11-01T16:48:38.431Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="GMahtQV1nRZS_pFpUI3o" version="12.1.9" type="github" pages="5">
   <diagram id="dSBiJTSVEKQypuy8A-S5" name="01 - async">
-    <mxGraphModel dx="586" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -132,6 +132,20 @@
         </mxCell>
         <mxCell id="4FifFlUF7BmHIu8aX0sy-11" value="Turns out this is the stuff you use on a day-to-day basis.&amp;nbsp; Let&#39;s start there!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1" vertex="1" parent="4FifFlUF7BmHIu8aX0sy-1">
           <mxGeometry x="790" y="270" width="230" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="05 - requests" id="mxaCiHMacvufcwHyO--j">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="TkTkh0BJ5zDcofTP-Vs--0"/>
+        <mxCell id="TkTkh0BJ5zDcofTP-Vs--1" parent="TkTkh0BJ5zDcofTP-Vs--0"/>
+        <mxCell id="TkTkh0BJ5zDcofTP-Vs--5" value="jsonplaceholder.typicode.com" style="rounded=0;whiteSpace=wrap;html=1;fontSize=27;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TkTkh0BJ5zDcofTP-Vs--1">
+          <mxGeometry x="270" y="290" width="500" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="TkTkh0BJ5zDcofTP-Vs--12" value="Source of blog posts that we want to retrieve" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=2" vertex="1" parent="TkTkh0BJ5zDcofTP-Vs--1">
+          <mxGeometry x="400" y="390" width="240" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
