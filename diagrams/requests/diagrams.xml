@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-01T17:25:51.125Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="sf3wrMsZN03Sk6YyO6uQ" version="12.1.9" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2019-11-01T17:39:54.899Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="78I5FANhfFejgth8sZVL" version="12.1.9" type="github" pages="6">
   <diagram id="dSBiJTSVEKQypuy8A-S5" name="01 - async">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -167,14 +167,6 @@
         <mxCell id="TkTkh0BJ5zDcofTP-Vs--12" value="Source of blog posts that we want to retrieve" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=2" vertex="1" parent="TkTkh0BJ5zDcofTP-Vs--1">
           <mxGeometry x="400" y="390" width="240" height="60" as="geometry"/>
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="oU1oYx0SJPmVILWpzDNc" name="07 - async/await">
-    <mxGraphModel dx="1245" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="uUl-8M9kZaSkGKQLySwd-0"/>
-        <mxCell id="uUl-8M9kZaSkGKQLySwd-1" parent="uUl-8M9kZaSkGKQLySwd-0"/>
       </root>
     </mxGraphModel>
   </diagram>
