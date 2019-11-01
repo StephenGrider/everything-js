@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-01T19:44:35.122Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="CyF2bD2piZBVEjoDoN91" version="12.1.9" type="github" pages="8">
+<mxfile host="www.draw.io" modified="2019-11-01T19:44:42.753Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="KcrSfeKYwkhv-c4HQzkz" version="12.1.9" type="github" pages="8">
   <diagram id="dSBiJTSVEKQypuy8A-S5" name="01 - async">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -54,20 +54,6 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="05 - requests" id="mxaCiHMacvufcwHyO--j">
-    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="TkTkh0BJ5zDcofTP-Vs--0"/>
-        <mxCell id="TkTkh0BJ5zDcofTP-Vs--1" parent="TkTkh0BJ5zDcofTP-Vs--0"/>
-        <mxCell id="TkTkh0BJ5zDcofTP-Vs--5" value="jsonplaceholder.typicode.com" style="rounded=0;whiteSpace=wrap;html=1;fontSize=27;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="TkTkh0BJ5zDcofTP-Vs--1" vertex="1">
-          <mxGeometry x="270" y="290" width="500" height="100" as="geometry"/>
-        </mxCell>
-        <mxCell id="TkTkh0BJ5zDcofTP-Vs--12" value="Source of blog posts that we want to retrieve" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=2" parent="TkTkh0BJ5zDcofTP-Vs--1" vertex="1">
-          <mxGeometry x="400" y="390" width="240" height="60" as="geometry"/>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="tOJT8ePynUCPBbH0WbwC" name="08 - app">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -114,6 +100,20 @@
         </mxCell>
         <mxCell id="DWyT2akKrjVtfpvSfZLx-12" value="After Posts Fetched" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=19;" vertex="1" parent="I-NYMVtPxaloaQZKUa6a-1">
           <mxGeometry x="1060" y="90" width="220" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="05 - requests" id="mxaCiHMacvufcwHyO--j">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="TkTkh0BJ5zDcofTP-Vs--0"/>
+        <mxCell id="TkTkh0BJ5zDcofTP-Vs--1" parent="TkTkh0BJ5zDcofTP-Vs--0"/>
+        <mxCell id="TkTkh0BJ5zDcofTP-Vs--5" value="jsonplaceholder.typicode.com" style="rounded=0;whiteSpace=wrap;html=1;fontSize=27;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="TkTkh0BJ5zDcofTP-Vs--1" vertex="1">
+          <mxGeometry x="270" y="290" width="500" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="TkTkh0BJ5zDcofTP-Vs--12" value="Source of blog posts that we want to retrieve" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=2" parent="TkTkh0BJ5zDcofTP-Vs--1" vertex="1">
+          <mxGeometry x="400" y="390" width="240" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
