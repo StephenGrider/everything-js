@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-01T18:30:08.549Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="MAoPNud1XjzPnIBPlkuC" version="12.1.9" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2019-11-01T19:03:18.251Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Jy8wbFek2LZ9mDlh9PQr" version="12.1.9" type="github" pages="4">
   <diagram id="dSBiJTSVEKQypuy8A-S5" name="01 - async">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -50,108 +50,6 @@
         </mxCell>
         <mxCell id="_qwP4xZMfKfCeAqjmlfT-11" value="&lt;i style=&quot;font-size: 14px&quot;&gt;Here you go!&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="_qwP4xZMfKfCeAqjmlfT-1">
           <mxGeometry x="518" y="430" width="115" height="30" as="geometry"/>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="ewidukcrKBoEqvVeXBbH" name="06 - whyu">
-    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="1ieFxMLQejT3MCSL62J0-0"/>
-        <mxCell id="1ieFxMLQejT3MCSL62J0-1" parent="1ieFxMLQejT3MCSL62J0-0"/>
-        <mxCell id="1ieFxMLQejT3MCSL62J0-2" value="Goal of requests is to fetch some data from a remote server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="1ieFxMLQejT3MCSL62J0-1">
-          <mxGeometry x="510" y="210" width="400" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="1ieFxMLQejT3MCSL62J0-4" value="Notes on Requests" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="1ieFxMLQejT3MCSL62J0-1">
-          <mxGeometry x="612.5" y="180" width="195" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="1ieFxMLQejT3MCSL62J0-9" value="Really big topic!&amp;nbsp; Lots of libraries and methodologies" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="1ieFxMLQejT3MCSL62J0-1">
-          <mxGeometry x="510" y="290" width="400" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="1ieFxMLQejT3MCSL62J0-10" value="Really big topic!&amp;nbsp; Lots of libraries and methodologies" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;" vertex="1" parent="1ieFxMLQejT3MCSL62J0-1">
-          <mxGeometry x="510" y="250" width="400" height="30" as="geometry"/>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="8OibbzQER0Q3Z24O3gOQ" name="03 - order">
-    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="lkZ7pcfyih6IDTnCZhA8-0"/>
-        <mxCell id="lkZ7pcfyih6IDTnCZhA8-1" parent="lkZ7pcfyih6IDTnCZhA8-0"/>
-        <mxCell id="lkZ7pcfyih6IDTnCZhA8-2" value="Sync vs Async Code" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="lkZ7pcfyih6IDTnCZhA8-1">
-          <mxGeometry x="470" y="150" width="300" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="lkZ7pcfyih6IDTnCZhA8-3" value="The Event Loop" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="lkZ7pcfyih6IDTnCZhA8-1">
-          <mxGeometry x="470" y="190" width="300" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="lkZ7pcfyih6IDTnCZhA8-4" value="" style="endArrow=classic;html=1;fontSize=14;" edge="1" parent="lkZ7pcfyih6IDTnCZhA8-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="150" as="sourcePoint"/>
-            <mxPoint x="460" y="460" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lkZ7pcfyih6IDTnCZhA8-5" value="Callbacks" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="lkZ7pcfyih6IDTnCZhA8-1">
-          <mxGeometry x="470" y="230" width="300" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="lkZ7pcfyih6IDTnCZhA8-6" value="Promises" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="lkZ7pcfyih6IDTnCZhA8-1">
-          <mxGeometry x="470" y="270" width="300" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="lkZ7pcfyih6IDTnCZhA8-7" value="Async/Await" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="lkZ7pcfyih6IDTnCZhA8-1">
-          <mxGeometry x="470" y="310" width="300" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="lkZ7pcfyih6IDTnCZhA8-8" value="XMLHttpRequests" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="lkZ7pcfyih6IDTnCZhA8-1">
-          <mxGeometry x="470" y="350" width="300" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="lkZ7pcfyih6IDTnCZhA8-9" value="Fetch" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="lkZ7pcfyih6IDTnCZhA8-1">
-          <mxGeometry x="470" y="390" width="300" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="lkZ7pcfyih6IDTnCZhA8-10" value="Axios" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="lkZ7pcfyih6IDTnCZhA8-1">
-          <mxGeometry x="470" y="430" width="300" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="lkZ7pcfyih6IDTnCZhA8-12" value="This is the order that requests are normally taught in" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1" vertex="1" parent="lkZ7pcfyih6IDTnCZhA8-1">
-          <mxGeometry x="790" y="270" width="200" height="40" as="geometry"/>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="04 - turns out" id="LeFtYg2glEgbREqUAmsA">
-    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="4FifFlUF7BmHIu8aX0sy-0"/>
-        <mxCell id="4FifFlUF7BmHIu8aX0sy-1" parent="4FifFlUF7BmHIu8aX0sy-0"/>
-        <mxCell id="4FifFlUF7BmHIu8aX0sy-2" value="Sync vs Async Code" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="4FifFlUF7BmHIu8aX0sy-1">
-          <mxGeometry x="470" y="150" width="300" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="4FifFlUF7BmHIu8aX0sy-3" value="The Event Loop" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="4FifFlUF7BmHIu8aX0sy-1">
-          <mxGeometry x="470" y="190" width="300" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="4FifFlUF7BmHIu8aX0sy-4" value="" style="endArrow=classic;html=1;fontSize=14;" edge="1" parent="4FifFlUF7BmHIu8aX0sy-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="150" as="sourcePoint"/>
-            <mxPoint x="460" y="460" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4FifFlUF7BmHIu8aX0sy-5" value="Callbacks" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="4FifFlUF7BmHIu8aX0sy-1">
-          <mxGeometry x="470" y="230" width="300" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="4FifFlUF7BmHIu8aX0sy-6" value="Promises" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="4FifFlUF7BmHIu8aX0sy-1">
-          <mxGeometry x="470" y="270" width="300" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="4FifFlUF7BmHIu8aX0sy-7" value="Async/Await" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4FifFlUF7BmHIu8aX0sy-1">
-          <mxGeometry x="470" y="310" width="300" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="4FifFlUF7BmHIu8aX0sy-8" value="XMLHttpRequests" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="4FifFlUF7BmHIu8aX0sy-1">
-          <mxGeometry x="470" y="350" width="300" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="4FifFlUF7BmHIu8aX0sy-9" value="Fetch" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4FifFlUF7BmHIu8aX0sy-1">
-          <mxGeometry x="470" y="390" width="300" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="4FifFlUF7BmHIu8aX0sy-10" value="Axios" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4FifFlUF7BmHIu8aX0sy-1">
-          <mxGeometry x="470" y="430" width="300" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="4FifFlUF7BmHIu8aX0sy-11" value="Turns out this is the stuff you use on a day-to-day basis.&amp;nbsp; Let&#39;s start there!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1" vertex="1" parent="4FifFlUF7BmHIu8aX0sy-1">
-          <mxGeometry x="790" y="270" width="230" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
