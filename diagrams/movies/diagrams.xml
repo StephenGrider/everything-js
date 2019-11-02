@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-02T19:46:50.339Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="bsjhLcrXWTbud2F9hLZh" version="12.1.9" type="github" pages="8">
+<mxfile host="www.draw.io" modified="2019-11-02T19:51:43.568Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="z9wqVdoRx4R9blEGQraY" version="12.1.9" type="github" pages="9">
   <diagram id="uaNDHDQLS0F1Z4SsC7E0" name="01 - change">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -762,6 +762,56 @@
         </mxCell>
         <mxCell id="Q8i33mLicMsLTSGd0puD-77" value="Hide menu" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
           <mxGeometry x="920" y="639.5" width="190" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8Gd6pqATPrn93v5DknV8" name="09 - widget">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="SXPBXQk2o2TI6xnAbxkt-0"/>
+        <mxCell id="SXPBXQk2o2TI6xnAbxkt-1" parent="SXPBXQk2o2TI6xnAbxkt-0"/>
+        <mxCell id="SXPBXQk2o2TI6xnAbxkt-2" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="SXPBXQk2o2TI6xnAbxkt-1">
+          <mxGeometry x="360" y="160" width="200" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="SXPBXQk2o2TI6xnAbxkt-3" value="Option #1" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="SXPBXQk2o2TI6xnAbxkt-1">
+          <mxGeometry x="360" y="130" width="440" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="SXPBXQk2o2TI6xnAbxkt-4" value="&lt;b&gt;index.html&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="SXPBXQk2o2TI6xnAbxkt-1">
+          <mxGeometry x="360" y="160" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="SXPBXQk2o2TI6xnAbxkt-5" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="SXPBXQk2o2TI6xnAbxkt-1">
+          <mxGeometry x="620" y="160" width="180" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="SXPBXQk2o2TI6xnAbxkt-6" value="&lt;b&gt;index.js&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="SXPBXQk2o2TI6xnAbxkt-1">
+          <mxGeometry x="620" y="160" width="180" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="SXPBXQk2o2TI6xnAbxkt-8" value="&amp;lt;div class=&quot;autocomplete&quot;&amp;gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;lt;input /&amp;gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;lt;div class=&quot;menu hidden&quot;&amp;gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;div class=&quot;options&quot;&amp;gt;&lt;br&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;!-- Eventually put options here --&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;/div&amp;gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;lt;/div&amp;gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&amp;lt;/div&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=10;" vertex="1" parent="SXPBXQk2o2TI6xnAbxkt-1">
+          <mxGeometry x="360" y="210" width="210" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="SXPBXQk2o2TI6xnAbxkt-9" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="SXPBXQk2o2TI6xnAbxkt-1">
+          <mxGeometry x="360" y="450" width="200" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="SXPBXQk2o2TI6xnAbxkt-10" value="Option #2" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="SXPBXQk2o2TI6xnAbxkt-1">
+          <mxGeometry x="360" y="420" width="440" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="SXPBXQk2o2TI6xnAbxkt-11" value="&lt;b&gt;index.html&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="SXPBXQk2o2TI6xnAbxkt-1">
+          <mxGeometry x="360" y="450" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="SXPBXQk2o2TI6xnAbxkt-12" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="SXPBXQk2o2TI6xnAbxkt-1">
+          <mxGeometry x="620" y="450" width="180" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="SXPBXQk2o2TI6xnAbxkt-13" value="&lt;b&gt;index.js&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;" vertex="1" parent="SXPBXQk2o2TI6xnAbxkt-1">
+          <mxGeometry x="620" y="450" width="180" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="SXPBXQk2o2TI6xnAbxkt-14" value="&amp;lt;div class=&quot;autocomplete&quot;&amp;gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&amp;lt;/div&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=10;" vertex="1" parent="SXPBXQk2o2TI6xnAbxkt-1">
+          <mxGeometry x="360" y="500" width="210" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="SXPBXQk2o2TI6xnAbxkt-15" value="// Code to: &lt;br&gt;// 1) select the autocomplete div&amp;nbsp;&lt;br&gt;// 2) Handle the input&lt;br&gt;// 3) Do search&lt;br&gt;// 4) add in options to existing HTML&amp;nbsp;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=10;" vertex="1" parent="SXPBXQk2o2TI6xnAbxkt-1">
+          <mxGeometry x="620" y="190" width="180" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="SXPBXQk2o2TI6xnAbxkt-16" value="// Code to: &lt;br&gt;// 1) select the autocomplete div&amp;nbsp;&lt;br&gt;// 2) &lt;b&gt;Create input&lt;/b&gt;&lt;br&gt;// 3) Handle the input&lt;br&gt;// 4) Do search&lt;br&gt;// 5) &lt;b&gt;Add in html for menu&lt;/b&gt;&lt;br&gt;// 6) Add in options to menu" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=10;" vertex="1" parent="SXPBXQk2o2TI6xnAbxkt-1">
+          <mxGeometry x="620" y="500" width="180" height="100" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
