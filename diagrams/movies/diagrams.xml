@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-02T18:32:16.904Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="dwflOx9ghEyLgNajYxgn" version="12.1.9" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2019-11-02T19:36:16.747Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="7QpXAgFmW_kStOxYP2PF" version="12.1.9" type="github" pages="8">
   <diagram id="uaNDHDQLS0F1Z4SsC7E0" name="01 - change">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -555,6 +555,270 @@
         </mxCell>
         <mxCell id="oVZokJ7GreytaGo4E7-g-3" value="Free API for getting movie data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;" vertex="1" parent="oVZokJ7GreytaGo4E7-g-1">
           <mxGeometry x="425" y="296" width="290" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uGHK-F5N1YJlzJISz_Q0" name="08 - autocomplete">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-0"/>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-1" parent="Q8i33mLicMsLTSGd0puD-0"/>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-2" value="&amp;nbsp; &amp;nbsp; dark knight" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="865" y="240" width="280" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-3" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="865" y="290" width="300" height="230" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-4" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="875" y="300" width="40" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-5" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.992;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" target="Q8i33mLicMsLTSGd0puD-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="875" y="360" as="sourcePoint"/>
+            <mxPoint x="925" y="310" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-6" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.992;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" target="Q8i33mLicMsLTSGd0puD-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="875" y="300" as="sourcePoint"/>
+            <mxPoint x="925" y="250" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-7" value="The Dark Knight (2012)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="925" y="320" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-8" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="875" y="370.5" width="40" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-9" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.992;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" target="Q8i33mLicMsLTSGd0puD-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="875" y="430.5" as="sourcePoint"/>
+            <mxPoint x="925" y="380.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-10" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.992;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" target="Q8i33mLicMsLTSGd0puD-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="875" y="370.5" as="sourcePoint"/>
+            <mxPoint x="925" y="320.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-11" value="Knight Times (2000)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="925" y="390.5" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-12" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="875" y="440.5" width="40" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-13" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.992;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" target="Q8i33mLicMsLTSGd0puD-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="875" y="500.5" as="sourcePoint"/>
+            <mxPoint x="925" y="450.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-14" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.992;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" target="Q8i33mLicMsLTSGd0puD-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="875" y="440.5" as="sourcePoint"/>
+            <mxPoint x="925" y="390.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-15" value="Running Knights (2006)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="925" y="460.5" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-16" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="260" y="240" width="230" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" source="Q8i33mLicMsLTSGd0puD-17" target="Q8i33mLicMsLTSGd0puD-19">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-17" value="Default State" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="280" y="160" width="190" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-18" value="&amp;nbsp; dar" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="565" y="240" width="230" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" source="Q8i33mLicMsLTSGd0puD-19" target="Q8i33mLicMsLTSGd0puD-21">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" source="Q8i33mLicMsLTSGd0puD-19" target="Q8i33mLicMsLTSGd0puD-76">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="180"/>
+              <mxPoint x="830" y="620"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-19" value="User starts typing..." style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="585" y="160" width="190" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" source="Q8i33mLicMsLTSGd0puD-21" target="Q8i33mLicMsLTSGd0puD-37">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" source="Q8i33mLicMsLTSGd0puD-21" target="Q8i33mLicMsLTSGd0puD-54">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" source="Q8i33mLicMsLTSGd0puD-21" target="Q8i33mLicMsLTSGd0puD-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="180"/>
+              <mxPoint x="1220" y="890"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-21" value="User finishes typing and we find matching movies" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="920" y="160" width="190" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-23" value="&amp;nbsp; &amp;nbsp; dark knight" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="1295" y="240" width="280" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-24" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="1295" y="290" width="300" height="230" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-25" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="1305" y="300" width="40" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-26" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.992;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" target="Q8i33mLicMsLTSGd0puD-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1305" y="360" as="sourcePoint"/>
+            <mxPoint x="1355" y="310" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-27" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.992;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" target="Q8i33mLicMsLTSGd0puD-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1305" y="300" as="sourcePoint"/>
+            <mxPoint x="1355" y="250" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-28" value="The Dark Knight (2012)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="1355" y="320" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-29" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="1305" y="370.5" width="40" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-30" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.992;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" target="Q8i33mLicMsLTSGd0puD-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1305" y="430.5" as="sourcePoint"/>
+            <mxPoint x="1355" y="380.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-31" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.992;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" target="Q8i33mLicMsLTSGd0puD-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1305" y="370.5" as="sourcePoint"/>
+            <mxPoint x="1355" y="320.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-32" value="Knight Times (2000)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="1355" y="390.5" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-33" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="1305" y="440.5" width="40" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-34" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.992;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" target="Q8i33mLicMsLTSGd0puD-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1305" y="500.5" as="sourcePoint"/>
+            <mxPoint x="1355" y="450.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-35" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.992;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" target="Q8i33mLicMsLTSGd0puD-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1305" y="440.5" as="sourcePoint"/>
+            <mxPoint x="1355" y="390.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-36" value="Running Knights (2006)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="1355" y="460.5" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-37" value="User presses enter" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="1350" y="160" width="190" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-39" value="Do nothing" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="1350" y="200" width="190" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-40" value="&amp;nbsp; &amp;nbsp;The Dark Knight&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="1285" y="660" width="280" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-54" value="User clicks an entry" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="1340" y="580" width="190" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-55" value="Update text, close menu" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="1340" y="620" width="190" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-57" value="&amp;nbsp; &amp;nbsp;dark knight" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="1295" y="870" width="280" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-58" value="User clicks outside the dropdown" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="1350" y="790" width="190" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-59" value="close menu" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="1350" y="830" width="190" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-61" value="Show menu, display results" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="920" y="200" width="190" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-62" value="&amp;nbsp; &amp;nbsp; dark knight" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="865" y="679.5" width="280" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-63" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="865" y="729.5" width="300" height="230" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-64" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="875" y="739.5" width="40" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-65" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.992;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" target="Q8i33mLicMsLTSGd0puD-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="875" y="799.5" as="sourcePoint"/>
+            <mxPoint x="925" y="749.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-66" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.992;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" target="Q8i33mLicMsLTSGd0puD-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="875" y="739.5" as="sourcePoint"/>
+            <mxPoint x="925" y="689.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-67" value="The Dark Knight (2012)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="925" y="759.5" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-68" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="875" y="810" width="40" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-69" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.992;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" target="Q8i33mLicMsLTSGd0puD-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="875" y="870" as="sourcePoint"/>
+            <mxPoint x="925" y="820" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-70" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.992;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" target="Q8i33mLicMsLTSGd0puD-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="875" y="810" as="sourcePoint"/>
+            <mxPoint x="925" y="760" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-71" value="Knight Times (2000)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="925" y="830" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-72" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="875" y="880" width="40" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-73" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.992;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" target="Q8i33mLicMsLTSGd0puD-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="875" y="940" as="sourcePoint"/>
+            <mxPoint x="925" y="890" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-74" value="" style="endArrow=none;html=1;fontSize=14;entryX=0.992;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q8i33mLicMsLTSGd0puD-1" target="Q8i33mLicMsLTSGd0puD-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="875" y="880" as="sourcePoint"/>
+            <mxPoint x="925" y="830" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-75" value="Running Knights (2006)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="925" y="900" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-76" value="User finishes typing and we find no results" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="920" y="599.5" width="190" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q8i33mLicMsLTSGd0puD-77" value="Hide menu" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Q8i33mLicMsLTSGd0puD-1">
+          <mxGeometry x="920" y="639.5" width="190" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
