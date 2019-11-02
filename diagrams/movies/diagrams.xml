@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-02T17:04:19.013Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="tk104ljCPLA0kvPH7-GR" version="12.1.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-02T17:06:45.194Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="XwIRlNQ57M3beIvSbAvF" version="12.1.9" type="github" pages="2">
   <diagram id="uaNDHDQLS0F1Z4SsC7E0" name="01 - change">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -6,6 +6,50 @@
         <mxCell id="1" parent="0"/>
         <mxCell id="tnwTUMHji8lv1rgJ6yya-1" value="Welcome to Part 2!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=38;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="320" y="250" width="400" height="130" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8CCq_Wy2DQYX-xYZ07uP" name="02 - diff">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="Dgx4XMsEQLVLNGr6nbG9-0"/>
+        <mxCell id="Dgx4XMsEQLVLNGr6nbG9-1" parent="Dgx4XMsEQLVLNGr6nbG9-0"/>
+        <mxCell id="Dgx4XMsEQLVLNGr6nbG9-2" value="Part 1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=32;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="Dgx4XMsEQLVLNGr6nbG9-1">
+          <mxGeometry x="210" y="150" width="310" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dgx4XMsEQLVLNGr6nbG9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="Dgx4XMsEQLVLNGr6nbG9-1" source="Dgx4XMsEQLVLNGr6nbG9-3" target="Dgx4XMsEQLVLNGr6nbG9-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dgx4XMsEQLVLNGr6nbG9-3" value="Lots of different, individual topics" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="Dgx4XMsEQLVLNGr6nbG9-1">
+          <mxGeometry x="210" y="210" width="310" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dgx4XMsEQLVLNGr6nbG9-4" value="Part 2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=32;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="Dgx4XMsEQLVLNGr6nbG9-1">
+          <mxGeometry x="600" y="150" width="310" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dgx4XMsEQLVLNGr6nbG9-5" value="Fewer topics, but way more in depth on each" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="Dgx4XMsEQLVLNGr6nbG9-1">
+          <mxGeometry x="600" y="210" width="310" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dgx4XMsEQLVLNGr6nbG9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="Dgx4XMsEQLVLNGr6nbG9-1" source="Dgx4XMsEQLVLNGr6nbG9-6" target="Dgx4XMsEQLVLNGr6nbG9-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dgx4XMsEQLVLNGr6nbG9-6" value="Focused on the basic features of Javascript" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="Dgx4XMsEQLVLNGr6nbG9-1">
+          <mxGeometry x="210" y="280" width="310" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dgx4XMsEQLVLNGr6nbG9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="Dgx4XMsEQLVLNGr6nbG9-1" source="Dgx4XMsEQLVLNGr6nbG9-7" target="Dgx4XMsEQLVLNGr6nbG9-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dgx4XMsEQLVLNGr6nbG9-7" value="Not too many larger apps" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="Dgx4XMsEQLVLNGr6nbG9-1">
+          <mxGeometry x="210" y="350" width="310" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dgx4XMsEQLVLNGr6nbG9-9" value="Focused on design patterns and more advanced concepts of JS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="Dgx4XMsEQLVLNGr6nbG9-1">
+          <mxGeometry x="600" y="280" width="310" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dgx4XMsEQLVLNGr6nbG9-10" value="Nothing but large apps!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="Dgx4XMsEQLVLNGr6nbG9-1">
+          <mxGeometry x="600" y="350" width="310" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Dgx4XMsEQLVLNGr6nbG9-15" value="Lots of refactoring" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="Dgx4XMsEQLVLNGr6nbG9-1">
+          <mxGeometry x="600" y="420" width="310" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
