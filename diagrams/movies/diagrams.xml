@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-02T17:50:52.742Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Drz1tF04q4hlBJtpCeIn" version="12.1.9" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-11-02T17:58:30.770Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Lfoqt3PKi_uuqeIk3Q-I" version="12.1.9" type="github" pages="5">
   <diagram id="uaNDHDQLS0F1Z4SsC7E0" name="01 - change">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1rqZ-jXq2MYa2TN_zBqn" name="03 - app">
-    <mxGraphModel dx="1384" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1253" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="RWnNRSLBOwajYRrIfxL9-0"/>
         <mxCell id="RWnNRSLBOwajYRrIfxL9-1" parent="RWnNRSLBOwajYRrIfxL9-0"/>
@@ -387,6 +387,62 @@
         </mxCell>
         <mxCell id="q_RTWjGKH1eWIeIyprO4-7" value="Plan of Attack" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=24;fontStyle=1" vertex="1" parent="q_RTWjGKH1eWIeIyprO4-1">
           <mxGeometry x="665" y="70" width="190" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="E4oXs4YTxpMlrg5yo2zt" name="05 - challenges">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="nbnWjHDL5e4_IycBJxpo-0"/>
+        <mxCell id="nbnWjHDL5e4_IycBJxpo-1" parent="nbnWjHDL5e4_IycBJxpo-0"/>
+        <mxCell id="nbnWjHDL5e4_IycBJxpo-2" value="Big Challenges" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=24;" vertex="1" parent="nbnWjHDL5e4_IycBJxpo-1">
+          <mxGeometry x="320" y="130" width="230" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="xGq2TyPyJuWJPLxCSu6j-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="nbnWjHDL5e4_IycBJxpo-1" source="nbnWjHDL5e4_IycBJxpo-3" target="xGq2TyPyJuWJPLxCSu6j-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="nbnWjHDL5e4_IycBJxpo-3" value="We need to be able to &lt;i&gt;search&lt;/i&gt;&amp;nbsp;for movies" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=12;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="nbnWjHDL5e4_IycBJxpo-1">
+          <mxGeometry x="262.5" y="207" width="345" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="xGq2TyPyJuWJPLxCSu6j-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="nbnWjHDL5e4_IycBJxpo-1" source="nbnWjHDL5e4_IycBJxpo-4" target="xGq2TyPyJuWJPLxCSu6j-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="nbnWjHDL5e4_IycBJxpo-4" value="We need to somehow fetch data about movies" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=12;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="nbnWjHDL5e4_IycBJxpo-1">
+          <mxGeometry x="262.5" y="160" width="345" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="xGq2TyPyJuWJPLxCSu6j-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="nbnWjHDL5e4_IycBJxpo-1" source="nbnWjHDL5e4_IycBJxpo-5" target="xGq2TyPyJuWJPLxCSu6j-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="nbnWjHDL5e4_IycBJxpo-5" value="We need to be able to get &lt;i&gt;details&lt;/i&gt;&amp;nbsp;about a very specific movie" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=12;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="nbnWjHDL5e4_IycBJxpo-1">
+          <mxGeometry x="262.5" y="254" width="345" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="xGq2TyPyJuWJPLxCSu6j-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="nbnWjHDL5e4_IycBJxpo-1" source="nbnWjHDL5e4_IycBJxpo-6" target="xGq2TyPyJuWJPLxCSu6j-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="nbnWjHDL5e4_IycBJxpo-6" value="We need to build that autocomplete widget from scratch" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=12;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="nbnWjHDL5e4_IycBJxpo-1">
+          <mxGeometry x="262.5" y="302" width="345" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="xGq2TyPyJuWJPLxCSu6j-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="nbnWjHDL5e4_IycBJxpo-1" source="xGq2TyPyJuWJPLxCSu6j-0" target="xGq2TyPyJuWJPLxCSu6j-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xGq2TyPyJuWJPLxCSu6j-0" value="This app would be a lot better with some styling + css!" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=12;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="nbnWjHDL5e4_IycBJxpo-1">
+          <mxGeometry x="262.5" y="350" width="345" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="xGq2TyPyJuWJPLxCSu6j-2" value="We could try to find an API that allows us to search for movies based on a search term" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="nbnWjHDL5e4_IycBJxpo-1">
+          <mxGeometry x="650" y="207" width="345" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="xGq2TyPyJuWJPLxCSu6j-3" value="We should attempt to fetch some data about movies from our JS code" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="nbnWjHDL5e4_IycBJxpo-1">
+          <mxGeometry x="650" y="160" width="345" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="xGq2TyPyJuWJPLxCSu6j-4" value="We could try to find an API that allows us to look up statistics about a particular movie" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="nbnWjHDL5e4_IycBJxpo-1">
+          <mxGeometry x="650" y="254" width="345" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="xGq2TyPyJuWJPLxCSu6j-5" value="We should sit down and write out a list of rules that describe how our autocomplete works" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="nbnWjHDL5e4_IycBJxpo-1">
+          <mxGeometry x="650" y="302" width="345" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="xGq2TyPyJuWJPLxCSu6j-7" value="The starter kit we just set up has a CSS framework called &#39;Bulma CSS&#39; already wired up" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="nbnWjHDL5e4_IycBJxpo-1">
+          <mxGeometry x="650" y="350" width="345" height="36" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
