@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-02T20:05:41.307Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="LO6vceC2QLgV2wevH7AP" version="12.1.9" type="github" pages="12">
+<mxfile host="www.draw.io" modified="2019-11-02T20:06:57.168Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="xiHTsOOUthkREW1a7uR1" version="12.1.9" type="github" pages="13">
   <diagram id="uaNDHDQLS0F1Z4SsC7E0" name="01 - change">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1019,7 +1019,7 @@
         <mxCell id="VEp5uSn2Lx7HtZ3dfKkC-18" value="Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=16;" vertex="1" parent="VEp5uSn2Lx7HtZ3dfKkC-1">
           <mxGeometry x="350" y="160" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="VEp5uSn2Lx7HtZ3dfKkC-20" value="&lt;i&gt;Wait 1 second...&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=16;" vertex="1" parent="VEp5uSn2Lx7HtZ3dfKkC-1">
+        <mxCell id="VEp5uSn2Lx7HtZ3dfKkC-20" value="&lt;i&gt;Nothing...&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=16;" vertex="1" parent="VEp5uSn2Lx7HtZ3dfKkC-1">
           <mxGeometry x="470" y="385" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="VEp5uSn2Lx7HtZ3dfKkC-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=16;align=center;rotation=-180;" vertex="1" parent="VEp5uSn2Lx7HtZ3dfKkC-1">
@@ -1031,8 +1031,64 @@
         <mxCell id="VEp5uSn2Lx7HtZ3dfKkC-22" value="Still no keypress?" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;align=center;" vertex="1" parent="VEp5uSn2Lx7HtZ3dfKkC-1">
           <mxGeometry x="410" y="440" width="160" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="VEp5uSn2Lx7HtZ3dfKkC-23" value="Search" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;align=center;" vertex="1" parent="VEp5uSn2Lx7HtZ3dfKkC-1">
+        <mxCell id="VEp5uSn2Lx7HtZ3dfKkC-23" value="Search" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="VEp5uSn2Lx7HtZ3dfKkC-1">
           <mxGeometry x="610" y="440" width="160" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="VEp5uSn2Lx7HtZ3dfKkC-25" value="&lt;i&gt;1 second wait&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=16;" vertex="1" parent="VEp5uSn2Lx7HtZ3dfKkC-1">
+          <mxGeometry x="598" y="385" width="90" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="13 - debounce" id="FzjFTf5B0zRTD3WzTrca">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="Naldnd_zs8Uco8QunaHr-0"/>
+        <mxCell id="Naldnd_zs8Uco8QunaHr-1" parent="Naldnd_zs8Uco8QunaHr-0"/>
+        <mxCell id="Naldnd_zs8Uco8QunaHr-2" value="keypress" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;align=center;" vertex="1" parent="Naldnd_zs8Uco8QunaHr-1">
+          <mxGeometry x="410" y="160" width="160" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="Naldnd_zs8Uco8QunaHr-3" value="" style="endArrow=classic;html=1;fontSize=22;" edge="1" parent="Naldnd_zs8Uco8QunaHr-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="160" as="sourcePoint"/>
+            <mxPoint x="400" y="470" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Naldnd_zs8Uco8QunaHr-4" value="keypress" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;align=center;" vertex="1" parent="Naldnd_zs8Uco8QunaHr-1">
+          <mxGeometry x="410" y="200" width="160" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="Naldnd_zs8Uco8QunaHr-5" value="keypress" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;align=center;" vertex="1" parent="Naldnd_zs8Uco8QunaHr-1">
+          <mxGeometry x="410" y="240" width="160" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="Naldnd_zs8Uco8QunaHr-6" value="keypress" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;align=center;" vertex="1" parent="Naldnd_zs8Uco8QunaHr-1">
+          <mxGeometry x="410" y="280" width="160" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="Naldnd_zs8Uco8QunaHr-7" value="keypress" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;align=center;" vertex="1" parent="Naldnd_zs8Uco8QunaHr-1">
+          <mxGeometry x="410" y="320" width="160" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="Naldnd_zs8Uco8QunaHr-8" value="Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=16;" vertex="1" parent="Naldnd_zs8Uco8QunaHr-1">
+          <mxGeometry x="350" y="160" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Naldnd_zs8Uco8QunaHr-9" value="&lt;i&gt;Nothing...&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=16;" vertex="1" parent="Naldnd_zs8Uco8QunaHr-1">
+          <mxGeometry x="470" y="385" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Naldnd_zs8Uco8QunaHr-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=16;align=center;rotation=-180;" vertex="1" parent="Naldnd_zs8Uco8QunaHr-1">
+          <mxGeometry x="574" y="350" width="20" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="Naldnd_zs8Uco8QunaHr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="Naldnd_zs8Uco8QunaHr-1" source="Naldnd_zs8Uco8QunaHr-12" target="Naldnd_zs8Uco8QunaHr-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Naldnd_zs8Uco8QunaHr-12" value="Still no keypress?" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;align=center;" vertex="1" parent="Naldnd_zs8Uco8QunaHr-1">
+          <mxGeometry x="410" y="440" width="160" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="Naldnd_zs8Uco8QunaHr-13" value="Search" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Naldnd_zs8Uco8QunaHr-1">
+          <mxGeometry x="610" y="440" width="160" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="Naldnd_zs8Uco8QunaHr-14" value="&lt;i&gt;1 second wait&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=16;" vertex="1" parent="Naldnd_zs8Uco8QunaHr-1">
+          <mxGeometry x="598" y="385" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Naldnd_zs8Uco8QunaHr-15" value="&lt;b&gt;Debouncing&lt;/b&gt;&amp;nbsp;&lt;b&gt;an input&lt;/b&gt;&lt;br&gt;Waiting for some time to pass after the last event to actually do something" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Naldnd_zs8Uco8QunaHr-1">
+          <mxGeometry x="660" y="210" width="240" height="100" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
