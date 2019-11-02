@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-02T17:06:45.194Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="XwIRlNQ57M3beIvSbAvF" version="12.1.9" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-11-02T17:14:57.650Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Ey2fV3Dy22xi_r9Fevt0" version="12.1.9" type="github" pages="3">
   <diagram id="uaNDHDQLS0F1Z4SsC7E0" name="01 - change">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -50,6 +50,215 @@
         </mxCell>
         <mxCell id="Dgx4XMsEQLVLNGr6nbG9-15" value="Lots of refactoring" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="Dgx4XMsEQLVLNGr6nbG9-1">
           <mxGeometry x="600" y="420" width="310" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1rqZ-jXq2MYa2TN_zBqn" name="03 - app">
+    <mxGraphModel dx="1384" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-0"/>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-1" parent="RWnNRSLBOwajYRrIfxL9-0"/>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;fillColor=#ffffff;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;fontSize=18;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-1">
+          <mxGeometry x="450" y="50" width="800" height="560" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-3" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-2">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-4" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-2">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-2">
+          <mxGeometry y="110" width="800" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-6" value="Movie Fight" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-2">
+          <mxGeometry x="30" y="135" width="240" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-2">
+          <mxGeometry x="80" y="220" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-2">
+          <mxGeometry x="470" y="220" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-9" value="Search for a movie" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-2">
+          <mxGeometry x="79" y="198" width="240" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-10" value="Search for a movie" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-2">
+          <mxGeometry x="470" y="198" width="240" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-11" value="Search for a movie on both sides to get started!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;shadow=1;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-2">
+          <mxGeometry x="182.5" y="330" width="435" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-12" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;fillColor=#ffffff;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;fontSize=18;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-1">
+          <mxGeometry x="1430" y="50" width="800" height="560" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-13" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-12">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-14" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-12">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-12">
+          <mxGeometry y="110" width="800" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-16" value="Movie Fight" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-12">
+          <mxGeometry x="30" y="135" width="240" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-17" value="dark knight" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-12">
+          <mxGeometry x="80" y="220" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-12">
+          <mxGeometry x="470" y="220" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-19" value="Search for a movie" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-12">
+          <mxGeometry x="79" y="198" width="240" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-20" value="Search for a movie" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-12">
+          <mxGeometry x="470" y="198" width="240" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-22" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;align=center;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-12">
+          <mxGeometry x="79" y="270" width="81" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-23" value="The Dark Knight" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontStyle=1" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-12">
+          <mxGeometry x="170" y="270" width="141" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-24" value="" style="endArrow=none;html=1;fontSize=18;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="RWnNRSLBOwajYRrIfxL9-12" target="RWnNRSLBOwajYRrIfxL9-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="360" as="sourcePoint"/>
+            <mxPoint x="130" y="310" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-25" value="" style="endArrow=none;html=1;fontSize=18;entryX=1.012;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.012;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="RWnNRSLBOwajYRrIfxL9-12" source="RWnNRSLBOwajYRrIfxL9-22" target="RWnNRSLBOwajYRrIfxL9-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="370" as="sourcePoint"/>
+            <mxPoint x="170" y="280" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-27" value="A super hero takes back his city" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontStyle=0" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-12">
+          <mxGeometry x="170" y="310" width="160" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-28" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-12">
+          <mxGeometry x="79" y="375" width="241" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-29" value="$200,000,000" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontStyle=1" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-12">
+          <mxGeometry x="89.5" y="385" width="141" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-30" value="Box office" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontStyle=0" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-12">
+          <mxGeometry x="89.5" y="412" width="141" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-31" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-12">
+          <mxGeometry x="78" y="450" width="241" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-32" value="9.3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontStyle=1" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-12">
+          <mxGeometry x="88.5" y="460" width="141" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-33" value="Critic Rating" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontStyle=0" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-12">
+          <mxGeometry x="88.5" y="487" width="141" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-34" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;fillColor=#ffffff;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;fontSize=18;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-1">
+          <mxGeometry x="2350" y="50" width="800" height="560" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-35" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-36" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry y="110" width="800" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-38" value="Movie Fight" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="30" y="135" width="240" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-39" value="dark knight" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="80" y="220" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-40" value="avengers" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="470" y="220" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-41" value="Search for a movie" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="79" y="198" width="240" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-42" value="Search for a movie" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="470" y="198" width="240" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-43" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;align=center;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="79" y="270" width="81" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-44" value="The Dark Knight" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontStyle=1" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="170" y="270" width="141" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-45" value="" style="endArrow=none;html=1;fontSize=18;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="RWnNRSLBOwajYRrIfxL9-34" target="RWnNRSLBOwajYRrIfxL9-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="360" as="sourcePoint"/>
+            <mxPoint x="130" y="310" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-46" value="" style="endArrow=none;html=1;fontSize=18;entryX=1.012;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.012;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="RWnNRSLBOwajYRrIfxL9-34" source="RWnNRSLBOwajYRrIfxL9-43" target="RWnNRSLBOwajYRrIfxL9-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="370" as="sourcePoint"/>
+            <mxPoint x="170" y="280" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-47" value="A super hero takes back his city" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontStyle=0" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="170" y="310" width="160" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-48" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="79" y="375" width="241" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-49" value="$200,000,000" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontStyle=1" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="89.5" y="385" width="141" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-50" value="Box office" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontStyle=0" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="89.5" y="412" width="141" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-51" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="78" y="450" width="241" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-52" value="9.3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontStyle=1" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="88.5" y="460" width="141" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-53" value="Critic Rating" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontStyle=0" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="88.5" y="487" width="141" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-54" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=18;align=center;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="471" y="270" width="81" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-55" value="The Avengers" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontStyle=1" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="562" y="270" width="141" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-56" value="" style="endArrow=none;html=1;fontSize=18;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="RWnNRSLBOwajYRrIfxL9-34" target="RWnNRSLBOwajYRrIfxL9-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="472" y="360" as="sourcePoint"/>
+            <mxPoint x="-1828" y="260" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-57" value="" style="endArrow=none;html=1;fontSize=18;entryX=1.012;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.012;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="RWnNRSLBOwajYRrIfxL9-34" source="RWnNRSLBOwajYRrIfxL9-54" target="RWnNRSLBOwajYRrIfxL9-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1868" y="320" as="sourcePoint"/>
+            <mxPoint x="-1788" y="230" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-58" value="A team of super heroes takes back a city" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontStyle=0" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="562" y="310" width="160" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-59" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="471" y="375" width="241" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-60" value="$600,000,000" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontStyle=1" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="481.5" y="385" width="141" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-61" value="Box office" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontStyle=0" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="481.5" y="412" width="141" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-62" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=14;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="470" y="450" width="241" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-63" value="7.0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontStyle=1" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="480.5" y="460" width="141" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="RWnNRSLBOwajYRrIfxL9-64" value="Critic Rating" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;fontStyle=0" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-34">
+          <mxGeometry x="480.5" y="487" width="141" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
