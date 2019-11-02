@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-02T17:16:57.766Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="GPf2QpJP409OI62FJJ5N" version="12.1.9" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-11-02T17:50:52.742Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Drz1tF04q4hlBJtpCeIn" version="12.1.9" type="github" pages="4">
   <diagram id="uaNDHDQLS0F1Z4SsC7E0" name="01 - change">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -361,6 +361,32 @@
         </mxCell>
         <mxCell id="RWnNRSLBOwajYRrIfxL9-91" value="Knight and Dark (1970)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;" vertex="1" parent="RWnNRSLBOwajYRrIfxL9-65">
           <mxGeometry x="139" y="455" width="180" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LASu3OyGYeT55a0GTpZA" name="04 - tasks">
+    <mxGraphModel dx="835" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="q_RTWjGKH1eWIeIyprO4-0"/>
+        <mxCell id="q_RTWjGKH1eWIeIyprO4-1" parent="q_RTWjGKH1eWIeIyprO4-0"/>
+        <mxCell id="q_RTWjGKH1eWIeIyprO4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="q_RTWjGKH1eWIeIyprO4-1" source="q_RTWjGKH1eWIeIyprO4-2" target="q_RTWjGKH1eWIeIyprO4-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="q_RTWjGKH1eWIeIyprO4-2" value="Setup boilerplate for the project (attached to this video as a ZIP)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=20;align=center;" vertex="1" parent="q_RTWjGKH1eWIeIyprO4-1">
+          <mxGeometry x="500" y="100" width="520" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="q_RTWjGKH1eWIeIyprO4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="q_RTWjGKH1eWIeIyprO4-1" source="q_RTWjGKH1eWIeIyprO4-3" target="q_RTWjGKH1eWIeIyprO4-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="q_RTWjGKH1eWIeIyprO4-3" value="Identify project challenges" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=20;align=center;" vertex="1" parent="q_RTWjGKH1eWIeIyprO4-1">
+          <mxGeometry x="500" y="205" width="520" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="q_RTWjGKH1eWIeIyprO4-5" value="Write code!" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=20;align=center;" vertex="1" parent="q_RTWjGKH1eWIeIyprO4-1">
+          <mxGeometry x="500" y="310" width="520" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="q_RTWjGKH1eWIeIyprO4-7" value="Plan of Attack" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=24;fontStyle=1" vertex="1" parent="q_RTWjGKH1eWIeIyprO4-1">
+          <mxGeometry x="665" y="70" width="190" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
