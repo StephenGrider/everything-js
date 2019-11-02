@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-02T18:10:23.092Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="-KiPUNx74qKCJ6c6ahvx" version="12.1.9" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2019-11-02T18:10:43.699Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="bnZB0eQvpkS-lMP79hor" version="12.1.9" type="github" pages="7">
   <diagram id="uaNDHDQLS0F1Z4SsC7E0" name="01 - change">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -379,10 +379,10 @@
         <mxCell id="q_RTWjGKH1eWIeIyprO4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="q_RTWjGKH1eWIeIyprO4-1" source="q_RTWjGKH1eWIeIyprO4-3" target="q_RTWjGKH1eWIeIyprO4-5">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="q_RTWjGKH1eWIeIyprO4-3" value="Identify project challenges" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=20;align=center;" vertex="1" parent="q_RTWjGKH1eWIeIyprO4-1">
+        <mxCell id="q_RTWjGKH1eWIeIyprO4-3" value="Identify challenging aspects of the project we&#39;re about to work on" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=20;align=center;" vertex="1" parent="q_RTWjGKH1eWIeIyprO4-1">
           <mxGeometry x="500" y="205" width="520" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="q_RTWjGKH1eWIeIyprO4-5" value="Write code!" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=20;align=center;" vertex="1" parent="q_RTWjGKH1eWIeIyprO4-1">
+        <mxCell id="q_RTWjGKH1eWIeIyprO4-5" value="Get started on the project and write a lot of code!" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=20;align=center;" vertex="1" parent="q_RTWjGKH1eWIeIyprO4-1">
           <mxGeometry x="500" y="310" width="520" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="q_RTWjGKH1eWIeIyprO4-7" value="Plan of Attack" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=24;fontStyle=1" vertex="1" parent="q_RTWjGKH1eWIeIyprO4-1">
