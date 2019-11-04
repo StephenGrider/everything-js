@@ -1,1 +1,31 @@
-<mxfile host="www.draw.io" modified="2019-11-04T17:46:13.865Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" version="12.2.0" etag="y4CbHbx-b9uq4tUN7bCh" type="github"><diagram id="2A3V2JCRKhpM9sKzDQPe">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-04T17:54:23.665Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Ftt9PogJBkSbtt-K4foj" version="12.2.0" type="github" pages="1">
+  <diagram id="2A3V2JCRKhpM9sKzDQPe" name="01 - issues">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="LrERWL8tzAxkWC4CuSWW-18" value="All code touches everything" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="410" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="LrERWL8tzAxkWC4CuSWW-19" value="Issues with Implementation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="587.5" y="188" width="195" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="LrERWL8tzAxkWC4CuSWW-21" value="Autocomplete widget was supposed to be reusable!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="480" y="260" width="410" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="LrERWL8tzAxkWC4CuSWW-22" value="Autocomplete has knowledge of what a movie object is" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="300" width="410" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="LrERWL8tzAxkWC4CuSWW-23" value="Autocomplete has knowledge of what to show for each option" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="340" width="410" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="LrERWL8tzAxkWC4CuSWW-24" value="Autocomplete has knowledge of what to do when a movie is clicked" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="380" width="410" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="LrERWL8tzAxkWC4CuSWW-25" value="Many global variables that refer to specific elements" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="420" width="410" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
