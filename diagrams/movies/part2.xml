@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-04T18:24:15.603Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="woxZBU5aPp7vMlU3hAa8" version="12.2.0" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-11-04T18:24:35.547Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="4cauRXgBNgwNcsFVTd6Y" version="12.2.0" type="github" pages="3">
   <diagram id="2A3V2JCRKhpM9sKzDQPe" name="01 - issues">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -48,34 +48,11 @@
         <mxCell id="egTYsF3rSzLwucRaUjTp-6" value="Autocomplete has knowledge of what to show for each option" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="egTYsF3rSzLwucRaUjTp-1">
           <mxGeometry x="480" y="340" width="410" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="egTYsF3rSzLwucRaUjTp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="egTYsF3rSzLwucRaUjTp-1" source="egTYsF3rSzLwucRaUjTp-7" target="egTYsF3rSzLwucRaUjTp-13">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
         <mxCell id="egTYsF3rSzLwucRaUjTp-7" value="Autocomplete has knowledge of what to do when a movie is clicked" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="egTYsF3rSzLwucRaUjTp-1">
           <mxGeometry x="480" y="380" width="410" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="egTYsF3rSzLwucRaUjTp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="egTYsF3rSzLwucRaUjTp-1" source="egTYsF3rSzLwucRaUjTp-8" target="egTYsF3rSzLwucRaUjTp-10">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
         <mxCell id="egTYsF3rSzLwucRaUjTp-8" value="Many global variables that refer to specific elements - it will be really hard to show a &lt;i&gt;second&lt;/i&gt; autocomplete on the screen" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="egTYsF3rSzLwucRaUjTp-1">
           <mxGeometry x="480" y="420" width="410" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="egTYsF3rSzLwucRaUjTp-10" value="Wrap all of the logic of an autocomplete in a function that can be safely called multiple times to set up multiple autocompletes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="egTYsF3rSzLwucRaUjTp-1">
-          <mxGeometry x="920" y="420" width="410" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="egTYsF3rSzLwucRaUjTp-12" value="Solutions!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1" vertex="1" parent="egTYsF3rSzLwucRaUjTp-1">
-          <mxGeometry x="968.5" y="192" width="313" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="egTYsF3rSzLwucRaUjTp-13" value="When calling the &#39;autocomplete&#39; function, require a callback to be passed in. This callback will be invoked when a movie is clicked" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="egTYsF3rSzLwucRaUjTp-1">
-          <mxGeometry x="920" y="380" width="410" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="egTYsF3rSzLwucRaUjTp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="egTYsF3rSzLwucRaUjTp-1" target="egTYsF3rSzLwucRaUjTp-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="890" y="355" as="sourcePoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="egTYsF3rSzLwucRaUjTp-16" value="When calling the &#39;autocomplete&#39; function, require a function to be passed in to decide what each option should look like" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="egTYsF3rSzLwucRaUjTp-1">
-          <mxGeometry x="920" y="340" width="410" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
