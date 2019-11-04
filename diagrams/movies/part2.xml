@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-04T18:24:35.547Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="4cauRXgBNgwNcsFVTd6Y" version="12.2.0" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-11-04T18:31:24.044Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="GCBsLdPUQjcClgkaedEl" version="12.2.0" type="github" pages="3">
   <diagram id="2A3V2JCRKhpM9sKzDQPe" name="01 - issues">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -57,46 +57,49 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="5l2ZOri6uNA_ENFqwT56" name="03 - config">
-    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+  <diagram id="bDNCV68lf7sJ6hHg8LJf" name="04 - config">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
-        <mxCell id="6gEc1PjHFE3aQALLT8S0-0"/>
-        <mxCell id="6gEc1PjHFE3aQALLT8S0-1" parent="6gEc1PjHFE3aQALLT8S0-0"/>
-        <mxCell id="1llQxevLBxiiFOnzlIC--1" value="Autocomplete Config" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="6gEc1PjHFE3aQALLT8S0-1">
-          <mxGeometry x="330" y="110" width="260" height="60" as="geometry"/>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-0"/>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-1" parent="sn3fO5I-oM6V52xxtLGZ-0"/>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-2" value="index.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="310" y="180" width="230" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="1llQxevLBxiiFOnzlIC--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=23;" edge="1" parent="6gEc1PjHFE3aQALLT8S0-1" source="1llQxevLBxiiFOnzlIC--2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="230.33333333333337" as="targetPoint"/>
-          </mxGeometry>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-3" value="autocomplete.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="600" y="180" width="230" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="1llQxevLBxiiFOnzlIC--2" value="&lt;span style=&quot;font-weight: normal&quot;&gt;fetchData()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="6gEc1PjHFE3aQALLT8S0-1">
-          <mxGeometry x="330" y="200" width="260" height="60" as="geometry"/>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="sn3fO5I-oM6V52xxtLGZ-1" source="sn3fO5I-oM6V52xxtLGZ-4" target="sn3fO5I-oM6V52xxtLGZ-5">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="1llQxevLBxiiFOnzlIC--6" value="&lt;span style=&quot;font-weight: normal ; font-size: 17px&quot;&gt;Function that will be called when the user enters some text in the input.&amp;nbsp; We have to return some data from it to show&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fontStyle=1;" vertex="1" parent="6gEc1PjHFE3aQALLT8S0-1">
-          <mxGeometry x="640" y="200" width="400" height="60" as="geometry"/>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="310" y="210" width="230" height="190" as="geometry"/>
         </mxCell>
-        <mxCell id="1llQxevLBxiiFOnzlIC--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=23;" edge="1" parent="6gEc1PjHFE3aQALLT8S0-1" source="1llQxevLBxiiFOnzlIC--10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="310.33333333333337" as="targetPoint"/>
-          </mxGeometry>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="600" y="210" width="230" height="190" as="geometry"/>
         </mxCell>
-        <mxCell id="1llQxevLBxiiFOnzlIC--10" value="&lt;span style=&quot;font-weight: normal&quot;&gt;renderOption()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="6gEc1PjHFE3aQALLT8S0-1">
-          <mxGeometry x="330" y="280" width="260" height="60" as="geometry"/>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-7" value="&lt;i style=&quot;font-size: 10px;&quot;&gt;Non-reusable code for our very specific project&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="318" y="210" width="215" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="1llQxevLBxiiFOnzlIC--11" value="&lt;span style=&quot;font-weight: normal ; font-size: 17px&quot;&gt;Function that will be called with each individual record that gets fetched.&amp;nbsp; We have to return the HTML that will represent this option&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fontStyle=1;" vertex="1" parent="6gEc1PjHFE3aQALLT8S0-1">
-          <mxGeometry x="640" y="280" width="400" height="60" as="geometry"/>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-10" value="&lt;i style=&quot;font-size: 10px&quot;&gt;Super reusable code to get an autocomplete to work.&amp;nbsp; Zero knowledge of &#39;movies&#39; or &#39;recipes&#39; or &#39;blogs&#39;.&amp;nbsp; Must be able to be ran several times in the same project&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="607.5" y="214" width="215" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="1llQxevLBxiiFOnzlIC--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=23;" edge="1" parent="6gEc1PjHFE3aQALLT8S0-1" source="1llQxevLBxiiFOnzlIC--13">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="390.33333333333337" as="targetPoint"/>
-          </mxGeometry>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-11" value="Config for Autocomplete" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="336.5" y="240" width="177" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="1llQxevLBxiiFOnzlIC--13" value="&lt;span style=&quot;font-weight: normal&quot;&gt;root&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;align=center;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="6gEc1PjHFE3aQALLT8S0-1">
-          <mxGeometry x="330" y="360" width="260" height="60" as="geometry"/>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-12" value="&lt;span style=&quot;font-weight: 400&quot;&gt;fetchData() - function to find movies&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fontStyle=1;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="336.5" y="270" width="177" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="1llQxevLBxiiFOnzlIC--14" value="&lt;span style=&quot;font-weight: normal ; font-size: 17px&quot;&gt;Root HTML element that the autocomplete should be rendered into&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fontStyle=1;" vertex="1" parent="6gEc1PjHFE3aQALLT8S0-1">
-          <mxGeometry x="640" y="360" width="400" height="60" as="geometry"/>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-13" value="&lt;span style=&quot;font-weight: 400&quot;&gt;renderOption() - function that knows how to render a movie&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fontStyle=1;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="336.5" y="300" width="177" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-14" value="&lt;span style=&quot;font-weight: 400&quot;&gt;onOptionSelect() - function that gets invoked when a user clicks an option&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fontStyle=1;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="336.5" y="330" width="177" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="G2CPH9CQgs72zqIwmta2-0" value="&lt;span style=&quot;font-weight: 400&quot;&gt;root - element that the autocomplete should be rendered into&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fontStyle=1;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="336.5" y="360" width="177" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DZ61zvi0L0MTlhUGq48x-0" value="Function that will take the autocomplete config and render an autocomplete on the screen" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="626.5" y="270" width="177" height="70" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
