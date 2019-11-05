@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-05T17:36:36.366Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="1R-fo_G-kSMpffXTCLzQ" version="12.2.0" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-11-05T18:21:24.538Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="8MYq7uku-uba4bKBTVI2" version="12.2.0" type="github" pages="5">
   <diagram id="_DQnM82RRYHhhkWDYveR" name="01 - maze">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -161,7 +161,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Y4BINFJyZc0ziAco9w5n-56" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="407" y="237" width="40" height="40" as="geometry"/>
+          <mxGeometry x="723" y="440" width="40" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="Y4BINFJyZc0ziAco9w5n-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="763" y="447" width="40" height="40" as="geometry"/>
@@ -331,13 +331,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rxGEnc5kjJUAo617nkzc-28" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="rxGEnc5kjJUAo617nkzc-1">
-          <mxGeometry x="407" y="237" width="40" height="40" as="geometry"/>
+          <mxGeometry x="400" y="240" width="40" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="rxGEnc5kjJUAo617nkzc-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="rxGEnc5kjJUAo617nkzc-1">
           <mxGeometry x="763" y="447" width="40" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="rxGEnc5kjJUAo617nkzc-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="rxGEnc5kjJUAo617nkzc-1" source="rxGEnc5kjJUAo617nkzc-30" target="rxGEnc5kjJUAo617nkzc-28">
-          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="rxGEnc5kjJUAo617nkzc-30" value="Player controls this with the &quot;WASD&quot; keys" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="rxGEnc5kjJUAo617nkzc-1">
           <mxGeometry x="260" y="242" width="100" height="70" as="geometry"/>
@@ -422,6 +419,62 @@
         </mxCell>
         <mxCell id="e025IyCsNwMMh8XKtlIm-10" value="Matter JS has the ability to detect collisions between different shapes and report them to us as events" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="e025IyCsNwMMh8XKtlIm-1">
           <mxGeometry x="870" y="290" width="430" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yy_OhM5opjSs5mH_hj63" name="05 - matter">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="e5phq9UEXF_mBpf7F_Vl-0"/>
+        <mxCell id="e5phq9UEXF_mBpf7F_Vl-1" parent="e5phq9UEXF_mBpf7F_Vl-0"/>
+        <mxCell id="e5phq9UEXF_mBpf7F_Vl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="e5phq9UEXF_mBpf7F_Vl-1" source="e5phq9UEXF_mBpf7F_Vl-2" target="e5phq9UEXF_mBpf7F_Vl-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5phq9UEXF_mBpf7F_Vl-2" value="Engine" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="e5phq9UEXF_mBpf7F_Vl-1">
+          <mxGeometry x="240" y="190" width="130" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5phq9UEXF_mBpf7F_Vl-3" value="Reads in the current state of the world from the world object, then calculates changes in positions of all the different shapes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="e5phq9UEXF_mBpf7F_Vl-1">
+          <mxGeometry x="400" y="190" width="390" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5phq9UEXF_mBpf7F_Vl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="e5phq9UEXF_mBpf7F_Vl-1" source="e5phq9UEXF_mBpf7F_Vl-6" target="e5phq9UEXF_mBpf7F_Vl-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5phq9UEXF_mBpf7F_Vl-6" value="World" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="e5phq9UEXF_mBpf7F_Vl-1">
+          <mxGeometry x="240" y="150" width="130" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5phq9UEXF_mBpf7F_Vl-7" value="Object that contains all of the different &#39;things&#39; in our matter app" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="e5phq9UEXF_mBpf7F_Vl-1">
+          <mxGeometry x="400" y="150" width="390" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5phq9UEXF_mBpf7F_Vl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="e5phq9UEXF_mBpf7F_Vl-1" source="e5phq9UEXF_mBpf7F_Vl-9" target="e5phq9UEXF_mBpf7F_Vl-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5phq9UEXF_mBpf7F_Vl-9" value="Render" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="e5phq9UEXF_mBpf7F_Vl-1">
+          <mxGeometry x="240" y="270" width="130" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5phq9UEXF_mBpf7F_Vl-10" value="Whenever the engine processes an update, Render will take a look at all the different shapes and show them on the screen" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="e5phq9UEXF_mBpf7F_Vl-1">
+          <mxGeometry x="400" y="270" width="390" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5phq9UEXF_mBpf7F_Vl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="e5phq9UEXF_mBpf7F_Vl-1" source="e5phq9UEXF_mBpf7F_Vl-12" target="e5phq9UEXF_mBpf7F_Vl-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5phq9UEXF_mBpf7F_Vl-12" value="Runner" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="e5phq9UEXF_mBpf7F_Vl-1">
+          <mxGeometry x="240" y="230" width="130" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5phq9UEXF_mBpf7F_Vl-13" value="Gets the engine and world to work together.&amp;nbsp; Runs about 60 times per second." style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="e5phq9UEXF_mBpf7F_Vl-1">
+          <mxGeometry x="400" y="230" width="390" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5phq9UEXF_mBpf7F_Vl-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="e5phq9UEXF_mBpf7F_Vl-1" source="e5phq9UEXF_mBpf7F_Vl-15" target="e5phq9UEXF_mBpf7F_Vl-16">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5phq9UEXF_mBpf7F_Vl-15" value="Body" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="e5phq9UEXF_mBpf7F_Vl-1">
+          <mxGeometry x="240" y="310" width="130" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5phq9UEXF_mBpf7F_Vl-16" value="A shape that we are displaying.&amp;nbsp; Can be a circle, rectangle, oval, etc" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="e5phq9UEXF_mBpf7F_Vl-1">
+          <mxGeometry x="400" y="310" width="390" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5phq9UEXF_mBpf7F_Vl-22" value="Matter JS Terminology" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1" vertex="1" parent="e5phq9UEXF_mBpf7F_Vl-1">
+          <mxGeometry x="440" y="120" width="200" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
