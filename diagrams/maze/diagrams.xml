@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-05T17:36:15.264Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="70Wum6_RfI5GI35W9qvp" version="12.2.0" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-11-05T17:36:36.366Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="1R-fo_G-kSMpffXTCLzQ" version="12.2.0" type="github" pages="4">
   <diagram id="_DQnM82RRYHhhkWDYveR" name="01 - maze">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -357,23 +357,23 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YWA7oOfl5hDHFGE5ActB" name="03 - problems">
-    <mxGraphModel dx="621" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="xSX3Lxw2W5cwWR2Bhnpx-0"/>
         <mxCell id="xSX3Lxw2W5cwWR2Bhnpx-1" parent="xSX3Lxw2W5cwWR2Bhnpx-0"/>
-        <mxCell id="xSX3Lxw2W5cwWR2Bhnpx-2" value="How are we going to draw this thing on the screen?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xSX3Lxw2W5cwWR2Bhnpx-1">
+        <mxCell id="xSX3Lxw2W5cwWR2Bhnpx-2" value="How are we going to draw this thing on the screen?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="xSX3Lxw2W5cwWR2Bhnpx-1">
           <mxGeometry x="400" y="190" width="430" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="xSX3Lxw2W5cwWR2Bhnpx-3" value="Big Challenges" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="xSX3Lxw2W5cwWR2Bhnpx-1">
           <mxGeometry x="537.5" y="117" width="155" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="xSX3Lxw2W5cwWR2Bhnpx-4" value="How do we generate a maze?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xSX3Lxw2W5cwWR2Bhnpx-1">
+        <mxCell id="xSX3Lxw2W5cwWR2Bhnpx-4" value="How do we generate a maze?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="xSX3Lxw2W5cwWR2Bhnpx-1">
           <mxGeometry x="400" y="140" width="430" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="xSX3Lxw2W5cwWR2Bhnpx-5" value="How do we make some keyboard keys control the ball?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xSX3Lxw2W5cwWR2Bhnpx-1">
+        <mxCell id="xSX3Lxw2W5cwWR2Bhnpx-5" value="How do we make some keyboard keys control the ball?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="xSX3Lxw2W5cwWR2Bhnpx-1">
           <mxGeometry x="400" y="240" width="430" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="xSX3Lxw2W5cwWR2Bhnpx-6" value="How do we detect when the ball touches the green square?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xSX3Lxw2W5cwWR2Bhnpx-1">
+        <mxCell id="xSX3Lxw2W5cwWR2Bhnpx-6" value="How do we detect when the ball touches the green square?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="xSX3Lxw2W5cwWR2Bhnpx-1">
           <mxGeometry x="400" y="290" width="430" height="40" as="geometry"/>
         </mxCell>
       </root>
@@ -387,7 +387,7 @@
         <mxCell id="e025IyCsNwMMh8XKtlIm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="e025IyCsNwMMh8XKtlIm-1" source="e025IyCsNwMMh8XKtlIm-2" target="e025IyCsNwMMh8XKtlIm-7">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="e025IyCsNwMMh8XKtlIm-2" value="How are we going to draw this thing on the screen?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e025IyCsNwMMh8XKtlIm-1">
+        <mxCell id="e025IyCsNwMMh8XKtlIm-2" value="How are we going to draw this thing on the screen?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="e025IyCsNwMMh8XKtlIm-1">
           <mxGeometry x="400" y="190" width="430" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="e025IyCsNwMMh8XKtlIm-3" value="Big Challenges" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="e025IyCsNwMMh8XKtlIm-1">
@@ -396,31 +396,31 @@
         <mxCell id="e025IyCsNwMMh8XKtlIm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="e025IyCsNwMMh8XKtlIm-1" source="e025IyCsNwMMh8XKtlIm-4" target="e025IyCsNwMMh8XKtlIm-8">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="e025IyCsNwMMh8XKtlIm-4" value="How do we generate a maze?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e025IyCsNwMMh8XKtlIm-1">
+        <mxCell id="e025IyCsNwMMh8XKtlIm-4" value="How do we generate a maze?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="e025IyCsNwMMh8XKtlIm-1">
           <mxGeometry x="400" y="140" width="430" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="e025IyCsNwMMh8XKtlIm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="e025IyCsNwMMh8XKtlIm-1" source="e025IyCsNwMMh8XKtlIm-5" target="e025IyCsNwMMh8XKtlIm-9">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="e025IyCsNwMMh8XKtlIm-5" value="How do we make some keyboard keys control the ball?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e025IyCsNwMMh8XKtlIm-1">
+        <mxCell id="e025IyCsNwMMh8XKtlIm-5" value="How do we make some keyboard keys control the ball?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="e025IyCsNwMMh8XKtlIm-1">
           <mxGeometry x="400" y="240" width="430" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="e025IyCsNwMMh8XKtlIm-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="e025IyCsNwMMh8XKtlIm-1" source="e025IyCsNwMMh8XKtlIm-6" target="e025IyCsNwMMh8XKtlIm-10">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="e025IyCsNwMMh8XKtlIm-6" value="How do we detect when the ball touches the green square?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e025IyCsNwMMh8XKtlIm-1">
+        <mxCell id="e025IyCsNwMMh8XKtlIm-6" value="How do we detect when the ball touches the green square?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="e025IyCsNwMMh8XKtlIm-1">
           <mxGeometry x="400" y="290" width="430" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="e025IyCsNwMMh8XKtlIm-7" value="Use Matter JS to draw the maze onto a canvas element (&lt;b&gt;brm.io/matter-js&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e025IyCsNwMMh8XKtlIm-1">
+        <mxCell id="e025IyCsNwMMh8XKtlIm-7" value="Use Matter JS to draw the maze onto a canvas element (&lt;b&gt;brm.io/matter-js&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="e025IyCsNwMMh8XKtlIm-1">
           <mxGeometry x="870" y="190" width="430" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="e025IyCsNwMMh8XKtlIm-8" value="Many algorithms to generate a maze.&amp;nbsp; We will have to learn a bit about a tree data structure + recursion to implement the simplest algorithm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e025IyCsNwMMh8XKtlIm-1">
+        <mxCell id="e025IyCsNwMMh8XKtlIm-8" value="Many algorithms to generate a maze.&amp;nbsp; We will have to learn a bit about a tree data structure + recursion to implement the simplest algorithm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="e025IyCsNwMMh8XKtlIm-1">
           <mxGeometry x="870" y="140" width="430" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="e025IyCsNwMMh8XKtlIm-9" value="Matter JS has the ability to map key presses to movements of shapes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e025IyCsNwMMh8XKtlIm-1">
+        <mxCell id="e025IyCsNwMMh8XKtlIm-9" value="Matter JS has the ability to map key presses to movements of shapes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="e025IyCsNwMMh8XKtlIm-1">
           <mxGeometry x="870" y="240" width="430" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="e025IyCsNwMMh8XKtlIm-10" value="Matter JS has the ability to detect collisions between different shapes and report them to us as events" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e025IyCsNwMMh8XKtlIm-1">
+        <mxCell id="e025IyCsNwMMh8XKtlIm-10" value="Matter JS has the ability to detect collisions between different shapes and report them to us as events" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="e025IyCsNwMMh8XKtlIm-1">
           <mxGeometry x="870" y="290" width="430" height="40" as="geometry"/>
         </mxCell>
       </root>
