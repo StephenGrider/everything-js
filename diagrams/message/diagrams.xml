@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-06T23:25:19.173Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="UnIMfIePQhiMWTxdJ8TJ" version="12.2.2" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-11-06T23:32:52.339Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="PCs_ntfEw-4LJ2MsuFXQ" version="12.2.2" type="github" pages="2">
   <diagram id="fABHkEdBv8ab3ynVz_UI" name="01 - message">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -150,7 +150,7 @@
         <mxCell id="h2lklEqbUgoKkQHTaPwc-28" value="All 24 digits joined together" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=2" vertex="1" parent="h2lklEqbUgoKkQHTaPwc-1">
           <mxGeometry x="200" y="455" width="230" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="h2lklEqbUgoKkQHTaPwc-33" value="All 24 digits joined together" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=2" vertex="1" parent="h2lklEqbUgoKkQHTaPwc-1">
+        <mxCell id="h2lklEqbUgoKkQHTaPwc-33" value="Groups of 6 characters" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=2" vertex="1" parent="h2lklEqbUgoKkQHTaPwc-1">
           <mxGeometry x="200" y="545" width="230" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="h2lklEqbUgoKkQHTaPwc-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="h2lklEqbUgoKkQHTaPwc-1" source="h2lklEqbUgoKkQHTaPwc-34" target="h2lklEqbUgoKkQHTaPwc-45">
