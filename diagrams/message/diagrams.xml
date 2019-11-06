@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-06T23:34:59.638Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="ujLovuWOSM8gTmxgeeC-" version="12.2.2" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-11-06T23:36:37.879Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="XzYAJ6szhvW6VNXNsUjk" version="12.2.2" type="github" pages="3">
   <diagram id="fABHkEdBv8ab3ynVz_UI" name="01 - message">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -224,7 +224,7 @@
         <mxCell id="2l-Y8lZRl2jtsqKIEagj-2" value="ASCII Character Codes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="2l-Y8lZRl2jtsqKIEagj-1">
           <mxGeometry x="390" y="140" width="230" height="90" as="geometry"/>
         </mxCell>
-        <mxCell id="2l-Y8lZRl2jtsqKIEagj-3" value="Every letter has a decimal number representation, from 0 to 127" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fontStyle=0;" vertex="1" parent="2l-Y8lZRl2jtsqKIEagj-1">
+        <mxCell id="2l-Y8lZRl2jtsqKIEagj-3" value="The characters &quot;a-z&quot;, &quot;A-Z&quot;, &quot;0-9&quot;, &quot;!@#$%^&amp;amp;*()&quot; and a few others can be represented with a decimal value 0 to 127" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fontStyle=0;" vertex="1" parent="2l-Y8lZRl2jtsqKIEagj-1">
           <mxGeometry x="680" y="155" width="270" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="2l-Y8lZRl2jtsqKIEagj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="2l-Y8lZRl2jtsqKIEagj-1" source="2l-Y8lZRl2jtsqKIEagj-5" target="2l-Y8lZRl2jtsqKIEagj-6">
@@ -233,7 +233,7 @@
         <mxCell id="2l-Y8lZRl2jtsqKIEagj-5" value="Base64 character codes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="2l-Y8lZRl2jtsqKIEagj-1">
           <mxGeometry x="390" y="250" width="230" height="90" as="geometry"/>
         </mxCell>
-        <mxCell id="2l-Y8lZRl2jtsqKIEagj-6" value="Every letter has a&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fontStyle=0;" vertex="1" parent="2l-Y8lZRl2jtsqKIEagj-1">
+        <mxCell id="2l-Y8lZRl2jtsqKIEagj-6" value="The characters &quot;a-z&quot;, &quot;A-Z&quot;, &quot;0-9&quot; can be represented with a decimal value from 0 to 63" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fontStyle=0;" vertex="1" parent="2l-Y8lZRl2jtsqKIEagj-1">
           <mxGeometry x="680" y="265" width="270" height="60" as="geometry"/>
         </mxCell>
       </root>
