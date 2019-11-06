@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-06T23:53:42.828Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="rLDVGix0aT1hj-tTRKBv" version="12.2.2" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2019-11-06T23:54:34.021Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="b9DocQ4FSjRJ_iZbnE4l" version="12.2.2" type="github" pages="5">
   <diagram id="fABHkEdBv8ab3ynVz_UI" name="01 - message">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -240,7 +240,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LfMQ4nBMt3GD27-f4flS" name="04 - parts">
-    <mxGraphModel dx="611" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="MA6C7Go2eGrSYTK1VSFN-0"/>
         <mxCell id="MA6C7Go2eGrSYTK1VSFN-1" parent="MA6C7Go2eGrSYTK1VSFN-0"/>
@@ -277,7 +277,7 @@
         <mxCell id="MA6C7Go2eGrSYTK1VSFN-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=14;align=center;rotation=-90;" vertex="1" parent="MA6C7Go2eGrSYTK1VSFN-1">
           <mxGeometry x="730" y="240" width="20" height="120" as="geometry"/>
         </mxCell>
-        <mxCell id="MA6C7Go2eGrSYTK1VSFN-13" value="Hash" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="MA6C7Go2eGrSYTK1VSFN-1">
+        <mxCell id="MA6C7Go2eGrSYTK1VSFN-13" value="Hash/fragment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="MA6C7Go2eGrSYTK1VSFN-1">
           <mxGeometry x="720" y="310" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
@@ -321,7 +321,7 @@
         <mxCell id="LZfluAMWyucYE_sq7K0F-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=14;align=center;rotation=-90;" vertex="1" parent="LZfluAMWyucYE_sq7K0F-1">
           <mxGeometry x="845" y="125" width="20" height="350" as="geometry"/>
         </mxCell>
-        <mxCell id="LZfluAMWyucYE_sq7K0F-13" value="Hash" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="LZfluAMWyucYE_sq7K0F-1">
+        <mxCell id="LZfluAMWyucYE_sq7K0F-13" value="Hash/fragment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="LZfluAMWyucYE_sq7K0F-1">
           <mxGeometry x="835" y="310" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
