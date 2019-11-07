@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-07T23:24:10.990Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="tqaicSu9xe0ylAlfzPri" version="12.2.2" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-11-07T23:53:28.284Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="HfqaloKQ2AjVDlwrLIgx" version="12.2.2" type="github" pages="3">
   <diagram id="JvbOyysYfpINp6jydcp0" name="01 - ls">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -49,10 +49,34 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DPbcuMmGf_bzf3iNALML" name="03 - path">
-    <mxGraphModel dx="609" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="sOrRVozfNnJJNEzIMNAV-0"/>
         <mxCell id="sOrRVozfNnJJNEzIMNAV-1" parent="sOrRVozfNnJJNEzIMNAV-0"/>
+        <mxCell id="sOrRVozfNnJJNEzIMNAV-4" value="Change index.js file permissions" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="sOrRVozfNnJJNEzIMNAV-1">
+          <mxGeometry x="380" y="180" width="340" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="sOrRVozfNnJJNEzIMNAV-5" value="Create package.json file with &#39;bin&#39; section" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="sOrRVozfNnJJNEzIMNAV-1">
+          <mxGeometry x="380" y="130" width="340" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="sOrRVozfNnJJNEzIMNAV-6" value="Add comment to index.js file to allow it to be treated like an executable" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="sOrRVozfNnJJNEzIMNAV-1">
+          <mxGeometry x="380" y="230" width="340" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="sOrRVozfNnJJNEzIMNAV-7" value="Link our project" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="sOrRVozfNnJJNEzIMNAV-1">
+          <mxGeometry x="380" y="280" width="340" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="sOrRVozfNnJJNEzIMNAV-8" value="" style="endArrow=classic;html=1;fontSize=14;" edge="1" parent="sOrRVozfNnJJNEzIMNAV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="130" as="sourcePoint"/>
+            <mxPoint x="370" y="320" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sOrRVozfNnJJNEzIMNAV-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=14;rotation=180;" vertex="1" parent="sOrRVozfNnJJNEzIMNAV-1">
+          <mxGeometry x="730" y="180" width="20" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="sOrRVozfNnJJNEzIMNAV-10" value="&lt;i&gt;Shouldn&#39;t be required on a windows machine&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="sOrRVozfNnJJNEzIMNAV-1">
+          <mxGeometry x="750" y="215" width="130" height="20" as="geometry"/>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
