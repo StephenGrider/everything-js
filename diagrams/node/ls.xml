@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-07T20:55:07.303Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="nNY2cf9XZ3ZutgQYOR_W" version="12.2.2" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-11-07T23:24:10.990Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="tqaicSu9xe0ylAlfzPri" version="12.2.2" type="github" pages="3">
   <diagram id="JvbOyysYfpINp6jydcp0" name="01 - ls">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -45,6 +45,14 @@
         <mxCell id="uhAkKzQOR3C3sFZxhLo4-3" value="Node Standard Library Documentation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=2" vertex="1" parent="uhAkKzQOR3C3sFZxhLo4-1">
           <mxGeometry x="601" y="340" width="188" height="60" as="geometry"/>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DPbcuMmGf_bzf3iNALML" name="03 - path">
+    <mxGraphModel dx="609" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="sOrRVozfNnJJNEzIMNAV-0"/>
+        <mxCell id="sOrRVozfNnJJNEzIMNAV-1" parent="sOrRVozfNnJJNEzIMNAV-0"/>
       </root>
     </mxGraphModel>
   </diagram>
