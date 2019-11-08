@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-08T18:01:27.467Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="eojh0wzFRULk2HpJ5Lvm" version="12.2.2" type="github" pages="8">
+<mxfile host="www.draw.io" modified="2019-11-08T18:12:01.785Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="e2A34LR0_UxIa8yUelG-" version="12.2.2" type="github" pages="8">
   <diagram id="JvbOyysYfpINp6jydcp0" name="01 - ls">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -288,13 +288,13 @@
         <mxCell id="WBQ9oCBQXKz4-KXRp3pD-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="WBQ9oCBQXKz4-KXRp3pD-1" source="WBQ9oCBQXKz4-KXRp3pD-4" target="WBQ9oCBQXKz4-KXRp3pD-10">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="WBQ9oCBQXKz4-KXRp3pD-4" value="Promise #1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="WBQ9oCBQXKz4-KXRp3pD-1">
+        <mxCell id="WBQ9oCBQXKz4-KXRp3pD-4" value="lstat(filename)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="WBQ9oCBQXKz4-KXRp3pD-1">
           <mxGeometry x="440" y="180" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="WBQ9oCBQXKz4-KXRp3pD-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="WBQ9oCBQXKz4-KXRp3pD-1" source="WBQ9oCBQXKz4-KXRp3pD-5" target="WBQ9oCBQXKz4-KXRp3pD-11">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="WBQ9oCBQXKz4-KXRp3pD-5" value="Promise #2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="WBQ9oCBQXKz4-KXRp3pD-1">
+        <mxCell id="WBQ9oCBQXKz4-KXRp3pD-5" value="lstat(filename)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="WBQ9oCBQXKz4-KXRp3pD-1">
           <mxGeometry x="560" y="180" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="WBQ9oCBQXKz4-KXRp3pD-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="WBQ9oCBQXKz4-KXRp3pD-1" source="WBQ9oCBQXKz4-KXRp3pD-6" target="WBQ9oCBQXKz4-KXRp3pD-12">
