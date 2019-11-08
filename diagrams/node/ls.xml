@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-08T17:19:19.638Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="W0vsqPW4TEzvCRWkF7iZ" version="12.2.2" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2019-11-08T17:32:21.914Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="BwceA2hHQvtMDfT40w_q" version="12.2.2" type="github" pages="7">
   <diagram id="JvbOyysYfpINp6jydcp0" name="01 - ls">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -81,7 +81,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Na75P1rSibR4035_fYN-" name="04 - order">
-    <mxGraphModel dx="1108" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="lN_HIE98vuT4R4VTmQ0s-0"/>
         <mxCell id="lN_HIE98vuT4R4VTmQ0s-1" parent="lN_HIE98vuT4R4VTmQ0s-0"/>
@@ -138,13 +138,13 @@
       <root>
         <mxCell id="ZIepRw3R1qiTEPPVpC5I-0"/>
         <mxCell id="ZIepRw3R1qiTEPPVpC5I-1" parent="ZIepRw3R1qiTEPPVpC5I-0"/>
-        <mxCell id="ZIepRw3R1qiTEPPVpC5I-2" value="Maintain an array of the results from each lstat.&amp;nbsp; As each callback is invoked, add the stats object to this array.&amp;nbsp; When array is full, log everything in it" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="ZIepRw3R1qiTEPPVpC5I-1">
+        <mxCell id="ZIepRw3R1qiTEPPVpC5I-2" value="Maintain an array of the results from each lstat.&amp;nbsp; As each callback is invoked, add the stats object to this array.&amp;nbsp; When array is full, log everything in it" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="ZIepRw3R1qiTEPPVpC5I-1">
           <mxGeometry x="360" y="180" width="410" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="ZIepRw3R1qiTEPPVpC5I-3" value="Wrap the lstat call with a promise, use async/await syntax to process lstat call one at a time" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="ZIepRw3R1qiTEPPVpC5I-1">
+        <mxCell id="ZIepRw3R1qiTEPPVpC5I-3" value="Wrap the lstat call with a promise, use async/await syntax to process lstat call one at a time" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="ZIepRw3R1qiTEPPVpC5I-1">
           <mxGeometry x="360" y="250" width="410" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="ZIepRw3R1qiTEPPVpC5I-4" value="Wrap the lstat call with a promise, use async/await + the Promise.all helper method to process lstat calls all at once" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="ZIepRw3R1qiTEPPVpC5I-1">
+        <mxCell id="ZIepRw3R1qiTEPPVpC5I-4" value="Wrap the lstat call with a promise, use async/await + the Promise.all helper method to process lstat calls all at once" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ZIepRw3R1qiTEPPVpC5I-1">
           <mxGeometry x="360" y="320" width="410" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="ZIepRw3R1qiTEPPVpC5I-5" value="Options" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="ZIepRw3R1qiTEPPVpC5I-1">
@@ -158,16 +158,16 @@
       <root>
         <mxCell id="Wyc0vWhCNgic41bJVCpJ-0"/>
         <mxCell id="Wyc0vWhCNgic41bJVCpJ-1" parent="Wyc0vWhCNgic41bJVCpJ-0"/>
-        <mxCell id="Wyc0vWhCNgic41bJVCpJ-2" value="null" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="Wyc0vWhCNgic41bJVCpJ-1">
+        <mxCell id="Wyc0vWhCNgic41bJVCpJ-2" value="stats" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="Wyc0vWhCNgic41bJVCpJ-1">
           <mxGeometry x="870" y="417.5" width="70" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="Wyc0vWhCNgic41bJVCpJ-3" value="null" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="Wyc0vWhCNgic41bJVCpJ-1">
+        <mxCell id="Wyc0vWhCNgic41bJVCpJ-3" value="stats" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="Wyc0vWhCNgic41bJVCpJ-1">
           <mxGeometry x="940" y="417.5" width="70" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="Wyc0vWhCNgic41bJVCpJ-4" value="null" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="Wyc0vWhCNgic41bJVCpJ-1">
+        <mxCell id="Wyc0vWhCNgic41bJVCpJ-4" value="stats" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="Wyc0vWhCNgic41bJVCpJ-1">
           <mxGeometry x="1010" y="417.5" width="70" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="Wyc0vWhCNgic41bJVCpJ-5" value="null" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="Wyc0vWhCNgic41bJVCpJ-1">
+        <mxCell id="Wyc0vWhCNgic41bJVCpJ-5" value="stats" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="Wyc0vWhCNgic41bJVCpJ-1">
           <mxGeometry x="1080" y="417.5" width="70" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="Wyc0vWhCNgic41bJVCpJ-6" value="allStats array" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Wyc0vWhCNgic41bJVCpJ-1">
