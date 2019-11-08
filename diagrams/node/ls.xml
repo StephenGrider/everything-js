@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-08T21:53:56.446Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="3wekmX1nWBojtmhB0Je6" version="12.2.2" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2019-11-08T22:40:48.235Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="cHKUlrKTLLCWO9d-2lmu" version="12.2.2" type="github" pages="12">
   <diagram id="JvbOyysYfpINp6jydcp0" name="01 - ls">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -387,6 +387,103 @@
         </mxCell>
         <mxCell id="kGE-DxVHK1ReRpFVdlfN-2" value="Use the standard library module &#39;child_process&#39; to execute a program" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="_AoKKURiRLXbH-sVaK46-1">
           <mxGeometry x="850" y="270" width="410" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DbW6yUhBFPqw9EudwSA7" name="11 - add">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="pUFnRQNCUu-K7By_W5vu-0"/>
+        <mxCell id="pUFnRQNCUu-K7By_W5vu-1" parent="pUFnRQNCUu-K7By_W5vu-0"/>
+        <mxCell id="pUFnRQNCUu-K7By_W5vu-2" value="Watchit starts up" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="pUFnRQNCUu-K7By_W5vu-1">
+          <mxGeometry x="490" y="100" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pUFnRQNCUu-K7By_W5vu-3" value="Chokidar &#39;adds&#39; a file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pUFnRQNCUu-K7By_W5vu-1">
+          <mxGeometry x="490" y="140" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pUFnRQNCUu-K7By_W5vu-4" value="We start up the user&#39;s code" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="pUFnRQNCUu-K7By_W5vu-1">
+          <mxGeometry x="490" y="180" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pUFnRQNCUu-K7By_W5vu-6" value="Chokidar &#39;adds&#39; a file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pUFnRQNCUu-K7By_W5vu-1">
+          <mxGeometry x="490" y="220" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pUFnRQNCUu-K7By_W5vu-7" value="We stop the users program we just created" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="pUFnRQNCUu-K7By_W5vu-1">
+          <mxGeometry x="490" y="260" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pUFnRQNCUu-K7By_W5vu-8" value="We start up the user&#39;s code" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="pUFnRQNCUu-K7By_W5vu-1">
+          <mxGeometry x="490" y="300" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pUFnRQNCUu-K7By_W5vu-9" value="Chokidar &#39;adds&#39; a file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pUFnRQNCUu-K7By_W5vu-1">
+          <mxGeometry x="490" y="340" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pUFnRQNCUu-K7By_W5vu-10" value="We stop the users program we just created" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="pUFnRQNCUu-K7By_W5vu-1">
+          <mxGeometry x="490" y="380" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pUFnRQNCUu-K7By_W5vu-11" value="We start up the user&#39;s code" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="pUFnRQNCUu-K7By_W5vu-1">
+          <mxGeometry x="490" y="420" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pUFnRQNCUu-K7By_W5vu-12" value="Chokidar &#39;adds&#39; a file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="pUFnRQNCUu-K7By_W5vu-1">
+          <mxGeometry x="490" y="460" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pUFnRQNCUu-K7By_W5vu-13" value="We stop the users program we just created" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="pUFnRQNCUu-K7By_W5vu-1">
+          <mxGeometry x="490" y="500" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pUFnRQNCUu-K7By_W5vu-14" value="We start up the user&#39;s code" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="pUFnRQNCUu-K7By_W5vu-1">
+          <mxGeometry x="490" y="540" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pUFnRQNCUu-K7By_W5vu-15" value="" style="endArrow=classic;html=1;fontSize=14;" edge="1" parent="pUFnRQNCUu-K7By_W5vu-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="100" as="sourcePoint"/>
+            <mxPoint x="480" y="572.6666666666666" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUFnRQNCUu-K7By_W5vu-16" value="Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="pUFnRQNCUu-K7By_W5vu-1">
+          <mxGeometry x="430" y="100" width="40" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="12 - add" id="UmalXOG2tHP6jv0labAu">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="8tPsBVVGeJMLqf6jOdZF-0"/>
+        <mxCell id="8tPsBVVGeJMLqf6jOdZF-1" parent="8tPsBVVGeJMLqf6jOdZF-0"/>
+        <mxCell id="8tPsBVVGeJMLqf6jOdZF-2" value="Watchit starts up" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="8tPsBVVGeJMLqf6jOdZF-1">
+          <mxGeometry x="490" y="100" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="8tPsBVVGeJMLqf6jOdZF-3" value="Chokidar &#39;adds&#39; a file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="8tPsBVVGeJMLqf6jOdZF-1">
+          <mxGeometry x="490" y="140" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="8tPsBVVGeJMLqf6jOdZF-4" value="We wait for 100ms to go by..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="8tPsBVVGeJMLqf6jOdZF-1">
+          <mxGeometry x="490" y="180" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="8tPsBVVGeJMLqf6jOdZF-5" value="Chokidar &#39;adds&#39; a file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="8tPsBVVGeJMLqf6jOdZF-1">
+          <mxGeometry x="490" y="220" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="8tPsBVVGeJMLqf6jOdZF-8" value="Chokidar &#39;adds&#39; a file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="8tPsBVVGeJMLqf6jOdZF-1">
+          <mxGeometry x="490" y="300" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="8tPsBVVGeJMLqf6jOdZF-14" value="" style="endArrow=classic;html=1;fontSize=14;" edge="1" parent="8tPsBVVGeJMLqf6jOdZF-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="100" as="sourcePoint"/>
+            <mxPoint x="480" y="470" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tPsBVVGeJMLqf6jOdZF-15" value="Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="8tPsBVVGeJMLqf6jOdZF-1">
+          <mxGeometry x="430" y="100" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="8tPsBVVGeJMLqf6jOdZF-16" value="We wait for 100ms to go by..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="8tPsBVVGeJMLqf6jOdZF-1">
+          <mxGeometry x="490" y="260" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="8tPsBVVGeJMLqf6jOdZF-17" value="We wait for 100ms to go by..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="8tPsBVVGeJMLqf6jOdZF-1">
+          <mxGeometry x="490" y="340" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="8tPsBVVGeJMLqf6jOdZF-18" value="&lt;i&gt;100ms passes without a new &#39;add&#39;&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="8tPsBVVGeJMLqf6jOdZF-1">
+          <mxGeometry x="565" y="390" width="150" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="8tPsBVVGeJMLqf6jOdZF-19" value="Start up users code!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="8tPsBVVGeJMLqf6jOdZF-1">
+          <mxGeometry x="490" y="440" width="300" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
