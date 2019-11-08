@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-08T17:14:03.871Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="QA6PKP7PXotB6gs-Fi6x" version="12.2.2" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-11-08T17:18:05.885Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="1BzcPU3IkWtDokeYmmqz" version="12.2.2" type="github" pages="6">
   <diagram id="JvbOyysYfpINp6jydcp0" name="01 - ls">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -170,7 +170,7 @@
         <mxCell id="Wyc0vWhCNgic41bJVCpJ-5" value="null" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="Wyc0vWhCNgic41bJVCpJ-1">
           <mxGeometry x="1080" y="417.5" width="70" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="Wyc0vWhCNgic41bJVCpJ-6" value="stats array" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Wyc0vWhCNgic41bJVCpJ-1">
+        <mxCell id="Wyc0vWhCNgic41bJVCpJ-6" value="allStats array" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Wyc0vWhCNgic41bJVCpJ-1">
           <mxGeometry x="870" y="390" width="280" height="28" as="geometry"/>
         </mxCell>
         <mxCell id="5Fvn99FRNAyvIYuszQwu-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="Wyc0vWhCNgic41bJVCpJ-1" source="5Fvn99FRNAyvIYuszQwu-1" target="5Fvn99FRNAyvIYuszQwu-13">
