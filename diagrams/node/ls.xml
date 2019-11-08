@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-08T18:12:01.785Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="e2A34LR0_UxIa8yUelG-" version="12.2.2" type="github" pages="8">
+<mxfile host="www.draw.io" modified="2019-11-08T21:51:42.997Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="MO49oK58Liwe81snoTUp" version="12.2.2" type="github" pages="9">
   <diagram id="JvbOyysYfpINp6jydcp0" name="01 - ls">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -330,6 +330,14 @@
         <mxCell id="WBQ9oCBQXKz4-KXRp3pD-14" value="]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WBQ9oCBQXKz4-KXRp3pD-1">
           <mxGeometry x="920" y="310" width="120" height="60" as="geometry"/>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="JBjsS-8QXzR0W9y9kaDV" name="09 - nodemon">
+    <mxGraphModel dx="1220" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="8Bf3rKKL05t3i0tk8jO9-0"/>
+        <mxCell id="8Bf3rKKL05t3i0tk8jO9-1" parent="8Bf3rKKL05t3i0tk8jO9-0"/>
       </root>
     </mxGraphModel>
   </diagram>
