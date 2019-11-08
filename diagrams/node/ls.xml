@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-08T21:52:47.608Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="adHLuRggyd8cLyvL-FNX" version="12.2.2" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2019-11-08T21:53:56.446Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="3wekmX1nWBojtmhB0Je6" version="12.2.2" type="github" pages="10">
   <diagram id="JvbOyysYfpINp6jydcp0" name="01 - ls">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -333,7 +333,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="JBjsS-8QXzR0W9y9kaDV" name="09 - nodemon">
+  <diagram id="JBjsS-8QXzR0W9y9kaDV" name="09 - problems">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="8Bf3rKKL05t3i0tk8jO9-0"/>
@@ -346,6 +346,47 @@
         </mxCell>
         <mxCell id="8Bf3rKKL05t3i0tk8jO9-4" value="Need to figure out how to execute some JS code from within a JS program!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="8Bf3rKKL05t3i0tk8jO9-1">
           <mxGeometry x="390" y="270" width="410" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8Bf3rKKL05t3i0tk8jO9-5" value="Big Issues" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="8Bf3rKKL05t3i0tk8jO9-1">
+          <mxGeometry x="505" y="120" width="180" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="10 - solutions" id="cB9FETzD4MOlKDPHtnVR">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="_AoKKURiRLXbH-sVaK46-0"/>
+        <mxCell id="_AoKKURiRLXbH-sVaK46-1" parent="_AoKKURiRLXbH-sVaK46-0"/>
+        <mxCell id="kGE-DxVHK1ReRpFVdlfN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="_AoKKURiRLXbH-sVaK46-1" source="_AoKKURiRLXbH-sVaK46-2" target="kGE-DxVHK1ReRpFVdlfN-0">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="_AoKKURiRLXbH-sVaK46-2" value="Need to detect when a file changes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="_AoKKURiRLXbH-sVaK46-1">
+          <mxGeometry x="390" y="150" width="410" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="kGE-DxVHK1ReRpFVdlfN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="_AoKKURiRLXbH-sVaK46-1" source="_AoKKURiRLXbH-sVaK46-3" target="kGE-DxVHK1ReRpFVdlfN-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="_AoKKURiRLXbH-sVaK46-3" value="It would be nice to provide some help to users of our CLI tool" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="_AoKKURiRLXbH-sVaK46-1">
+          <mxGeometry x="390" y="210" width="410" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="kGE-DxVHK1ReRpFVdlfN-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="_AoKKURiRLXbH-sVaK46-1" source="_AoKKURiRLXbH-sVaK46-4" target="kGE-DxVHK1ReRpFVdlfN-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="_AoKKURiRLXbH-sVaK46-4" value="Need to figure out how to execute some JS code from within a JS program!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="_AoKKURiRLXbH-sVaK46-1">
+          <mxGeometry x="390" y="270" width="410" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="_AoKKURiRLXbH-sVaK46-5" value="Big Issues" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="_AoKKURiRLXbH-sVaK46-1">
+          <mxGeometry x="505" y="120" width="180" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="kGE-DxVHK1ReRpFVdlfN-0" value="Use a package called &#39;chokidar&#39; to detect file changes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="_AoKKURiRLXbH-sVaK46-1">
+          <mxGeometry x="850" y="150" width="410" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="kGE-DxVHK1ReRpFVdlfN-1" value="Use a package called &#39;caporal&#39; to build our CLI tool" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="_AoKKURiRLXbH-sVaK46-1">
+          <mxGeometry x="850" y="210" width="410" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="kGE-DxVHK1ReRpFVdlfN-2" value="Use the standard library module &#39;child_process&#39; to execute a program" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="_AoKKURiRLXbH-sVaK46-1">
+          <mxGeometry x="850" y="270" width="410" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
