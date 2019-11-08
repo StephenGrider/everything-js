@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-08T23:34:21.761Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="7R7Yy9Cly65gudh3AQFQ" version="12.2.2" type="github" pages="13">
+<mxfile host="www.draw.io" modified="2019-11-08T23:41:30.934Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Pc6v9RP7CmbLhr2NDiLh" version="12.2.2" type="github" pages="13">
   <diagram id="JvbOyysYfpINp6jydcp0" name="01 - ls">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -509,25 +509,25 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="fi_1jf2Rag6Be5tUfeKe-4" value="fork" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fi_1jf2Rag6Be5tUfeKe-1">
-          <mxGeometry x="390" y="330" width="140" height="60" as="geometry"/>
+          <mxGeometry x="390" y="400" width="140" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="fi_1jf2Rag6Be5tUfeKe-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="fi_1jf2Rag6Be5tUfeKe-1" source="fi_1jf2Rag6Be5tUfeKe-5" target="fi_1jf2Rag6Be5tUfeKe-9">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="fi_1jf2Rag6Be5tUfeKe-5" value="spawn" style="rounded=0;whiteSpace=wrap;html=1;fontSize=26;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fi_1jf2Rag6Be5tUfeKe-1">
-          <mxGeometry x="390" y="400" width="140" height="60" as="geometry"/>
+          <mxGeometry x="390" y="330" width="140" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="fi_1jf2Rag6Be5tUfeKe-6" value="exec" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fontStyle=0;" vertex="1" parent="fi_1jf2Rag6Be5tUfeKe-1">
-          <mxGeometry x="560" y="200" width="320" height="40" as="geometry"/>
+          <mxGeometry x="560" y="200" width="380" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="fi_1jf2Rag6Be5tUfeKe-7" value="execFile" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fontStyle=0;" vertex="1" parent="fi_1jf2Rag6Be5tUfeKe-1">
-          <mxGeometry x="560" y="270" width="320" height="40" as="geometry"/>
+          <mxGeometry x="560" y="270" width="380" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="fi_1jf2Rag6Be5tUfeKe-8" value="fork" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fontStyle=0;" vertex="1" parent="fi_1jf2Rag6Be5tUfeKe-1">
-          <mxGeometry x="560" y="340" width="320" height="40" as="geometry"/>
+        <mxCell id="fi_1jf2Rag6Be5tUfeKe-8" value="Same as &#39;spawn&#39;, but specifically for running other NodeJS programs (spawn is for any kind of program)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fontStyle=0;" vertex="1" parent="fi_1jf2Rag6Be5tUfeKe-1">
+          <mxGeometry x="560" y="410" width="380" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="fi_1jf2Rag6Be5tUfeKe-9" value="spawn" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fontStyle=0;" vertex="1" parent="fi_1jf2Rag6Be5tUfeKe-1">
-          <mxGeometry x="560" y="410" width="320" height="40" as="geometry"/>
+        <mxCell id="fi_1jf2Rag6Be5tUfeKe-9" value="Creates a new &#39;shell&#39;, runs a command, streams the output back to our program" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fontStyle=0;" vertex="1" parent="fi_1jf2Rag6Be5tUfeKe-1">
+          <mxGeometry x="560" y="340" width="380" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
