@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-12T17:11:42.788Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="IjiQy8mKpkCSssBw86iG" version="12.2.3" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-11-12T17:42:56.999Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="v40kuqAPWIISYjTO5zKe" version="12.2.3" type="github" pages="5">
   <diagram id="gZr-azwEFtnHItKvvBY6" name="01 - web">
     <mxGraphModel dx="1107" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -495,6 +495,47 @@
         </mxCell>
         <mxCell id="9M2FMtLTjd0WW61bcHA5-50" value="Callback function we write" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="-hf-S5hjt3socOkqPYiQ-1">
           <mxGeometry x="1700" y="401" width="130" height="38" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="q2HX_kqMMRNELsnu7Uwg" name="05 -stream">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="CyPiujgPtPs6fgC9TMkc-0"/>
+        <mxCell id="CyPiujgPtPs6fgC9TMkc-1" parent="CyPiujgPtPs6fgC9TMkc-0"/>
+        <mxCell id="CyPiujgPtPs6fgC9TMkc-2" value="" style="endArrow=classic;html=1;fontSize=13;" edge="1" parent="CyPiujgPtPs6fgC9TMkc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="130" as="sourcePoint"/>
+            <mxPoint x="380" y="460" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CyPiujgPtPs6fgC9TMkc-3" value="Browser makes request to server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="CyPiujgPtPs6fgC9TMkc-1">
+          <mxGeometry x="390" y="130" width="310" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="CyPiujgPtPs6fgC9TMkc-4" value="Server sees request with path and method" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="CyPiujgPtPs6fgC9TMkc-1">
+          <mxGeometry x="390" y="170" width="310" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="CyPiujgPtPs6fgC9TMkc-5" value="Server runs appropriate callback method" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="CyPiujgPtPs6fgC9TMkc-1">
+          <mxGeometry x="390" y="210" width="310" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="CyPiujgPtPs6fgC9TMkc-6" value="&lt;i&gt;THEN&lt;/i&gt;&amp;nbsp;the server starts transmitting information from body of request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="CyPiujgPtPs6fgC9TMkc-1">
+          <mxGeometry x="390" y="250" width="310" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="CyPiujgPtPs6fgC9TMkc-7" value="Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="CyPiujgPtPs6fgC9TMkc-1">
+          <mxGeometry x="340" y="130" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="CyPiujgPtPs6fgC9TMkc-9" value="Browser sends a little chunk of info, waits for confirmation" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="CyPiujgPtPs6fgC9TMkc-1">
+          <mxGeometry x="390" y="290" width="180" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="CyPiujgPtPs6fgC9TMkc-10" value="Browser sends a little chunk of info, waits for confirmation" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="CyPiujgPtPs6fgC9TMkc-1">
+          <mxGeometry x="455" y="340" width="180" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="CyPiujgPtPs6fgC9TMkc-11" value="Browser sends a little chunk of info, waits for confirmation" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="CyPiujgPtPs6fgC9TMkc-1">
+          <mxGeometry x="520" y="390" width="180" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="CyPiujgPtPs6fgC9TMkc-12" value="All chunks sent!&amp;nbsp; Request complete!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="CyPiujgPtPs6fgC9TMkc-1">
+          <mxGeometry x="390" y="430" width="310" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
