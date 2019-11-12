@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-12T18:58:54.206Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="-knYjF9dagcdUJ6ezHlR" version="12.2.3" type="github" pages="13">
+<mxfile host="www.draw.io" modified="2019-11-12T19:15:47.497Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="6tOSJmV3P5HuwomjZSYY" version="12.2.3" type="github" pages="14">
   <diagram id="gZr-azwEFtnHItKvvBY6" name="01 - web">
     <mxGraphModel dx="1107" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -950,6 +950,125 @@
         </mxCell>
         <mxCell id="RLLY6llXJqSSsMgYtgDg-9" value="We have to write to the FS every time we want to update some data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="RLLY6llXJqSSsMgYtgDg-1">
           <mxGeometry x="530" y="460" width="360" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="G2BVyL5PQnP1UsC4U9lW" name="14 - ds">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-0"/>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-1" parent="OHPltgUK5SqlacLXM2Se-0"/>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-2" value="getAll" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="325" y="130" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-4" value="UsersRepository" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="475" y="75" width="180" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-5" value="getOne" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="325" y="160" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-6" value="getOneBy" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="325" y="190" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-7" value="create" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="325" y="220" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-8" value="update" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="325" y="250" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-9" value="delete" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="325" y="280" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-10" value="randomId" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="325" y="310" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-11" value="-" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="465" y="130" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-12" value="id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="465" y="160" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-13" value="filters" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="465" y="190" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-14" value="attributes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="465" y="220" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-15" value="id, attributes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="465" y="250" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-16" value="id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="465" y="280" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-17" value="-" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="465" y="310" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-18" value="writeAll" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="325" y="340" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-19" value="-" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="465" y="340" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-20" value="[user]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="565" y="130" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-21" value="user" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="565" y="160" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-22" value="user" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="565" y="190" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-23" value="null" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="565" y="220" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-24" value="null" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="565" y="250" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-25" value="null" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="565" y="280" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-26" value="id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="565" y="310" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-27" value="null" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="565" y="340" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-29" value="Gets a list of all users" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="665" y="130" width="160" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-30" value="Finds the user with the given Id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="665" y="160" width="160" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-31" value="Finds one user with the given filters" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="665" y="190" width="160" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-32" value="Creates a user with the given attributes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="665" y="220" width="160" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-33" value="Updates the user with the given id using the given attributes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="665" y="250" width="160" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-34" value="Delete the user with the given id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="665" y="280" width="160" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-35" value="Generates a random Id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="665" y="310" width="160" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-36" value="Writes all users to a users.json file" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="665" y="340" width="160" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-37" value="Method" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="325" y="100" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-38" value="Input Arguments" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="465" y="100" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-39" value="Return Value" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="565" y="100" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="OHPltgUK5SqlacLXM2Se-40" value="Description" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
+          <mxGeometry x="665" y="100" width="160" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
