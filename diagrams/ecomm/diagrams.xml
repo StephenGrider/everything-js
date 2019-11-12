@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-12T17:42:56.999Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="v40kuqAPWIISYjTO5zKe" version="12.2.3" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2019-11-12T17:46:45.830Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="4Spn-L0F0FiG4mQqHObK" version="12.2.3" type="github" pages="5">
   <diagram id="gZr-azwEFtnHItKvvBY6" name="01 - web">
     <mxGraphModel dx="1107" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -510,7 +510,7 @@
             <mxPoint x="380" y="460" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CyPiujgPtPs6fgC9TMkc-3" value="Browser makes request to server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="CyPiujgPtPs6fgC9TMkc-1">
+        <mxCell id="CyPiujgPtPs6fgC9TMkc-3" value="Browser sends HTTP header to the server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="CyPiujgPtPs6fgC9TMkc-1">
           <mxGeometry x="390" y="130" width="310" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="CyPiujgPtPs6fgC9TMkc-4" value="Server sees request with path and method" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="CyPiujgPtPs6fgC9TMkc-1">
@@ -519,7 +519,7 @@
         <mxCell id="CyPiujgPtPs6fgC9TMkc-5" value="Server runs appropriate callback method" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="CyPiujgPtPs6fgC9TMkc-1">
           <mxGeometry x="390" y="210" width="310" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="CyPiujgPtPs6fgC9TMkc-6" value="&lt;i&gt;THEN&lt;/i&gt;&amp;nbsp;the server starts transmitting information from body of request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="CyPiujgPtPs6fgC9TMkc-1">
+        <mxCell id="CyPiujgPtPs6fgC9TMkc-6" value="&lt;i&gt;THEN&lt;/i&gt;&amp;nbsp;the browser starts transmitting information from body of request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="CyPiujgPtPs6fgC9TMkc-1">
           <mxGeometry x="390" y="250" width="310" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="CyPiujgPtPs6fgC9TMkc-7" value="Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="CyPiujgPtPs6fgC9TMkc-1">
