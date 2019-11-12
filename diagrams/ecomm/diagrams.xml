@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-12T19:15:47.497Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="6tOSJmV3P5HuwomjZSYY" version="12.2.3" type="github" pages="14">
+<mxfile host="www.draw.io" modified="2019-11-12T19:17:56.852Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="zCzNBusJxmUKKN9RR7VS" version="12.2.3" type="github" pages="15">
   <diagram id="gZr-azwEFtnHItKvvBY6" name="01 - web">
     <mxGraphModel dx="1107" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1069,6 +1069,32 @@
         </mxCell>
         <mxCell id="OHPltgUK5SqlacLXM2Se-40" value="Description" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="OHPltgUK5SqlacLXM2Se-1">
           <mxGeometry x="665" y="100" width="160" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WLVp1wtcDeSwG_X2reKg" name="15 - methodology">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="q11KD_wCbVGFFatTdByq-0"/>
+        <mxCell id="q11KD_wCbVGFFatTdByq-1" parent="q11KD_wCbVGFFatTdByq-0"/>
+        <mxCell id="q11KD_wCbVGFFatTdByq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="q11KD_wCbVGFFatTdByq-1" source="q11KD_wCbVGFFatTdByq-2" target="q11KD_wCbVGFFatTdByq-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="q11KD_wCbVGFFatTdByq-2" value="Repository Approach" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="q11KD_wCbVGFFatTdByq-1">
+          <mxGeometry x="430" y="220" width="180" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="q11KD_wCbVGFFatTdByq-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="q11KD_wCbVGFFatTdByq-1" source="q11KD_wCbVGFFatTdByq-3" target="q11KD_wCbVGFFatTdByq-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="q11KD_wCbVGFFatTdByq-3" value="Active Record Approach" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="q11KD_wCbVGFFatTdByq-1">
+          <mxGeometry x="430" y="350" width="180" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="q11KD_wCbVGFFatTdByq-4" value="A single class (repository) is responsible for data access.&amp;nbsp; All records are stored and used as plain JS objects" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="q11KD_wCbVGFFatTdByq-1">
+          <mxGeometry x="640" y="230" width="340" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="q11KD_wCbVGFFatTdByq-6" value="Every record is an instance of a &#39;model&#39; class that has methods to save, update, delete this record." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="q11KD_wCbVGFFatTdByq-1">
+          <mxGeometry x="640" y="360" width="340" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
