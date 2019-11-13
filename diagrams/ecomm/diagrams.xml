@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-13T17:43:23.342Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="6f5HW4sgOBYS35A50KPL" version="12.2.3" type="github" pages="18">
+<mxfile host="www.draw.io" modified="2019-11-13T18:01:32.196Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="iauWRbS_xkfLGas2TQGx" version="12.2.3" type="github" pages="19">
   <diagram id="gZr-azwEFtnHItKvvBY6" name="01 - web">
     <mxGraphModel dx="1107" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1150,7 +1150,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="avHDTnXHivr2oe1QpNFB" name="17 - cookies">
-    <mxGraphModel dx="817" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="HkfOyYkG2DwcFhtfflPE-0"/>
         <mxCell id="HkfOyYkG2DwcFhtfflPE-1" parent="HkfOyYkG2DwcFhtfflPE-0"/>
@@ -1186,12 +1186,12 @@
         </mxCell>
         <mxCell id="HkfOyYkG2DwcFhtfflPE-12" value="" style="endArrow=classic;html=1;fontSize=22;" edge="1" parent="HkfOyYkG2DwcFhtfflPE-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="490" y="306" as="sourcePoint"/>
-            <mxPoint x="740" y="306" as="targetPoint"/>
+            <mxPoint x="490" y="304" as="sourcePoint"/>
+            <mxPoint x="740" y="304" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="HkfOyYkG2DwcFhtfflPE-13" value="Request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="HkfOyYkG2DwcFhtfflPE-1">
-          <mxGeometry x="560" y="286" width="120" height="20" as="geometry"/>
+          <mxGeometry x="560" y="284" width="120" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="HkfOyYkG2DwcFhtfflPE-14" value="" style="endArrow=classic;html=1;fontSize=22;" edge="1" parent="HkfOyYkG2DwcFhtfflPE-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1204,6 +1204,74 @@
         </mxCell>
         <mxCell id="HkfOyYkG2DwcFhtfflPE-16" value="Who is making these requests?!?!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="HkfOyYkG2DwcFhtfflPE-1">
           <mxGeometry x="765" y="230" width="150" height="90" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of 17 - cookies" id="kKD5rQbQvZujgPm-sdm7">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="LhJHxM-02Ek41ONw426--0"/>
+        <mxCell id="LhJHxM-02Ek41ONw426--1" parent="LhJHxM-02Ek41ONw426--0"/>
+        <mxCell id="LhJHxM-02Ek41ONw426--2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;rounded=1;fontSize=14;" vertex="1" parent="LhJHxM-02Ek41ONw426--1">
+          <mxGeometry x="180" y="110" width="310" height="390" as="geometry"/>
+        </mxCell>
+        <mxCell id="LhJHxM-02Ek41ONw426--3" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="LhJHxM-02Ek41ONw426--2">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="LhJHxM-02Ek41ONw426--4" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="LhJHxM-02Ek41ONw426--2">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="LhJHxM-02Ek41ONw426--5" value="Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="LhJHxM-02Ek41ONw426--1">
+          <mxGeometry x="740" y="110" width="200" height="390" as="geometry"/>
+        </mxCell>
+        <mxCell id="LhJHxM-02Ek41ONw426--6" value="" style="endArrow=classic;html=1;fontSize=22;" edge="1" parent="LhJHxM-02Ek41ONw426--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="190" as="sourcePoint"/>
+            <mxPoint x="740" y="190" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LhJHxM-02Ek41ONw426--7" value="Request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="LhJHxM-02Ek41ONw426--1">
+          <mxGeometry x="560" y="170" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="LhJHxM-02Ek41ONw426--15" value="" style="endArrow=classic;html=1;fontSize=22;" edge="1" parent="LhJHxM-02Ek41ONw426--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="215" as="sourcePoint"/>
+            <mxPoint x="490" y="215" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LhJHxM-02Ek41ONw426--16" value="Response" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="LhJHxM-02Ek41ONw426--1">
+          <mxGeometry x="560" y="215" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="LhJHxM-02Ek41ONw426--17" value="Here is a cookie!&amp;nbsp; It is a small string of characters.&amp;nbsp; Please include this with every followup request you make to me" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="LhJHxM-02Ek41ONw426--1">
+          <mxGeometry x="525" y="235" width="190" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="LhJHxM-02Ek41ONw426--18" value="" style="endArrow=classic;html=1;fontSize=22;" edge="1" parent="LhJHxM-02Ek41ONw426--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="380" as="sourcePoint"/>
+            <mxPoint x="740" y="380" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LhJHxM-02Ek41ONw426--19" value="Request with cookie" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="LhJHxM-02Ek41ONw426--1">
+          <mxGeometry x="560" y="340" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="LhJHxM-02Ek41ONw426--20" value="" style="endArrow=classic;html=1;fontSize=22;" edge="1" parent="LhJHxM-02Ek41ONw426--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="430" as="sourcePoint"/>
+            <mxPoint x="740" y="430" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LhJHxM-02Ek41ONw426--21" value="Request with cookie" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="LhJHxM-02Ek41ONw426--1">
+          <mxGeometry x="560" y="390" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="LhJHxM-02Ek41ONw426--22" value="" style="endArrow=classic;html=1;fontSize=22;" edge="1" parent="LhJHxM-02Ek41ONw426--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="480" as="sourcePoint"/>
+            <mxPoint x="740" y="480" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LhJHxM-02Ek41ONw426--23" value="Request with cookie" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="LhJHxM-02Ek41ONw426--1">
+          <mxGeometry x="560" y="440" width="120" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
