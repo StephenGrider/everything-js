@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-13T19:28:34.979Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="mZkey1WiSquY8fVN9zXb" version="12.2.3" type="github" pages="20">
+<mxfile host="www.draw.io" modified="2019-11-13T19:36:59.290Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="rZn5ElVFN2IGzNlVOZnQ" version="12.2.3" type="github" pages="21">
   <diagram id="gZr-azwEFtnHItKvvBY6" name="01 - web">
     <mxGraphModel dx="1107" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1370,7 +1370,7 @@
         <mxCell id="5z1VkRYwWTxA_rr8r1KI-7" value="Does the existing user record have the same password as the one supplied?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="5z1VkRYwWTxA_rr8r1KI-1">
           <mxGeometry x="510" y="220" width="300" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="5z1VkRYwWTxA_rr8r1KI-8" value="Create an account for this user" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="5z1VkRYwWTxA_rr8r1KI-1">
+        <mxCell id="5z1VkRYwWTxA_rr8r1KI-8" value="Sign in this user" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="5z1VkRYwWTxA_rr8r1KI-1">
           <mxGeometry x="510" y="290" width="300" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="5z1VkRYwWTxA_rr8r1KI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="5z1VkRYwWTxA_rr8r1KI-1" source="5z1VkRYwWTxA_rr8r1KI-10" target="5z1VkRYwWTxA_rr8r1KI-14">
@@ -1390,6 +1390,29 @@
         </mxCell>
         <mxCell id="5z1VkRYwWTxA_rr8r1KI-14" value="Show an error" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="5z1VkRYwWTxA_rr8r1KI-1">
           <mxGeometry x="930" y="220" width="120" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Bb9z4tLWcSnbgiPEWIEy" name="20 - hash">
+    <mxGraphModel dx="922" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="wDw3HzgiJ_1p2-rBML0J-0"/>
+        <mxCell id="wDw3HzgiJ_1p2-rBML0J-1" parent="wDw3HzgiJ_1p2-rBML0J-0"/>
+        <mxCell id="wDw3HzgiJ_1p2-rBML0J-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="wDw3HzgiJ_1p2-rBML0J-1" source="wDw3HzgiJ_1p2-rBML0J-2" target="wDw3HzgiJ_1p2-rBML0J-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wDw3HzgiJ_1p2-rBML0J-2" value="&#39;mypassword&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;" vertex="1" parent="wDw3HzgiJ_1p2-rBML0J-1">
+          <mxGeometry x="580" y="150" width="230" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="wDw3HzgiJ_1p2-rBML0J-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="wDw3HzgiJ_1p2-rBML0J-1" source="wDw3HzgiJ_1p2-rBML0J-3" target="wDw3HzgiJ_1p2-rBML0J-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wDw3HzgiJ_1p2-rBML0J-3" value="Hashing algorithm" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wDw3HzgiJ_1p2-rBML0J-1">
+          <mxGeometry x="540" y="290" width="310" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="wDw3HzgiJ_1p2-rBML0J-4" value="89e01536ac207279409d4de1e5253e01f4a1769e" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;" vertex="1" parent="wDw3HzgiJ_1p2-rBML0J-1">
+          <mxGeometry x="475" y="430" width="440" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
