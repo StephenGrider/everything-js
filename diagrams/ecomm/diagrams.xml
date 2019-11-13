@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-13T19:36:59.290Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="rZn5ElVFN2IGzNlVOZnQ" version="12.2.3" type="github" pages="21">
+<mxfile host="www.draw.io" modified="2019-11-13T19:37:49.953Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="N10i7xj12e_jzigVZbRp" version="12.2.3" type="github" pages="22">
   <diagram id="gZr-azwEFtnHItKvvBY6" name="01 - web">
     <mxGraphModel dx="1107" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1413,6 +1413,32 @@
         </mxCell>
         <mxCell id="wDw3HzgiJ_1p2-rBML0J-4" value="89e01536ac207279409d4de1e5253e01f4a1769e" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;" vertex="1" parent="wDw3HzgiJ_1p2-rBML0J-1">
           <mxGeometry x="475" y="430" width="440" height="80" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="21 - oneway" id="w7Dam1-CLJzS_S6Uo5_i">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="o3o-tjxzHNOmPFLwbACX-0"/>
+        <mxCell id="o3o-tjxzHNOmPFLwbACX-1" parent="o3o-tjxzHNOmPFLwbACX-0"/>
+        <mxCell id="o3o-tjxzHNOmPFLwbACX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="o3o-tjxzHNOmPFLwbACX-1" source="o3o-tjxzHNOmPFLwbACX-3" target="o3o-tjxzHNOmPFLwbACX-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="o3o-tjxzHNOmPFLwbACX-3" value="&lt;span style=&quot;font-size: 19px&quot;&gt;89e01536ac207279409d4de1e5253e01f4a1769e&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;" vertex="1" parent="o3o-tjxzHNOmPFLwbACX-1">
+          <mxGeometry x="475" y="150" width="440" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="o3o-tjxzHNOmPFLwbACX-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="o3o-tjxzHNOmPFLwbACX-1" source="o3o-tjxzHNOmPFLwbACX-5" target="o3o-tjxzHNOmPFLwbACX-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="o3o-tjxzHNOmPFLwbACX-5" value="Hashing algorithm" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o3o-tjxzHNOmPFLwbACX-1">
+          <mxGeometry x="540" y="290" width="310" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="o3o-tjxzHNOmPFLwbACX-6" value="&#39;mypassword&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;align=center;" vertex="1" parent="o3o-tjxzHNOmPFLwbACX-1">
+          <mxGeometry x="475" y="430" width="440" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="o3o-tjxzHNOmPFLwbACX-7" value="Doesn&#39;t work!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="o3o-tjxzHNOmPFLwbACX-1">
+          <mxGeometry x="915" y="280" width="260" height="100" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
