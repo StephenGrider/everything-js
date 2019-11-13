@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-13T16:56:26.964Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Vsn_K_Kng5T5VXeVPUmQ" version="12.2.3" type="github" pages="15">
+<mxfile host="www.draw.io" modified="2019-11-13T16:58:59.045Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="gf7NPHwSWScqs5Cq9n1m" version="12.2.3" type="github" pages="16">
   <diagram id="gZr-azwEFtnHItKvvBY6" name="01 - web">
     <mxGraphModel dx="1107" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1098,6 +1098,53 @@
         </mxCell>
         <mxCell id="q11KD_wCbVGFFatTdByq-6" value="Every record is an instance of a &#39;model&#39; class that has methods to save, update, delete this record." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="q11KD_wCbVGFFatTdByq-1">
           <mxGeometry x="640" y="360" width="340" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kFcPyg2T3zNlJRJ6eoP9" name="16 - signup">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="h7ylpsPfaSTfltNNOIuf-0"/>
+        <mxCell id="h7ylpsPfaSTfltNNOIuf-1" parent="h7ylpsPfaSTfltNNOIuf-0"/>
+        <mxCell id="h7ylpsPfaSTfltNNOIuf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="h7ylpsPfaSTfltNNOIuf-1" source="h7ylpsPfaSTfltNNOIuf-2" target="h7ylpsPfaSTfltNNOIuf-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="h7ylpsPfaSTfltNNOIuf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="h7ylpsPfaSTfltNNOIuf-1" source="h7ylpsPfaSTfltNNOIuf-2" target="h7ylpsPfaSTfltNNOIuf-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="h7ylpsPfaSTfltNNOIuf-2" value="Did another user already sign up with this email?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="h7ylpsPfaSTfltNNOIuf-1">
+          <mxGeometry x="510" y="150" width="300" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="h7ylpsPfaSTfltNNOIuf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="h7ylpsPfaSTfltNNOIuf-1" source="h7ylpsPfaSTfltNNOIuf-3" target="h7ylpsPfaSTfltNNOIuf-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="h7ylpsPfaSTfltNNOIuf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="h7ylpsPfaSTfltNNOIuf-1" source="h7ylpsPfaSTfltNNOIuf-3" target="h7ylpsPfaSTfltNNOIuf-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="h7ylpsPfaSTfltNNOIuf-3" value="Are the password and password confirmation different?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="h7ylpsPfaSTfltNNOIuf-1">
+          <mxGeometry x="510" y="220" width="300" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="h7ylpsPfaSTfltNNOIuf-5" value="Create an account for this user" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="h7ylpsPfaSTfltNNOIuf-1">
+          <mxGeometry x="510" y="290" width="300" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="h7ylpsPfaSTfltNNOIuf-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="h7ylpsPfaSTfltNNOIuf-1" source="h7ylpsPfaSTfltNNOIuf-7" target="h7ylpsPfaSTfltNNOIuf-12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="h7ylpsPfaSTfltNNOIuf-7" value="Yes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="h7ylpsPfaSTfltNNOIuf-1">
+          <mxGeometry x="840" y="220" width="60" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="h7ylpsPfaSTfltNNOIuf-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="h7ylpsPfaSTfltNNOIuf-1" source="h7ylpsPfaSTfltNNOIuf-8" target="h7ylpsPfaSTfltNNOIuf-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="h7ylpsPfaSTfltNNOIuf-8" value="Yes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="h7ylpsPfaSTfltNNOIuf-1">
+          <mxGeometry x="840" y="150" width="60" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="h7ylpsPfaSTfltNNOIuf-11" value="Show an error" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="h7ylpsPfaSTfltNNOIuf-1">
+          <mxGeometry x="930" y="150" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="h7ylpsPfaSTfltNNOIuf-12" value="Show an error" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="h7ylpsPfaSTfltNNOIuf-1">
+          <mxGeometry x="930" y="220" width="120" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
