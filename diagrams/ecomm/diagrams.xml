@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-14T16:06:21.168Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="NvtfYe3U4M_VEKr0_2No" version="12.2.3" type="github" pages="29">
+<mxfile host="www.draw.io" modified="2019-11-14T16:32:32.042Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="tybHp-vUnU5COb1F8GNh" version="12.2.3" type="github" pages="30">
   <diagram id="gZr-azwEFtnHItKvvBY6" name="01 - web">
     <mxGraphModel dx="1107" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1837,6 +1837,26 @@
         </mxCell>
         <mxCell id="SCX9S7S1hL-c-qzj_88I-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=20;align=right;" vertex="1" parent="SCX9S7S1hL-c-qzj_88I-1">
           <mxGeometry x="640" y="210" width="50" height="230" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dHp_wQyldgnUh8842KIB" name="29 - layout">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="O1me-x7BsqfOxtWjphdM-0"/>
+        <mxCell id="O1me-x7BsqfOxtWjphdM-1" parent="O1me-x7BsqfOxtWjphdM-0"/>
+        <mxCell id="O1me-x7BsqfOxtWjphdM-2" value="&amp;lt;!DOCTYPE html&amp;gt;&lt;br&gt;&amp;lt;html&amp;gt;&lt;br&gt;&amp;nbsp; &amp;lt;head&amp;gt;&lt;br&gt;&amp;nbsp; &amp;lt;/head&amp;gt;&lt;br&gt;&amp;nbsp; &amp;lt;body&amp;gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;lt;/body&amp;gt;&lt;br&gt;&amp;lt;/html" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="O1me-x7BsqfOxtWjphdM-1">
+          <mxGeometry x="370" y="220" width="180" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="O1me-x7BsqfOxtWjphdM-3" value="Layout" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=center;fontStyle=1" vertex="1" parent="O1me-x7BsqfOxtWjphdM-1">
+          <mxGeometry x="370" y="220" width="180" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="O1me-x7BsqfOxtWjphdM-4" value="Signin Template" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="O1me-x7BsqfOxtWjphdM-1">
+          <mxGeometry x="610" y="260" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="O1me-x7BsqfOxtWjphdM-5" value="Signup Template" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="O1me-x7BsqfOxtWjphdM-1">
+          <mxGeometry x="610" y="370" width="120" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
