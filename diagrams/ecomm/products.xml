@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-15T18:14:52.129Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="RY0SaJVVYut0XFVy29nx" version="12.2.6" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2019-11-15T19:03:11.245Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="VfkCjjSPPQHnIFm0Vplt" version="12.2.6" type="github" pages="10">
   <diagram id="3hazYo9oP4Hpm1XGKJRQ" name="01 - repo">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -380,8 +380,28 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="LG6Uhj2XH88w7E80rmEr" name="10 - types">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="XOHi_TuxxbTl4LlFh_CO-0"/>
+        <mxCell id="XOHi_TuxxbTl4LlFh_CO-1" parent="XOHi_TuxxbTl4LlFh_CO-0"/>
+        <mxCell id="On0bmt7akB0UnsOnWiA2-0" value="Co-Located Disk" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="XOHi_TuxxbTl4LlFh_CO-1">
+          <mxGeometry x="400" y="390" width="370" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="On0bmt7akB0UnsOnWiA2-1" value="Database" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="XOHi_TuxxbTl4LlFh_CO-1">
+          <mxGeometry x="400" y="460" width="370" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="NQ71yie9U5t77Ic_eTD5-0" value="Stream Through to Datastore" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="XOHi_TuxxbTl4LlFh_CO-1">
+          <mxGeometry x="400" y="530" width="370" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="NQ71yie9U5t77Ic_eTD5-1" value="Presigned URL" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="XOHi_TuxxbTl4LlFh_CO-1">
+          <mxGeometry x="400" y="600" width="370" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="05 - img" id="sI5uruVNDS4gPt4522ZP">
-    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="745" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="xewmvC_EBQLdnV8Z-i-E-0"/>
         <mxCell id="xewmvC_EBQLdnV8Z-i-E-1" parent="xewmvC_EBQLdnV8Z-i-E-0"/>
@@ -440,7 +460,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="06 - img" id="W_uY2XBsHuTD5iHVdudG">
-    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="745" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="DEf6oVejANpXgA53-KyC-0"/>
         <mxCell id="DEf6oVejANpXgA53-KyC-1" parent="DEf6oVejANpXgA53-KyC-0"/>
@@ -493,7 +513,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="07 - ok" id="gfK8s0XwnE5oof4armW-">
-    <mxGraphModel dx="1107" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="894" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="gX4KZ1fITW16YlolHIKV-0"/>
         <mxCell id="gX4KZ1fITW16YlolHIKV-1" parent="gX4KZ1fITW16YlolHIKV-0"/>
