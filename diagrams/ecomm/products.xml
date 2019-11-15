@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-14T22:59:03.345Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="nVfimeSRDZRHK6h-kavK" version="12.2.6" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-11-15T16:59:05.946Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="wypU6FM7dSwLUF4xgEG2" version="12.2.6" type="github" pages="3">
   <diagram id="3hazYo9oP4Hpm1XGKJRQ" name="01 - repo">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -245,6 +245,65 @@
         </mxCell>
         <mxCell id="QtahDHiFsk2DEReuqaF0-42" value="Returns true if the passwords match" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="QtahDHiFsk2DEReuqaF0-1">
           <mxGeometry x="665" y="370" width="160" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lNI9pVcRMfWk-XFn0hiu" name="03 - form">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="PHAX8dUUt12ctXGELe3S-0"/>
+        <mxCell id="PHAX8dUUt12ctXGELe3S-1" parent="PHAX8dUUt12ctXGELe3S-0"/>
+        <mxCell id="PHAX8dUUt12ctXGELe3S-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PHAX8dUUt12ctXGELe3S-1">
+          <mxGeometry x="370" y="160" width="220" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="PHAX8dUUt12ctXGELe3S-5" value="method=&quot;GET&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=17;" vertex="1" parent="PHAX8dUUt12ctXGELe3S-1">
+          <mxGeometry x="300" y="160" width="290" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PHAX8dUUt12ctXGELe3S-6" value="enctype=&quot;application/x-www-form-urlencoded&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PHAX8dUUt12ctXGELe3S-1">
+          <mxGeometry x="300" y="200" width="290" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PHAX8dUUt12ctXGELe3S-7" value="method=&quot;GET&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=17;" vertex="1" parent="PHAX8dUUt12ctXGELe3S-1">
+          <mxGeometry x="300" y="270" width="290" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PHAX8dUUt12ctXGELe3S-8" value="&lt;span style=&quot;font-size: 13px&quot;&gt;enctype=&quot;multipart/form-data&lt;/span&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;&quot;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PHAX8dUUt12ctXGELe3S-1">
+          <mxGeometry x="300" y="310" width="290" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PHAX8dUUt12ctXGELe3S-9" value="method=&quot;POST&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=17;" vertex="1" parent="PHAX8dUUt12ctXGELe3S-1">
+          <mxGeometry x="300" y="384" width="290" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PHAX8dUUt12ctXGELe3S-10" value="&lt;span style=&quot;font-size: 13px ; white-space: normal&quot;&gt;enctype=&quot;application/x-www-form-urlencoded&quot;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PHAX8dUUt12ctXGELe3S-1">
+          <mxGeometry x="300" y="424" width="290" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PHAX8dUUt12ctXGELe3S-11" value="&amp;nbsp;method=&quot;POST&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=17;" vertex="1" parent="PHAX8dUUt12ctXGELe3S-1">
+          <mxGeometry x="300" y="497" width="290" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PHAX8dUUt12ctXGELe3S-12" value="&lt;span style=&quot;white-space: normal ; font-size: 13px&quot;&gt;enctype=&quot;multipart/form-data&lt;/span&gt;&lt;span style=&quot;white-space: normal ; font-size: 13px&quot;&gt;&quot;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PHAX8dUUt12ctXGELe3S-1">
+          <mxGeometry x="300" y="537" width="290" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PHAX8dUUt12ctXGELe3S-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=13;rotation=180;" vertex="1" parent="PHAX8dUUt12ctXGELe3S-1">
+          <mxGeometry x="600" y="160" width="40" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="PHAX8dUUt12ctXGELe3S-17" value="Default form settings.&amp;nbsp; Takes inputs, puts their values into a querystring in the URL and makes a GET request to the server with that" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="PHAX8dUUt12ctXGELe3S-1">
+          <mxGeometry x="640" y="175" width="340" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="PHAX8dUUt12ctXGELe3S-18" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=13;rotation=180;" vertex="1" parent="PHAX8dUUt12ctXGELe3S-1">
+          <mxGeometry x="600" y="270" width="40" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="PHAX8dUUt12ctXGELe3S-19" value="Not compatible.&amp;nbsp; Falls back to an &#39;enctype&#39; of urlencoded" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="PHAX8dUUt12ctXGELe3S-1">
+          <mxGeometry x="640" y="285" width="340" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="PHAX8dUUt12ctXGELe3S-20" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=13;rotation=180;" vertex="1" parent="PHAX8dUUt12ctXGELe3S-1">
+          <mxGeometry x="600" y="384" width="40" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="PHAX8dUUt12ctXGELe3S-21" value="Encodes the form values into a querystring, makes a POST request with the querystring in the request body" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="PHAX8dUUt12ctXGELe3S-1">
+          <mxGeometry x="640" y="399" width="340" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="PHAX8dUUt12ctXGELe3S-22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=13;rotation=180;" vertex="1" parent="PHAX8dUUt12ctXGELe3S-1">
+          <mxGeometry x="600" y="497" width="40" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="PHAX8dUUt12ctXGELe3S-23" value="Post request made in multiple &#39;parts&#39;.&amp;nbsp; One &#39;part&#39; for each file + one for any normal text values in the form" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="PHAX8dUUt12ctXGELe3S-1">
+          <mxGeometry x="640" y="512" width="340" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
