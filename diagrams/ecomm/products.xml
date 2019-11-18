@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-18T16:26:19.346Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="lRYVHfgLOIxllmwJKD-e" version="12.2.6" type="github" pages="12">
+<mxfile host="www.draw.io" modified="2019-11-18T21:18:09.125Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="JNEhRPs_AfYPBE4szRKg" version="12.2.6" type="github" pages="15">
   <diagram id="3hazYo9oP4Hpm1XGKJRQ" name="01 - repo">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -707,6 +707,90 @@
         </mxCell>
         <mxCell id="-HOxW2ckfGgmrMybJjWa-6" value="Product Index" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="-HOxW2ckfGgmrMybJjWa-1">
           <mxGeometry x="670" y="320" width="180" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_h0lXjMfhGjUBs4x8yw0" name="15 - challenges">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="ctuRV-nRNTVRz90PW98v-0"/>
+        <mxCell id="ctuRV-nRNTVRz90PW98v-1" parent="ctuRV-nRNTVRz90PW98v-0"/>
+        <mxCell id="ctuRV-nRNTVRz90PW98v-2" value="How do we tie a cart to a person who will never be logged in?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ctuRV-nRNTVRz90PW98v-1">
+          <mxGeometry x="510" y="210" width="410" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ctuRV-nRNTVRz90PW98v-3" value="Even if we can identify who is trying to add an item to a cart, how do we tie a product to a cart?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ctuRV-nRNTVRz90PW98v-1">
+          <mxGeometry x="510" y="300" width="410" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="erZaFtLZe07fguN9MvR0" name="13 - cart">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="8rokwRf-aWpk4EA8N91a-0"/>
+        <mxCell id="8rokwRf-aWpk4EA8N91a-1" parent="8rokwRf-aWpk4EA8N91a-0"/>
+        <mxCell id="8rokwRf-aWpk4EA8N91a-2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;fontSize=18;" vertex="1" parent="8rokwRf-aWpk4EA8N91a-1">
+          <mxGeometry x="120" y="190" width="340" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="8rokwRf-aWpk4EA8N91a-3" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="8rokwRf-aWpk4EA8N91a-2">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="8rokwRf-aWpk4EA8N91a-4" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="8rokwRf-aWpk4EA8N91a-2">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="8rokwRf-aWpk4EA8N91a-5" value="Express Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="8rokwRf-aWpk4EA8N91a-1">
+          <mxGeometry x="650" y="190" width="120" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="8rokwRf-aWpk4EA8N91a-7" value="" style="endArrow=classic;html=1;fontSize=18;" edge="1" parent="8rokwRf-aWpk4EA8N91a-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="260" as="sourcePoint"/>
+            <mxPoint x="650" y="260" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8rokwRf-aWpk4EA8N91a-8" value="Add product with ID 123 to my cart" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="8rokwRf-aWpk4EA8N91a-1">
+          <mxGeometry x="490" y="220" width="130" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="14 - options" id="0XpercIdpvZiUBNpgcAQ">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="AhL2erl6yuF-KFuJ79zR-0"/>
+        <mxCell id="AhL2erl6yuF-KFuJ79zR-1" parent="AhL2erl6yuF-KFuJ79zR-0"/>
+        <mxCell id="AhL2erl6yuF-KFuJ79zR-2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;fontSize=18;" vertex="1" parent="AhL2erl6yuF-KFuJ79zR-1">
+          <mxGeometry x="120" y="190" width="340" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="AhL2erl6yuF-KFuJ79zR-3" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="AhL2erl6yuF-KFuJ79zR-2">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="AhL2erl6yuF-KFuJ79zR-4" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="AhL2erl6yuF-KFuJ79zR-2">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="AhL2erl6yuF-KFuJ79zR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="AhL2erl6yuF-KFuJ79zR-1" source="AhL2erl6yuF-KFuJ79zR-5" target="AhL2erl6yuF-KFuJ79zR-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AhL2erl6yuF-KFuJ79zR-5" value="Express Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="AhL2erl6yuF-KFuJ79zR-1">
+          <mxGeometry x="650" y="190" width="120" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="AhL2erl6yuF-KFuJ79zR-6" value="" style="endArrow=classic;html=1;fontSize=18;" edge="1" parent="AhL2erl6yuF-KFuJ79zR-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="260" as="sourcePoint"/>
+            <mxPoint x="650" y="260" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AhL2erl6yuF-KFuJ79zR-7" value="Add product with ID 123 to my cart" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="AhL2erl6yuF-KFuJ79zR-1">
+          <mxGeometry x="490" y="220" width="130" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="AhL2erl6yuF-KFuJ79zR-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="AhL2erl6yuF-KFuJ79zR-1">
+          <mxGeometry x="800" y="219" width="210" height="202" as="geometry"/>
+        </mxCell>
+        <mxCell id="AhL2erl6yuF-KFuJ79zR-10" value="Products Repository" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="AhL2erl6yuF-KFuJ79zR-1">
+          <mxGeometry x="800" y="219" width="210" height="31" as="geometry"/>
+        </mxCell>
+        <mxCell id="AhL2erl6yuF-KFuJ79zR-11" value="{&lt;br&gt;&amp;nbsp; &amp;nbsp; id: 123,&lt;br&gt;&amp;nbsp; &amp;nbsp; title: &#39;pants&#39;,&lt;br&gt;&amp;nbsp; &amp;nbsp; price: 50,&lt;br&gt;&amp;nbsp; &amp;nbsp; image: &#39;asldkfj&#39;,&lt;br&gt;&amp;nbsp; &amp;nbsp; carts: [432, 526, 920]&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="AhL2erl6yuF-KFuJ79zR-1">
+          <mxGeometry x="815" y="270" width="180" height="120" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
