@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-19T20:37:31.478Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="OFlD9Sklwn5qYGl_ctiD" version="12.2.7" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-11-19T20:39:29.980Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="TsFB2uOun7Yh2jAfCV3Z" version="12.2.7" type="github" pages="8">
   <diagram id="Kf1cSmw6V7VzlfrIPZCi" name="01 - mockup">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -224,6 +224,49 @@
         </mxCell>
         <mxCell id="w3QkleEibehdFrlAkPtw-16" value="Watch for this event.&amp;nbsp; When it occurs, reset the border" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="w3QkleEibehdFrlAkPtw-1">
           <mxGeometry x="840" y="392.5" width="210" height="45" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="07 - sep" id="4wMZNVxWraJ3wX8C9bQL">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="cqteA-Ga2Lq6qEu1ziE3-0"/>
+        <mxCell id="cqteA-Ga2Lq6qEu1ziE3-1" parent="cqteA-Ga2Lq6qEu1ziE3-0"/>
+        <mxCell id="cqteA-Ga2Lq6qEu1ziE3-2" value="Displays a timer that has an animated border and the timer ticks down and when it ticks down the border needs to be updated and when the timer is over the border gets reset" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="cqteA-Ga2Lq6qEu1ziE3-1">
+          <mxGeometry x="370" y="190" width="450" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="cqteA-Ga2Lq6qEu1ziE3-3" value="Things Our Program Does" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="cqteA-Ga2Lq6qEu1ziE3-1">
+          <mxGeometry x="467.5" y="160" width="255" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="08 - isolate" id="C1JJ7IrMS3RTWL3GFQF3">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="TK3I5nu5B1dRwn57-Xp9-0"/>
+        <mxCell id="TK3I5nu5B1dRwn57-Xp9-1" parent="TK3I5nu5B1dRwn57-Xp9-0"/>
+        <mxCell id="TK3I5nu5B1dRwn57-Xp9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="TK3I5nu5B1dRwn57-Xp9-1" source="TK3I5nu5B1dRwn57-Xp9-2" target="TK3I5nu5B1dRwn57-Xp9-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="TK3I5nu5B1dRwn57-Xp9-2" value="Displays a timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TK3I5nu5B1dRwn57-Xp9-1">
+          <mxGeometry x="460" y="190" width="300" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="TK3I5nu5B1dRwn57-Xp9-3" value="Things Our Program Does" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="TK3I5nu5B1dRwn57-Xp9-1">
+          <mxGeometry x="490" y="160" width="255" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="TK3I5nu5B1dRwn57-Xp9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="TK3I5nu5B1dRwn57-Xp9-1" source="TK3I5nu5B1dRwn57-Xp9-4" target="TK3I5nu5B1dRwn57-Xp9-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="TK3I5nu5B1dRwn57-Xp9-4" value="Shows an animated border around the timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="TK3I5nu5B1dRwn57-Xp9-1">
+          <mxGeometry x="460" y="250" width="300" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="TK3I5nu5B1dRwn57-Xp9-6" value="We need to write some code to represent the timer!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TK3I5nu5B1dRwn57-Xp9-1">
+          <mxGeometry x="830" y="160" width="260" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="TK3I5nu5B1dRwn57-Xp9-7" value="We need to write some code to represent the changing border!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="TK3I5nu5B1dRwn57-Xp9-1">
+          <mxGeometry x="830" y="250" width="260" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
