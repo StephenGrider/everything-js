@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-19T19:11:23.189Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="JfbCXmMwHCUsdjVTLGa4" version="12.2.7" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-19T20:21:39.407Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="n6xk1V2oIJjLtU_PvHX0" version="12.2.7" type="github" pages="1">
   <diagram id="Kf1cSmw6V7VzlfrIPZCi" name="01 - mockup">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="Kbv4cRjfcRnB61Mp1h0O-3" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="Kbv4cRjfcRnB61Mp1h0O-1">
           <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="Kbv4cRjfcRnB61Mp1h0O-4" value="30" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;" vertex="1" parent="Kbv4cRjfcRnB61Mp1h0O-1">
+        <mxCell id="Kbv4cRjfcRnB61Mp1h0O-4" value="27" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;" vertex="1" parent="Kbv4cRjfcRnB61Mp1h0O-1">
           <mxGeometry x="205" y="200" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="Kbv4cRjfcRnB61Mp1h0O-9" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/material-audio-video/14/play-arrow-128.png;fontSize=30;" vertex="1" parent="Kbv4cRjfcRnB61Mp1h0O-1">
@@ -43,7 +43,7 @@
         <mxCell id="Kbv4cRjfcRnB61Mp1h0O-16" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-pause-128.png;fontSize=30;" vertex="1" parent="Kbv4cRjfcRnB61Mp1h0O-10">
           <mxGeometry x="230" y="233" width="36" height="36" as="geometry"/>
         </mxCell>
-        <mxCell id="Kbv4cRjfcRnB61Mp1h0O-17" value="30" style="rounded=0;whiteSpace=wrap;html=1;fontSize=48;" vertex="1" parent="Kbv4cRjfcRnB61Mp1h0O-10">
+        <mxCell id="Kbv4cRjfcRnB61Mp1h0O-17" value="60" style="rounded=0;whiteSpace=wrap;html=1;fontSize=48;" vertex="1" parent="Kbv4cRjfcRnB61Mp1h0O-10">
           <mxGeometry x="175" y="179" width="100" height="50" as="geometry"/>
         </mxCell>
       </root>
