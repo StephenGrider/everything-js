@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-19T21:17:45.812Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="AiQOnhluRxkd03QnQwiY" version="12.2.7" type="github" pages="8">
+<mxfile host="www.draw.io" modified="2019-11-19T21:21:18.832Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="1A7zJbrOd2FylQxzDYiL" version="12.2.7" type="github" pages="9">
   <diagram id="Kf1cSmw6V7VzlfrIPZCi" name="01 - mockup">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -306,6 +306,44 @@
         </mxCell>
         <mxCell id="xbsG3IZl4CfSTb8zD8aw-0" value="Instance of Timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="HaXmCQ09du5s1Cs8rJjE-1">
           <mxGeometry x="320" y="190" width="170" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ga5OT__unwysl2tCBRjk" name="09 - this">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="QVkquLZmfzUZ53tvxiTS-0"/>
+        <mxCell id="QVkquLZmfzUZ53tvxiTS-1" parent="QVkquLZmfzUZ53tvxiTS-0"/>
+        <mxCell id="QVkquLZmfzUZ53tvxiTS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="QVkquLZmfzUZ53tvxiTS-1" source="QVkquLZmfzUZ53tvxiTS-2" target="QVkquLZmfzUZ53tvxiTS-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="QVkquLZmfzUZ53tvxiTS-2" value="Did you define the function with an arrow function?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="QVkquLZmfzUZ53tvxiTS-1">
+          <mxGeometry x="430" y="250" width="280" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="QVkquLZmfzUZ53tvxiTS-3" value="The Value of &#39;this&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="QVkquLZmfzUZ53tvxiTS-1">
+          <mxGeometry x="600" y="220" width="240" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="QVkquLZmfzUZ53tvxiTS-4" value="&#39;this&#39; is equal to the context surrounding the arrow function" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="QVkquLZmfzUZ53tvxiTS-1">
+          <mxGeometry x="740" y="250" width="280" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="QVkquLZmfzUZ53tvxiTS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="QVkquLZmfzUZ53tvxiTS-1" source="QVkquLZmfzUZ53tvxiTS-7" target="QVkquLZmfzUZ53tvxiTS-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="QVkquLZmfzUZ53tvxiTS-7" value="Did you call &#39;bind&#39;, &#39;call&#39; or &#39;apply&#39; on the function when you invoked it?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="QVkquLZmfzUZ53tvxiTS-1">
+          <mxGeometry x="430" y="310" width="280" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="QVkquLZmfzUZ53tvxiTS-8" value="&#39;this&#39; is equal to the first argument of &#39;bind&#39;, &#39;call&#39;, or &#39;apply&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="QVkquLZmfzUZ53tvxiTS-1">
+          <mxGeometry x="740" y="310" width="280" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="QVkquLZmfzUZ53tvxiTS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="QVkquLZmfzUZ53tvxiTS-1" source="QVkquLZmfzUZ53tvxiTS-10" target="QVkquLZmfzUZ53tvxiTS-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="QVkquLZmfzUZ53tvxiTS-10" value="All other cases" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="QVkquLZmfzUZ53tvxiTS-1">
+          <mxGeometry x="430" y="370" width="280" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="QVkquLZmfzUZ53tvxiTS-11" value="&#39;this&#39; is equal to whatever is to the left of the &#39;.&#39; in the method call" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="QVkquLZmfzUZ53tvxiTS-1">
+          <mxGeometry x="740" y="370" width="280" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
