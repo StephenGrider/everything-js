@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-19T20:25:11.466Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="NBNWHu0ufMykWz4cP30y" version="12.2.7" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-11-19T20:29:17.735Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="8KuwSVPco0XUIgcZ1OQp" version="12.2.7" type="github" pages="2">
   <diagram id="Kf1cSmw6V7VzlfrIPZCi" name="01 - mockup">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -54,20 +54,14 @@
       <root>
         <mxCell id="a-CtMSjLw-xZUS5jcai--0"/>
         <mxCell id="a-CtMSjLw-xZUS5jcai--1" parent="a-CtMSjLw-xZUS5jcai--0"/>
-        <mxCell id="a-CtMSjLw-xZUS5jcai--2" value="Has a timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="a-CtMSjLw-xZUS5jcai--1">
+        <mxCell id="a-CtMSjLw-xZUS5jcai--2" value="Timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="a-CtMSjLw-xZUS5jcai--1">
           <mxGeometry x="370" y="190" width="450" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="a-CtMSjLw-xZUS5jcai--3" value="Things Our Program Does" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="a-CtMSjLw-xZUS5jcai--1">
           <mxGeometry x="467.5" y="160" width="255" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="a-CtMSjLw-xZUS5jcai--4" value="Timer must be able to be started + stopped" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="a-CtMSjLw-xZUS5jcai--1">
+        <mxCell id="a-CtMSjLw-xZUS5jcai--8" value="Animation around the timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="a-CtMSjLw-xZUS5jcai--1">
           <mxGeometry x="370" y="250" width="450" height="50" as="geometry"/>
-        </mxCell>
-        <mxCell id="a-CtMSjLw-xZUS5jcai--5" value="Timer must be &lt;i&gt;repeatable&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="a-CtMSjLw-xZUS5jcai--1">
-          <mxGeometry x="370" y="310" width="450" height="50" as="geometry"/>
-        </mxCell>
-        <mxCell id="a-CtMSjLw-xZUS5jcai--6" value="We need to know when the timer is running so we can animate the border around the timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="a-CtMSjLw-xZUS5jcai--1">
-          <mxGeometry x="370" y="370" width="450" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
