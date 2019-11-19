@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-19T20:53:26.145Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="3S6xE96GirSjBlLBXIHE" version="12.2.7" type="github" pages="8">
+<mxfile host="www.draw.io" modified="2019-11-19T20:55:48.957Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="zX6fHO_Sj88oszJYinFQ" version="12.2.7" type="github" pages="9">
   <diagram id="Kf1cSmw6V7VzlfrIPZCi" name="01 - mockup">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -267,6 +267,50 @@
         </mxCell>
         <mxCell id="TK3I5nu5B1dRwn57-Xp9-7" value="We need to write some code to represent the changing border!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="TK3I5nu5B1dRwn57-Xp9-1">
           <mxGeometry x="830" y="250" width="260" height="80" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Er6ClPvKVCjqtiVK-otZ" name="09 - class">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="NmPLKDbmazTvKvWYQLf2-0"/>
+        <mxCell id="NmPLKDbmazTvKvWYQLf2-1" parent="NmPLKDbmazTvKvWYQLf2-0"/>
+        <mxCell id="bi4bOBhIk4pwtWVLvksJ-0" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="NmPLKDbmazTvKvWYQLf2-1">
+          <mxGeometry x="50" y="110" width="450" height="360" as="geometry"/>
+        </mxCell>
+        <mxCell id="bi4bOBhIk4pwtWVLvksJ-1" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="bi4bOBhIk4pwtWVLvksJ-0">
+          <mxGeometry x="140" y="140" width="170" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="bi4bOBhIk4pwtWVLvksJ-2" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="bi4bOBhIk4pwtWVLvksJ-0">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="bi4bOBhIk4pwtWVLvksJ-3" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="bi4bOBhIk4pwtWVLvksJ-0">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="bi4bOBhIk4pwtWVLvksJ-4" value="27" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;" vertex="1" parent="bi4bOBhIk4pwtWVLvksJ-0">
+          <mxGeometry x="205" y="200" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="bi4bOBhIk4pwtWVLvksJ-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/material-audio-video/14/play-arrow-128.png;fontSize=30;" vertex="1" parent="bi4bOBhIk4pwtWVLvksJ-0">
+          <mxGeometry x="197" y="237" width="28" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="bi4bOBhIk4pwtWVLvksJ-6" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-pause-128.png;fontSize=30;" vertex="1" parent="bi4bOBhIk4pwtWVLvksJ-0">
+          <mxGeometry x="230" y="233" width="36" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="NmPLKDbmazTvKvWYQLf2-2" value="class Timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="NmPLKDbmazTvKvWYQLf2-1">
+          <mxGeometry x="580" y="190" width="260" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="NmPLKDbmazTvKvWYQLf2-3" value="start()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="NmPLKDbmazTvKvWYQLf2-1">
+          <mxGeometry x="600" y="250" width="240" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="NmPLKDbmazTvKvWYQLf2-4" value="pause()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="NmPLKDbmazTvKvWYQLf2-1">
+          <mxGeometry x="600" y="290" width="240" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="NmPLKDbmazTvKvWYQLf2-5" value="onDurationChange()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="NmPLKDbmazTvKvWYQLf2-1">
+          <mxGeometry x="600" y="330" width="240" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="NmPLKDbmazTvKvWYQLf2-6" value="tick()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="NmPLKDbmazTvKvWYQLf2-1">
+          <mxGeometry x="600" y="370" width="240" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
