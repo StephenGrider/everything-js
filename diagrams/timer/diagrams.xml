@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-19T21:07:36.771Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="_fDSRGnZdJZ92nj8DF_A" version="12.2.7" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2019-11-19T21:17:45.812Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="AiQOnhluRxkd03QnQwiY" version="12.2.7" type="github" pages="8">
   <diagram id="Kf1cSmw6V7VzlfrIPZCi" name="01 - mockup">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -247,7 +247,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="10 - class" id="SI2QA4ndEUCYRukpW23R">
-    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="727" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="NJ2vVAj6GzCdAREc7pK2-0"/>
         <mxCell id="NJ2vVAj6GzCdAREc7pK2-1" parent="NJ2vVAj6GzCdAREc7pK2-0"/>
@@ -289,6 +289,23 @@
         </mxCell>
         <mxCell id="NJ2vVAj6GzCdAREc7pK2-14" value="constructor(durationInput, startButton, pauseButton)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="NJ2vVAj6GzCdAREc7pK2-1">
           <mxGeometry x="520" y="250" width="430" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Wvl-4vuyDw_I29Bf_GLh" name="08 - this">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="HaXmCQ09du5s1Cs8rJjE-0"/>
+        <mxCell id="HaXmCQ09du5s1Cs8rJjE-1" parent="HaXmCQ09du5s1Cs8rJjE-0"/>
+        <mxCell id="HaXmCQ09du5s1Cs8rJjE-2" value="&amp;nbsp; start() {&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1" parent="HaXmCQ09du5s1Cs8rJjE-1">
+          <mxGeometry x="320" y="230" width="170" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="HaXmCQ09du5s1Cs8rJjE-3" value="this" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="HaXmCQ09du5s1Cs8rJjE-1">
+          <mxGeometry x="350" y="266" width="70" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="xbsG3IZl4CfSTb8zD8aw-0" value="Instance of Timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="HaXmCQ09du5s1Cs8rJjE-1">
+          <mxGeometry x="320" y="190" width="170" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
