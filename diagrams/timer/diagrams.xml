@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-19T20:29:59.317Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="aq88p8AuxXdpvehad9Zw" version="12.2.7" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-11-19T20:37:31.478Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="OFlD9Sklwn5qYGl_ctiD" version="12.2.7" type="github" pages="6">
   <diagram id="Kf1cSmw6V7VzlfrIPZCi" name="01 - mockup">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -62,6 +62,168 @@
         </mxCell>
         <mxCell id="a-CtMSjLw-xZUS5jcai--8" value="Shows an animated border around the timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="a-CtMSjLw-xZUS5jcai--1">
           <mxGeometry x="370" y="250" width="450" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DfC_ZZbCuPMWalHTb6Ka" name="03 - write">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="xwLiYX16otUVLlLvFGGt-0"/>
+        <mxCell id="xwLiYX16otUVLlLvFGGt-1" parent="xwLiYX16otUVLlLvFGGt-0"/>
+        <mxCell id="xwLiYX16otUVLlLvFGGt-2" value="Event listener to watch for a click on &#39;start&#39; button" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="xwLiYX16otUVLlLvFGGt-1">
+          <mxGeometry x="390" y="220" width="390" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="xwLiYX16otUVLlLvFGGt-3" value="Possible Implementation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1" vertex="1" parent="xwLiYX16otUVLlLvFGGt-1">
+          <mxGeometry x="447.5" y="190" width="275" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="xwLiYX16otUVLlLvFGGt-4" value="Draw a full border around the timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="xwLiYX16otUVLlLvFGGt-1">
+          <mxGeometry x="420" y="250" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="xwLiYX16otUVLlLvFGGt-5" value="Start counting down the timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="xwLiYX16otUVLlLvFGGt-1">
+          <mxGeometry x="420" y="280" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="xwLiYX16otUVLlLvFGGt-6" value="Each time the timer counts down, update the border" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="xwLiYX16otUVLlLvFGGt-1">
+          <mxGeometry x="420" y="310" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="xwLiYX16otUVLlLvFGGt-7" value="Each time the timer counts down, update the text" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="xwLiYX16otUVLlLvFGGt-1">
+          <mxGeometry x="420" y="340" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="xwLiYX16otUVLlLvFGGt-9" value="If we counted down and timer reaches 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="xwLiYX16otUVLlLvFGGt-1">
+          <mxGeometry x="420" y="370" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="xwLiYX16otUVLlLvFGGt-10" value="Reset the border&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="xwLiYX16otUVLlLvFGGt-1">
+          <mxGeometry x="440" y="400" width="340" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="hq8BIiYIjRVAVsovOfCS-0" value="Reset internal timer to get ready for another run" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="xwLiYX16otUVLlLvFGGt-1">
+          <mxGeometry x="440" y="430" width="340" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="04 - sep" id="2MORGK1XcGxAoaKJMlU5">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="uyRjYLzH3neh9PnedwLY-0"/>
+        <mxCell id="uyRjYLzH3neh9PnedwLY-1" parent="uyRjYLzH3neh9PnedwLY-0"/>
+        <mxCell id="uyRjYLzH3neh9PnedwLY-2" value="Event listener to watch for a click on &#39;start&#39; button" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="uyRjYLzH3neh9PnedwLY-1">
+          <mxGeometry x="390" y="220" width="390" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="uyRjYLzH3neh9PnedwLY-3" value="Possible Implementation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1" vertex="1" parent="uyRjYLzH3neh9PnedwLY-1">
+          <mxGeometry x="447.5" y="190" width="275" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="uyRjYLzH3neh9PnedwLY-4" value="Draw a full border around the timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="uyRjYLzH3neh9PnedwLY-1">
+          <mxGeometry x="420" y="250" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="uyRjYLzH3neh9PnedwLY-5" value="Start counting down the timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="uyRjYLzH3neh9PnedwLY-1">
+          <mxGeometry x="420" y="280" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="uyRjYLzH3neh9PnedwLY-6" value="Each time the timer counts down, update the border" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="uyRjYLzH3neh9PnedwLY-1">
+          <mxGeometry x="420" y="310" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="uyRjYLzH3neh9PnedwLY-7" value="Each time the timer counts down, update the text" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="uyRjYLzH3neh9PnedwLY-1">
+          <mxGeometry x="420" y="340" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="uyRjYLzH3neh9PnedwLY-8" value="If we counted down and timer reaches 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="uyRjYLzH3neh9PnedwLY-1">
+          <mxGeometry x="420" y="370" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="uyRjYLzH3neh9PnedwLY-9" value="Reset the border&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="uyRjYLzH3neh9PnedwLY-1">
+          <mxGeometry x="440" y="400" width="340" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="uyRjYLzH3neh9PnedwLY-10" value="Reset internal timer to get ready for another run" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="uyRjYLzH3neh9PnedwLY-1">
+          <mxGeometry x="440" y="430" width="340" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="05 - sep" id="iLc1H0w3Zg7ykoLE0M4w">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-0"/>
+        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-1" parent="g2Rq_B4XAjUWwrlWcFHN-0"/>
+        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-2" value="Event listener to watch for a click on &#39;start&#39; button" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g2Rq_B4XAjUWwrlWcFHN-1">
+          <mxGeometry x="390" y="220" width="390" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-3" value="Possible Implementation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1" vertex="1" parent="g2Rq_B4XAjUWwrlWcFHN-1">
+          <mxGeometry x="447.5" y="190" width="275" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-4" value="Emit an event stating that the timer has started" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="g2Rq_B4XAjUWwrlWcFHN-1">
+          <mxGeometry x="420" y="250" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-5" value="Start counting down the timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g2Rq_B4XAjUWwrlWcFHN-1">
+          <mxGeometry x="420" y="280" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-6" value="Emit an event that the timer has &#39;ticked&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="g2Rq_B4XAjUWwrlWcFHN-1">
+          <mxGeometry x="420" y="310" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-7" value="Each time the timer counts down, update the text" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g2Rq_B4XAjUWwrlWcFHN-1">
+          <mxGeometry x="420" y="340" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-8" value="If we counted down and timer reaches 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g2Rq_B4XAjUWwrlWcFHN-1">
+          <mxGeometry x="420" y="370" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-9" value="Emit an event that the timer is done" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="g2Rq_B4XAjUWwrlWcFHN-1">
+          <mxGeometry x="440" y="400" width="340" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-10" value="Reset internal timer to get ready for another run" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g2Rq_B4XAjUWwrlWcFHN-1">
+          <mxGeometry x="440" y="430" width="340" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="06 - reuse" id="1ODlydoGNPuO0m2j7atC">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="w3QkleEibehdFrlAkPtw-0"/>
+        <mxCell id="w3QkleEibehdFrlAkPtw-1" parent="w3QkleEibehdFrlAkPtw-0"/>
+        <mxCell id="w3QkleEibehdFrlAkPtw-2" value="Event listener to watch for a click on &#39;start&#39; button" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="w3QkleEibehdFrlAkPtw-1">
+          <mxGeometry x="390" y="220" width="390" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="w3QkleEibehdFrlAkPtw-3" value="Possible Implementation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1" vertex="1" parent="w3QkleEibehdFrlAkPtw-1">
+          <mxGeometry x="447.5" y="190" width="275" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="w3QkleEibehdFrlAkPtw-4" value="Emit an event stating that the timer has started" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="w3QkleEibehdFrlAkPtw-1">
+          <mxGeometry x="420" y="250" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="w3QkleEibehdFrlAkPtw-5" value="Start counting down the timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="w3QkleEibehdFrlAkPtw-1">
+          <mxGeometry x="420" y="280" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="w3QkleEibehdFrlAkPtw-6" value="Emit an event that the timer has &#39;ticked&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="w3QkleEibehdFrlAkPtw-1">
+          <mxGeometry x="420" y="310" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="w3QkleEibehdFrlAkPtw-7" value="Each time the timer counts down, update the text" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="w3QkleEibehdFrlAkPtw-1">
+          <mxGeometry x="420" y="340" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="w3QkleEibehdFrlAkPtw-8" value="If we counted down and timer reaches 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="w3QkleEibehdFrlAkPtw-1">
+          <mxGeometry x="420" y="370" width="360" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="w3QkleEibehdFrlAkPtw-9" value="Emit an event that the timer is done" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="w3QkleEibehdFrlAkPtw-1">
+          <mxGeometry x="440" y="400" width="340" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="w3QkleEibehdFrlAkPtw-10" value="Reset internal timer to get ready for another run" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="w3QkleEibehdFrlAkPtw-1">
+          <mxGeometry x="440" y="430" width="340" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="w3QkleEibehdFrlAkPtw-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="w3QkleEibehdFrlAkPtw-1" source="w3QkleEibehdFrlAkPtw-11" target="w3QkleEibehdFrlAkPtw-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="w3QkleEibehdFrlAkPtw-11" value="Watch for this event.&amp;nbsp; When it occurs, draw the border" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="w3QkleEibehdFrlAkPtw-1">
+          <mxGeometry x="840" y="242.5" width="210" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="w3QkleEibehdFrlAkPtw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="w3QkleEibehdFrlAkPtw-1" source="w3QkleEibehdFrlAkPtw-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="325" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w3QkleEibehdFrlAkPtw-14" value="Watch for this event.&amp;nbsp; When it occurs, update the border" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="w3QkleEibehdFrlAkPtw-1">
+          <mxGeometry x="840" y="302.5" width="210" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="w3QkleEibehdFrlAkPtw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="w3QkleEibehdFrlAkPtw-1" source="w3QkleEibehdFrlAkPtw-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="415" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w3QkleEibehdFrlAkPtw-16" value="Watch for this event.&amp;nbsp; When it occurs, reset the border" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="w3QkleEibehdFrlAkPtw-1">
+          <mxGeometry x="840" y="392.5" width="210" height="45" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
