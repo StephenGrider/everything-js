@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-19T20:55:48.957Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="zX6fHO_Sj88oszJYinFQ" version="12.2.7" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2019-11-19T21:02:58.856Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="THQkjwBv74GGxq2hGSZL" version="12.2.7" type="github" pages="7">
   <diagram id="Kf1cSmw6V7VzlfrIPZCi" name="01 - mockup">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -136,41 +136,6 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="05 - sep" id="iLc1H0w3Zg7ykoLE0M4w">
-    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-0"/>
-        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-1" parent="g2Rq_B4XAjUWwrlWcFHN-0"/>
-        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-2" value="Event listener to watch for a click on &#39;start&#39; button" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g2Rq_B4XAjUWwrlWcFHN-1">
-          <mxGeometry x="390" y="220" width="390" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-3" value="Possible Implementation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1" vertex="1" parent="g2Rq_B4XAjUWwrlWcFHN-1">
-          <mxGeometry x="447.5" y="190" width="275" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-4" value="Emit an event stating that the timer has started" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="g2Rq_B4XAjUWwrlWcFHN-1">
-          <mxGeometry x="420" y="250" width="360" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-5" value="Start counting down the timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g2Rq_B4XAjUWwrlWcFHN-1">
-          <mxGeometry x="420" y="280" width="360" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-6" value="Emit an event that the timer has &#39;ticked&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="g2Rq_B4XAjUWwrlWcFHN-1">
-          <mxGeometry x="420" y="310" width="360" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-7" value="Each time the timer counts down, update the text" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g2Rq_B4XAjUWwrlWcFHN-1">
-          <mxGeometry x="420" y="340" width="360" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-8" value="If we counted down and timer reaches 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g2Rq_B4XAjUWwrlWcFHN-1">
-          <mxGeometry x="420" y="370" width="360" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-9" value="Emit an event that the timer is done" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="g2Rq_B4XAjUWwrlWcFHN-1">
-          <mxGeometry x="440" y="400" width="340" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="g2Rq_B4XAjUWwrlWcFHN-10" value="Reset internal timer to get ready for another run" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="g2Rq_B4XAjUWwrlWcFHN-1">
-          <mxGeometry x="440" y="430" width="340" height="30" as="geometry"/>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram name="06 - reuse" id="1ODlydoGNPuO0m2j7atC">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -228,49 +193,6 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="07 - sep" id="4wMZNVxWraJ3wX8C9bQL">
-    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="cqteA-Ga2Lq6qEu1ziE3-0"/>
-        <mxCell id="cqteA-Ga2Lq6qEu1ziE3-1" parent="cqteA-Ga2Lq6qEu1ziE3-0"/>
-        <mxCell id="cqteA-Ga2Lq6qEu1ziE3-2" value="Displays a timer that has an animated border and the timer ticks down and when it ticks down the border needs to be updated and when the timer is over the border gets reset" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="cqteA-Ga2Lq6qEu1ziE3-1">
-          <mxGeometry x="370" y="190" width="450" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="cqteA-Ga2Lq6qEu1ziE3-3" value="Things Our Program Does" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="cqteA-Ga2Lq6qEu1ziE3-1">
-          <mxGeometry x="467.5" y="160" width="255" height="20" as="geometry"/>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="08 - isolate" id="C1JJ7IrMS3RTWL3GFQF3">
-    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="TK3I5nu5B1dRwn57-Xp9-0"/>
-        <mxCell id="TK3I5nu5B1dRwn57-Xp9-1" parent="TK3I5nu5B1dRwn57-Xp9-0"/>
-        <mxCell id="TK3I5nu5B1dRwn57-Xp9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="TK3I5nu5B1dRwn57-Xp9-1" source="TK3I5nu5B1dRwn57-Xp9-2" target="TK3I5nu5B1dRwn57-Xp9-6">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="TK3I5nu5B1dRwn57-Xp9-2" value="Displays a timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TK3I5nu5B1dRwn57-Xp9-1">
-          <mxGeometry x="460" y="190" width="300" height="50" as="geometry"/>
-        </mxCell>
-        <mxCell id="TK3I5nu5B1dRwn57-Xp9-3" value="Things Our Program Does" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="TK3I5nu5B1dRwn57-Xp9-1">
-          <mxGeometry x="490" y="160" width="255" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="TK3I5nu5B1dRwn57-Xp9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="TK3I5nu5B1dRwn57-Xp9-1" source="TK3I5nu5B1dRwn57-Xp9-4" target="TK3I5nu5B1dRwn57-Xp9-7">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="TK3I5nu5B1dRwn57-Xp9-4" value="Shows an animated border around the timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="TK3I5nu5B1dRwn57-Xp9-1">
-          <mxGeometry x="460" y="250" width="300" height="50" as="geometry"/>
-        </mxCell>
-        <mxCell id="TK3I5nu5B1dRwn57-Xp9-6" value="We need to write some code to represent the timer!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TK3I5nu5B1dRwn57-Xp9-1">
-          <mxGeometry x="830" y="160" width="260" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="TK3I5nu5B1dRwn57-Xp9-7" value="We need to write some code to represent the changing border!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="TK3I5nu5B1dRwn57-Xp9-1">
-          <mxGeometry x="830" y="250" width="260" height="80" as="geometry"/>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="Er6ClPvKVCjqtiVK-otZ" name="09 - class">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -288,7 +210,7 @@
         <mxCell id="bi4bOBhIk4pwtWVLvksJ-3" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="bi4bOBhIk4pwtWVLvksJ-0">
           <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="bi4bOBhIk4pwtWVLvksJ-4" value="27" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;" vertex="1" parent="bi4bOBhIk4pwtWVLvksJ-0">
+        <mxCell id="bi4bOBhIk4pwtWVLvksJ-4" value="19" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;" vertex="1" parent="bi4bOBhIk4pwtWVLvksJ-0">
           <mxGeometry x="205" y="200" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="bi4bOBhIk4pwtWVLvksJ-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/material-audio-video/14/play-arrow-128.png;fontSize=30;" vertex="1" parent="bi4bOBhIk4pwtWVLvksJ-0">
@@ -311,6 +233,53 @@
         </mxCell>
         <mxCell id="NmPLKDbmazTvKvWYQLf2-6" value="tick()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="NmPLKDbmazTvKvWYQLf2-1">
           <mxGeometry x="600" y="370" width="240" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="10 - class" id="SI2QA4ndEUCYRukpW23R">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="NJ2vVAj6GzCdAREc7pK2-0"/>
+        <mxCell id="NJ2vVAj6GzCdAREc7pK2-1" parent="NJ2vVAj6GzCdAREc7pK2-0"/>
+        <mxCell id="NJ2vVAj6GzCdAREc7pK2-2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="NJ2vVAj6GzCdAREc7pK2-1">
+          <mxGeometry x="50" y="110" width="450" height="360" as="geometry"/>
+        </mxCell>
+        <mxCell id="NJ2vVAj6GzCdAREc7pK2-3" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="NJ2vVAj6GzCdAREc7pK2-2">
+          <mxGeometry x="140" y="140" width="170" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="NJ2vVAj6GzCdAREc7pK2-4" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="NJ2vVAj6GzCdAREc7pK2-2">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="NJ2vVAj6GzCdAREc7pK2-5" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="NJ2vVAj6GzCdAREc7pK2-2">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="NJ2vVAj6GzCdAREc7pK2-6" value="19" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;" vertex="1" parent="NJ2vVAj6GzCdAREc7pK2-2">
+          <mxGeometry x="205" y="200" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="NJ2vVAj6GzCdAREc7pK2-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/material-audio-video/14/play-arrow-128.png;fontSize=30;" vertex="1" parent="NJ2vVAj6GzCdAREc7pK2-2">
+          <mxGeometry x="197" y="237" width="28" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="NJ2vVAj6GzCdAREc7pK2-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-pause-128.png;fontSize=30;" vertex="1" parent="NJ2vVAj6GzCdAREc7pK2-2">
+          <mxGeometry x="230" y="233" width="36" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="NJ2vVAj6GzCdAREc7pK2-9" value="class Timer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="NJ2vVAj6GzCdAREc7pK2-1">
+          <mxGeometry x="510" y="190" width="440" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="NJ2vVAj6GzCdAREc7pK2-10" value="start()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="NJ2vVAj6GzCdAREc7pK2-1">
+          <mxGeometry x="520" y="290" width="430" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="NJ2vVAj6GzCdAREc7pK2-11" value="pause()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="NJ2vVAj6GzCdAREc7pK2-1">
+          <mxGeometry x="520" y="330" width="430" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="NJ2vVAj6GzCdAREc7pK2-12" value="onDurationChange()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="NJ2vVAj6GzCdAREc7pK2-1">
+          <mxGeometry x="520" y="370" width="430" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="NJ2vVAj6GzCdAREc7pK2-13" value="tick()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="NJ2vVAj6GzCdAREc7pK2-1">
+          <mxGeometry x="520" y="410" width="430" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="NJ2vVAj6GzCdAREc7pK2-14" value="constructor(durationInput, startButton, pauseButton)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" vertex="1" parent="NJ2vVAj6GzCdAREc7pK2-1">
+          <mxGeometry x="520" y="250" width="430" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
