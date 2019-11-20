@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-20T21:15:05.427Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="7yCcgfa9N-RaATu-iP8_" version="12.2.7" type="github" pages="21">
+<mxfile host="www.draw.io" modified="2019-11-20T21:15:17.086Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="GagDB-vENjYt7bnufH-e" version="12.2.7" type="github" pages="21">
   <diagram id="Kf1cSmw6V7VzlfrIPZCi" name="01 - mockup">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -683,17 +683,17 @@
         <mxCell id="HIVf42Q3F4h4CeoCX2kV-5" value="Each tick needs to adjust the offset by -1 *100/50 = -2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="HIVf42Q3F4h4CeoCX2kV-1">
           <mxGeometry x="550" y="360" width="290" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="HIVf42Q3F4h4CeoCX2kV-7" value="Start" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=19;align=center;" vertex="1" parent="HIVf42Q3F4h4CeoCX2kV-1">
-          <mxGeometry x="560" y="140" width="90" height="60" as="geometry"/>
+        <mxCell id="HIVf42Q3F4h4CeoCX2kV-7" value="Start" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="HIVf42Q3F4h4CeoCX2kV-1">
+          <mxGeometry x="560" y="130" width="90" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="HIVf42Q3F4h4CeoCX2kV-8" value="End" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=19;align=center;" vertex="1" parent="HIVf42Q3F4h4CeoCX2kV-1">
+        <mxCell id="HIVf42Q3F4h4CeoCX2kV-8" value="End" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=19;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="HIVf42Q3F4h4CeoCX2kV-1">
           <mxGeometry x="560" y="200" width="90" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="HIVf42Q3F4h4CeoCX2kV-9" value="dasharray = perimeter" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;align=center;" vertex="1" parent="HIVf42Q3F4h4CeoCX2kV-1">
-          <mxGeometry x="650" y="140" width="190" height="30" as="geometry"/>
+          <mxGeometry x="650" y="130" width="190" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="HIVf42Q3F4h4CeoCX2kV-10" value="dashoffset = 0" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;align=center;" vertex="1" parent="HIVf42Q3F4h4CeoCX2kV-1">
-          <mxGeometry x="650" y="170" width="190" height="30" as="geometry"/>
+          <mxGeometry x="650" y="160" width="190" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="HIVf42Q3F4h4CeoCX2kV-11" value="dasharray = perimeter" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;align=center;" vertex="1" parent="HIVf42Q3F4h4CeoCX2kV-1">
           <mxGeometry x="650" y="200" width="190" height="30" as="geometry"/>
