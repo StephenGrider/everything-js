@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-20T21:15:17.086Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="GagDB-vENjYt7bnufH-e" version="12.2.7" type="github" pages="21">
+<mxfile host="www.draw.io" modified="2019-11-20T21:37:04.224Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="rjAerCYN-mQmuT36J6Aa" version="12.2.7" type="github" pages="21">
   <diagram id="Kf1cSmw6V7VzlfrIPZCi" name="01 - mockup">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -733,7 +733,7 @@
         <mxCell id="SwK3F_U3Uoo5zCS4fEk3-6" value="offsetAtStart = p * 30 / 30 - p" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" vertex="1" parent="xErAmRM1-l1-YOalJAMn-1">
           <mxGeometry x="375" y="310" width="570" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="SwK3F_U3Uoo5zCS4fEk3-7" value="offsetAtEnd = p * 0 / 30 - p" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" vertex="1" parent="xErAmRM1-l1-YOalJAMn-1">
+        <mxCell id="SwK3F_U3Uoo5zCS4fEk3-7" value="offsetAtEnd = - p" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" vertex="1" parent="xErAmRM1-l1-YOalJAMn-1">
           <mxGeometry x="375" y="350" width="570" height="20" as="geometry"/>
         </mxCell>
       </root>
