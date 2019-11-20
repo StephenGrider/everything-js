@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-19T21:22:46.538Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="4EvoDSGuOICCGhMX9aPs" version="12.2.7" type="github" pages="8">
+<mxfile host="www.draw.io" modified="2019-11-20T16:26:28.314Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="8lmYjEwuXsMZi8nAa4oP" version="12.2.7" type="github" pages="10">
   <diagram id="Kf1cSmw6V7VzlfrIPZCi" name="01 - mockup">
     <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -305,10 +305,10 @@
           <mxGeometry x="430" y="250" width="280" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="QVkquLZmfzUZ53tvxiTS-3" value="The Value of &#39;this&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="QVkquLZmfzUZ53tvxiTS-1">
-          <mxGeometry x="600" y="220" width="240" height="20" as="geometry"/>
+          <mxGeometry x="670" y="220" width="240" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="QVkquLZmfzUZ53tvxiTS-4" value="&#39;this&#39; is equal to the context surrounding the arrow function" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="QVkquLZmfzUZ53tvxiTS-1">
-          <mxGeometry x="740" y="250" width="280" height="50" as="geometry"/>
+        <mxCell id="QVkquLZmfzUZ53tvxiTS-4" value="Write &#39;console.log(this)&#39; on the first &lt;b&gt;valid &lt;/b&gt;line above the arrow function.&amp;nbsp; Value of &#39;this&#39; in the arrow function will be equal to that console log" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="QVkquLZmfzUZ53tvxiTS-1">
+          <mxGeometry x="740" y="250" width="350" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="QVkquLZmfzUZ53tvxiTS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="QVkquLZmfzUZ53tvxiTS-1" source="QVkquLZmfzUZ53tvxiTS-7" target="QVkquLZmfzUZ53tvxiTS-8">
           <mxGeometry relative="1" as="geometry"/>
@@ -317,7 +317,7 @@
           <mxGeometry x="430" y="310" width="280" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="QVkquLZmfzUZ53tvxiTS-8" value="&#39;this&#39; is equal to the first argument of &#39;bind&#39;, &#39;call&#39;, or &#39;apply&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="QVkquLZmfzUZ53tvxiTS-1">
-          <mxGeometry x="740" y="310" width="280" height="50" as="geometry"/>
+          <mxGeometry x="740" y="310" width="350" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="QVkquLZmfzUZ53tvxiTS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="QVkquLZmfzUZ53tvxiTS-1" source="QVkquLZmfzUZ53tvxiTS-10" target="QVkquLZmfzUZ53tvxiTS-11">
           <mxGeometry relative="1" as="geometry"/>
@@ -326,7 +326,77 @@
           <mxGeometry x="430" y="370" width="280" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="QVkquLZmfzUZ53tvxiTS-11" value="&#39;this&#39; is equal to whatever is to the left of the &#39;.&#39; in the method call" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="QVkquLZmfzUZ53tvxiTS-1">
-          <mxGeometry x="740" y="370" width="280" height="50" as="geometry"/>
+          <mxGeometry x="740" y="370" width="350" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dfDw6GlgCV-XE0W11hTs" name="10 - state">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="L1l7ssBTZslLY01EvF-T-0"/>
+        <mxCell id="L1l7ssBTZslLY01EvF-T-1" parent="L1l7ssBTZslLY01EvF-T-0"/>
+        <mxCell id="5kMEz6RjnFIl8bn4tsv6-1" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;fontSize=14;" vertex="1" parent="L1l7ssBTZslLY01EvF-T-1">
+          <mxGeometry x="440" y="270" width="340" height="290" as="geometry"/>
+        </mxCell>
+        <mxCell id="5kMEz6RjnFIl8bn4tsv6-2" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="5kMEz6RjnFIl8bn4tsv6-1">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="5kMEz6RjnFIl8bn4tsv6-3" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="5kMEz6RjnFIl8bn4tsv6-1">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="5kMEz6RjnFIl8bn4tsv6-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;align=center;" vertex="1" parent="5kMEz6RjnFIl8bn4tsv6-1">
+          <mxGeometry x="80" y="145" width="180" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="5kMEz6RjnFIl8bn4tsv6-4" value="Input Element" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="5kMEz6RjnFIl8bn4tsv6-1">
+          <mxGeometry x="80" y="220" width="180" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="5kMEz6RjnFIl8bn4tsv6-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;align=center;" vertex="1" parent="L1l7ssBTZslLY01EvF-T-1">
+          <mxGeometry x="905" y="370" width="170" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="5kMEz6RjnFIl8bn4tsv6-6" value="Timer Instance" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="L1l7ssBTZslLY01EvF-T-1">
+          <mxGeometry x="905" y="370" width="170" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="5kMEz6RjnFIl8bn4tsv6-7" value="Option #1 - Current time sits in the timer instance" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="L1l7ssBTZslLY01EvF-T-1">
+          <mxGeometry x="830" y="240" width="320" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="5kMEz6RjnFIl8bn4tsv6-9" value="30" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;align=center;" vertex="1" parent="L1l7ssBTZslLY01EvF-T-1">
+          <mxGeometry x="930" y="430" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="5kMEz6RjnFIl8bn4tsv6-10" value="Time Left" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="L1l7ssBTZslLY01EvF-T-1">
+          <mxGeometry x="930" y="410" width="120" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="11 - opt" id="gP2AIA5J5SwLqGhm6Syv">
+    <mxGraphModel dx="923" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="Ja6sUJ2Ju35m4NYbHWnr-0"/>
+        <mxCell id="Ja6sUJ2Ju35m4NYbHWnr-1" parent="Ja6sUJ2Ju35m4NYbHWnr-0"/>
+        <mxCell id="Ja6sUJ2Ju35m4NYbHWnr-2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;fontSize=14;" vertex="1" parent="Ja6sUJ2Ju35m4NYbHWnr-1">
+          <mxGeometry x="440" y="270" width="340" height="290" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ja6sUJ2Ju35m4NYbHWnr-3" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="Ja6sUJ2Ju35m4NYbHWnr-2">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ja6sUJ2Ju35m4NYbHWnr-4" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="Ja6sUJ2Ju35m4NYbHWnr-2">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ja6sUJ2Ju35m4NYbHWnr-5" value="30" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;align=center;" vertex="1" parent="Ja6sUJ2Ju35m4NYbHWnr-2">
+          <mxGeometry x="80" y="145" width="180" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ja6sUJ2Ju35m4NYbHWnr-6" value="Input Element" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Ja6sUJ2Ju35m4NYbHWnr-2">
+          <mxGeometry x="80" y="220" width="180" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ja6sUJ2Ju35m4NYbHWnr-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;align=center;" vertex="1" parent="Ja6sUJ2Ju35m4NYbHWnr-1">
+          <mxGeometry x="905" y="370" width="170" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ja6sUJ2Ju35m4NYbHWnr-8" value="Timer Instance" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="Ja6sUJ2Ju35m4NYbHWnr-1">
+          <mxGeometry x="905" y="370" width="170" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="Ja6sUJ2Ju35m4NYbHWnr-9" value="Option #2 - Current time sits in the input element" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Ja6sUJ2Ju35m4NYbHWnr-1">
+          <mxGeometry x="830" y="240" width="320" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
