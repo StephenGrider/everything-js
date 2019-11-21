@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-21T16:39:50.439Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="FSsRIsP5t6NWv4TguZr8" version="12.2.7" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-11-21T16:53:38.030Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="cDkUxl3C-oBGSDAAyrSt" version="12.2.7" type="github" pages="5">
   <diagram id="fYsIHbnCnhxDXQZrRg_e" name="01 - testing">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -26,6 +26,26 @@
         </mxCell>
         <mxCell id="-2yd5-_ARsMOxvGWIWGM-5" value="Make sure the app still works as expected even after we change something" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fontStyle=0;" vertex="1" parent="-2yd5-_ARsMOxvGWIWGM-1">
           <mxGeometry x="400" y="340" width="410" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iLh89ZE5F5w8f3GFr9US" name="05 - lowdown">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="q38qvMv7gk4x19Gn7Ore-0"/>
+        <mxCell id="q38qvMv7gk4x19Gn7Ore-1" parent="q38qvMv7gk4x19Gn7Ore-0"/>
+        <mxCell id="-McR15eeeerztJVxaPUu-0" value="My Personal Thoughts" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="q38qvMv7gk4x19Gn7Ore-1">
+          <mxGeometry x="400" y="130" width="410" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="-McR15eeeerztJVxaPUu-1" value="People spend more time &lt;i&gt;setting up&lt;/i&gt;&amp;nbsp;testing than they do writing tests" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fontStyle=0;" vertex="1" parent="q38qvMv7gk4x19Gn7Ore-1">
+          <mxGeometry x="400" y="190" width="410" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="-McR15eeeerztJVxaPUu-2" value="All testing frameworks/libraries are essentially the same" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fontStyle=0;" vertex="1" parent="q38qvMv7gk4x19Gn7Ore-1">
+          <mxGeometry x="400" y="260" width="410" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="-McR15eeeerztJVxaPUu-3" value="You &lt;i&gt;don&#39;t even have to&lt;/i&gt; &lt;i&gt;use&lt;/i&gt;&amp;nbsp;a testing library" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fontStyle=0;" vertex="1" parent="q38qvMv7gk4x19Gn7Ore-1">
+          <mxGeometry x="400" y="330" width="410" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
