@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-21T16:53:38.030Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="cDkUxl3C-oBGSDAAyrSt" version="12.2.7" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2019-11-21T16:55:56.444Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="yYr_jHnQdobi_ZRHY8yr" version="12.2.7" type="github" pages="6">
   <diagram id="fYsIHbnCnhxDXQZrRg_e" name="01 - testing">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -46,6 +46,38 @@
         </mxCell>
         <mxCell id="-McR15eeeerztJVxaPUu-3" value="You &lt;i&gt;don&#39;t even have to&lt;/i&gt; &lt;i&gt;use&lt;/i&gt;&amp;nbsp;a testing library" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fontStyle=0;" vertex="1" parent="q38qvMv7gk4x19Gn7Ore-1">
           <mxGeometry x="400" y="330" width="410" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jthTTgPmJ4YipP2w4075" name="06 - flow">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="IY5hwM_K_D7Yn8kCzvIG-0"/>
+        <mxCell id="IY5hwM_K_D7Yn8kCzvIG-1" parent="IY5hwM_K_D7Yn8kCzvIG-0"/>
+        <mxCell id="IY5hwM_K_D7Yn8kCzvIG-2" value="Write a &lt;i&gt;tiny&lt;/i&gt;&amp;nbsp;node project" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="IY5hwM_K_D7Yn8kCzvIG-1">
+          <mxGeometry x="470" y="160" width="380" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="IY5hwM_K_D7Yn8kCzvIG-3" value="Figure out how to test it without &lt;i&gt;any &lt;/i&gt;outside testing library" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="IY5hwM_K_D7Yn8kCzvIG-1">
+          <mxGeometry x="470" y="210" width="380" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="IY5hwM_K_D7Yn8kCzvIG-6" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="IY5hwM_K_D7Yn8kCzvIG-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="160" as="sourcePoint"/>
+            <mxPoint x="460" y="450" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IY5hwM_K_D7Yn8kCzvIG-7" value="Test it using a testing lib" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="IY5hwM_K_D7Yn8kCzvIG-1">
+          <mxGeometry x="470" y="260" width="380" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="IY5hwM_K_D7Yn8kCzvIG-8" value="Take a look a previous project we built in this course" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="IY5hwM_K_D7Yn8kCzvIG-1">
+          <mxGeometry x="470" y="310" width="380" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="IY5hwM_K_D7Yn8kCzvIG-9" value="Test it using a testing lib" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="IY5hwM_K_D7Yn8kCzvIG-1">
+          <mxGeometry x="470" y="360" width="380" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="IY5hwM_K_D7Yn8kCzvIG-10" value="Write our own testing framework that will work in about 80% of all projects" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="IY5hwM_K_D7Yn8kCzvIG-1">
+          <mxGeometry x="470" y="410" width="380" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
