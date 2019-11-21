@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-21T16:35:03.099Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="3I88GHiW7OLQEsDmonBs" version="12.2.7" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-11-21T16:39:07.499Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="rOFdHPMbKtFMDD-pT8vD" version="12.2.7" type="github" pages="4">
   <diagram id="fYsIHbnCnhxDXQZrRg_e" name="01 - testing">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -6,6 +6,26 @@
         <mxCell id="1" parent="0"/>
         <mxCell id="tFy16Vc6XeHgZejPy1EI-1" value="Testing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=35;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="600" y="250" width="260" height="90" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TBsSADyvudIqEpJ-9nMn" name="04 - goal">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="-2yd5-_ARsMOxvGWIWGM-0"/>
+        <mxCell id="-2yd5-_ARsMOxvGWIWGM-1" parent="-2yd5-_ARsMOxvGWIWGM-0"/>
+        <mxCell id="-2yd5-_ARsMOxvGWIWGM-2" value="Goals of Testing" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-2yd5-_ARsMOxvGWIWGM-1">
+          <mxGeometry x="400" y="130" width="410" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="-2yd5-_ARsMOxvGWIWGM-3" value="Automate the process of ensuring that our app works as we expect" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fontStyle=0;" vertex="1" parent="-2yd5-_ARsMOxvGWIWGM-1">
+          <mxGeometry x="400" y="200" width="410" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="-2yd5-_ARsMOxvGWIWGM-4" value="Keep us form having to manually click around the app to find bugs" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fontStyle=0;" vertex="1" parent="-2yd5-_ARsMOxvGWIWGM-1">
+          <mxGeometry x="400" y="270" width="410" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="-2yd5-_ARsMOxvGWIWGM-5" value="Make sure the app still works as expected even after we change something" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fontStyle=0;" vertex="1" parent="-2yd5-_ARsMOxvGWIWGM-1">
+          <mxGeometry x="400" y="340" width="410" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
