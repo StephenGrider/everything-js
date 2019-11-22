@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-21T16:55:56.444Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="yYr_jHnQdobi_ZRHY8yr" version="12.2.7" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-11-22T20:15:28.685Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="E9Jd357R6o9YU2fRN7YE" version="12.2.7" type="github" pages="7">
   <diagram id="fYsIHbnCnhxDXQZrRg_e" name="01 - testing">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -83,7 +83,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MyoBiMQ-X08hgAd9HSLv" name="02 - testing">
-    <mxGraphModel dx="612" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="NEiHhlctNMemDtGfGqXX-0"/>
         <mxCell id="NEiHhlctNMemDtGfGqXX-1" parent="NEiHhlctNMemDtGfGqXX-0"/>
@@ -174,6 +174,35 @@
         </mxCell>
         <mxCell id="Bk2fxaMKEerSDfWvnRgb-8" value="Common test &lt;i style=&quot;font-size: 20px;&quot;&gt;runners&lt;/i&gt;.&amp;nbsp; They execute a series of tests and report some feedback" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Bk2fxaMKEerSDfWvnRgb-1">
           <mxGeometry x="640" y="287.5" width="260" height="115" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NsES17V46hQ-38lAO_bZ" name="07 - fw">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="tKSubXYmc7lE1hDPJJxy-0"/>
+        <mxCell id="tKSubXYmc7lE1hDPJJxy-1" parent="tKSubXYmc7lE1hDPJJxy-0"/>
+        <mxCell id="tKSubXYmc7lE1hDPJJxy-2" value="Must be a Node-based CLI framework" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="tKSubXYmc7lE1hDPJJxy-1">
+          <mxGeometry x="340" y="182" width="470" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="tKSubXYmc7lE1hDPJJxy-3" value="Testing Framework Requirements" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="tKSubXYmc7lE1hDPJJxy-1">
+          <mxGeometry x="413.5" y="160" width="323" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="tKSubXYmc7lE1hDPJJxy-4" value="Must be able to test browser-based JS apps (!!!!)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="tKSubXYmc7lE1hDPJJxy-1">
+          <mxGeometry x="340" y="232" width="470" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="tKSubXYmc7lE1hDPJJxy-5" value="Must require very, very little setup" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="tKSubXYmc7lE1hDPJJxy-1">
+          <mxGeometry x="340" y="281" width="470" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="tKSubXYmc7lE1hDPJJxy-6" value="Must be able to test a &lt;i&gt;whole&lt;/i&gt;&amp;nbsp;application, not just one little widget" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="tKSubXYmc7lE1hDPJJxy-1">
+          <mxGeometry x="340" y="331" width="470" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="tKSubXYmc7lE1hDPJJxy-7" value="CLI must have a &#39;watch mode&#39; so we don&#39;t have to keep restarting it over and over" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="tKSubXYmc7lE1hDPJJxy-1">
+          <mxGeometry x="340" y="380" width="470" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="tKSubXYmc7lE1hDPJJxy-8" value="CLI must automatically find and run all files in our project that have a name of &#39;*.test.js&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="tKSubXYmc7lE1hDPJJxy-1">
+          <mxGeometry x="340" y="430" width="470" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
