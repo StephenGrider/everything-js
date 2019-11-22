@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-22T20:33:03.306Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="LArzI8quT3Zcex4HT7C2" version="12.2.7" type="github" pages="8">
+<mxfile host="www.draw.io" modified="2019-11-22T20:34:14.477Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="R5Ts9y7HjtvFf18WQWNI" version="12.2.7" type="github" pages="9">
   <diagram id="fYsIHbnCnhxDXQZrRg_e" name="01 - testing">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -203,6 +203,35 @@
         </mxCell>
         <mxCell id="tKSubXYmc7lE1hDPJJxy-8" value="CLI must automatically find and run all files in our project that have a name of &#39;*.test.js&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="tKSubXYmc7lE1hDPJJxy-1">
           <mxGeometry x="340" y="430" width="470" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="09 - flow" id="sjXOtXedLzG7VlGelNVZ">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="CzrHfNPwEjj4cZVSAKf_-0"/>
+        <mxCell id="CzrHfNPwEjj4cZVSAKf_-1" parent="CzrHfNPwEjj4cZVSAKf_-0"/>
+        <mxCell id="CzrHfNPwEjj4cZVSAKf_-2" value="File Collection" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="CzrHfNPwEjj4cZVSAKf_-1">
+          <mxGeometry x="370" y="90" width="290" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="CzrHfNPwEjj4cZVSAKf_-3" value="Test environment setup" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="CzrHfNPwEjj4cZVSAKf_-1">
+          <mxGeometry x="370" y="150" width="290" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="CzrHfNPwEjj4cZVSAKf_-4" value="Test file execution" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="CzrHfNPwEjj4cZVSAKf_-1">
+          <mxGeometry x="370" y="210" width="290" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="CzrHfNPwEjj4cZVSAKf_-5" value="" style="endArrow=classic;html=1;fontSize=18;" edge="1" parent="CzrHfNPwEjj4cZVSAKf_-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="90" as="sourcePoint"/>
+            <mxPoint x="360" y="320" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CzrHfNPwEjj4cZVSAKf_-6" value="Implementation Plan" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1" vertex="1" parent="CzrHfNPwEjj4cZVSAKf_-1">
+          <mxGeometry x="400" y="60" width="235" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="CzrHfNPwEjj4cZVSAKf_-7" value="Report results" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="CzrHfNPwEjj4cZVSAKf_-1">
+          <mxGeometry x="370" y="270" width="290" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
