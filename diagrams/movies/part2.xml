@@ -1,0 +1,107 @@
+<mxfile host="www.draw.io" modified="2019-11-05T17:27:08.115Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Gyxz_JC6g66c0PpBWEAW" version="12.2.0" type="github" pages="3">
+  <diagram id="2A3V2JCRKhpM9sKzDQPe" name="01 - issues">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="LrERWL8tzAxkWC4CuSWW-18" value="All code touches everything" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="410" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="LrERWL8tzAxkWC4CuSWW-19" value="Issues with Implementation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="528.5" y="192" width="313" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="LrERWL8tzAxkWC4CuSWW-21" value="Autocomplete widget was supposed to be reusable!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="480" y="260" width="410" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="LrERWL8tzAxkWC4CuSWW-22" value="Autocomplete has knowledge of what a movie object is" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="300" width="410" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="LrERWL8tzAxkWC4CuSWW-23" value="Autocomplete has knowledge of what to show for each option" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="340" width="410" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="LrERWL8tzAxkWC4CuSWW-24" value="Autocomplete has knowledge of what to do when a movie is clicked" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="380" width="410" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="LrERWL8tzAxkWC4CuSWW-25" value="Many global variables that refer to specific elements - it will be really hard to show a &lt;i&gt;second&lt;/i&gt; autocomplete on the screen" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="420" width="410" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="02 - solutions" id="4kbsPqyr_ntsSlB_FmrJ">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="egTYsF3rSzLwucRaUjTp-0"/>
+        <mxCell id="egTYsF3rSzLwucRaUjTp-1" parent="egTYsF3rSzLwucRaUjTp-0"/>
+        <mxCell id="egTYsF3rSzLwucRaUjTp-2" value="All code touches everything" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="egTYsF3rSzLwucRaUjTp-1">
+          <mxGeometry x="480" y="220" width="410" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="egTYsF3rSzLwucRaUjTp-3" value="Issues with Implementation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1" vertex="1" parent="egTYsF3rSzLwucRaUjTp-1">
+          <mxGeometry x="528.5" y="192" width="313" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="egTYsF3rSzLwucRaUjTp-4" value="Autocomplete widget was supposed to be reusable!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fontStyle=1" vertex="1" parent="egTYsF3rSzLwucRaUjTp-1">
+          <mxGeometry x="480" y="260" width="410" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="egTYsF3rSzLwucRaUjTp-5" value="Autocomplete has knowledge of what a movie object is" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="egTYsF3rSzLwucRaUjTp-1">
+          <mxGeometry x="480" y="300" width="410" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="egTYsF3rSzLwucRaUjTp-6" value="Autocomplete has knowledge of what to show for each option" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="egTYsF3rSzLwucRaUjTp-1">
+          <mxGeometry x="480" y="340" width="410" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="egTYsF3rSzLwucRaUjTp-7" value="Autocomplete has knowledge of what to do when a movie is clicked" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="egTYsF3rSzLwucRaUjTp-1">
+          <mxGeometry x="480" y="380" width="410" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="egTYsF3rSzLwucRaUjTp-8" value="Many global variables that refer to specific elements - it will be really hard to show a &lt;i&gt;second&lt;/i&gt; autocomplete on the screen" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="egTYsF3rSzLwucRaUjTp-1">
+          <mxGeometry x="480" y="420" width="410" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bDNCV68lf7sJ6hHg8LJf" name="04 - config">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-0"/>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-1" parent="sn3fO5I-oM6V52xxtLGZ-0"/>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-2" value="index.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="310" y="180" width="230" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-3" value="autocomplete.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="600" y="180" width="230" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="sn3fO5I-oM6V52xxtLGZ-1" source="sn3fO5I-oM6V52xxtLGZ-4" target="sn3fO5I-oM6V52xxtLGZ-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="310" y="210" width="230" height="190" as="geometry"/>
+        </mxCell>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="600" y="210" width="230" height="190" as="geometry"/>
+        </mxCell>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-7" value="&lt;i style=&quot;font-size: 10px;&quot;&gt;Non-reusable code for our very specific project&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="318" y="210" width="215" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-10" value="&lt;i style=&quot;font-size: 10px&quot;&gt;Super reusable code to get an autocomplete to work.&amp;nbsp; Zero knowledge of &#39;movies&#39; or &#39;recipes&#39; or &#39;blogs&#39;.&amp;nbsp; Must be able to be ran several times in the same project&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="607.5" y="214" width="215" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-11" value="Config for Autocomplete" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="336.5" y="240" width="177" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-12" value="&lt;span style=&quot;font-weight: 400&quot;&gt;fetchData() - function to find movies&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fontStyle=1;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="336.5" y="270" width="177" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-13" value="&lt;span style=&quot;font-weight: 400&quot;&gt;renderOption() - function that knows how to render a movie&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fontStyle=1;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="336.5" y="300" width="177" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="sn3fO5I-oM6V52xxtLGZ-14" value="&lt;span style=&quot;font-weight: 400&quot;&gt;onOptionSelect() - function that gets invoked when a user clicks an option&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fontStyle=1;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="336.5" y="330" width="177" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="G2CPH9CQgs72zqIwmta2-0" value="&lt;span style=&quot;font-weight: 400&quot;&gt;root - element that the autocomplete should be rendered into&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fontStyle=1;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="336.5" y="360" width="177" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="DZ61zvi0L0MTlhUGq48x-0" value="Function that will take the autocomplete config and render an autocomplete on the screen" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="sn3fO5I-oM6V52xxtLGZ-1">
+          <mxGeometry x="626.5" y="270" width="177" height="70" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
