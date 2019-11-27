@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-22T22:00:35.275Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="VOvQTmwKaUhzgtCNW5T-" version="12.2.7" type="github" pages="12">
+<mxfile host="www.draw.io" modified="2019-11-27T18:03:11.655Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="CchFw6pMgdQ_6VISlrMY" version="12.2.7" type="github" pages="14">
   <diagram id="fYsIHbnCnhxDXQZrRg_e" name="01 - testing">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -444,6 +444,79 @@
         </mxCell>
         <mxCell id="6Q-wYTyFhSr1FJn5DOn1-20" value="/Users/stephengrider/workspace/movies/widgets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="G00ijmLsoqm9JmlsPTdh-1">
           <mxGeometry x="480" y="510" width="450" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bz83UiCzfXZICzdyo_YI" name="13 - strat">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="4ZGZ21DsnZRHlFEvWOka-0"/>
+        <mxCell id="4ZGZ21DsnZRHlFEvWOka-1" parent="4ZGZ21DsnZRHlFEvWOka-0"/>
+        <mxCell id="4ZGZ21DsnZRHlFEvWOka-2" value="Mocha in the Browser" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4ZGZ21DsnZRHlFEvWOka-1">
+          <mxGeometry x="470" y="180" width="530" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="4ZGZ21DsnZRHlFEvWOka-3" value="createAutoComplete" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4ZGZ21DsnZRHlFEvWOka-1">
+          <mxGeometry x="470" y="240" width="230" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="4ZGZ21DsnZRHlFEvWOka-4" value="Email Validation" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4ZGZ21DsnZRHlFEvWOka-1">
+          <mxGeometry x="770" y="240" width="230" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="4ZGZ21DsnZRHlFEvWOka-5" value="We had a function to run as many times as we wanted" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="4ZGZ21DsnZRHlFEvWOka-1">
+          <mxGeometry x="470" y="290" width="230" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="4ZGZ21DsnZRHlFEvWOka-6" value="We could create a new autocomplete for each test" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="4ZGZ21DsnZRHlFEvWOka-1">
+          <mxGeometry x="470" y="350" width="230" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="4ZGZ21DsnZRHlFEvWOka-7" value="Direct handle onto the function we want to test" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="4ZGZ21DsnZRHlFEvWOka-1">
+          <mxGeometry x="470" y="410" width="230" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="4ZGZ21DsnZRHlFEvWOka-8" value="Form logic executes instantly with &#39;index.js&#39; being loaded" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="4ZGZ21DsnZRHlFEvWOka-1">
+          <mxGeometry x="770" y="290" width="230" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="4ZGZ21DsnZRHlFEvWOka-11" value="No easy ability to bind to a &lt;i&gt;second&lt;/i&gt;&amp;nbsp;form" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="4ZGZ21DsnZRHlFEvWOka-1">
+          <mxGeometry x="770" y="350" width="230" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="4ZGZ21DsnZRHlFEvWOka-12" value="Effectively, can only run &lt;i&gt;one&lt;/i&gt;&amp;nbsp;test" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="4ZGZ21DsnZRHlFEvWOka-1">
+          <mxGeometry x="770" y="410" width="230" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gfwdcvlbPn59h75uC6XX" name="14 - jsdom">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="daWkGYrnDmdRFwON2zYZ-0"/>
+        <mxCell id="daWkGYrnDmdRFwON2zYZ-1" parent="daWkGYrnDmdRFwON2zYZ-0"/>
+        <mxCell id="daWkGYrnDmdRFwON2zYZ-2" value="Node&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="daWkGYrnDmdRFwON2zYZ-1">
+          <mxGeometry x="495" y="150" width="275" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="daWkGYrnDmdRFwON2zYZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="daWkGYrnDmdRFwON2zYZ-1" source="daWkGYrnDmdRFwON2zYZ-3" target="daWkGYrnDmdRFwON2zYZ-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="daWkGYrnDmdRFwON2zYZ-3" value="index.html" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="daWkGYrnDmdRFwON2zYZ-1">
+          <mxGeometry x="350" y="200" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="daWkGYrnDmdRFwON2zYZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="daWkGYrnDmdRFwON2zYZ-1" source="daWkGYrnDmdRFwON2zYZ-4" target="daWkGYrnDmdRFwON2zYZ-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="daWkGYrnDmdRFwON2zYZ-4" value="index.js" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="daWkGYrnDmdRFwON2zYZ-1">
+          <mxGeometry x="210" y="200" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="daWkGYrnDmdRFwON2zYZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="daWkGYrnDmdRFwON2zYZ-1" source="daWkGYrnDmdRFwON2zYZ-6" target="daWkGYrnDmdRFwON2zYZ-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="daWkGYrnDmdRFwON2zYZ-6" value="JSDOM.fromFile()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="daWkGYrnDmdRFwON2zYZ-1">
+          <mxGeometry x="540" y="200" width="190" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="daWkGYrnDmdRFwON2zYZ-7" value="Representation of the DOM" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="daWkGYrnDmdRFwON2zYZ-1">
+          <mxGeometry x="540" y="290" width="190" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="daWkGYrnDmdRFwON2zYZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="daWkGYrnDmdRFwON2zYZ-1" source="daWkGYrnDmdRFwON2zYZ-10" target="daWkGYrnDmdRFwON2zYZ-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="daWkGYrnDmdRFwON2zYZ-10" value="&lt;i&gt;Thing we can poke and prod to make sure our app is working!&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="daWkGYrnDmdRFwON2zYZ-1">
+          <mxGeometry x="551.5" y="390" width="167" height="70" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
