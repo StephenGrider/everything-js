@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-27T18:03:11.655Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="CchFw6pMgdQ_6VISlrMY" version="12.2.7" type="github" pages="14">
+<mxfile host="www.draw.io" modified="2019-11-27T20:29:17.309Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="cRv0vH-mZpz3o54Ef9jP" version="12.2.7" type="github" pages="15">
   <diagram id="fYsIHbnCnhxDXQZrRg_e" name="01 - testing">
     <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -517,6 +517,48 @@
         </mxCell>
         <mxCell id="daWkGYrnDmdRFwON2zYZ-10" value="&lt;i&gt;Thing we can poke and prod to make sure our app is working!&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="daWkGYrnDmdRFwON2zYZ-1">
           <mxGeometry x="551.5" y="390" width="167" height="70" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="R4eZsgJJn29zXjxANldG" name="15 - timeline">
+    <mxGraphModel dx="692" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="2czFek5tunSOquN887rF-0"/>
+        <mxCell id="2czFek5tunSOquN887rF-1" parent="2czFek5tunSOquN887rF-0"/>
+        <mxCell id="2czFek5tunSOquN887rF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="2czFek5tunSOquN887rF-1" source="2czFek5tunSOquN887rF-2" target="2czFek5tunSOquN887rF-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="2czFek5tunSOquN887rF-2" value="We tell JSDOM to load up index.html" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="2czFek5tunSOquN887rF-1">
+          <mxGeometry x="470" y="90" width="390" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="2czFek5tunSOquN887rF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="2czFek5tunSOquN887rF-1" source="2czFek5tunSOquN887rF-3" target="2czFek5tunSOquN887rF-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="745" y="220"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2czFek5tunSOquN887rF-3" value="JSDOM fetches the HTML file and parses it. &#39;fromFile&#39; promise resolved!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="2czFek5tunSOquN887rF-1">
+          <mxGeometry x="470" y="180" width="390" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="2czFek5tunSOquN887rF-4" value="Our tests run" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="2czFek5tunSOquN887rF-1">
+          <mxGeometry x="470" y="230" width="230" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="2czFek5tunSOquN887rF-5" value="We submit form, check h1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="2czFek5tunSOquN887rF-1">
+          <mxGeometry x="470" y="280" width="230" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="2czFek5tunSOquN887rF-6" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="2czFek5tunSOquN887rF-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="90" as="sourcePoint"/>
+            <mxPoint x="460" y="370" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2czFek5tunSOquN887rF-7" value="Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="2czFek5tunSOquN887rF-1">
+          <mxGeometry x="410" y="90" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="2czFek5tunSOquN887rF-10" value="JSDOM loads up the index.js file and executes code in it" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="2czFek5tunSOquN887rF-1">
+          <mxGeometry x="630" y="330" width="230" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
