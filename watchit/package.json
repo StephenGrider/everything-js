@@ -1,0 +1,21 @@
+{
+  "name": "watchit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "watchit": "index.js"
+  },
+  "dependencies": {
+    "caporal": "^1.3.0",
+    "chalk": "^3.0.0",
+    "chokidar": "^3.3.0",
+    "lodash.debounce": "^4.0.8"
+  }
+}
